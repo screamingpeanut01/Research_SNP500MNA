@@ -45,6 +45,9 @@ GROUP_KW = {
 # 수작업 판정: 설명란에 투자자 지위가 없지만 외부 기업에 신규 진입한 것이 확인된 거래.
 # 근거: pptx 슬라이드 14 발표자 노트(NAVER의 BeNX 신주 인수, BeNX는 당시 빅히트(HYBE) 자회사).
 MANUAL_EXTERNAL_ENTRY = [("Naver", "beNX Co., Ltd.", 2021)]
+# 수작업 판정: 설명란 뒤쪽의 "additional" 때문에 추가지분으로 잘못 잡히는 과반 인수.
+# 근거: 설명란 첫 문장 "acquire 80% stake in scripted business of IMG Worldwide".
+MANUAL_STAKE = {"Scripted Business of IMG": "과반 인수(≥50%)"}
 # LINE과 Z Holdings(Yahoo Japan)의 경영통합 완료 연도. 이전 Yahoo Japan 거래는 NAVER 편입 전 거래로 본다.
 YJ_INTEGRATION_YEAR = 2021
 YJ_PAT = r"LY Corporation|Z Holdings|Yahoo|ValueCommerce|ZOZO|ASKUL|Ikyu"
@@ -157,6 +160,22 @@ def main():
 
     d["role"] = d.apply(role, axis=1)
 
+    # [공통] 그룹 회사 판정의 근거: 데이터(대상회사 목록)인가, 작성자가 넣은 키워드인가
+    section("[공통] 그룹 회사 판정 근거")
+    src, kw_only = {"대상회사 목록(데이터)": 0, "키워드만(작성자 지식)": 0, "그룹 아님": 0}, {}
+    for r in d.itertuples():
+        for p in parties(r.buyers) + parties(r.sellers):
+            if p in targets[r.firm]:
+                src["대상회사 목록(데이터)"] += 1
+            elif re.search(GROUP_KW[r.firm], p):
+                src["키워드만(작성자 지식)"] += 1
+                kw_only[(r.firm, p)] = kw_only.get((r.firm, p), 0) + 1
+            else:
+                src["그룹 아님"] += 1
+    print("거래 당사자 판정 수:", src, "합계", sum(src.values()))
+    for (f, p), n in sorted(kw_only.items(), key=lambda kv: -kv[1]):
+        print(f"   키워드만: {f:6} {n:3d}  {p}")
+
     # [A-3] PP 그룹 역할
     section("[A-3] PP 기록의 그룹 역할")
     pp = d[d.type == PP]
@@ -227,6 +246,8 @@ def main():
 
     mb = ma[ma.role == "MA-1 그룹이 매수자"].copy()
     mb["stake"] = mb.comment.apply(stake)
+    for key, val in MANUAL_STAKE.items():
+        mb.loc[mb.target.str.contains(key, regex=False), "stake"] = val
     d["stake"] = mb["stake"]
     print("\n그룹이 매수자인 M&A의 지분 규모(설명란 기준):")
     print(share_table(mb, "stake").sort_values("value", ascending=False).to_string())
@@ -308,9 +329,104 @@ def main():
     loen_pre_v = x[(x.type == MA) & (x.year < 2016) & x.buyers.str.contains("Kakao M")].value.sum()
     print(f"   바로잡은 M&A {m1:.1f} 중 카카오 편입 전 로엔 거래 {loen_pre_v:.1f} ({100 * loen_pre_v / m1:.1f}%)")
 
+    # 편입 전 표시: Yahoo Japan의 2021년 이전 거래 + 카카오 인수(2016-01) 전 로엔(현 Kakao M)의 매수 거래
+    d["loen_pre"] = (d.firm == "Kakao") & d.buyers.str.contains("Kakao M") & (d.year < 2016)
+    d["pre"] = d.yj_pre2021 | d.loen_pre
+
+    def subtype(r):
+        if r.type == PP:
+            if r.role.startswith(("PP-1", "PP-3")):
+                return {"E1": "PP① 기존 계열사 추가 출자", "E3": "PP② 그룹 설립 자회사 출자(추정)",
+                        "E2": "PP③ 외부 기업 신주 투자"}[r.entry[:2]]
+            return {"PP-2": "PP④ 외부 투자자의 자회사 투자", "PP-4": "PP⑤ 투자자 미기재"}[r.role[:4]]
+        if r.role.startswith("MA-1"):
+            return {"과반 인수(≥50%)": "MA① 경영권 인수", "지분율 미기재(대개 100%·사업양수)": "MA① 경영권 인수",
+                    "추가지분": "MA② 기존 지분 확대", "기존 자회사 잔여지분": "MA② 기존 지분 확대", "합병": "MA② 기존 지분 확대",
+                    "소수지분(<50%)": "MA③ 소수지분 매입"}[r.stake]
+        return {"MA-2": "MA④ 그룹 내부 재편", "MA-3": "MA⑤ 그룹의 지분 매각", "MA-4": "MA⑥ 외부자 간 거래",
+                "MA-5": "MA⑦ 매수자 미기재"}[r.role[:4]]
+
+    d["subtype"] = d.apply(subtype, axis=1)
+
+    # [A-10] 그룹이 사는 쪽이었던 거래의 기업별 유형
+    section("[A-10] 그룹이 사는 쪽이었던 거래의 기업별 유형")
+    buy = d[d.role.isin(["PP-1 그룹 내부 출자", "PP-3 그룹+외부 공동", "MA-1 그룹이 매수자", "MA-2 그룹 내부 재편"])]
+    macro = {"PP①": "E 자회사 출자(내부 육성)", "PP②": "E 자회사 출자(내부 육성)", "PP③": "F 외부 기업 신주 투자",
+             "MA①": "A 경영권 인수", "MA②": "B 기존 지분 확대", "MA③": "C 소수지분 매입", "MA④": "D 그룹 내부 재편"}
+    for f in FIRMS:
+        x = buy[buy.firm == f].copy()
+        x["macro"] = x.subtype.str[:3].map(macro)
+        tot = x.value.sum()
+        t = x.groupby("macro").agg(n=("value", "size"), value=("value", "sum"),
+                                   편입전=("value", lambda s: s[x.loc[s.index, "pre"]].sum()),
+                                   금액의심=("value", lambda s: s[x.loc[s.index, "value_flag"]].sum()))
+        t["share_%"] = 100 * t.value / tot
+        acq = x[(x.macro.str[0] == "A") & ~x.pre & ~x.value_flag].value.sum()
+        inv = x[x.macro.str[0].isin(["C", "F"]) & ~x.pre & ~x.value_flag].value.sum()
+        print(f"\n-- {f}: {len(x)}건, {tot:.1f} | 연구 개념의 인수(A) {100 * acq / tot:.1f}%, 외부 투자(C+F) {100 * inv / tot:.1f}%"
+              f" (편입 전·금액 의심 제외)")
+        print(t.round(1).to_string())
+
+    # [A-11] 기업별 PP·M&A 세부 유형 (분석 대상 497건 전체)
+    section("[A-11] 기업별 PP·M&A 세부 유형")
+    for f in FIRMS:
+        for t_ in [PP, MA]:
+            x = d[(d.firm == f) & (d.type == t_)]
+            tot = x.value.sum()
+            g = x.groupby("subtype").agg(n=("value", "size"), value=("value", "sum"),
+                                         편입전=("value", lambda s: s[x.loc[s.index, "pre"]].sum()),
+                                         금액의심=("value", lambda s: s[x.loc[s.index, "value_flag"]].sum()))
+            g["share_%"] = 100 * g.value / tot
+            print(f"\n-- {f} | {t_}: {len(x)}건, {tot:.1f}")
+            print(g.round(1).to_string())
+            for s, z in x.groupby("subtype"):
+                ex = z.sort_values("value", ascending=False).head(2)
+                print(f"     {s}: " + "; ".join(f"{r.target[:28]} {r.year} {r.value:.1f}" for r in ex.itertuples()))
+
+    # [A-12] 그룹이 관여하기 전의 외부 라운드, 같은 날 PP·M&A로 함께 잡힌 인수
+    section("[A-12] 그룹 관여 이전의 외부 PP 라운드와 이중 집계 의심")
+    first = buy.groupby(["firm", "target"]).date.min().rename("first_grp")
+    x = d.join(first, on=["firm", "target"])
+    ext = x[(x.type == PP) & x.role.isin(["PP-2 외부 투자 유치", "PP-4 투자자 미기재"])]
+    pre_round = ext[ext.first_grp.notna() & (ext.date < ext.first_grp)]
+    for f in FIRMS:
+        a = pre_round[pre_round.firm == f]
+        tot = d[(d.firm == f) & (d.type == PP)].value.sum()
+        print(f"{f}: 그룹 최초 관여 이전의 외부 PP 라운드 {len(a)}건, {a.value.sum():.1f} (PP의 {100 * a.value.sum() / tot:.1f}%)")
+        for r in a.sort_values("value", ascending=False).head(4).itertuples():
+            print(f"   {r.target[:30]:30} {r.year} {r.value:7.1f} (그룹 최초 관여 {r.first_grp.year}) 투자자: {r.buyers[:40]}")
+    d["pre_round"] = d.index.isin(pre_round.index)
+    pos = d[(d.firm == "Naver") & d.target.str.contains("Proton Parent|Poshmark") & (d.year == 2022)]
+    print("\n같은 날 기록된 Proton Parent PP와 Poshmark M&A:")
+    for r in pos.itertuples():
+        print(f"   {r.date.date()} {r.type} {r.target[:30]} {r.value:.1f} | {r.comment[:110]}")
+
+    # [A-13] 견고성: 판단이 안 되는 거래를 극단적으로 가정해도 결론이 유지되는가
+    section("[A-13] 견고성 점검")
+    print("PP 중 외부 기업 신주 투자 비중: 현재 / 상한(투자자 미기재·그룹 설립 추정을 전부 외부 투자로 가정)")
+    for f in FIRMS:
+        p_ = d[(d.firm == f) & (d.type == PP)]
+        tot = p_.value.sum()
+        base = p_[p_.subtype.str.startswith("PP③")].value.sum()
+        unk = p_[p_.subtype.str.startswith(("PP②", "PP⑤"))]
+        ub = base + unk.value.sum()
+        ub2 = ub - unk[unk.target.str.contains("Proton Parent")].value.sum()
+        print(f"   {f:6}: {100 * base / tot:5.1f}% / {100 * ub / tot:5.1f}% (Proton Parent 제외 상한 {100 * ub2 / tot:5.1f}%)")
+    print("M&A 중 경영권 인수 비중: 엄격 / +단계적 경영권 인수(Tapas·Radish 2021) / +편입 전 거래 인정 (금액 의심 제외)")
+    step = d.target.str.contains("Tapas Media|Radish Media") & (d.year == 2021) & (d.role == "MA-1 그룹이 매수자")
+    for f in FIRMS:
+        m_ = d[(d.firm == f) & (d.type == MA)]
+        tot = m_.value.sum()
+        A = m_.subtype.str.startswith("MA①")
+        st = step.loc[m_.index]
+        r1 = m_[A & ~m_.pre & ~m_.value_flag].value.sum()
+        r2 = m_[(A | st) & ~m_.pre & ~m_.value_flag].value.sum()
+        r3 = m_[(A | st) & ~m_.value_flag].value.sum()
+        print(f"   {f:6}: {100 * r1 / tot:5.1f}% / {100 * r2 / tot:5.1f}% / {100 * r3 / tot:5.1f}%")
+
     OUT_CSV.parent.mkdir(parents=True, exist_ok=True)
     keep = ["firm", "date", "year", "target", "cat", "subcat", "type", "status", "value", "buyers", "sellers",
-            "role", "entry", "stake", "yj_pre2021", "value_flag", "comment"]
+            "role", "entry", "stake", "subtype", "yj_pre2021", "loen_pre", "pre_round", "value_flag", "comment"]
     d[keep].sort_values(["firm", "date"]).to_csv(OUT_CSV, index=False, encoding="utf-8-sig")
     print(f"\n저장: {OUT_CSV.relative_to(ROOT)} ({len(d)}행)")
 
