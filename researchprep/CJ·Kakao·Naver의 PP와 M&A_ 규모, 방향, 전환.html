@@ -22,6 +22,12 @@
 <style>
 /* 읽기용 좌우 여백: 본문 폭을 1120px로 제한하고 가운데 정렬 */
 @media screen{main.page.report-page{max-width:var(--data-app-content-width,1120px);margin-inline:auto;padding-inline:clamp(16px,5vw,48px)}}
+/* 공유·편집 상단 바, 섹션별 "…" 메뉴, 테마 서랍 숨김 */
+@media screen{.dashboard-topbar,.dashboard-mobile-report-date,.theme-drawer,.component-custom-actions,header.report-narrative-actions{display:none!important}main.page.report-page{padding-top:40px}}
+/* 거의 보이지 않던 머리말·그림 설명 글자색 보정 */
+.research-kicker,figure.research-image figcaption,.research-metric-grid span{color:var(--secondary)!important}
+/* 열이 3개 이하인 표는 화면 폭 전체로 늘이지 않음 */
+.table-wrap table.table:not(:has(th:nth-child(4))){width:auto;min-width:min(100%,520px)}
 </style>
 </head>
 <body>
@@ -180,7 +186,7 @@ const pct=x=>x==null?'NA':(100*x).toFixed(1)+'%';
 const columns=(defs)=>defs.map(([key,label,d=3])=>({key,label,renderCell:v=>typeof v==='number'?num(v,d):v??'NA'}));
 const archNames={'Inactive':'무활동','Stable mixed':'혼합 유지','Reversal / oscillation':'방향 재전환','M&A -> PP shift':'M&A → PP','PP -> M&A shift':'PP → M&A','Persistent PP':'활동 시 PP 우세 유지','Persistent M&A':'활동 시 M&A 우세 유지','PP-oriented with mixed':'PP 우세·혼합 병존','M&A-oriented with mixed':'M&A 우세·혼합 병존'};
 function Prose({id,q='summary',rows,children}){return jsxRuntime.jsx(dataApp.ReportSection, { id: id, title: id, queryId: q, sourceRows: rows, showHeading: false, children: jsxRuntime.jsx(dataApp.RichNarrative, { id: id+':body', value: children,})})}
-function Table({id,title,q,rows,cols}){return jsxRuntime.jsx(dataApp.DataComponent, { id: id, title: title, queryId: q, kind: "table", displayRows: rows, sourceRows: rows, children: jsxRuntime.jsx(dataApp.DataTable, { columns: columns(cols), rows: rows, caption: title,})})}
+function Table({id,title,q,rows,cols}){return jsxRuntime.jsx(dataApp.DataComponent, { id: id, title: title, queryId: q, kind: "table", displayRows: rows, sourceRows: rows, children: jsxRuntime.jsx(dataApp.DataTable, { columns: columns(cols), rows: rows, caption: title, pageSize: rows.length > 60 ? 25 : Math.max(rows.length, 1), searchable: rows.length > 60,})})}
 function ImageBlock({id,title,src,q,rows}){return jsxRuntime.jsx(dataApp.DataComponent, { id: id, title: title, queryId: q, kind: "custom", displayRows: rows, sourceRows: rows, children: jsxRuntime.jsxs('figure', { className: "research-image", children: [jsxRuntime.jsx('a', { href: src, target: "_blank", rel: "noreferrer", 'aria-label': title+' 원본 크게 보기', children: jsxRuntime.jsx('img', { src: src, alt: title,})}), jsxRuntime.jsx('figcaption', { children: "제공된 원본 그림 · 그림을 누르면 원본 크기로 볼 수 있습니다."          })]})})}
 function ReportContent(){
  const {snapshot,appTitle,canEdit,mode,setAppTitle}=dataApp.useDataApp();const get=k=>snapshot.queries[k].rows;
@@ -194,9 +200,9 @@ function ReportContent(){
  , jsxRuntime.jsx('nav', { className: "research-toc", 'aria-label': "목차", children: [['overview','핵심 결과'],['design','분석 설계'],['trajectory','궤적'],['sequence','상태·전환'],['metrics','지표 계산'],['results','결과 읽기'],['explorer','수치 탐색'],['cosine','코사인 유사도'],['diversity','다양성·집중도'],['limits','연구 해석'],['sources','자료·검증']].map(([id,label])=>jsxRuntime.jsx('a', { href: '#'+id, children: label}, id))})
  , jsxRuntime.jsxs('section', { id: "overview", children: [jsxRuntime.jsx(Prose, { id: "overview-narrative", q: "firms", rows: firms, children: `## 핵심 결과: 거래규모와 평균적 방향은 서로 다른 질문이다
 
-CJ의 전체 거래규모 기준 VSO는 **−0.706**이며, M&A가 PP+M&A 합계의 **85.3%**를 차지한다. Kakao는 VSO **−0.018**, Naver는 **+0.051**로 전체 규모의 PP/M&A 구성은 비교적 균형에 가깝다. 그러나 이 값만으로 각 분야에서 언제, 얼마나 지속적으로 어느 방식을 택했는지는 알 수 없다.
+CJ의 전체 거래규모 기준 VSO는 **−0.706**이며, M&A가 PP+M&A 합계의 **85.3**%를 차지한다. Kakao는 VSO **−0.018**, Naver는 **+0.051**로 전체 규모의 PP/M&A 구성은 비교적 균형에 가깝다. 그러나 이 값만으로 각 분야에서 언제, 얼마나 지속적으로 어느 방식을 택했는지는 알 수 없다.
 
-기업×범주×기간의 활동 셀 비율은 CJ **17.5%**, Kakao **40.8%**, Naver **58.3%**이다. 이는 각각 120개 가능 셀 중 21개·49개·70개에 관측 거래가 있었다는 뜻이다. 활동 범주 수도 7개·11개·12개로 다르므로, 무활동을 포함한 SSPI와 활동기간에 한정한 ActiveSSPI를 함께 보아야 한다.
+기업×범주×기간의 활동 셀 비율은 CJ **17.5%**, Kakao **40.8%**, Naver **58.3**%이다. 이는 각각 120개 가능 셀 중 21개·49개·70개에 관측 거래가 있었다는 뜻이다. 활동 범주 수도 7개·11개·12개로 다르므로, 무활동을 포함한 SSPI와 활동기간에 한정한 ActiveSSPI를 함께 보아야 한다.
 
 Naver Cat 9는 **SSPI −0.495 / ActiveSSPI −0.708 / VSO +0.480**이다. 활동기간의 평균적 방향은 M&A지만, 규모가 큰 PP 거래가 전체 합계의 방향을 PP 쪽으로 바꾼다. 이러한 차이는 계산 오류가 아니라 시간 가중 방식과 규모 가중 방식의 차이다.
 
@@ -248,7 +254,7 @@ PP는 원자료의 **Private Placement**, M&A는 **Merger/Acquisition** 분류�
 
 코드는 네 가지 계열을 기록한다. RawSequence는 I를 포함한 전체 시간계열이다. ActiveSequence는 I를 제거한다. CompressedSequence는 활동계열에서 연속 중복 상태를 제거한다. DirectionalSequence는 I와 B를 모두 제거한 뒤 P/M의 연속 중복을 제거한다. 예를 들어 M→I→B→P→P→M은 활동계열 M→B→P→P→M, 압축계열 M→B→P→M, 방향계열 M→P→M이 된다.
 
-**Switches**는 I를 제거한 활동계열에서 인접 상태가 다른 횟수이고, **SwitchRate=Switches/(활동 bin 수−1)**이다. B↔P, B↔M도 포함한다. 활동 bin이 0개 또는 1개이면 비율은 NA이고 전환수는 0이다. I를 제거하므로 M→I→I→P도 활동 전환 1회이지만, 실제 경과시간은 동일한 인접 bin 전환보다 길 수 있다.
+**Switches**는 I를 제거한 활동계열에서 인접 상태가 다른 횟수이고, **SwitchRate=Switches/(활동 bin 수−1**)이다. B↔P, B↔M도 포함한다. 활동 bin이 0개 또는 1개이면 비율은 NA이고 전환수는 0이다. I를 제거하므로 M→I→I→P도 활동 전환 1회이지만, 실제 경과시간은 동일한 인접 bin 전환보다 길 수 있다.
 
 **MAtoPP / PPtoMA**는 B와 I를 제거한 방향계열에서 M→P 또는 P→M의 횟수이다. 방향 변화가 2회 이상이면 Reversal / oscillation으로 분류한다(M→P→M 또는 P→M→P). 이는 적어도 한 번 방향이 되돌아왔다는 뜻이며 주기적인 순환이나 반복 주기의 존재를 입증하지 않는다.
 
@@ -310,7 +316,7 @@ VSO=(90−20)/(90+20)=+0.636이고 PP 규모 비중은 81.8%이다. 활동 두 �
 
 **Kakao Cat 8:** SSPI +0.471, ActiveSSPI +0.941, VSO +0.947이다. 5개 활동 bin 모두 P로 판정되며, 활동기간의 평균 방향과 거래규모 방향이 PP 쪽에서 일치한다. 반면 Cat 6은 SSPI +0.143 / ActiveSSPI +0.204 / VSO −0.457이다. 평균적으로는 PP 쪽인데 전체 규모에서는 M&A가 더 크며, 상태계열에도 재전환이 있다.
 
-**Naver Cat 9:** SSPI −0.495, ActiveSSPI −0.708, VSO +0.480이다. 전체규모 PP 비중은 **74.0%**지만, 활동기간을 동일 가중하면 평균 PP 비중은 **14.6%**이다. 대다수 활동기간의 M&A 우세와 일부 큰 PP 규모가 공존한다. 순서계열을 보면 M→P→M의 재전환으로 분류된다.
+**Naver Cat 9:** SSPI −0.495, ActiveSSPI −0.708, VSO +0.480이다. 전체규모 PP 비중은 **74.0**%지만, 활동기간을 동일 가중하면 평균 PP 비중은 **14.6**%이다. 대다수 활동기간의 M&A 우세와 일부 큰 PP 규모가 공존한다. 순서계열을 보면 M→P→M의 재전환으로 분류된다.
 
 **Naver Cat 11:** SSPI +0.030 / ActiveSSPI +0.051로 평균 방향은 거의 균형이지만 VSO +0.811, 즉 PP 규모 비중 약 90.6%이다. 방향계열은 M→P shift이다. 평균점수가 0에 가까워도 시간의 방향 전환과 규모 편중을 숨길 수 있는 사례다.
 
@@ -330,7 +336,7 @@ VSO=(90−20)/(90+20)=+0.636이고 PP 규모 비중은 81.8%이다. 활동 두 �
  ]})
  , jsxRuntime.jsxs('section', { id: "cosine", children: [jsxRuntime.jsx(Prose, { id: "cosine-narrative", q: "cosines", rows: cos, children: `## 7. 기업 간 코사인 유사도: 무엇의 유사성인가
 
-코사인 유사도는 두 벡터의 **상대적인 구성 방향**이 얼마나 비슷한지 측정한다. **cos(x,y)=Σ(xⱼyⱼ)/[√Σxⱼ² × √Σyⱼ²]**이다. 내적은 같은 좌표에 두 기업의 규모가 함께 놓여 있는 정도이고, 분모는 각 기업 벡터의 길이를 제거한다.
+코사인 유사도는 두 벡터의 **상대적인 구성 방향**이 얼마나 비슷한지 측정한다. **cos(x,y)=Σ(xⱼyⱼ)/[√Σxⱼ² × √Σyⱼ²**]이다. 내적은 같은 좌표에 두 기업의 규모가 함께 놓여 있는 정도이고, 분모는 각 기업 벡터의 길이를 제거한다.
 
 이번 PP/M&A 값은 모두 비음수이므로 유효한 코사인은 **0–1** 범위이다. 1은 비율 구성이 완전히 같고 한 기업 벡터가 다른 기업의 양의 배수라는 뜻이다. 0은 양수 활동이 같은 좌표에서 전혀 겹치지 않는다는 뜻이다. 0.587은 '전략이 58.7% 같다' 또는 '상관계수가 0.587'이라는 의미가 아니다. 공통의 높음/중간/낮음 임계값은 부여하지 않는다.
 
@@ -338,13 +344,13 @@ VSO=(90−20)/(90+20)=+0.636이고 PP 규모 비중은 81.8%이다. 활동 두 �
 
 ### A안: 범주별 시점·거래방식의 중첩
 
-범주 c마다 기업 i의 벡터를 **[PP₁, M&A₁, PP₂, M&A₂, …, PP₁₀, M&A₁₀]**로 만든다. 공통 10개 bin의 **비누적 흐름 20차원**이다. 같은 범주에서 같은 시기에 같은 유형의 거래규모가 배분되었는지를 비교한다. 총합이 같아도 거래 시기가 다르면 유사도가 낮아질 수 있다.
+범주 c마다 기업 i의 벡터를 **[PP₁, M&A₁, PP₂, M&A₂, …, PP₁₀, M&A₁₀**]로 만든다. 공통 10개 bin의 **비누적 흐름 20차원**이다. 같은 범주에서 같은 시기에 같은 유형의 거래규모가 배분되었는지를 비교한다. 총합이 같아도 거래 시기가 다르면 유사도가 낮아질 수 있다.
 
 어느 기업의 해당 범주가 전 기간 0이면 벡터 길이가 0이라 코사인은 **NA**이다. 양쪽 모두 0이어도 '완전히 동일하므로 1'로 처리하지 않는다. 무활동은 비교 가능한 배분 방향이 없다는 뜻이다. 두 기업의 활동 좌표가 달라 내적이 0이면 코사인 0은 유효한 값이다.
 
 ### B안: 전체기간의 분야·거래방식 구성 중첩
 
-기업별 벡터는 **[전체 PP_Cat1, 전체 M&A_Cat1, …, 전체 PP_Cat12, 전체 M&A_Cat12]**의 **24차원**이다. 기간 합계라 거래 시점은 제거된다. 규모가 어느 분야의 어느 방식에 배분되었는가를 비교한다. 여기서 합계는 모든 포함 거래의 합이며, 2005–2006 시점 누적값을 마지막값에서 빼는 방식이 아니다.
+기업별 벡터는 **[전체 PP_Cat1, 전체 M&A_Cat1, …, 전체 PP_Cat12, 전체 M&A_Cat12**]의 **24차원**이다. 기간 합계라 거래 시점은 제거된다. 규모가 어느 분야의 어느 방식에 배분되었는가를 비교한다. 여기서 합계는 모든 포함 거래의 합이며, 2005–2006 시점 누적값을 마지막값에서 빼는 방식이 아니다.
 
 A안에서 CJ–Kakao Cat 6의 유사도는 **0.950271**로 높지만, Cat 1은 **0.024012**이다. B안에서 같은 기업 쌍의 전체구성이 상대적으로 비슷해도 모든 범주의 거래 시점까지 비슷한 것은 아니다. Kakao–Naver는 Cat 12 **0.822275**, Cat 5 **0.710930**으로 일부 범주의 시점·유형 중첩이 나타나지만, Cat 2·10은 유효한 **0**이다. 어느 한쪽이 전 기간 무활동인 Cat 3의 비교는 **NA**이다.
 
@@ -361,7 +367,7 @@ B안 재계산 결과 CJ–Kakao **0.586911**, CJ–Naver **0.034824**, Kakao–
 
 이전 연구에서는 범주별 원형·열지도·share plot으로 배분 구성을 보고, Shannon entropy와 HHI로 다양성과 집중도를 요약했다. 여기서는 **PP+M&A의 전체기간 value를 범주별로 합산한 구성**을 사용해 다시 계산한다. 거래유형을 합치므로 같은 분야 안의 PP/M&A 차이는 이 두 지표가 구분하지 않는다.
 
-범주 비중은 **p_c=해당 범주의 전체 PP+M&A / 기업 전체 PP+M&A**이다. **Shannon H=−Σp_c ln(p_c)**이고 로그는 자연로그이다. 0 비중의 항은 0으로 처리한다. 1개 분야에만 집중되면 H=0, 12개 분야에 동일하게 배분되면 최대 ln(12)≈2.485이다. **정규화 H=H/ln(12)**는 0–1로 읽는다. 실제 활동범주 수가 기업마다 달라도 공통 분모 ln(12)를 써, 분석 가능한 12개 분야 대비 다양성을 비교한다.
+범주 비중은 **p_c=해당 범주의 전체 PP+M&A / 기업 전체 PP+M&A**이다. **Shannon H=−Σp_c ln(p_c**)이고 로그는 자연로그이다. 0 비중의 항은 0으로 처리한다. 1개 분야에만 집중되면 H=0, 12개 분야에 동일하게 배분되면 최대 ln(12)≈2.485이다. **정규화 H=H/ln(12**)는 0–1로 읽는다. 실제 활동범주 수가 기업마다 달라도 공통 분모 ln(12)를 써, 분석 가능한 12개 분야 대비 다양성을 비교한다.
 
 **HHI=Σp_c²**는 0–1 척도이다. 12개 균등 배분이면 1/12≈0.0833, 1개 분야 독점이면 1이다. 높은 HHI는 집중, 높은 H는 다양성을 뜻한다. **1/HHI**는 같은 집중도를 갖는 균등배분 분야 수에 해당하는 유효 범주 수이다. 경쟁정책에서 쓰는 시장집중 임계값은 이 기업 거래 포트폴리오에 적용하지 않는다.
 
