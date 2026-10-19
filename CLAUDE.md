@@ -16,7 +16,7 @@
    claude plugin install fluent-korean@fluent-korean
    ```
 
-3. **output-style 설정을 확인**한다. 스타일 지정은 저장소의 `.claude/settings.json`에 `"outputStyle": "fluent-korean"` 으로 **이미 커밋되어 있으므로**, 초기화 중에 설정 파일을 따로 편집할 필요가 없다. 플러그인은 `fluent-korean`(코딩 작업용)과 `fluent-korean-not-coding`(코드를 직접 고치지 않을 때) 두 스타일을 `~/.claude/plugins/marketplaces/fluent-korean/plugins/fluent-korean/output-styles/` 에 제공하며, **기본값은 `fluent-korean`으로 한다.**
+3. **output-style 설정을 확인**한다. 스타일 지정은 저장소의 `.claude/settings.json`에 `"outputStyle": "fluent-korean"` 으로 커밋되어 있다. `cat .claude/settings.json` 으로 이 값이 실제로 있는지 확인하고, 있으면 초기화 중에 설정 파일을 따로 편집하지 않는다. **파일이 없거나 값이 다르면** §1-A에 따라 복구안을 제시하고 승인받은 뒤 `main`에 커밋·푸시하며, 이번 세션에는 적용되지 않으므로 새 세션을 시작하라고 사용자에게 알린다. 플러그인은 `fluent-korean`(코딩 작업용)과 `fluent-korean-not-coding`(코드를 직접 고치지 않을 때) 두 스타일을 `~/.claude/plugins/marketplaces/fluent-korean/plugins/fluent-korean/output-styles/` 에 제공하며, **기본값은 `fluent-korean`으로 한다.**
 
    - **왜 사용자 설정이 아니라 저장소에 두는가**: `outputStyle`은 세션이 생성되는 순간에 한 번만 읽힌다. 따라서 `~/.claude/settings.json` 을 세션 도중에 편집하면 그 세션에는 반영되지 않는다. 저장소에 커밋해 두면 클론 시점에 이미 존재하므로 이 경합이 발생하지 않는다. 다만 스타일 이름이 해석되려면 1~2번의 플러그인 설치는 여전히 필요하다.
    - **사용자가 직접 바꿀 때**: `/output-style` 을 입력해 목록에서 고르는 편이 빠르다.
@@ -66,6 +66,7 @@
 ## 1-C. Git 운영
 
 - 내가 변경·작성한 것은 별도 개발 브랜치·PR 없이 **`main`에 바로 커밋·푸시**한다.
+- 클라우드 세션이 `claude/...` 같은 개발 브랜치를 지정하더라도 그 브랜치는 쓰지 않고, `main`에서 작업해 `main`에 바로 푸시한다.
 - **실측·파일 read가 필요한 작업에 들어가기 전, 그리고 사용자가 "변경·업로드·커밋했다"고 할 때는 먼저 `git pull`로 최신 레포 상태를 확인**한다(§1-B). 구버전 로컬을 근거로 "없다·다르다"를 단정하지 않는다.
 
 ---
