@@ -43,7 +43,7 @@ def main():
     print(pd.crosstab(d.firm, d.collect_status, margins=True))
     print("\n[2] 검토 결과")
     print(d.review_status.value_counts())
-    print("\n[3] 분류: 원자료(행) → 확인(열)")
+    print("\n[3] 거래 형태: 설명란 판정(행) → 공시 확인(열)")
     print(pd.crosstab(d.base, d.chk, margins=True))
     print("분류가 바뀐 거래:", int((d.base != d.chk).sum()))
     print("\n[4] 거래 상태: 원자료 status → 확인")
