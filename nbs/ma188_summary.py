@@ -35,7 +35,7 @@ def main():
     d["chk"] = d.subtype_chk.map(code)
     d["imp"] = d.impairment.map(imp_class)
     d["val"] = d.value_chk_usdmm.map(lambda s: "일치" if s.startswith("원자료와 일치") else
-                                     ("불일치" if s.startswith("원자료와 불일치") else "기타"))
+                                     ("불일치" if s.startswith(("원자료와 불일치", "원자료 오류")) else "기타"))
     d["pre"] = d.pre_incorp_chk.map(lambda s: s.split(" (")[0].split(":")[0].strip())
     d["stat"] = d.status_chk.map(lambda s: s.split(" (")[0].strip())
 
