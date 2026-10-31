@@ -33,6 +33,7 @@ import pandas as pd
 ROOT = Path(__file__).resolve().parents[1]
 SRC = ROOT / "meeting" / "20261019" / "PP_MA_거래기록_역할분류.csv"
 SHEET, EVID = "MA188_수집시트.csv", "MA188_근거.csv"
+IMP_CLASS = ROOT / "data" / "ma188_impairment_class.csv"  # nbs/ma188_impairment_class.py가 만든다
 
 FIRMS = {"CJ ENM": "C", "Kakao": "K", "Naver": "N"}
 MA = "Merger/Acquisition"
@@ -56,6 +57,8 @@ COLLECT = [
     "event_ticker", "event_ticker_basis", "first_filing_date",
     # 인수 전후 비교: 이벤트와 대상회사 실적 (실적은 인수 전 2년, 인수 후 2년 이상)
     "pre_events_summary", "post_events_summary", "impairment",
+    # 손상 분류(있음/없음 (확인)/해당 없음/식별 불가/미확인). data/ma188_impairment_class.csv에서 채운다.
+    "impairment_class", "impairment_class_basis",
     "target_rev_pre", "target_rev_post", "target_op_pre", "target_op_post", "perf_basis", "earnings_call_note",
     # 진행 관리
     "collect_status", "collected_on", "review_status", "review_note",
@@ -145,6 +148,11 @@ def main():
         # 수집 기록(K012.json)을 모두 반영한 뒤 검토 기록(review_K012.json)을 반영한다.
         recs = sorted(p for p in a.merge.glob("*.json") if not p.name.startswith("review_"))
         sheet, evid = merge_records(sheet, evid, recs + sorted(a.merge.glob("review_*.json")))
+
+    if IMP_CLASS.exists():
+        ic = pd.read_csv(IMP_CLASS, dtype=str, keep_default_na=False).set_index("deal_id")
+        for c in ("impairment_class", "impairment_class_basis"):
+            sheet[c] = sheet["deal_id"].map(ic[c]).fillna("")
 
     sheet[BASE + COLLECT].to_csv(a.out / SHEET, index=False, encoding="utf-8-sig")
     evid[EVID_COLS].to_csv(a.out / EVID, index=False, encoding="utf-8-sig")

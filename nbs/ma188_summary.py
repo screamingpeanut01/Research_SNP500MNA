@@ -57,6 +57,14 @@ def main():
     buy = d[d.chk.isin(["MA①", "MA②", "MA③"])]
     print("\n[8] 그룹이 산 거래(MA①②③)의 손상 여부")
     print(pd.crosstab(buy.chk, buy.imp, margins=True))
+    if "impairment_class" in d.columns:
+        print("\n[8b] 손상 다시 분류(impairment_class, 2026-11-01): 그룹이 산 거래(MA①②③)")
+        t = pd.crosstab(buy.firm, buy.impairment_class, margins=True)
+        print(t)
+        j = buy[buy.impairment_class.isin(["있음", "없음 (확인)"])]
+        print("판정 가능한 거래(있음+없음) 중 손상 비율:",
+              (j.groupby("firm").impairment_class.apply(lambda s: (s == "있음").mean()).round(3)).to_dict(),
+              "전체", round((j.impairment_class == "있음").mean(), 3))
     print("\n[9] is_core")
     print(d.is_core.map(lambda s: s.split(" (")[0]).value_counts())
     print("\n[10] 이중 집계·표본 제외 언급이 notes/chk_note에 있는 거래")

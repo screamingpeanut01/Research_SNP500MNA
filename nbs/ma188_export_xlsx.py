@@ -28,7 +28,7 @@ COLS = [
     ("식별", "target", "대상회사", 30, True), ("식별", "value_rank", "금액 순위", 7, False),
     ("식별", "top50", "상위 50", 7, False), ("식별", "event_group", "사건 묶음", 9, False),
     ("분류 요약", "_base", "원자료 분류", 9, False), ("분류 요약", "_chk", "확인 분류", 9, False),
-    ("분류 요약", "_chg", "분류 변경", 8, False), ("분류 요약", "_imp", "손상 구분", 10, False),
+    ("분류 요약", "_chg", "분류 변경", 8, False), ("분류 요약", "impairment_class", "손상 구분", 11, False),
     ("분류 요약", "_val", "금액 대조", 8, False), ("분류 요약", "_pre", "편입 시점", 14, False),
     ("원자료", "cat", "분야", 22, True), ("원자료", "subcat", "세부 분야", 22, True),
     ("원자료", "status", "상태", 10, False), ("원자료", "value", "금액 $M", 11, False),
@@ -50,6 +50,7 @@ COLS = [
     ("주가 이벤트", "first_filing_date", "처음 알려진 날", 24, True),
     ("전후 이벤트", "pre_events_summary", "인수 전 사건", 60, True), ("전후 이벤트", "post_events_summary", "인수 후 사건", 60, True),
     ("전후 이벤트", "impairment", "손상", 50, True),
+    ("전후 이벤트", "impairment_class_basis", "손상 구분 근거", 40, True),
     ("성과", "target_rev_pre", "매출 (인수 전)", 36, True), ("성과", "target_rev_post", "매출 (인수 후)", 36, True),
     ("성과", "target_op_pre", "영업이익 (인수 전)", 36, True), ("성과", "target_op_post", "영업이익 (인수 후)", 36, True),
     ("성과", "perf_basis", "실적 기준", 40, True), ("성과", "earnings_call_note", "어닝콜·IR 언급", 40, True),
@@ -63,6 +64,7 @@ EV_COLS = [("deal_id", "거래", 8, False), ("_target", "대상회사", 26, True
 GROUP_FILL = {"식별": "1F4E4C", "분류 요약": "0F5C5A", "원자료": "5C6B67", "원자료 대조": "7A4E00",
               "인수 목적·핵심": "3E5C2E", "규모": "34506E", "주가 이벤트": "4E3F6E", "전후 이벤트": "8A2E2E",
               "성과": "2E5E6E", "수집": "4A4A4A"}
+IMP_CLASSES = ["있음", "없음 (확인)", "식별 불가", "미확인", "해당 없음"]
 NAMES = {"MA①": "경영권 인수", "MA②": "기존 지분 확대", "MA③": "소수지분 매입", "MA④": "그룹 내부 재편",
          "MA⑤": "그룹의 지분 매각", "MA⑥": "외부자 간 거래", "MA⑦": "매수자 미기재"}
 thin = Side(style="thin", color="D3DCD9")
@@ -76,14 +78,6 @@ def fill(hex_):
 def code(s):
     m = re.search(r"MA[①-⑦]", s)
     return m.group(0) if m else ""
-
-
-def imp_class(s):
-    s = s.strip()
-    for k in ("있음", "확인 안 됨", "해당 없음", "없음"):
-        if s.startswith(k):
-            return k
-    return "기타"
 
 
 def val_class(s):
@@ -147,7 +141,9 @@ def deals_sheet(wb, d):
     rng = f"A4:{get_column_letter(len(COLS))}{last}"
     # 행 강조: 손상 있음(연한 빨강) 표시는 손상 구분 칸에만, 분류 변경은 확인 분류 칸에
     for key, rule, color in [
-        ("_imp", f'${col["_imp"]}4="있음"', "FBE4E1"), ("_imp", f'${col["_imp"]}4="확인 안 됨"', "FBEFD9"),
+        ("impairment_class", f'${col["impairment_class"]}4="있음"', "FBE4E1"),
+        ("impairment_class", f'${col["impairment_class"]}4="없음 (확인)"', "DFF1E4"),
+        ("impairment_class", f'OR(${col["impairment_class"]}4="식별 불가",${col["impairment_class"]}4="미확인")', "FBEFD9"),
         ("_chk", f'${col["_chg"]}4="변경"', "D5EBE8"), ("_chg", f'${col["_chg"]}4="변경"', "D5EBE8"),
         ("_val", f'${col["_val"]}4="불일치"', "FBE4E1"),
         ("collect_status", f'${col["collect_status"]}4="완료"', "DFF1E4"),
@@ -227,32 +223,40 @@ def summary_sheet(wb, col, last):
     codes_b = ["MA①", "MA②", "MA③", "MA④", "MA⑤", "MA⑥", "MA⑦"]
     codes_c = ["MA①", "MA②", "MA③", "MA④", "MA⑤", "MA⑥"]
     table("분류 대조: 원자료 기반(행) → 원문 확인(열)", codes_b, codes_c, "_base", "_chk", row_label="원자료 분류")
-    table("기업별 손상 구분 (188건 전체)", firms, ["있음", "확인 안 됨", "해당 없음", "없음", "기타"], "firm", "_imp", row_label="기업")
+    table("기업별 손상 구분 (188건 전체)", firms, IMP_CLASSES, "firm", "impairment_class", row_label="기업")
     table("기업별 편입 시점 판정", firms, ["편입 후", "편입 전", "지분법 합작 계열"], "firm", "_pre", row_label="기업")
     table("기업별 금액 대조", firms, ["일치", "불일치", "기타"], "firm", "_val", row_label="기업")
     row += 2
     ws.cell(row=row, column=1, value="그룹이 산 거래(확인 분류 MA①②③)의 손상").font = bold
     row += 1
-    for i, h in enumerate(["기업", "거래", "손상 있음", "비율"], 1):
+    heads = ["기업", "거래"] + IMP_CLASSES + ["손상 비율 (있음 ÷ (있음+없음))"]
+    for i, h in enumerate(heads, 1):
         c = ws.cell(row=row, column=i, value=h); c.font = bold; c.fill = fill("DDEBF7"); c.border = BORDER
+        c.alignment = Alignment(horizontal="center", wrap_text=True, vertical="center")
+    ws.row_dimensions[row].height = 32
     top = row + 1
+    buy = ("MA①", "MA②", "MA③")
+    last_c = len(heads)
     for f in firms:
         row += 1
         ws.cell(row=row, column=1, value=f).font = norm
-        n = "+".join(f'COUNTIFS({R("firm")},$A{row},{R("_chk")},"{c}")' for c in ("MA①", "MA②", "MA③"))
-        k = "+".join(f'COUNTIFS({R("firm")},$A{row},{R("_chk")},"{c}",{R("_imp")},"있음")' for c in ("MA①", "MA②", "MA③"))
-        ws.cell(row=row, column=2, value=f"={n}")
-        ws.cell(row=row, column=3, value=f"={k}")
-        p = ws.cell(row=row, column=4, value=f"=IF(B{row}=0,0,C{row}/B{row})"); p.number_format = "0.0%"
-        for j in range(1, 5):
+        ws.cell(row=row, column=2, value="=" + "+".join(f'COUNTIFS({R("firm")},$A{row},{R("_chk")},"{c}")' for c in buy))
+        for j, k in enumerate(IMP_CLASSES, 3):
+            ws.cell(row=row, column=j, value="=" + "+".join(
+                f'COUNTIFS({R("firm")},$A{row},{R("_chk")},"{c}",{R("impairment_class")},"{k}")' for c in buy))
+        p = ws.cell(row=row, column=last_c, value=f"=IF(C{row}+D{row}=0,0,C{row}/(C{row}+D{row}))")
+        p.number_format = "0.0%"
+        for j in range(1, last_c + 1):
             ws.cell(row=row, column=j).border = BORDER
     row += 1
     ws.cell(row=row, column=1, value="합계").font = bold
-    ws.cell(row=row, column=2, value=f"=SUM(B{top}:B{row - 1})").font = bold
-    ws.cell(row=row, column=3, value=f"=SUM(C{top}:C{row - 1})").font = bold
-    p = ws.cell(row=row, column=4, value=f"=IF(B{row}=0,0,C{row}/B{row})"); p.number_format = "0.0%"; p.font = bold
+    for j in range(2, last_c):
+        L = get_column_letter(j)
+        ws.cell(row=row, column=j, value=f"=SUM({L}{top}:{L}{row - 1})").font = bold
+    p = ws.cell(row=row, column=last_c, value=f"=IF(C{row}+D{row}=0,0,C{row}/(C{row}+D{row}))")
+    p.number_format = "0.0%"; p.font = bold
     row += 1
-    ws.cell(row=row, column=1, value="주의: '확인 안 됨'에는 매년 영업권이 그대로인 것을 확인한 거래(예: ZOZO, 一休, Poshmark)도 섞여 있다. 손상 열 다시 코딩은 결정 대기.").font = Font(name=FONT, size=9, color="9A5B00")
+    ws.cell(row=row, column=1, value="손상 구분은 data/ma188_impairment_class.csv(nbs/ma188_impairment_class.py)의 판정이다. 손상 비율은 판정할 수 있는 거래(있음·없음) 안에서 계산했다.").font = Font(name=FONT, size=9, color="5C6B67")
     ws.freeze_panes = "A3"
 
 
@@ -272,14 +276,15 @@ def guide_sheet(wb, n, ne):
         ("  근거", "한 행이 근거 하나. URL을 누르면 원문이 열린다. '뒷받침하는 열'은 그 근거가 '거래' 시트의 어느 열 값을 뒷받침하는지 적은 것"),
         ("열 묶음", None),
         ("  식별", "거래 번호(C=CJ ENM, K=Kakao, N=Naver), 날짜, 대상회사, 원자료 금액 순위"),
-        ("  분류 요약 (파생)", "원래 열에서 뽑은 값. 원자료 분류·확인 분류(MA①~⑦ 코드), 분류 변경(변경/같음), 손상 구분(손상 열의 첫 단어), 금액 대조(일치/불일치/기타), 편입 시점"),
+        ("  분류 요약 (파생)", "원래 열에서 뽑은 값. 원자료 분류·확인 분류(MA①~⑦ 코드), 분류 변경(변경/같음), 손상 구분(있음 / 없음 (확인) / 식별 불가 / 미확인 / 해당 없음, 근거는 '손상 구분 근거' 열), 금액 대조(일치/불일치/기타), 편입 시점"),
         ("  원자료", "Capital IQ 원자료와 10-19 자동 분류(PP_MA_거래기록_역할분류.csv)"),
         ("  원자료 대조", "공시·감사보고서로 확인한 분류, 편입 시점, 상태, 금액, 발표일과 메모"),
         ("  인수 목적·핵심 / 규모 / 주가 이벤트", "발표 당시 목적, 핵심 여부, 인수 주체·그룹 정점의 규모와 비율, 종목과 처음 알려진 날"),
         ("  전후 이벤트 / 성과", "인수 전후 사건, 손상, 대상회사 인수 전후 매출·영업이익, 어닝콜 언급"),
         ("  수집", "수집 상태(완료 = 모든 항목을 채움, 부분 = 공개 자료가 없어 비어 있는 항목이 있음)와 수집 일시"),
         ("값 표기", "미확인 = 찾았지만 근거가 없음 · 해당 없음 = 그 거래에 해당하지 않음 · 추정: = 추정한 값"),
-        ("색", "확인 분류·분류 변경 칸 청록 = 원자료와 분류가 다름 · 손상 구분 빨강 = 손상 있음, 주황 = 확인 안 됨 · 금액 대조 빨강 = 불일치 · 수집 상태 초록 = 완료"),
+        ("색", "확인 분류·분류 변경 칸 청록 = 원자료와 분류가 다름 · 손상 구분 빨강 = 있음, 초록 = 없음 (확인), 주황 = 식별 불가·미확인 · 금액 대조 빨강 = 불일치 · 수집 상태 초록 = 완료"),
+        ("손상 구분", "있음 = 인수 뒤 손상 확인 · 없음 (확인) = 인수 뒤 영업권·투자주식이 손상 없이 유지됨을 확인 · 식별 불가 = 영업권이 부문 단위로 묶여 이 거래 몫을 알 수 없음 · 미확인 = 확인 기간이 짧거나 비어 판단 자료 부족 · 해당 없음 = 그룹 밖 매수자, 그룹의 매각, 동일지배 합병, 공정가치 금융자산 등 구조상 손상을 따지지 않는 거래"),
         ("금액 단위", "원자료 금액은 거래 당시 환율로 환산한 백만 달러. 공시로 확인한 금액은 '금액 확인' 열에 현지 통화와 환산값으로 적었다"),
         ("행 높이", "긴 글은 칸 안에서 줄바꿈되고 행 높이는 고정이다. 전체 내용은 셀을 선택해 수식 입력줄에서 보거나 행 높이를 늘려 본다"),
     ]
@@ -301,7 +306,6 @@ def main():
     d["_base"] = d.subtype.map(code)
     d["_chk"] = d.subtype_chk.map(code)
     d["_chg"] = (d._base != d._chk).map({True: "변경", False: "같음"})
-    d["_imp"] = d.impairment.map(imp_class)
     d["_val"] = d.value_chk_usdmm.map(val_class)
     d["_pre"] = d.pre_incorp_chk.map(lambda s: s.split(" (")[0].split(":")[0].strip())
     wb = Workbook()
