@@ -27,15 +27,13 @@ COLS = [
     ("식별", "ciq_id", "CIQ ID", 16, False), ("식별", "firm", "기업", 9, False), ("식별", "date", "날짜", 11, False),
     ("식별", "target", "대상회사", 30, True), ("식별", "value_rank", "금액 순위", 7, False),
     ("식별", "top50", "상위 50", 7, False), ("식별", "event_group", "사건 묶음", 9, False),
-    ("분류 요약", "_base", "거래 형태 (설명란 판정)", 11, False), ("분류 요약", "_chk", "거래 형태 (공시 확인)", 11, False),
-    ("분류 요약", "_chg", "형태 변경", 8, False), ("분류 요약", "impairment_class", "손상 구분", 11, False),
+    ("분류 요약", "_chk", "거래 형태 (공시 확인)", 11, False), ("분류 요약", "impairment_class", "손상 구분", 11, False),
     ("분류 요약", "_val", "금액 대조", 8, False), ("분류 요약", "_pre", "편입 시점", 14, False),
     ("원자료 (Capital IQ)", "status", "상태", 10, False), ("원자료 (Capital IQ)", "value", "금액 $M", 11, False),
     ("원자료 (Capital IQ)", "buyers", "매수자", 26, True), ("원자료 (Capital IQ)", "sellers", "매도자", 26, True),
     ("원자료 (Capital IQ)", "comment", "설명란", 60, True),
     ("10-19 설명란 판정", "role", "그룹 역할 (설명란 판정)", 18, True),
     ("10-19 설명란 판정", "stake", "지분 규모 (설명란 판정)", 14, True),
-    ("10-19 설명란 판정", "subtype", "거래 형태 (설명란 판정)", 16, True),
     ("10-19 설명란 판정", "pre_incorp", "편입 전 표시 (배경지식)", 14, True),
     ("10-19 설명란 판정", "value_flag", "금액 의심 (설명란 대조)", 9, False),
     ("공시 확인", "subtype_chk", "거래 형태 (공시 확인)", 30, True), ("공시 확인", "pre_incorp_chk", "편입 시점 (공시 확인)", 40, True),
@@ -140,12 +138,11 @@ def deals_sheet(wb, d):
     ws.auto_filter.ref = f"A3:{get_column_letter(len(COLS))}{last}"
     col = {c[1]: get_column_letter(i) for i, c in enumerate(COLS, 1)}
     rng = f"A4:{get_column_letter(len(COLS))}{last}"
-    # 행 강조: 손상 있음(연한 빨강) 표시는 손상 구분 칸에만, 분류 변경은 확인 분류 칸에
+    # 행 강조: 손상 있음(연한 빨강) 표시는 손상 구분 칸에만
     for key, rule, color in [
         ("impairment_class", f'${col["impairment_class"]}4="있음"', "FBE4E1"),
         ("impairment_class", f'${col["impairment_class"]}4="없음 (확인)"', "DFF1E4"),
         ("impairment_class", f'OR(${col["impairment_class"]}4="식별 불가",${col["impairment_class"]}4="미확인")', "FBEFD9"),
-        ("_chk", f'${col["_chg"]}4="변경"', "D5EBE8"), ("_chg", f'${col["_chg"]}4="변경"', "D5EBE8"),
         ("_val", f'${col["_val"]}4="불일치"', "FBE4E1"),
         ("collect_status", f'${col["collect_status"]}4="완료"', "DFF1E4"),
     ]:
@@ -203,10 +200,10 @@ def summary_sheet(wb, col, last):
         top = row + 1
         for rv in row_vals:
             row += 1
-            lab = rv if row_key != "_base" else f"{rv} {NAMES[rv]}"
+            lab = rv
             ws.cell(row=row, column=1, value=lab).font = norm
             for j, cv in enumerate(col_vals, 2):
-                crit = f'{R(row_key)},$A{row}' if row_key != "_base" else f'{R(row_key)},"{rv}"'
+                crit = f"{R(row_key)},$A{row}"
                 f = f'=COUNTIFS({crit},{R(col_key)},"{cv}"' + (f",{extra}" if extra else "") + ")"
                 c = ws.cell(row=row, column=j, value=f); c.font = norm; c.border = BORDER
             s = ws.cell(row=row, column=len(col_vals) + 2,
@@ -221,9 +218,8 @@ def summary_sheet(wb, col, last):
 
     firms = ["CJ ENM", "Kakao", "Naver"]
     table("기업별 수집 상태", firms, ["완료", "부분"], "firm", "collect_status", row_label="기업")
-    codes_b = ["MA①", "MA②", "MA③", "MA④", "MA⑤", "MA⑥", "MA⑦"]
     codes_c = ["MA①", "MA②", "MA③", "MA④", "MA⑤", "MA⑥"]
-    table("거래 형태: 설명란 판정(행) → 공시 확인(열)", codes_b, codes_c, "_base", "_chk", row_label="설명란 판정")
+    table("기업별 거래 형태 (공시 확인)", firms, codes_c, "firm", "_chk", row_label="기업")
     table("기업별 손상 구분 (188건 전체)", firms, IMP_CLASSES, "firm", "impairment_class", row_label="기업")
     table("기업별 편입 시점 판정", firms, ["편입 후", "편입 전", "지분법 합작 계열"], "firm", "_pre", row_label="기업")
     table("기업별 금액 대조", firms, ["일치", "불일치", "기타"], "firm", "_val", row_label="기업")
@@ -277,15 +273,15 @@ def guide_sheet(wb, n, ne):
         ("  근거", "한 행이 근거 하나. URL을 누르면 원문이 열린다. '뒷받침하는 열'은 그 근거가 '거래' 시트의 어느 열 값을 뒷받침하는지 적은 것"),
         ("열 묶음", None),
         ("  식별", "CIQ ID(Capital IQ의 CIQ Transaction ID), 기업, 날짜, 대상회사, 원자료 금액 순위"),
-        ("  분류 요약 (파생)", "원래 열에서 뽑은 값. 거래 형태 (설명란 판정)·거래 형태 (공시 확인)(MA①~⑦ 코드), 형태 변경(변경/같음), 손상 구분(있음 / 없음 (확인) / 식별 불가 / 미확인 / 해당 없음, 근거는 '손상 구분 근거' 열), 금액 대조(일치/불일치/기타), 편입 시점"),
+        ("  분류 요약 (파생)", "원래 열에서 뽑은 값. 거래 형태 (공시 확인)(MA①~⑥ 코드), 손상 구분(있음 / 없음 (확인) / 식별 불가 / 미확인 / 해당 없음, 근거는 '손상 구분 근거' 열), 금액 대조(일치/불일치/기타), 편입 시점"),
         ("  원자료 (Capital IQ)", "Capital IQ에서 추출한 그대로의 값: 상태, 금액, 매수자, 매도자, 설명란"),
-        ("  10-19 설명란 판정", "10-19 분석(nbs/pp_ma_record_audit.py)이 설명란·매수자·매도자 칸을 규칙으로 읽어 붙인 값. 편입 전 표시는 작성자의 배경지식(경영통합 연도 등)에 기댄다"),
+        ("  10-19 설명란 판정", "10-19 분석(nbs/pp_ma_record_audit.py)이 설명란·매수자·매도자 칸을 규칙으로 읽어 붙인 값. 편입 전 표시는 작성자의 배경지식(경영통합 연도 등)에 기댄다. 같은 규칙으로 붙인 거래 형태는 공시 확인 값으로 대체돼 싣지 않는다"),
         ("  공시 확인", "공시·감사보고서로 확인한 거래 형태, 편입 시점, 상태, 금액, 발표일과 메모"),
         ("  인수 목적 / 규모 / 주가 이벤트", "발표 당시 목적과 인수 주체의 주력 사업, 인수 주체·그룹 정점의 규모와 비율, 종목과 처음 알려진 날"),
         ("  전후 이벤트 / 성과", "인수 전후 사건, 손상, 대상회사 인수 전후 매출·영업이익, 어닝콜 언급"),
         ("  수집", "수집 상태(완료 = 모든 항목을 채움, 부분 = 공개 자료가 없어 비어 있는 항목이 있음)와 수집 일시"),
         ("값 표기", "미확인 = 찾았지만 근거가 없음 · 해당 없음 = 그 거래에 해당하지 않음 · 추정: = 추정한 값"),
-        ("색", "거래 형태 (공시 확인)·형태 변경 칸 청록 = 설명란 판정과 거래 형태가 다름 · 손상 구분 빨강 = 있음, 초록 = 없음 (확인), 주황 = 식별 불가·미확인 · 금액 대조 빨강 = 불일치 · 수집 상태 초록 = 완료"),
+        ("색", "손상 구분 빨강 = 있음, 초록 = 없음 (확인), 주황 = 식별 불가·미확인 · 금액 대조 빨강 = 불일치 · 수집 상태 초록 = 완료"),
         ("손상 구분", "있음 = 인수 뒤 손상 확인 · 없음 (확인) = 인수 뒤 영업권·투자주식이 손상 없이 유지됨을 확인 · 식별 불가 = 영업권이 부문 단위로 묶여 이 거래 몫을 알 수 없음 · 미확인 = 확인 기간이 짧거나 비어 판단 자료 부족 · 해당 없음 = 그룹 밖 매수자, 그룹의 매각, 동일지배 합병, 공정가치 금융자산 등 구조상 손상을 따지지 않는 거래"),
         ("금액 단위", "원자료 금액은 거래 당시 환율로 환산한 백만 달러. 공시로 확인한 금액은 '금액 확인' 열에 현지 통화와 환산값으로 적었다"),
         ("행 높이", "긴 글은 칸 안에서 줄바꿈되고 행 높이는 고정이다. 전체 내용은 셀을 선택해 수식 입력줄에서 보거나 행 높이를 늘려 본다"),
@@ -305,9 +301,7 @@ def main():
     clean = lambda df: df.apply(lambda c: c.str.replace(ILLEGAL_CHARACTERS_RE, "", regex=True))
     d = clean(pd.read_csv(DIR / "MA188_수집시트.csv", dtype=str).fillna(""))
     e = clean(pd.read_csv(DIR / "MA188_근거.csv", dtype=str).fillna(""))
-    d["_base"] = d.subtype.map(code)
     d["_chk"] = d.subtype_chk.map(code)
-    d["_chg"] = (d._base != d._chk).map({True: "변경", False: "같음"})
     d["_val"] = d.value_chk_usdmm.map(val_class)
     d["_pre"] = d.pre_incorp_chk.map(lambda s: s.split(" (")[0].split(":")[0].strip())
     wb = Workbook()
