@@ -1,0 +1,70 @@
+{
+ "deal_id": "N079",
+ "review_status": "수정",
+ "review_note": "확인한 것: 네이버웹툰 공정위 공시 20221221000275 원문(거래상대방 CLOUDARY HOLDINGS LIMITED '계열회사 주주', 425,016주, 14,132백만원, 33,251원, 취득 후 5,942,700주·57.78%, 거래일 2022.12.23, 취득목적 'Put option 행사', 장외취득, 이사회 2022.12.21), 문피아 20221226000070(5,517,684 → 5,942,700주, 14,132,207천원, 발행 10,285,287주)·20230131000108(Cloudary 455,016 → 30,000주, 프리미어루나 1,654,098주)·20230224000359(조우쩡위 2022-12-23 사임)·20220114000049(위예원 그룹 이사, 엔씨소프트 전무 이사) — 모두 기록과 일치. 네이버웹툰 2021·2022 감사보고서(자산 699,088,160,355원·자본 533,017,578,054원, 2022 영업수익 548,854·영업이익 64,250백만원) 일치, 비율 계산(2.02%·2.65%)과 USD 환산(÷1,285.85 = 10.99백만) 재현, NAVER 2022-12-20 종가 180,500원·시총 29,610,859,842,500원 재현, NAVER 2022 사업보고서 콘텐츠 1,261,513백만원(15.4%) 일치. 424B4 Note 20(사이드레터 2021-09, USD 26.20=33,251원, 'earlier of (i) March 2023 or (ii) ... less than 5%', 'In December 2022, Cloudary exercised', 상환가능비지배지분 상환 USD 11,311천), 10-K 2025의 'In December 2023' 오기 확인. 문피아 연결감사보고서 2020~2025 실적은 N067 검토에서 원문 대조 완료(같은 값). 분류 재판정: 거래 전 53.65% 지배 → 4.13% 추가 → MA② 기존 지분 확대(원자료 MA① 오류, comment의 '57.78% stake'는 취득 후 지분율) 수집 기록 판정에 동의; 편입 후, 완료 2022-12-23, value_flag 원인(원자료 0.527 과소, 실제 약 USD 11.0백만) 확인. 묶음 일관성: N067·N075와 주식수·지분율(56.26 → 53.65 → 57.78%, 자기주식 제외 61.12%)·날짜가 서로 맞음. / 고친 것: (1) pre_events_summary — 실적 항목이 2022-08 사건 뒤에 붙어 있던 것을 시간순으로 재배열하고, 2022-03-30 프리미어 측 일부 매각(김환철 631,551주 매입; 424B4 각주 'the Munpia shares sold by Premier')과 2022-08-31 매수청구 주주 추정을 추가. (2) post_events_summary — 2023~2025말 주주 구성이 그대로라는 점(이 거래 뒤 그룹 추가 취득 없음)을 감사보고서 주주현황으로 확인해 추가. (3) chk_note — Cloudary 정체 추정 근거로 Global Venturing 보도 추가. (4) earnings_call_note·notes — 424B4 MD&A의 문피아 IP 매출 감소 언급, 상환가능비지배지분 변동표 추가. / 남은 의문: Cloudary Holdings Limited가 China Literature의 어느 법인인지 법인명 단위 1차 자료는 못 찾음(추정 유지). 이 소액 매입을 다룬 어닝콜·보도는 국문·영문 검색으로 다시 찾아도 없었다. 프리미어 측 풋옵션 발동 조건('상장 관련 의무')의 세부와 향후 행사 여부는 미확인.",
+ "corrections": {
+  "pre_events_summary": "2012-12-27: ㈜문피아 설립; 2016: PEF S2L파트너스 지분 취득(언론); 2018-10: China Literature(Cloudary)·엔씨소프트 250억원 투자, 2018말 Cloudary 25.62%; 2019말: Cloudary 2,275,077주(25.22%); 2020: 문피아 연결 영업수익 41,717백만원·영업이익 7,315백만원; 2021-09: 네이버웹툰이 Cloudary로부터 1,820,061주(20.17%) 현금 60,519백만원에 매입하고, 잔여 455,016주에 대해 주당 33,251원 풋옵션 사이드레터 체결(2023-03 또는 Cloudary 지분 5% 미만 시 소멸); 2021: 연결 영업수익 48,043백만원·영업이익 5,073백만원; 2022-02-09: 네이버웹툰 36.08% 대물변제 취득으로 56.26% 지배력 획득(N067), Cloudary 지분은 상환가능비지배지분으로 인식; 2022-03-30: 김환철이 기타 주주로부터 631,551주(7.00%) 매입(424B4 각주상 프리미어가 판 문피아 주식은 상환가능비지배지분에서 비지배지분으로 재분류); 2022-08-22: 스튜디오JHS 주식교환(N075) 신주 발행으로 네이버웹툰 지분 53.65%로 희석; 2022-08-31: 자기주식 561,647주 취득(추정: 엔씨소프트 매수청구); 2022(거래 연도): 연결 영업수익 63,429백만원·영업이익 4,469백만원",
+  "post_events_summary": "2022-12-23: 425,016주 매입 완료, 네이버웹툰 5,942,700주(57.78%; 자기주식 제외 61.12%), Cloudary 잔여 30,000주(0.29%)는 비지배지분으로 재분류; 2022-12-28: NAVER 보도자료 문피아 10주년(대표 손제호); 2022-12-23: 위예원 그룹 소속 사외이사 조우쩡위 사임(2023-02-24 임원변동 공시); 2023: WEBTOON 영업권 손상 USD 25.6백만, 문피아 연결 영업수익 70,970백만원·영업이익 2,084백만원·순손실 5,310백만원(JHS 영업권 손상 6,944백만원); 2024-06-27: WEBTOON Nasdaq 상장; 2024: 엠콘텐츠랩스·문피아웹툰문화산업전문회사 청산, WEBTOON 손상 USD 20.3백만, 연결 영업수익 74,947백만원·영업이익 4,661백만원; 2025: WEBTOON 손상 USD 74.0백만, NAVER K-IFRS 문피아 영업권 약 600억원 손상(1,016억원 → 416억원), 연결 영업수익 85,530백만원·영업이익 8,186백만원; 2023말~2025말: 문피아 주주 구성 변동 없음(네이버웹툰 5,942,700주 57.78%, 프리미어루나(유) 1,654,098주 16.08%, Cloudary 30,000주 0.29%, 자기주식 561,693주 5.46% — 문피아 2023·2025 연결감사보고서 주주현황) → 이 거래 뒤 그룹의 추가 취득 없음; 2025말: NAVER 연결실체 지분율 61.12% 유지, 프리미어 측 풋옵션 존속(상환가능비지배지분 USD 24.5백만)",
+  "chk_note": "분류 수정 MA① → MA②: 이 거래 전 네이버웹툰은 이미 문피아 지분 53.65%(5,517,684주)를 가진 지배주주였고(2022-02-09 지배력 획득, N067), 이 거래로 4.13%(425,016주)를 더 사 57.78%가 됐다. 원자료 comment의 'acquire 57.78% stake'는 취득 후 지분율을 취득 지분으로 잘못 적은 것. 거래 성격은 2021-09 Cloudary와 맺은 사이드레터상 풋옵션(주당 33,251원, 2023-03 또는 Cloudary 지분 5% 미만 시 소멸)의 행사에 따른 매입(공시 취득목적 '거래상대방의 Put option 행사에 따른 주식 인수'). 금액: 원자료 0.527 USD백만은 틀리고 공시 금액 14,132백만원(≈USD 11.0백만)이 맞다. 날짜·매도자·상태는 원자료와 일치(이사회·공시 2022-12-21, 거래일 2022-12-23). 매도자 Cloudary Holdings Limited는 추정: China Literature(위예원 그룹, 텐센트 계열)의 투자회사(Global Venturing은 Cloudary를 'China Literature's international-focused subsidiary'로 보도; 법인명 'Holdings Limited'까지 확인한 1차 자료는 없음) — 문피아 감사보고서상 2018년부터 주주이고, 바이라인(2019)은 2018-10 China Literature 투자를 보도했으며, 문피아 사외이사 명단에 '위예원 그룹 콘텐츠 담당'이 있음.",
+  "earnings_call_note": "이 추가 취득을 언급한 어닝콜·IR 발언은 찾지 못함. 문피아 관련 경영진 공식 설명: 2022-12-28 NAVER 보도자료 손제호 대표 '문피아는 지난 10년 동안 웹소설 업계를 선도하는 플레이어로서 다양한 작품을 발굴, 양성하기 위해 노력해왔다'; WEBTOON 10-K 2024 'For Munpia, structural changes in operations, workforce reduction, and project delays resulted in the underperformance in revenue growth'; 10-K 2025 'while recent standalone operating performance remains stable ... a lower than expected realization of synergies from IP expansion'; WEBTOON 424B4 MD&A(2023 대비 2022): IP Adaptations 매출 증가가 'partially offset by the decrease of IP Adaptations revenue of Munpia, LOCUS and SIDUS'",
+  "notes": "N067(2022-02 문피아 지배력 획득)의 후속 잔여지분 매입이며, 매도자 Cloudary는 2021-09 20.17%(N067의 다른 다리)를 판 같은 주주다. 이 거래 직전 지분율 53.65%는 N075(2022-08 스튜디오JHS 주식교환 신주 발행)로 56.26%에서 희석된 결과. 거래 후 Cloudary 잔여 30,000주(0.29%)는 상환가능하지 않은 비지배지분으로 재분류. 지분율 표기: 공정위 공시 57.78%는 발행주식 10,285,287주 기준, NAVER 사업보고서 61.12%는 자기주식 561,693주 제외 기준. 이 거래는 NAVER 거래소 공시 대상이 아니어서 공정위 대규모기업집단 공시(특수관계인으로부터 주식의 취득; 거래상대방 '계열회사 주주')로만 공개됐다. WEBTOON 10-K 2025는 이 풋옵션 행사를 'In December 2023'으로 잘못 적었다(DART 2022-12-23, 424B4 'In December 2022'). 2023-01 주요주주: 네이버웹툰 57.78%, 프리미어루나 1,654,098주(16.08%), 손제호 7.37%, 김환철 6.14%, 자기주식 5.46%. 프리미어 측 풋옵션(33,251원+연15%, 상장 관련 의무 해태 시)은 2025말에도 남아 있음(상환가능비지배지분 USD 24.5백만) — 향후 추가 매입 가능성. 소액 의무 매입이라 이벤트 분석 대상으로서 정보성은 낮다. [검토 추가] 424B4 상환가능비지배지분 변동표: 문피아 취득일 인식 USD 84,002천, 'Redemption of redeemable non-controlling interest (11,311)'(이 거래), 비지배지분 재분류 (25,818)천(각주: Cloudary 잔여분과 'the Munpia shares sold by Premier'), 2022말 46,964천 → 2023말 41,429천. 2023~2025 연결감사보고서 주주현황상 이 거래 뒤 네이버웹툰 보유 주식수는 5,942,700주로 변하지 않았다."
+ },
+ "evidence_add": [
+  {
+   "field": "post_events_summary,notes",
+   "phase": "인수 후",
+   "event_date": "2023-12-31",
+   "event_type": "기타",
+   "content": "문피아 2023 연결감사보고서 주요 주주현황: 당기말·전기말 모두 네이버웹툰 5,942,700주(57.78), 프리미어루나(유) 1,654,098주(16.08), Cloudary Holdings Limited 30,000주(0.29), 자기주식 561,693주(5.46), 발행주식 10,285,287주.",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20240329003581",
+   "doc_type": "DART 감사보고서",
+   "doc_date": "2024-03-29",
+   "doc_id": "20240329003581"
+  },
+  {
+   "field": "post_events_summary,notes",
+   "phase": "인수 후",
+   "event_date": "2025-12-31",
+   "event_type": "기타",
+   "content": "문피아 2025 연결감사보고서 주요 주주현황: 당기말·전기말 네이버웹툰 5,942,700주(57.78), 프리미어루나(유) 1,654,098주(16.08), Cloudary 30,000주(0.29), 자기주식 561,693주(5.46).",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260331004113",
+   "doc_type": "DART 감사보고서",
+   "doc_date": "2026-03-31",
+   "doc_id": "20260331004113"
+  },
+  {
+   "field": "chk_note",
+   "phase": "인수 전",
+   "event_date": "2019-09-30",
+   "event_type": "기타",
+   "content": "Global Venturing(OBU 투자 기사): 'China Literature’s international-focused subsidiary, Cloudary, is acquiring a 6.5% stake' — Cloudary가 China Literature의 해외 투자 자회사임을 보도(문피아 주주 Cloudary Holdings Limited의 정체 추정 근거 보강).",
+   "url": "https://globalventuring.com/china-literature-obu-investment",
+   "doc_type": "언론 보도",
+   "doc_date": "2019-09-30",
+   "doc_id": ""
+  },
+  {
+   "field": "notes,value_chk_usdmm",
+   "phase": "인수 후",
+   "event_date": "2022-12-31",
+   "event_type": "추가취득",
+   "content": "WEBTOON 424B4 Note 20 변동표: 'Recognition of redeemable non-controlling interest at Munpia acquisition date 84,002', 'Redemption of redeemable non-controlling interest (11,311)', 'Reclassification ... (25,818)'(각주: Cloudary 잔여분과 'the Munpia shares sold by Premier'), 2022말 46,964천 USD.",
+   "url": "https://www.sec.gov/Archives/edgar/data/1997859/000119312524169730/d396527d424b4.htm",
+   "doc_type": "SEC",
+   "doc_date": "2024-06-27",
+   "doc_id": "0001193125-24-169730"
+  },
+  {
+   "field": "earnings_call_note",
+   "phase": "인수 후",
+   "event_date": "2023-12-31",
+   "event_type": "실적",
+   "content": "WEBTOON 424B4 MD&A(2023 vs 2022): IP Adaptations 매출 증가가 'partially offset by the decrease of IP Adaptations revenue of Munpia, LOCUS and SIDUS Inc.'",
+   "url": "https://www.sec.gov/Archives/edgar/data/1997859/000119312524169730/d396527d424b4.htm",
+   "doc_type": "SEC",
+   "doc_date": "2024-06-27",
+   "doc_id": "0001193125-24-169730"
+  }
+ ],
+ "evidence_drop": []
+}

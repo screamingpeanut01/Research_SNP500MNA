@@ -1,0 +1,69 @@
+{
+ "deal_id": "N018",
+ "review_status": "수정",
+ "review_note": "확인한 것: (1) Yahoo Japan 2012-09-11 보도자료 PDF(lycorp.co.jp ja20120911_A)를 직접 받아 '全株式を取得', 목적 인용문, 설립 2006년 2월, 자본금 41,560만 엔을 원문과 대조했다. purpose_quote 첫 인용은 원문과 같다. (2) 2014-11-20 TDnet 합병 공시 PDF(minkabu 미러)를 받아 '2012年9月にコミュニティファクトリーを完全子会社', FY2014/3 단체 매출 200·영업이익 1·순이익 193·총자산 168·순자산 99백만 엔, 효력발생 2015-01-05(予定), 업적 영향 '軽微'를 확인했다. 두 번째 purpose_quote도 원문과 같다. (3) SEC 0001193125-12-406831(Yahoo! Inc. 10-K/A, Yahoo Japan 2012-03-31 감사 재무제표)에서 TOTAL ASSETS 562,022, Total equity 468,301백만 엔, 발행주식 58,184,240주, 자기주식 180,601주, 영업권 591백만 엔을 확인했다. (4) Yahoo Finance 4689.T 2012-09-10 조정 종가 289.5엔을 다시 받아 확인했고, ×100 환원과 시가총액 계산(28,950×58,184,240=1조 6,844억 엔), 총자산·자본 대비 비율(0.18%, 0.21%)을 다시 계산해 일치함을 확인했다. (5) The Next Web('$12.8 million (1 billion yen)', Mixi Fund 40%)과 GameBusiness.jp(mixi 특별이익 약 3억1,200만 엔 '見込み', 가격 기재 없음)를 열어 확인했다. 금액 출처를 확인하려고 Asiajin 원문을 열었고, 'TechCrunch Japan is reporting that the price stands at around 1 billion yen'이라고 적혀 있어 수집 기록의 금액 출처 서술(TechCrunch Japan→Asiajin→TNW)이 맞다. (6) 2009-04 mixi 대상 2,000만 엔 증자는 수집 단계에서 원문을 열지 않았다고 했으나, 이번에 atpress 릴리스(2009-04-23, 'mixiファンド投資第一弾', '総額2,000万円の第三者割当増資')를 열어 확인했다. / 고친 것: (a) impairment: '확인 안 됨'→'있음'. SEC EDGAR 전문 검색으로 찾은 Yahoo! Inc. 10-K/A(2014-09-19, Exhibit 99.1, Yahoo Japan 2014-03-31 연결 재무제표)에 'The Company recognized ¥829 million ... as a loss on write-down of the unamortized balance of goodwill for the year ended March 31, 2014, in relation to the goodwill of Community Factory Inc.'라고 적혀 있다. 손익계산서 영업외 항목 'Loss on write-down of unamortized balance of goodwill (829)'와 세그먼트 표 합계 829도 같다. 인수 1년 반 만에 남은 영업권을 전액 상각한 것이므로 '승자의 저주' 판단에 중요한 사실이다. (b) post_events_summary: FY2014/3 영업권 일괄상각 사건을 넣고, 2015-01-05 '예정'을 LINEヤフー 유가증권보고서 연혁('2012年９月 ㈱コミュニティファクトリーの株式を取得し、子会社とする(2015年１月に吸収合併)')에 근거해 '2015-01 흡수합병 완료'로 바꿨다. (c) pre_events_summary: 2009-04 항목을 원문 확인 내용으로 바꿨다. (d) notes: 손상 미확인 서술을 지우고, Yahoo Japan FY2013/3 연결 주석에 Crocos·Community Factory·Carview·CyberAgent FX 네 회사를 묶은 신규 연결 취득원가 23,234백만 엔만 있고 Community Factory 개별 취득가는 공시되지 않았다는 점을 적었다. / 남은 의문: 거래 금액(약 10억 엔)은 여전히 언론 추정치이며 1차 출처로 확정하지 못했다. mixi의 2012-09-11 TDnet 적시공시는 irbank 목록이 2012년까지 거슬러 열리지 않아(연도 지정 페이지에 목록 없음) 이번에도 열지 못했다. 인수 전 2개 연도와 FY2013/3 대상회사 실적은 웹 검색(결산공고·회사 자료)으로 두 번 더 찾았으나 공개 자료가 없어 미확인으로 둔다. earnings_call_note는 Yahoo Japan 2012년 결산설명회 관련 검색을 한 번 더 했으나 DECOPIC·コミュニティファクトリー 언급을 찾지 못해 미확인을 유지한다. 분류(MA① 경영권 인수, 편입 전, 완료 2012-09, 인접)는 정의대로 다시 판정해 유지했다. 같은 묶음의 N009·N010·N014·N017과는 대상회사가 달라 일관성 문제는 없다.",
+ "corrections": {
+  "impairment": "있음 (FY2014/3(2014-03-31 종료 회계연도), Yahoo Japan 연결 일본 GAAP: Community Factory 인수 영업권의 미상각 잔액 829백만 엔을 'Loss on write-down of the unamortized balance of goodwill'로 일괄 상각해 영업외 손실로 인식. Yahoo! Inc. 10-K/A 2014-09-19 Exhibit 99.1(SEC 0001193125-14-347093)의 Yahoo Japan 감사 재무제표 주석 2.c와 손익계산서. FY2013/3 같은 문서 계열(0001193125-13-369190)에는 Community Factory 개별 손상 기재 없음)",
+  "post_events_summary": "2012-09: Yahoo Japan 완전자회사로 편입(Yahoo Japan FY2013/3 연결 주석: Crocos·Community Factory·Carview·CyberAgent FX 신규 연결, 네 회사 합산 취득원가 23,234백만 엔); 2013-03: Yahoo Japan과 여성용 안드로이드 위젯 앱 Widgely 공동 출시, DECOPIC 누적 1,200만 DL(THE BRIDGE 2013-03-29); 2014-03: FY2014/3 단체 매출 200백만 엔·영업이익 1백만 엔; FY2014/3(2014-03 결산): Yahoo Japan이 Community Factory 영업권 미상각 잔액 829백만 엔을 일괄 상각(Yahoo! Inc. 10-K/A 2014-09-19 Ex.99.1); 2014-11-20: Yahoo Japan이 간이·약식 흡수합병 계약 체결(효력발생 예정일 2015-01-05); 2015-01: 흡수합병 완료, コミュニティファクトリー 해산(LINEヤフー 유가증권보고서 연혁 '2015年１月に吸収合併'); 2015-05: Yahoo 앱개발실장을 지낸 창업자 松本龍祐가 메르카리 집행임원에 취임(Business Insider Japan 2018-01-02 보도)",
+  "pre_events_summary": "2006-02(2006-02-08): コミュニティファクトリー 설립(대표 松本龍祐); 2009-04-23: mixi 대상 제3자배정 증자 총액 2,000만 엔('mixiファンド投資第一弾', atpress 릴리스); 2011-01: mixi 대상 제3자배정 증자 1억 8,000만 엔, 'みんなのケンテイ' 등 mixi 앱과 소셜게임 운영; 2012-05: DECOPIC에 유료 꾸미기 소재 'DECO SHOP' 기능 추가, Hello Kitty 협업; 2012-09: DECOPIC 약 700만 DL, mixi 펀드가 약 40%를 보유한 최대주주",
+  "notes": "매도자: mixi(Mixi Fund를 통해 약 40% 보유, The Next Web·Asiajin 보도)와 VC(みずほキャピタル·ニッセイキャピタル·三菱UFJキャピタル, 원자료 기재). mixi는 이 주식 양도로 특별이익 약 3억1,200만 엔을 계상할 전망이라고 보도됐다(GameBusiness.jp 2012-09-11). 거래 금액 약 10억 엔은 TechCrunch Japan 보도를 Asiajin·The Next Web이 재인용한 추정치다. Yahoo Japan FY2013/3 연결 주석에는 Crocos·Community Factory·Carview·CyberAgent FX 네 회사를 합친 취득원가 23,234백만 엔만 있고 Community Factory 개별 취득가는 공시되지 않았다. 인수 1년 반 뒤인 FY2014/3에 영업권 미상각 잔액 829백만 엔을 일괄 상각했고, 2015-01 흡수합병으로 법인이 소멸했다. mixi의 TDnet 적시공시 원문은 irbank 목록에서 2012년분을 찾지 못해 열어 보지 못했다. 같은 묶음(NV-D2)의 N009·N010(Brainer), N014(GyaO), N017(Venture Republic)과는 대상회사가 달라 직접 관계가 없고, 모두 Yahoo Japan의 편입 전 거래다. 부분 수집 사유: 대상회사의 인수 전 2개 연도와 FY2013/3 실적(비상장 소규모 회사로 공개 자료 없음), 어닝콜 언급, mixi 1차 공시를 확인하지 못함."
+ },
+ "evidence_add": [
+  {
+   "field": "impairment,post_events_summary",
+   "phase": "인수 후",
+   "event_date": "2014-03-31",
+   "event_type": "손상차손",
+   "content": "Yahoo Japan FY2014/3 연결 재무제표 주석 2.c: 'The Company recognized ¥829 million ($8,055 thousand) as a loss on write-down of the unamortized balance of goodwill for the year ended March 31, 2014, in relation to the goodwill of Community Factory Inc.' 손익계산서 'Loss on write-down of unamortized balance of goodwill (829)'.",
+   "url": "https://www.sec.gov/Archives/edgar/data/1011006/000119312514347093/d781891dex991.htm",
+   "doc_type": "SEC",
+   "doc_date": "2014-09-19",
+   "doc_id": "0001193125-14-347093"
+  },
+  {
+   "field": "post_events_summary,notes",
+   "phase": "인수 후",
+   "event_date": "2012-09",
+   "event_type": "완료",
+   "content": "Yahoo Japan FY2013/3 연결 주석: 'During the fiscal year ended March 31, 2013, the Company acquired the majority interest in Crocos Inc., Community Factory Inc., Carview Corporation, and CyberAgent FX, Inc.' 네 회사 합산 Acquisition costs 23,234백만 엔, 영업권 10,434백만 엔. 개별 금액 없음.",
+   "url": "https://www.sec.gov/Archives/edgar/data/1011006/000119312513369190/d588920dex991.htm",
+   "doc_type": "SEC",
+   "doc_date": "2013-09-17",
+   "doc_id": "0001193125-13-369190"
+  },
+  {
+   "field": "post_events_summary,status_chk",
+   "phase": "인수 후",
+   "event_date": "2015-01",
+   "event_type": "합병",
+   "content": "LINEヤフー 유가증권보고서(FY2021) 연혁: '2012年９月 ㈱コミュニティファクトリーの株式を取得し、子会社とする(2015年１月に吸収合併)'. EDINET 본문을 옮겨 둔 edinetdb.jp 페이지에서 확인.",
+   "url": "https://edinetdb.jp/company/E05000/text?fy=2021",
+   "doc_type": "EDINET",
+   "doc_date": "2022-06",
+   "doc_id": "E05000 FY2021 有価証券報告書"
+  },
+  {
+   "field": "value_chk_local,value_chk_usdmm,notes",
+   "phase": "발표",
+   "event_date": "2012-09-11",
+   "event_type": "발표",
+   "content": "'TechCrunch Japan is reporting that the price stands at around 1 billion yen, which currently translates to US$12.8 million.' Mixi Fund는 'the biggest shareholder in Community Factory (40%)'.",
+   "url": "https://asiajin.com/blog/2012/09/yahoo-japan-community-factory-acquisition/",
+   "doc_type": "언론 보도",
+   "doc_date": "2012-09-11",
+   "doc_id": ""
+  },
+  {
+   "field": "pre_events_summary",
+   "phase": "인수 전",
+   "event_date": "2009-04-23",
+   "event_type": "투자유치",
+   "content": "원문 확인: 株式会社コミュニティファクトリー가 株式会社ミクシィ를 대상으로 '総額2,000万円の第三者割当増資を行いました'. 부제 'mixiファンド投資第一弾'. (기존 같은 URL 근거 행의 '원문은 열지 않음' 서술을 대체)",
+   "url": "https://www.atpress.ne.jp/news/10777",
+   "doc_type": "회사 보도자료",
+   "doc_date": "2009-04-23",
+   "doc_id": ""
+  }
+ ],
+ "evidence_drop": []
+}

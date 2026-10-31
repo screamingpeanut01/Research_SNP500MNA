@@ -1,0 +1,47 @@
+{
+ "batch": "NV-F",
+ "deals": [
+  {
+   "deal_id": "N068",
+   "value_rank": "104",
+   "top50": "False",
+   "event_group": "",
+   "firm": "Naver",
+   "date": "2021-10-13",
+   "target": "Suede One Inc.",
+   "cat": "Commerce & Marketing",
+   "subcat": "E-commerce / Marketplace",
+   "status": "Closed",
+   "value": "9.1",
+   "buyers": "Poshmark, Inc.",
+   "sellers": "-",
+   "comment": "Poshmark, Inc. (NasdaqGS:POSH) acquired Suede One Inc. on October 12, 2021. The Suede One team will join the Poshmark team.",
+   "role": "MA-1 그룹이 매수자",
+   "stake": "지분율 미기재(대개 100%·사업양수)",
+   "subtype": "MA① 경영권 인수",
+   "pre_incorp": "",
+   "value_flag": "False"
+  },
+  {
+   "deal_id": "N078",
+   "value_rank": "2",
+   "top50": "True",
+   "event_group": "",
+   "firm": "Naver",
+   "date": "2022-10-03",
+   "target": "Poshmark, Inc.",
+   "cat": "Commerce & Marketing",
+   "subcat": "E-commerce / Marketplace",
+   "status": "Closed",
+   "value": "1637.54",
+   "buyers": "NAVER Corporation (KOSE:A035420)",
+   "sellers": "J.F. Shea Venture Capital; Mayfield Fund, L.L.C.; Menlo Ventures Management, L.P.; Temasek Holdings (Private) Limited; The Vanguard Group, Inc.; Granite Asia; Inventus Capital Partners; Cross Creek Advisors, LLC; UGVP Management, LLC; Dorsey Asset Management LLC; Anderson Investments Pte Ltd",
+   "comment": "NAVER Corporation (KOSE:A035420) entered into a definitive agreement to acquire Poshmark, Inc. (NasdaqGS:POSH) from GGV Capital V Entrepreneurs Fund L.P., GGV Capital V L.P. managed by GGV Capital, LLC, Mayfield XIII, L.P., Mayfield Select managed by Mayfield Fund, LLC and others for $1.6 billion on October 3, 2022. Under the agreement, Naver will acquire all of the issued and outstanding shares of Poshmark for $17.90 in cash, representing an enterprise value of approximately $1.2 billion, assuming $436 million of unrestricted cash on balance sheet as of June 30, 2022. The transaction is expected to be funded with Naver’s cash balances and other existing financing sources. Upon completion of the transaction, Poshmark will become a standalone U.S. subsidiary of Naver and will continue to be led by Founder and Chief Executive Officer Manish Chandra and Poshmark’s current management team. Poshmark will pay a termination fee of $52.913 million to NAVER, in case Poshmark terminates the transaction. Poshmark will continue to operate under its existing brand, as well as maintain its employee base, Poshmark community, and headquarters in Redwood City, California.\r\n\r\nThe transaction is subject to approval by Poshmark stockholders, expiration or termination of any applicable waiting periods under the Hart-Scott-Rodino Act and the satisfaction of certain other customary closing conditions. The transaction is not contingent on any financing. The transaction was unanimously approved by both Naver’s and Poshmark’s Boards of Directors. Naver has secured voting and support agreements with certain stockholders of Poshmark, representing approximately 77% of the outstanding voting power of Poshmark common shares. The special meeting of Poshmark is scheduled on December 27, 2022. The transaction has been approved by the shareholders of Poshmark on December 27, 2022, The transaction is expected to close by the first quarter of 2023. As of December 27, 2022, the transaction is expected to close in early January 2023. The acquisition is expected to be accretive to go-forward growth with clear path to profitability and is expected to generate significant revenue and cost synergies, consisting primarily of re-acceleration of annual revenue growth beyond 20% in the near-term by leveraging Naver’s advertising capabilities and approximately $30 million in run-rate annual cost savings within 24 months post-closing.\r\n\r\nLionTree LLC is serving as Naver’s exclusive financial advisor and Edward J. Lee, Rohit A. Nafday, John Kleinjan, Adam Kool, Jake Jung, Seth Traxler, Bernadette Coppola, Ian G. John, Marin Boney, Peter C. Fritz, and Rachael G. Coffey of Kirkland & Ellis LLP is serving as Naver’s legal counsel. Goldman Sachs & Co. LLC is serving as exclusive financial advisor and fairness opinion provider to Poshmark, and Anthony McCusker, Joshua Zachariah, Jean Lee, Jeffrey Letalien, Jacqueline Klosek, James Riley, Lynda Galligan, Monica Patel, Janet Andolina, Benjamin Gossels, Britt Hamilton, Andrew Lacy, Simone Waterbury, Michael Casaburi, Deborah Birnbach, Richard Matheny, Ce (Charles) Li of Goodwin Procter LLP are serving as Poshmark’s legal counsel. Innisfree M&A Inc. is acting as proxy solicitation agent for Poshmark for a fee of up to $45,000. American Stock Transfer & Trust Company, LLC is the transfer agent for shares of Poshmark. Goldman Sachs & Co. LLC will receive a fee of $35.2 million from Poshmark for its services. Stephen M. Kotran of Sullivan & Cromwell LLP represents Goldman Sachs & Co. LLC as exclusive financial adviser to Poshmark, Inc.",
+   "role": "MA-1 그룹이 매수자",
+   "stake": "과반 인수(≥50%)",
+   "subtype": "MA① 경영권 인수",
+   "pre_incorp": "",
+   "value_flag": "False"
+  }
+ ]
+}

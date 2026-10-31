@@ -1,0 +1,47 @@
+{
+ "batch": "CJ-D",
+ "deals": [
+  {
+   "deal_id": "C020",
+   "value_rank": "7",
+   "top50": "True",
+   "event_group": "",
+   "firm": "CJ ENM",
+   "date": "2021-11-18",
+   "target": "Scripted Business of IMG Worldwide, LLC",
+   "cat": "Content Production & Investment",
+   "subcat": "Content Production Studio",
+   "status": "Closed",
+   "value": "775.28",
+   "buyers": "CJ ENM CO., Ltd. (KOSDAQ:A035760)",
+   "sellers": "IMG Worldwide, LLC",
+   "comment": "CJ ENM CO., Ltd. (KOSDAQ:A035760) entered into a purchase agreement to acquire 80% stake in scripted business of IMG Worldwide, LLC for approximately $780 million on November 18, 2021. CJ ENM CO., Ltd. will subscribe for and accept from Endeavor Content, a number of newly issued equity interests in Endeavor Content equal to 80% of the total issued and outstanding equity interests of Endeavor Content, on a fully-diluted basis (excluding equity interests related to any post-closing employee incentive plans) in exchange for proceeds equal to $775.3 million (subject to certain adjustments) at an enterprise value of $850 million, including $655.3 million in proceeds to be paid to IMG Worldwide (subject to certain adjustments) and $120 million paid to Endeavor Content (subject to certain adjustments). The transaction implies an approximately $970 million post-money equity valuation for Endeavor Content and will include the assets and liabilities associated therewith, including Endeavor Content’s related production financing facilities, and of which Endeavor is entitled to sweep up to an additional $55 million of Endeavor Content’s cash (subject to certain adjustments) as part of the transaction. Post-closing, IMG Worldwide will retain 20% of the total issued and outstanding equity interests of Endeavor Content, on a fully-diluted basis (excluding equity interests related to any post-closing employee incentive plans) along with the scripted portion of the business, in addition to retaining the non-scripted portion of the business, as well as certain documentary and film sales and financing consulting services. Endeavor Content’s Graham Taylor and Chris Rice will continue to lead the studio as co-Chief Executive Officers.\r\n\r\nThe transaction is subject to certain customary conditions, expiration of the waiting period under the Hart-Scott-Rodino Antitrust Improvements Act of 1976, as amended, obtaining other applicable regulatory approvals and consummation of an internal reorganization to be affected by Endeavor Content and IMG Worldwide, LLC in advance of consummating the transaction. The transaction has been approved by CJ ENM’s Board of Directors on November 19, 2021. The consummation of the transaction is not subject to a financing condition. The deal will close early in the first quarter of 2022. As of December 29, 2021, the transaction is expected to close within January 2022.\r\n\r\nJ.P. Morgan acted as exclusive financial advisor and O’Melveny & Myers acted as legal advisor to CJ ENM in the transaction. The Raine Group acted as exclusive financial advisor and Justin Hamill, Rick Offsay, Michael Anastasio, Matthew Dewitz, Nancy Bruington, Joshua Tinkelman, Seniz Yakut, Austin Ozawa, Ghaith Mahmood, Robert Blamires, Nineveh Alkas, Robert Gilbert, Amanda Reeves, Peter Todaro, Michelle Kelban, Christopher Norton, Benjamin Naftalis Stephanie Fontanes, Benjamin Cohen, Ellen Smiley and Robert McGuire of Latham & Watkins LLP, Sarah Gadd of Latham & Watkins (London) LLP acted as legal advisors and Tomas Nilsson of Latham & Watkins Belgium acted as legal advisor to Endeavor, parent of IMG Worldwide, LLC.",
+   "role": "MA-1 그룹이 매수자",
+   "stake": "과반 인수(≥50%)",
+   "subtype": "MA① 경영권 인수",
+   "pre_incorp": "",
+   "value_flag": "False"
+  },
+  {
+   "deal_id": "C030",
+   "value_rank": "20",
+   "top50": "True",
+   "event_group": "",
+   "firm": "CJ ENM",
+   "date": "2023-12-10",
+   "target": "Fifth Season LLC",
+   "cat": "Content Production & Investment",
+   "subcat": "Content Production Studio",
+   "status": "Closed",
+   "value": "225.0",
+   "buyers": "Toho International, Inc.",
+   "sellers": "CJ ENM CO., Ltd. (KOSDAQ:A035760); Endeavor Group Holdings, Inc. (NYSE:EDR)",
+   "comment": "Toho International Inc acquired 25% stake in FIFTH SEASON LLC from Endeavor Group Holdings, Inc. (NYSE:EDR) and CJ ENM CO., Ltd. (KOSDAQ:A035760) for approximately $230 million on December 10, 2023. Korea’s CJ ENM remains the majority shareholder in Fifth Season, while Endeavor Group Holdings continues as a strategic shareholder along with Toho International Inc. The Toho International development and production executives will also team with Fifth Season executives on shows, which will then be sold by the CJ ENM-owned company’s sales division. The Raine Group LLC acted as financial advisor, O'Melveny & Myers LLP acted as legal advisor to Fifth Season.",
+   "role": "MA-3 그룹의 지분 매각",
+   "stake": "",
+   "subtype": "MA⑤ 그룹의 지분 매각",
+   "pre_incorp": "",
+   "value_flag": "False"
+  }
+ ]
+}

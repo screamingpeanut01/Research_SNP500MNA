@@ -1,0 +1,111 @@
+{
+ "deal_id": "N033",
+ "review_status": "수정",
+ "review_note": "확인한 것: LINE 적시공시(lycorp PDF)·SEC 6-K(2016-10-13)로 발표일 2016-10-13, 2,220,000주(발행주식 20.0%·의결권 22.03%), 취득가 약 40억円, 목적 인용('O2O（Online to Offline）領域及びデリバリー領域へ本格的に参入') 일치; 夢の街 2016-10-13 공시로 목적 인용·'NAVER Corporation 約81%' 일치; 2016-10-14 공시로 キトプランニング 1,320,000주·一村哲也 900,000주, 1주 1,800円, 의결권 분모 100,732개 일치; LINE 2016 3분기 6-K로 10-14 2,376,000천円·10-18 1,620,000천円 현금 취득, 9-29 이사회, 총자산 218,088,416천円·지배주주지분 156,480,223천円·발행주식 217,147,000주 일치 → deal_to_assets 1.83%·deal_to_equity 2.55% 재계산 일치; FRED DEXJPUS 2016-10-13 103.62 → 38.56백만달러(원자료 38.57) 일치; LINE 20-F FY2016으로 FY2015 매출 구성(120,406백만円 등), 2016-10 東証 고저 5,000/4,305円, 22.0%, 공정가치 6,062,820천円 일치; NAVER 2016 사업보고서(정정, dart.py)로 LINE 80.35%, Yume 22.09%·취득 43,706,487천원·기말 43,410,681천원·공정가치 62,860백만원, 2015말 연결 자산총계 4,385,913백만원, 주식 32,962,679주 일치; Yahoo Finance로 035420.KS 2016-10-12 172,800(×5=864,000원), 2484.T 500.0·521.0(×4=2,000·2,084円) 일치; EDINET S100BUW7·S100ENXR·S10096NN으로 FY2015/8~FY2018/8 매출·영업이익 일치; 2026年8月期 決算短信으로 39,057·△8,288백만円 일치; LINE 6-K 2020-03-27(20,548,000주, 15,000,040,000円, NAVER J.Hub 90%, 인용 2개)·2020 2분기 6-K(21.7%→35.9%, 19,448백만円) 일치; NAVER 2020 사업보고서 사업결합 주석(60.79%, 418,505,121천원, 영업권 201,274,785천원, 21.60% 재측정 36,411백만원)과 2021 주석(7.91%, 연결 제외 문장) 일치; EDINET S100N5EF·S100PPM7·S100X153·S100V7QS·S100RT3L의 친회사 변경 문장, 19,158,900주·1,736円·834억円, 35.30%·18.42%, 31.29%(직전 33.40%), 대표 경력 일치; 2013-07-16 夢の街 공시로 キトプランニング 筆頭株主化 확인. 분류(MA③, 편입 후, 완료 2016-10-18, 인접) 재판정 결과 유지. / 고친 것: post_events_summary — LINEヤフー 장내 처분은 2024-12가 아니라 2024-07부터 이어졌고(대량보유 변경보고서 2024-07-18 37.43%, 2024-11-05 35.86%), 2025-01-31 出前館 자기주식 20,040,800주 소각이 빠져 있었으며, 2025-08-31 의결권 비율 35.3%가 31.29%보다 높은 이유(분모 감소·기준 차이)를 밝힘. impairment — LINE 2020년 3분기 관계기업 손상(17,101백만円, 주 대상 LINE Games, DEMAE-CAN 언급 없음)과 2020-10-28 적시공시(4개사 16,302백만円)를 확인 범위에 추가(결론 '확인 안 됨' 유지). evidence 보완: FY2015/8 영업이익 546,771천円 근거(S10096NN), earnings_call_note의 20-F FY2017 인용 근거, notes의 2024-08-31 지분 근거(S100UVPV), 藤井英雄 LINE 출신 근거. / 남은 의문: acq_mktcap — LINE 2016-10-12 일별 종가를 Yahoo Finance(3938.T·LN 상장폐지로 데이터 없음)와 웹 검색으로 다시 찾았으나 못 찾아 월간 고저가 범위 추정 유지(collect_status '부분' 유지). 대량보유 보고서 보유 총수(2024-11 47,492,100주)와 有報 대주주표 직접 보유(2024-08-31 38,700,800주)의 차이(보고서 별도 칸 2,054,800주 등) 내역은 확인하지 못함. NAVER 2024-08-31 25.0% 행은 직접 보지 못함. 2020-04 LINE·未来Fund 300억円 제3자배정(NAVER 연결 편입)은 원자료에 별도 행이 없음 — 수집 기록대로 원자료 누락 의심.",
+ "corrections": {
+  "post_events_summary": "2016-10-14: キトプランニング 1,320,000주 취득(2,376,000천円); 2016-10-18: 一村哲也 900,000주 취득(1,620,000천円), LINE 지분 20.0%(의결권 22.0%)·지분법 적용, LINE이 筆頭株主; 2016-12-31: NAVER 연결주석상 관계기업 22.09%, 장부 43,410,681천원(공정가치 62,860백만원); 2017-03-01: 夢の街 1:4 분할(LINE 8,880,000주); 2017-07: LINE과 공동 운영 'LINEデリマ' 개시; 2019-06: 신주예약권 행사로 LINE 지분 21.7%로 희석; 2019-11-28: 사명 ㈱出前館으로 변경; 2020-03-26: LINE·未来Fund 제3자배정 300억円 계약; 2020-04-24: 납입, LINE 35.9%·未来Fund 25.0%, NAVER 연결 편입(지분 60.79% 취득으로 처리, 영업권 201,274,785천원); 2020-06: LINE 출신 藤井英雄 대표 취임; 2021-03-01: LINE–Z Holdings 경영통합, 出前館의 친회사가 NAVER에서 Z Holdings 쪽으로 바뀌어 NAVER 연결 제외(2021-12-31 NAVER 지분율 7.91%); 2021-09-30: 해외모집·Z Holdings·NAVER 제3자배정 등 834억円 조달; 2022: 과년도 부적절 회계처리 판명, 결산 정정; 2023-10-01: Z Holdings가 LINE 등과 합병해 LINEヤフー로 직접 보유; 2024-09: LINE 출신 矢野哲 대표 취임; 2024-07~2025-02: LINEヤフー 장내 처분 지속 — 대량보유 변경보고서상 보유비율(발행주식 132,421,230주 대비) 38.44%(직전 보고)→37.43%(2024-07-18, 49,570,200주)→35.86%(2024-11-05, 47,492,100주)→31.29%(2025-02-05, 41,433,400주; 직전 33.40%); 2025-01-31: 出前館 자기주식 20,040,800주 소각(발행주식 132,421,230→112,380,430주); 2025-08-31: 有報 의결권 기준 LINEヤフー 35.3%·NAVER 27.7%(간접 18.4%=未来Fund) — 자기주식 소각으로 분모가 줄어 대량보유 보고 비율(31.29%)보다 높게 표시됨; FY2026/8: 영업손실 △8,288백만円",
+  "impairment": "확인 안 됨 (LINE 20-F FY2016·FY2017·FY2018·FY2019와 2020년 6-K, NAVER 2016·2020·2021 사업보고서에서 Yume no Machi/DEMAE-CAN 투자주식·영업권 손상 기재를 찾지 못함. 검토 추가 확인: LINE은 2020년 1~9월 관계기업 투자 손상 17,101백만円(IFRS 연결)을 인식했으나 주석이 든 주된 대상은 LINE Games이고, 같은 주석의 DEMAE-CAN 투자 장부가는 18,361백만円(2020-09-30)으로 손상 언급이 없음(LINE 6-K 2020-11-06); LINE 2020-10-28 적시공시의 '関連会社株式に関する減損損失16,302百万円'은 지분법 관계회사 4개사 합계로 회사명 미기재. NAVER는 2020-04 연결 편입 시 영업권 201,274,785천원을 인식했으나 같은 해 경영통합 대상 매각예정·중단영업으로 분류했고 2021년 연결 제외 — 그 과정의 손상 여부는 미기재. 2021-03 이후 Z Holdings/LINEヤフー 측 出前館 지분법 투자 손상은 웹 검색으로 찾지 못함(유가증권보고서 미대조))"
+ },
+ "evidence_add": [
+  {
+   "field": "target_rev_pre,target_op_pre,perf_basis",
+   "phase": "인수 전",
+   "event_date": "2016-08-31",
+   "event_type": "실적",
+   "content": "夢の街 第17期(FY2016/8) 有価証券報告書(提出 2016-11-25) 連結損益計算書: 売上高 3,661,309(FY2015/8)·4,154,833(FY2016/8)千円, 営業利益 546,771·572,754千円. FY2015/8 영업이익 546,771은 기존 근거(S100BUW7, FY2017/8 有報)에는 없어 이 문서로 보완.",
+   "url": "https://disclosure2dl.edinet-fsa.go.jp/searchdocument/pdf/S10096NN.pdf",
+   "doc_type": "EDINET",
+   "doc_date": "2016-11-25",
+   "doc_id": "S10096NN"
+  },
+  {
+   "field": "earnings_call_note",
+   "phase": "인수 후",
+   "event_date": "2018-03-30",
+   "event_type": "어닝콜",
+   "content": "LINE 20-F FY2017: 'We operate LINE Delima service in collaboration with Yume no Machi Souzou Iinkai Co., Ltd., a company in which we hold a 22.0% interest'. 기존 근거 목록에 이 문서 행이 없어 추가.",
+   "url": "https://www.sec.gov/Archives/edgar/data/1611820/000119312518102738/d661717d20f.htm",
+   "doc_type": "SEC",
+   "doc_date": "2018-03-30",
+   "doc_id": "0001193125-18-102738"
+  },
+  {
+   "field": "impairment",
+   "phase": "인수 후",
+   "event_date": "2020-09-30",
+   "event_type": "기타",
+   "content": "LINE 2020년 3분기 보고서(6-K) 주석: 'Impairments of investments in associates of 17,101 million yen'(1~9월), 'A significant impairment…is the following impairment of investment in LINE Games'; DEMAE-CAN 투자 장부가 18,361백만円(2020-09-30), DEMAE-CAN 손상 언급 없음.",
+   "url": "https://www.sec.gov/Archives/edgar/data/1611820/000119312520287326/d20073d6k.htm",
+   "doc_type": "SEC",
+   "doc_date": "2020-11-06",
+   "doc_id": "0001193125-20-287326"
+  },
+  {
+   "field": "impairment",
+   "phase": "인수 후",
+   "event_date": "2020-10-28",
+   "event_type": "기타",
+   "content": "LINE 적시공시 '関連会社株式、無形資産及びその他の流動資産の減損損失の計上に関するお知らせ': '持分法適用関連会社4社について…関連会社株式に関する減損損失16,302百万円'(회사명 미기재). minkabu TDnet 미러로 열람(jpx 원 URL은 만료).",
+   "url": "https://assets.minkabu.jp/news/article_media_content/urn:newsml:tdnet.info:20201026408398/140120201026408398.pdf",
+   "doc_type": "TDnet",
+   "doc_date": "2020-10-28",
+   "doc_id": ""
+  },
+  {
+   "field": "post_events_summary",
+   "phase": "인수 후",
+   "event_date": "2024-07-18",
+   "event_type": "매각",
+   "content": "LINEヤフー 대량보유 변경보고서(제출 2024-07-25): 2024-07-16~18 市場内 処分(428,600·428,600·214,300주), 보유 총수 49,570,200주, 보유비율 37.43%(직전 38.44%), 발행주식 132,421,230주.",
+   "url": "https://disclosure2dl.edinet-fsa.go.jp/searchdocument/pdf/S100U2YU.pdf",
+   "doc_type": "EDINET",
+   "doc_date": "2024-07-25",
+   "doc_id": "S100U2YU"
+  },
+  {
+   "field": "post_events_summary",
+   "phase": "인수 후",
+   "event_date": "2024-11-05",
+   "event_type": "매각",
+   "content": "LINEヤフー 대량보유 변경보고서(제출 2024-11-12): 2024-09 이후 市場内 処分 지속, 보유 총수 47,492,100주, 보유비율 35.86%(직전 36.91%).",
+   "url": "https://disclosure2dl.edinet-fsa.go.jp/searchdocument/pdf/S100UMYQ.pdf",
+   "doc_type": "EDINET",
+   "doc_date": "2024-11-12",
+   "doc_id": "S100UMYQ"
+  },
+  {
+   "field": "post_events_summary",
+   "phase": "인수 후",
+   "event_date": "2025-01-31",
+   "event_type": "기타",
+   "content": "出前館 FY2025/8 有価証券報告書 発行済株式総数の推移: '2025年1月31日 △20,040,800 112,380,430', '発行済株式総数の減少は、自己株式の消却によるもの'.",
+   "url": "https://disclosure2dl.edinet-fsa.go.jp/searchdocument/pdf/S100X153.pdf",
+   "doc_type": "EDINET",
+   "doc_date": "2025-11-26",
+   "doc_id": "S100X153"
+  },
+  {
+   "field": "notes",
+   "phase": "인수 후",
+   "event_date": "2024-08-31",
+   "event_type": "기타",
+   "content": "出前館 第25期(FY2024/8) 有価証券報告書(提出 2024-12-02): その他の関係会社 표에 LINEヤフー 의결권 피소유 (37.4)%; 대주주표 LINEヤフー 38,700,800주(31.25%)·未来Fund 20,548,000주(16.59%). notes의 2024-08-31 지분 서술 근거(NAVER 25.0% 행은 검토에서 직접 보지 못함).",
+   "url": "https://disclosure2dl.edinet-fsa.go.jp/searchdocument/pdf/S100UVPV.pdf",
+   "doc_type": "EDINET",
+   "doc_date": "2024-12-02",
+   "doc_id": "S100UVPV"
+  },
+  {
+   "field": "post_events_summary",
+   "phase": "인수 후",
+   "event_date": "2020-06",
+   "event_type": "경영진변경",
+   "content": "出前館 FY2021/8 有価証券報告書 役員 경력: 藤井英雄 '2016年10月 LINE株式会社 入社', '2019年2月 LINE株式会社 執行役員 O2OカンパニーCEO', '2020年6月 当社 代表取締役社長(CEO)' — 'LINE 출신' 서술 근거.",
+   "url": "https://disclosure2dl.edinet-fsa.go.jp/searchdocument/pdf/S100N5EF.pdf",
+   "doc_type": "EDINET",
+   "doc_date": "2021-11-26",
+   "doc_id": "S100N5EF"
+  }
+ ],
+ "evidence_drop": []
+}

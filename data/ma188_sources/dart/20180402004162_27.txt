@@ -1,0 +1,482 @@
+IX. 계열회사 등에 관한 사항
+가. 계열회사의 현황
+(1) 회사가 속해있는 기업집단의 명칭 : 현대자동차그룹 
+당사는 독점규제 및 공정거래에 관한 법률상 현대자동차그룹에 속한 회사로서, 2017년말 현재 현대자동차그룹에는 당사를 포함한 국내 56개의 계열회사가 있으며,상장 11개사, 비상장 45개사로 구성되어 있습니다. 그 세부현황은 다음과 같습니다.
+ (2017. 12. 31 현재, 국내, 법인등록번호)
+ 구 분 | 회사수 | 회 사 명 | 법인등록번호 | 상장사 | 11개사 | 현대자동차 | 110111-0085450 | 기아자동차 | 110111-0037998 | 현대제철 | 120111-0001743 | 현대모비스 | 110111-0215536 | 현대건설 | 110111-0007909 | 현대글로비스 | 110111-2177388 | 현대위아 | 194211-0000125 | 현대로템 | 194211-0036336 | 이노션 | 110111-3229097 | 현대비앤지스틸 | 110111-0065395 | 현대차투자증권 | 110111-0019962 | 비상장사 | 45개사 | 현대엔지니어링 | 110111-2153015 | 현대파워텍 | 161411-0009403 | 현대다이모스 | 161411-0008562 | 현대케피코 | 110111-0543169 | 현대오토에버 | 110111-1935638 | 현대스틸산업 | 161411-0009437 | 현대에너지 | 206211-0039541 | 현대도시개발 | 165111-0006964 | 그린에어 | 165011-0026005 | 현대종합특수강 | 110111-4505595 | 해비치호텔앤드리조트 | 224111-0006681 | 현대아이에이치엘 | 171211-0007722 | 해비치컨트리클럽 | 110111-0616049 | 현대오트론 | 134111-0134001 | 현대엠시트 | 110111-2410366 | 부산정관에너지 | 180111-0484898 | 현대엠엔소프트 | 110111-1620239 | 현대파텍스 | 161411-0015955 | 에이치엘그린파워 | 135211-0027542 | 위아마그나파워트레인 | 164811-0048707 | 서울PMC | 110111-0109060 | 현대종합설계건축사사무소 | 110111-2210097 | 현대머티리얼 | 110111-4364008 | 송도랜드마크시티 | 110114-0065167 | 지아이티 | 131111-0028900 | 현대서산농장 | 161411-0015129 | 현대첨단소재 | 110111-1929102 | 현대위아터보 | 161411-0030193 | 현대엔지비 | 110111-2094201 | 하떠이알앤씨 | 110111-3705807 | 서림개발 | 134211-0002264 | 서림환경기술 | 134211-0099493 | 기아타이거즈 | 200111-0003883 | 메인트란스 | 110111-3920520 | 율촌제2산업단지개발 | 206211-0046653 | 전북현대모터스에프씨 | 210111-0062829 | 부산파이낸스센터에이엠씨 | 110111-4203727 | 현대에코에너지 | 161411-0040506 | 지마린서비스 | 180111-0566133 | 아토즈서플라이서비스 | 110111-1357717 | 현대캐피탈 | 110111-0995378 | 현대카드 | 110111-0377203 | 현대라이프생명보험 | 110111-2762668 | 현대커머셜 | 110111-3646697 | 블루월넛 | 110111-6254562 | 총 | 56개 | (2) 계통도 
+보고서 제출기준일 현재 당사가 속한 계열회사의 주요 계통도는 다음과 같습니다.
+ ① 국내법인
+ (2017. 12. 31 기준)
+ 계열사
+＼
+주요주주사 | 1
+현
+대
+자
+동
+차 | 2
+기
+아
+자
+동
+차 | 3
+현
+대
+제
+철 | 4
+현
+대
+모
+비
+스 | 5
+현
+대
+건
+설 | 6
+현
+대
+글
+로
+비
+스 | 7
+현
+대
+엔
+지
+니
+어
+링 | 8
+현
+대
+위
+아 | 9
+현
+대
+로
+템 | 10
+현
+대
+파
+워
+텍 | 11
+현
+대
+다
+이
+모
+스 | 12
+현
+대
+케
+피
+코 | 13
+이
+노
+션 | 14
+현
+대
+오
+토
+에
+버 | 15
+현
+대
+스
+틸
+산
+업 | 16
+현
+대
+비
+앤
+지
+스
+틸 | 17
+현
+대
+에
+너
+지 | 18
+해
+비
+치
+호
+텔
+앤
+드
+리
+조
+트 | 현대자동차 | 33.88 | 6.87 | 20.95 | 4.88 | 25.35 | 43.36 | 37.58 | 47.27 | 100 | 28.96 | 41.90 | 기아자동차 | 17.27 | 16.88 | 5.24 | 9.35 | 13.44 | 37.58 | 45.37 | 19.37 | 23.24 | 현대제철 | 5.66 | 41.12 | 현대모비스 | 20.78 | 8.73 | 9.35 | 24.85 | 19.37 | 5.81 | 현대글로비스 | 0.67 | 11.67 | 2.91 | 현대위아 | 5.12 | 9.88 | 현대로템 | 현대다이모스 | 현대머티리얼 | 서림개발 | 지마린서비스 | 현대카드 | 현대커머셜 | 현대건설 | 38.62 | 2.21 | 100 | 49.00 | 현대엔지니어링 | 0.63 | 현대스틸산업 | 0.32 | 합 계 | 20.78 | 33.88 | 24.15 | 23.20 | 34.91 | 4.88 | 68.99 | 38.78 | 43.36 | 100 | 97.76 | 100 | 70.85 | 100 | 41.12 | 49.00 | 83.73 | (2017. 12. 31 기준)
+ 계열사
+＼
+주요주주사 | 19
+현
+대
+도
+시
+개
+발 | 20
+현
+대
+종
+합
+특
+수
+강 | 21
+현
+대
+아
+이
+에
+이
+치
+엘 | 22
+그
+린
+에
+어 | 23
+해
+비
+치
+컨
+트
+리
+클
+럽 | 24
+현
+대
+오
+트
+론 | 25
+송
+도
+랜
+드
+마
+크
+시
+티 | 26
+현
+대
+엠
+시
+트 | 27
+현
+대
+엠
+엔
+소
+프
+트 | 28
+부
+산
+정
+관
+에
+너
+지 | 29
+현
+대
+파
+텍
+스 | 30
+에
+이
+치
+엘
+그
+린
+파
+워 | 31
+지
+아
+이
+티 | 32
+위
+아
+마
+그
+나
+파
+워
+트
+레
+인 | 33
+현
+대
+머
+티
+리
+얼 | 34
+서
+울
+피
+엠
+씨 | 35
+현
+대
+위
+아
+터
+보 | 36
+현
+대
+종
+합
+설
+계
+건
+축
+사
+사
+무
+소 | 현대자동차 | 30.00 | 60.00 | 31.84 | 56.00 | 기아자동차 | 15.00 | 20.00 | 31.00 | 현대제철 | 60.00 | 현대모비스 | 90.00 | 15.00 | 20.00 | 25.67 | 13.00 | 51.00 | 45.87 | 현대글로비스 | 현대위아 | 40.00 | 50.00 | 100 | 현대로템 | 51.00 | 현대다이모스 | 99.81 | 현대머티리얼 | 서림개발 | 지마린서비스 | 현대카드 | 현대커머셜 | 현대건설 | 100 | 50.26 | 56.76 | 84.79 | 현대엔지니어링 | 40.00 | 현대스틸산업 | 합 계 | 100 | 100 | 90.00 | 51.00 | 100 | 100 | 50.26 | 99.81 | 57.50 | 56.76 | 100 | 51.00 | 45.87 | 50.00 | 100 | 84.79 | (2017. 12. 31 기준)
+ 계열사
+＼
+주요주주사 | 37
+현
+대
+서
+산
+농
+장 | 38
+현
+대
+첨
+단
+소
+재 | 39
+하
+떠
+이
+알
+앤
+씨 | 40
+현
+대
+엔
+지
+비 | 41
+서
+림
+개
+발 | 42
+서
+림
+환
+경
+기
+술 | 43
+메
+인
+트
+란
+스 | 44
+기
+아
+타
+이
+거
+즈 | 45
+전
+북
+현
+대
+모
+터
+스
+에
+프
+씨 | 46
+율
+촌
+제
+2
+산
+업
+단
+지
+개
+발 | 47
+부
+산
+파
+이
+낸
+스
+센
+터
+에
+이
+엠
+씨 | 48
+현
+대
+에
+코
+에
+너
+지 | 49
+지
+마
+린
+서
+비
+스 | 50
+아
+토
+즈
+서
+플
+라
+이
+서
+비
+스 | 51
+현
+대
+캐
+피
+탈 | 52
+현
+대
+카
+드 | 53
+현
+대
+라
+이
+프
+생
+명
+보
+험 | 54
+현
+대
+커
+머
+셜 | 55
+현
+대
+차
+투
+자
+증
+권 | 56
+블
+루
+월
+넛 | 현대자동차 | 53.66 | 100 | 59.68 | 36.96 | 50.00 | 27.49 | 기아자동차 | 24.39 | 100 | 20.10 | 11.48 | 4.90 | 현대제철 | 현대모비스 | 30.28 | 16.99 | 현대글로비스 | 100 | 현대위아 | 현대로템 | 80.00 | 현대다이모스 | 현대머티리얼 | 100 | 서림개발 | 75.25 | 지마린서비스 | 100 | 현대카드 | 100 | 현대커머셜 | 24.54 | 20.37 | 현대건설 | 84.67 | 100 | 48.00 | 18.48 | 100 | 현대엔지니어링 | 6.15 | 현대스틸산업 | 합 계 | 84.67 | 100 | 100 | 78.05 | 75.25 | 80.00 | 100 | 100 | 48.00 | 24.63 | 100 | 100 | 100 | 79.78 | 72.98 | 50.66 | 50.00 | 49.38 | 100 | ② 해외법인
+ (2017. 12. 31 현재, %)
+ 계열회사명 | 현대자동차
+지분율 | 계열회사
+지분 합계 | Hyundai Motor Netherlands B.V. (HMNL) | 100 | 100 | Hyundai Capital Canada Inc. (HCCA) | 50 | 100 | Hyundai Assan Otomotiv Sanayi Ve Ticaret A.S. (HAOSVT) | 70 | 70 | Hyundai Motor India Limited (HMI) | 100 | 100 | Hyundai Motor Brasil Montadora de Automoveis LTDA (HMB) | 100 | 100 | 사천현대기차유한공사 (CHMC) | 50 | 50 | Hyundai Translead, Inc. (HT) | 100 | 100 | Hyundai Rio Vista, Inc. | - | 100 | Hyundai de Mexico, SA DE C.V., (HYMEX) | - | 99.99 | 북경현대기차유한공사 (BHMC) | 50 | 50 | Hyundai Motor Manufacturing Alabama, LLC (HMMA) | - | 100 | Hyundai Motor Manufacturing Czech, s.r.o. (HMMC) | 100 | 100 | Hyundai Motor Manufacturing Rus LLC (HMMR) | 70 | 100 | Hyundai Motor Poland Sp. Zo. O (HMP) | 100 | 100 | Beijing Jingxian Motor Safeguard Service Co., Ltd. (BJMSS) | 100 | 100 | Beijing Jingxianronghua Motor Sale Co., Ltd. | - | 100 | Hyundai Motor Japan Co., Ltd. (HMJ) | 100 | 100 | Hyundai Motor Japan R&D Center Inc. (HMJ R&D) | 100 | 100 | Hyundai America Technical Center, Inc. (HATCI) | 100 | 100 | Hyundai Motor America (HMA) | 100 | 100 | Hyundai Auto Canada Corp. (HACC) | - | 100 | Hyundai Auto Canada Captive Insurance Inc. (HACCI) | - | 100 | Hyundai Capital America (HCA) | - | 100 | Hyundai Motor Europe GmbH (HME) | 100 | 100 | Hyundai Motor Company Australia Pty Limited (HMCA) | 100 | 100 | China Millennium corporation Ⅰ(CMEs) | 59.6 | 100 | China Millennium Corporation Ⅱ (CMEs) | 59.6 | 100 | China Millennium Corporations Ⅲ (CMEs) | 59.6 | 100 | Hyundai Millennium (Beijing) Real Estate Development Co., Ltd. | - | 99 | Hyundai Motor Group China, Ltd. (HMGC) | 50 | 100 | Hyundai Motor UK Limited (HMUK) | 100 | 100 | Hyundai Motor Commonwealth of Independent States B.V (HMCIS B.V) | 98.6 | 100 | Hyundai Motor Commonwealth of Independent States (HMCIS) | - | 100 | Hyundai Motor De Mexico S DE RL DE CV (HMM) | 99.99 | 100 | Hyundai Motor Deutschland GmbH (HMD) | 100 | 100 | Hyundai Motor France SAS (HMF) | 100 | 100 | Hyundai Motor Czech s.r.o. (HMCZ) | 100 | 100 | Hyundai Motor Company Italy S.r.l (HMCI) | 100 | 100 | Hyundai Motor Sport GmbH (HMSG) | - | 100 | Hyundai Motor Espana, S.L.U. (HMES) | 100 | 100 | Stamped Metal American Research Technology, Inc. (SMARTI) | - | 72.45 | Stamped Metal American Research Technology LLC | - | 100 | Hyundai Motor Europe Technical Center GmbH (HMETC) | 100 | 100 | Hyundai Motor India Engineering Private Limited (HMIE) | - | 100 | Hyundai CHA Funding, LLC | - | 100 | Hyundai Lease Titling Trust | - | 100 | Hyundai HK Funding, LLC | - | 100 | Hyundai HK Funding Two, LLC | - | 100 | Hyundai ABS Funding, LLC | - | 100 | Hyundai Capital Insurance Services, LLC | - | 100 | HK Real Properties, LLC | - | 100 | Hyundai Auto Lease Offering, LLC | - | 100 | Hyundai HK Lease, LLC | - | 100 | Hyundai Protection Plan, Inc. | - | 100 | Hyundai Protection Plan Florida, Inc. | - | 100 | Hyundai Capital Insurance Company | - | 100 | Hyundai HK Funding Three, LLC | - | 100 | Hyundai HK Funding Four, LLC | - | 100 | Hyundai Capital Lease Inc. (HCLI) | - | 100 | Hyundai Asset Backed Lease, LLC | - | 100 | Power Protect Extended Services, Inc. | - | 100 | Power Protect Extended Services Florida, Inc. | - | 100 | HK Lease Funding LP | - | 100 | HCCA Funding Inc. | - | 100 | Extended Term Amortizing Program, LLC | - | 100 | Hyundai Truck And Bus Rus LLC (HTBR) | 100 | 100 | HYUNDAI THANH CONG VIETNAM AUTO MANUFACTURING CORPORATION(HTMV) | 50 | 50 | Hyundai Thanh cong Commercial Vehicle Joint Stock Company (HTCV) | 50 | 50 | HYUNDAI WIA MOTOR DIES(SHANDONG) COMPANY | - | 100 | Hyundai Motor China Technical center | - | 100 | 현대수선중고차경영유한공사(중국) | - | 60 | HMB Holding Participacoes Financeiras Ltda. | - | 99.99 | Genesis Motor America LLC (GMA) | - | 100 | Kia Motors Mexico S.A. de C.V | - | 100 | Kia Motors America Inc. (KMA) | - | 100 | Kia Canada Inc. | - | 100 | Kia Motors Slovakia s.r.o | - | 100 | Dongfeng Yueda Kia Motors Co., Ltd | - | 50 | Kia Motors Australia Pty Ltd | - | 100 | 연길기아기차유수복무유한공사 | - | 100 | Kia Motors Deutschland GmbH | - | 100 | Kia Motors Polska SP.Z.O.O | - | 100 | Kia Motors UK Ltd | - | 100 | Kia Motors Iberia S.L | - | 100 | Kia Motors France SAS | - | 100 | Kia Motors Austria GmbH | - | 100 | Kia Motors Hungary GmbH | - | 100 | Kia Motors Czech GmbH | - | 100 | Kia Motors Belgium GmbH | - | 100 | Kia Motors Sweden AB | - | 100 | Kia Motors Sales Slovensko s.r.o. | - | 100 | Kia Motors Europe GmbH | - | 100 | Kia Motors New Zealand Ltd | - | 100 | Kia Motors Manufacturing Georgia Inc. | - | 100 | Kia Motors Russia LLC | - | 100 | Kia Motors Nederland B.V | - | 100 | Kia Motors Company Italy S.r.l | - | 100 | Kia Motors India Private Limited (KMI) | - | 100 | Innocean Worldwide Mexico S de RL de CV (IWM) | - | 100 | Innocean Worldwide Communication Private Ltd. (IWI) | - | 100 | Innocean Worldwide UK Ltd. (IWUK) | - | 100 | Innocean Worldwide Europe GmbH (IWE) | - | 100 | Innocean Worldwide Italy Srl (IWIt) | - | 100 | 북경이노션광고유한공사 (북경법인) | - | 100 | 상해이노션광고유한공사 (상해법인) | - | 100 | Innocean Worldwide Holdings, Inc.(IWH) | - | 100 | Innocean Worldwide America, Inc.(IWA) | - | 100 | Innocean Worldwide Australia Pty Ltd.(IWAu) | - | 100 | Innocean Worldwide Rus LLC. (IWR) | - | 100 | Innocean Worldwide Canada Inc. (IWC) | - | 100 | Innocean Worldwide Spain S.L. (IWS) | - | 100 | Innocean Worldwide France (IWF) | - | 100 | 북광이노션광고유한공사 (북광법인) | - | 51 | Innocean Worldwide Turkey (IWTr) | - | 100 | Innocean Worldwide Brazil (IWB) | - | 100 | Innocean Worldwide Middle East & Africa FZ-LLC (IWMENA) | - | 100 | Canvas Worldwide LLC | - | 51 | GIT America., Inc. | - | 100 | GIT Beijing Automotive Technology., Inc. | - | 100 | GIT Europe GmbH | - | 100 | Consorcio Puente Chacao S.A | - | 51 | PT. Hyundai Citra | - | 95 | PT. Lippo-Hyundai Development | - | 40 | Oriental Hyundai Quarry & Development | - | 40 | Hyundai Diamond Cement Co., Ltd. | - | 70 | Middle East Engineering &Development Co., Ltd. | - | 95 | Hyundai Asian Technics Pte. Ltd. | - | 100 | Hyundai Engineering & Construction(Wuxi) Co., Ltd. | - | 100 | Arian International Contractors Company | - | 49 | Hyundai Engineering &Construction Company NIG Ltd. | - | 100 | Hyundai Construction Do., Brasil Ltd. | - | 100 | Hyundai E&C Vina Song Gia Co., Ltd. | - | 100 | Subic Clean Energy & Infra Inc. | - | 40 | Hyundai RNC Hatay Co., Ltd | - | 100 | Hyundai Glovis Mexico S de RL de CV | - | 100 | Glovis America Inc. | - | 100 | Glovis Alabama LLC | - | 100 | Glovis Georgia LLC | - | 100 | Glovis Canada Inc. | - | 100 | Glovis Brasil Logistica LTDA. | - | 100 | Glovis Europe GmbH | - | 100 | HYUNDAI GLOVIS CZECH REPUBLIC s.r.o. | - | 100 | Glovis Slovakia s.r.o | - | 100 | Glovis Russia LLC | - | 100 | HYUNDAI GLOVIS LOJISTIK SANAYI VE TICARET. Ltd. Sti. | - | 100 | Beijing Glovis Warehousing & Transportation Co., Ltd. | - | 100 | Tianjin Glovis Automotive Parts Co., Ltd. | - | 100 | Beijing Zhongdu-Glovis Logistics Co.,Ltd. | - | 50 | Sichuan Glovis Logistics Co.，Ltd. | - | 51 | Glovis India Pvt. Ltd. | - | 100 | Glovis Australia PTY. Ltd. | - | 100 | Adampol S. A. | - | 100 | ADAMPOL SLOVAKIA S.R.O | - | 100 | ADAMPOL CZECH | - | 100 | B.M Vehicle Logistics GmbH | - | 50 | VECTURA LLC | - | 100 | VECTURA INVEST LLC | - | 99.9 | Zhongdu-Glovis (Cangzhou) Logistics Co.,Ltd | - | 100 | Zhongdu-Glovis (Chongqing) Logistics Co.,Ltd | - | 100 | GLOVIS INDIA ANANTAPUR Private Ltd | - | 100 | Jiangsu Yueda Glovis Logistics Co.,Ltd. | - | 50 | Hyundai Dymos Slovakia, s.r.o | - | 100 | Hyundai Dymos Mexico S DE RL DE CV | - | 100 | Beijing Lear Dymos Automotive Systems Co.,Ltd | - | 40 | Hyundai Dymos Powertrain System(Rizhao) Co.,Ltd | - | 100 | Beijing Dymos Transmission co., Ltd (BDT) | 24.08 | 100 | Sichuan Hyundai Dymos Automotive System Co. Ltd | - | 100 | Dymos Lear Automotive India Private Limited | - | 65 | Hyundai Dymos Czech, s.r.o | - | 100 | Hyundai Dymos Fabricacao De Auto Pecas Brasil Ltda | - | 100 | Automotive Seat System Dymos Mexico S DE RL DE CV | - | 100 | Automotive Seat System Dymos Servicios Mexico S DE RL DE CV | - | 100 | Hyundai Dymos America, Inc. | - | 100 | Hyundai Dymos Georgia, LLC | - | 100 | Hyundai Dymos Michigan, LLC | - | 100 | BAIC DYMOS Automotive System Co., Ltd | - | 50 | BAIC DYMOS Automotive System(Chongqing) Co., Ltd | - | 50 | Hyundai Dymos India Pvt. Ltd | - | 100 | DYMOS SONGHUAJIANG(JILIN) AUTOMOTIVE INTERIOR SYSTEM CO.,LTD | - | 51 | Hyundai Rotem Brasil Industria E Comercio De Trens Ltda. | - | 100 | Hyundai Rotem USA Corporation | - | 100 | Hyundai EURotem Demiryolu AraclariSan. ve Tic. A.S. | - | 50.5 | Rotem Equipments (Beijing) Co., Ltd | - | 100 | Hyundai Rotem Malaysia SDN BHD | - | 100 | Hyundai Rotem Company - Hyundai EURotem Demiryolu Araclari SAN.
+ VE TIC. A.S ORTAK GIRISIMI | - | 100 | HYUNDAI ROTEM - HYUNDAI EUROTEM Mahmutbey Projesi ORTAK GIRISIMI | - | 100 | HR Mechanical Services Limited | - | 100 | Hyundai Rotem Quebec Inc. | - | 100 | Doosun Precision(Dalian) co., Ltd | - | 100 | HM RUS LLC | - | 100 | HYUNDAI MATERIALS CORPORATION, Shanghai | - | 100 | HYUNDAI MATERIALS JAPAN Corp. | - | 100 | HMSK, s.r.o. | - | 100 | HMSK Logistics, s.r.o. | - | 100 | HM Czech, s.r.o. | - | 100 | Max People s.r.o. | - | 100 | HYUNDAI MATERIALS MEXICO, S. DE R.L. DE C.V | - | 100 | HMSK Agency s.r.o | - | 100 | HYUNDAI MATERIALS TRADING CORPORATION, SHANGHAI | - | 100 | Hyundai Mobis Mexico, S.De R.L. De C.V. | - | 100 | Mobis Parts Canada Corporation | - | 100 | Beijing Hyundai Mobis Automotive Parts Co.,Ltd | - | 100 | Shanghai Hyundai Mobis Automotive Parts Co.,Ltd | - | 100 | Jiangsu Mobis Automotive Parts Co.,Ltd | - | 100 | Tianjin Mobis Automotive Parts Co., Ltd | - | 100 | Hyundai Motor(Shanghai) Co.,Ltd | - | 100 | Wuxi Mobis Automotive Parts Co.,Ltd | - | 100 | Mobis America Inc. | - | 100 | Mobis Alabama, LLC | - | 100 | Mobis Parts America, LLC | - | 100 | Mobis Parts Miami, LLC | - | 100 | American Autoparts Inc. | - | 100 | Mobis North America, LLC | - | 100 | Mobis Brasil Fabricacao De Auto Pecas LTDA | - | 100 | Mobis Slovakia s.r.o. | - | 100 | Mobis Automotive Czech, s.r.o. | - | 100 | Mobis Automotive and Module Industry Trade Co - Joint Stock Company | - | 100 | Mobis Module CIS, LLC | - | 100 | Mobis Parts Europe N.V | - | 100 | Mobis Parts CIS, LLC | - | 100 | Mobis India, Ltd | - | 100 | Mobis Parts Middle East FZE | - | 100 | Mobis Auto Parts Middle East EGYPT | - | 100 | Mobis Parts Australia PTY.,Ltd | - | 100 | Mobis Automotive System Czech s.r.o | - | 100 | Cangzhou Hyundai Mobis Automotive Parts Co.,Ltd | - | 100 | Chongqing Hyundai Mobis Automotive Parts Co.,Ltd | - | 100 | Beijing Hyundai Mobis Parts Co.,Ltd | - | 50 | Mobis Parts Jiangsu Yueda Trading Co., Ltd | - | 50 | Jiangsu Yueda New Energy Battery CO.,LTD | - | 50 | Mobis India Module Private Limited | - | 100 | HYUNDAI BNG STEEL USA, INC. | - | 100 | HYUNDAI ENGINEERING MEXICO, S. DE R.L. DE C.V. | - | 100 | GALING POWER & ENERGY CONSTRUCTION CO. INC. | - | 100 | HYUNDAI ENGINEERING RUS. L.L.C. | - | 100 | HYUNDAI ENGINEERING INDIA PRIVATE LIMITED | - | 100 | Hyundai Engineering Pakistan (Private) Ltd. | - | 99.99 | HYUNDAI공정건설(북경)유한공사 | - | 90 | HYUNDAI ENGINEERING (CAMBODIA) CO., Ltd. | - | 100 | Hyundai Engineering (Thailand) Co., Ltd. | - | 49 | HYUNDAI ENG AMERICA. INC | - | 100 | HYUNDAI AMCO MEXICO, S. DE R.L. DE C.V. | - | 99.99 | HYUNDAI ENGINEERING BRASIL CONSTRUTORA E GESTAO DE PROJETOS LTDA | - | 100 | HYUNDAI ENGINEERING DEUTSCHLAND GmbH | - | 100 | HYUNDAI ENGINEERING SLOVAKIA s.r.o | - | 100 | HYUNDAI ENGINEERING CZECH s.r.o. | - | 100 | HYUNDAI ENGINEERING INSAAT TURIZM SANAYI VE TICARET LIMITED SIRKETI | - | 100 | PT. HEIN GLOBAL UTAMA | - | 67 | HYUNDAI ENGINEERING MALAYSIA SDN BHD | - | 100 | HEC India LLP | - | 99.91 | 일조안극물업복무유한공사 | - | 100 | 북경마이카스웨이정보기술유한공사 | - | 50 | BEIJING HYUNDAI INFORMATION TECHNOLOGY Co., Ltd | - | 50 | Hyundai Autoever Europe GmbH | - | 100 | Hyundai Autoever RUS, LLC | - | 100 | Hyundai Autoever INDIA PRIVATE LIMITED | - | 100 | Autoever Systems China Co.,Ltd. | - | 100 | Autoever Systems America, Inc | - | 100 | Hyundai Autoever Brasil Information Technology LTDA | - | 100 | Hyundai Autoever America, LLC | - | 100 | Hyundai Autoever Telematics America, Inc | - | 100 | Hyundai Autoever Mexico, S. DE R.L. DE C.V | - | 100 | HYUNDAI WIA Mexico, S.de.R.L.De c.V. | - | 100 | Beijing Wia Turbocharger Co.LTD | - | 100 | Shandong Hyundai Wia Automotive Engine Company (WAE) | 22 | 70 | JIANGSU HYUNDAI WIA CO., LTD | - | 100 | Hyundai Wia Machine Tool Co.,LTD | - | 100 | HYUNDAI WIA India Pvt, Ltd | - | 100 | HYUNDAI-WIA MACHINE AMERICA CO. | - | 100 | HYUNDAI-WIA MACHINE EUROPE GMBH | - | 100 | Qingdao Hyundai Machinery Co., Ltd. | - | 100 | Hyundai Steel Mexico S de R.L. de C.V | - | 100 | Hyundai Steel Investment(China) Co., Ltd. | - | 100 | Hyundai Steel Beijing Process Co., Ltd. | - | 100 | Hyundai Steel Tianjin Co.,Ltd | - | 100 | Hyundai Steel Jiangsu Process Co., Ltd. | - | 100 | Hyundai Steel Suzhou Process Co., Ltd. | - | 100 | Hyundai Steel India Private, Ltd. | - | 100 | Hyundai Steel Pipe India Private, Ltd | - | 100 | Hyundai Steel America, Inc. | - | 100 | Hyundai Steel Industry and Trade Brazil LLC | - | 100 | Hyundai Steel USA, Inc. | - | 100 | Hyundai Steel Slovakia s.r.o. | - | 100 | Hyundai Steel TR Automotive Steel Parts Co., Ltd. | - | 100 | Hyundai Steel Czech s.r.o. | - | 100 | Hyundai Steel Rus LLC | - | 100 | Hyundai Steel Chongqing Co., Ltd. | - | 100 | Hyundai Steel Anantapur Private, Ltd. | - | 100 | 현대세원공정자문(북경)유한공사 | - | 100 | 강소현대종합특수강유한공사 | - | 100 | Hyundai Capital UK Limited | - | 49.99 | Hyundai Capital Europe GmbH | - | 100 | Hyundai Capital Services Limited Liability Company | - | 100 | Beijing Hyundai Auto Finance (BHAF) | 7 | 67 | Hyundai Capital India Private Limited (HCI) | - | 100 | Hyundai Capital Brasil Servicos De Assistencia Financeira Ltda | - | 100 | Hyundai Capital Bank Europe GmbH (HCBE) | 20 | 100 | Hyundai Capital Australia Pty Limited | - | 100 | KEFICO Automotive Systems (Beijing) Co., Ltd. | - | 100 | KEFICO VIETNAM COMPANY LIMITED | - | 100 | KEFICO Automotive Systems (Chongqing) Co., Ltd. | - | 100 | HYUNDAI KEFICO MEXICO, S. DE R.L. DE C.V. | - | 100 | HYUNDAI POWERTECH MEXICO S. DE R.L. DE C.V. | - | 100 | PowerTech America, Inc. | - | 100 | Hyundai Powertech(Shandong) Co., Ltd (PTS) | 30 | 100 | Powertech America Sales, LLC | - | 100 | 천진이폴리머상무유한공사 | - | 100 | Haevichi Hospitality Guam, Inc. | - | 100 | (3) 당사에 직접 또는 간접으로 영향력을 미치는 회사로는 당사의 최대주주 및 계열 회사인 현대모비스이며, 공정거래법에 의거 상호 출자의 금지, 계열회사에 대한 채무보증금지 등의 규제를 받고 있습니다.
+(4) 회사와 계열회사간 임원 겸직 현황 (2017. 12. 31 현재)
+ 성 명 | 겸 임 현 황 | 직 위 | 회사명 | 정몽구 | 대표이사(상근) | 현대모비스 | 이사(상근) | 현대파워텍 | 이사(비상근) | 현대건설 | 정의선 | 이사(비상근) | 기아자동차 | 이사(상근) | 현대모비스 | 이사(상근) | 현대제철 | ※정몽구대표이사 : 현대건설 임기만료('18.3.29)
+나. 타법인출자현황
+(1) 매도가능금융자산
+(기준일: 2017년 12월 31일) (단위: 백만원, 주, %)
+ 법인명 | 최초
+취득
+일자 | 출자
+목적 | 최초취득
+금액 | 기초잔액 | 증가(감소) | 기말잔액 | 최근사업연도
+재무현황 | 비고 | 수량 | 지분율 | 장부
+가액 | 취득(처분) | 평가
+손익 | 수량 | 지분율 | 장부
+가액 | 총자산 | 당기
+순손익 | 수량 | 금액 | 현대제철(상장) | '13.12 | 경영참여 | 791,681 | 9,173,595 | 6.87 | 798,843 | 22,424 | 9,173,595 | 6.87 | 821,266 | 33,373,825 | 727,540 | 감액 | 현대중공업(상장) | '00.12 | 단순투자 | 42,443 | 2,190,000 | 2.88 | 318,645 | -557,140 | -154,543 | 1,632,860 | 2.88 | 164,102 | 30,408,848 | 2,703,291 | 분할 | 현대로보틱스(상장) | '17.05 | 단순투자 | 9,018 | 346,954 | 132,189 | 346,954 | 2.13 | 132,189 | 21,210,114 | 1,042,895 | 분할신설 | 현대일렉트릭(상장) | '17.05 | 단순투자 | 4,158 | 213,818 | 22,997 | 213,818 | 2.10 | 22,997 | 2,094,577 | 14,281 | 분할신설 | 현대글로비스(상장) | '10.03 | 경영참여 | 210,688 | 1,830,939 | 4.88 | 282,880 | -33,872 | 1,830,939 | 4.88 | 249,008 | 8,185,664 | 680,454 | 한국항공우주산업(상장) | '00.02 | 단순투자 | 151,086 | - | - | 316,979 | -92,492 | - | - | 224,487 | 3,166,223 | -235,186 | 현대오일뱅크(비상장) | '06.02 | 단순투자 | 53,734 | 10,653,193 | 4.35 | 143,957 | 3,974 | 10,653,193 | 4.35 | 147,930 | 11,262,047 | 978,425 | 현대그린푸드(상장) | '07.02 | 단순투자 | 15,005 | 2,307,700 | 2.36 | 35,539 | -1,038 | 2,307,700 | 2.36 | 34,500 | 2,796,885 | 121,477 | 두산캐피탈(비상장) | '99.07 | 단순투자 | 10,000 | 2,000,000 | 4.3 | 1,790 | -2,000,000 | -1,790 | -1,790 | - | - | - | - | 매각 | 현대산업개발(상장) | '05.05 | 단순투자 | 9,025 | 450,000 | 0.6 | 20,228 | -2,880 | 450,000 | 0.6 | 17,348 | 6,539,447 | 413,666 | 현대상선(상장) | '99.12 | 단순투자 | 9,161 | 99,001 | 0.29 | 669 | -226 | 99,001 | 0.03 | 444 | 3,602,417 | -1,218,240 | 유상증자
+ 및 감액 | 케이티(상장) | '09.06 | 단순투자 | 8,655 | 240,091 | 0.09 | 7,059 | 204 | 240,091 | 0.09 | 7,263 | 29,580,628 | 561,526 | 감액 | 현대아산(비상장) | '99.02 | 단순투자 | 22,500 | 450,000 | 1.88 | 2,117 | 450,000 | 1.88 | 2,117 | 196,841 | -3,746 | 현대기술투자(비상장) | '97.4 | 단순투자 | 4,490 | 898,000 | 14.97 | 4,490 | 898,000 | 14.97 | 4,490 | 66,490 | 1,493 | 기협기술금융(비상장) | '95.10 | 단순투자 | 3,000 | 600,000 | 10.34 | 3,000 | 600,000 | 10.34 | 3,000 | 98,120 | 1,107 | 인텔렉추얼디스커버리
+(비상장) | '10.7 | 단순투자 | 3,000 | 600,000 | 5.29 | 3,000 | 600,000 | 5.29 | 3,000 | 37,165 | -1,482 | 지능정보기술연구소
+(비상장) | '16.12 | 단순투자 | 3,000 | 600,000 | 14.29 | 3,000 | 600,000 | 14.29 | 3,000 | 17,754 | -2,351 | 엘앤에스 신성장동력
+Global Star 투자조합
+(비상장) | '15.08 | 단순투자 | 1,070 | 10.19 | 2,140 | 1,070 | 1,070 | 10.19 | 3,210 | 28,547 | -1,860 | 추가출자 | 현대씨즈올(비상장) | '09.8 | 단순투자 | 1,724 | 55,347 | 17.39 | 1,724 | 55,347 | 17.39 | 1,724 | 1,207 | 201 | 슈어소프트테크(비상장) | '12.12 | 단순투자 | 1,500 | 100,000 | 9.60 | 1,500 | 120,000 | 3,710 | 3,710 | 220,000 | 19.31 | 5,210 | 24,836 | 193 | 증자 | 현대경제연구원(비상장) | '94.9 | 단순투자 | 1,400 | 59,600 | 7.45 | 1,271 | 59,600 | 7.45 | 1,271 | 6,058 | -74 | 희성피엠텍(비상장) | '04.9 | 단순투자 | 1,194 | 119,400 | 19.90 | 1,194 | 119,400 | 19.90 | 1,194 | 165,890 | 4,842 | PLK(비상장) | '03.7 | 단순투자 | 1,048 | 278,490 | 13.96 | 1,048 | 278,490 | 13.96 | 1,048 | 9,077 | -2,404 | 한국전기차충전서비스
+(비상장) | '15.8 | 단순투자 | 821 | 82,080 | 14.40 | 821 | 51,840 | 518 | 518 | 133,920 | 14.40 | 1,339 | 14,650 | -1,295 | 추가출자 | 동부엔티에스(비상장) | '07.12 | 단순투자 | 1,134 | 7,360 | 19.90 | 1,134 | 7,360 | 19.90 | 1,134 | 5,538 | 363 | 스트라드비젼코리아
+(비상장) | '16.12 | 단순투자 | 725 | 6,590 | 5.90 | 725 | 6,590 | 5.24 | 725 | 2,706 | -1,580 | 증자 | 이지무브(비상장) | '10.6 | 단순투자 | 685 | 62,284 | 12.91 | 685 | 62,284 | 12.91 | 685 | 7,287 | 58 | 유카(비상장) | '16.12 | 단순투자 | 1,063 | 101,692 | 5.62 | 1,063 | 101,692 | 5.62 | 1,063 | 24,030 | 26 | 마이크로인피니티
+(비상장) | '04.9 | 단순투자 | 608 | 270,000 | 6.93 | 608 | 270,000 | 2.28 | 608 | 8,257 | 960 | 증자 | 씨에이테크(비상장) | '04.10 | 단순투자 | 500 | 25,000 | 16.13 | 500 | 25,000 | 16.13 | 500 | 256 | -85 | 미디어젠(상장) | '10.3 | 단순투자 | 500 | 200,000 | 6.90 | 500 | 1,380 | 1,380 | 200,000 | 5.54 | 1,880 | 16,549 | -3,179 | 증자 | 맥스트(비상장) | '16.3 | 단순투자 | 500 | 384,600 | 10.07 | 500 | 384,600 | 6.93 | 500 | 3,235 | -1,275 | 증자 | 진일MVC(비상장) | '97.2 | 단순투자 | 180 | 36,000 | 18.00 | 180 | 36,000 | 18.00 | 180 | 6,175 | 951 | 오토앤(비상장) | '12.1 | 단순투자 | 123 | 24,520 | 15.14 | 123 | 24,520 | 15.14 | 123 | 15,716 | 762 | 미래에셋사회적기업투자조합(비상장) | '11.6 | 단순투자 | 110 | 110 | 5.24 | 110 | 110 | 5.24 | 110 | 1,940 | 47 | 아이탑스오토모티브
+(비상장) | '11.12 | 단순투자 | 101 | 20,168 | 14.41 | 101 | 20,168 | 14.41 | 101 | 23,454 | 501 | 럭시(비상장) | '17.08 | 단순투자 | 5,000 | 28,638 | 5,000 | 5,000 | 28,638 | 12.20 | 5,000 | 5,824 | -8,355 | 최초출자 | NESSCAP Inc.
+(비상장) | '06.01 | 단순투자 | USD
+ 2,031,694 | 10,130,775 | 1.76 | 272 | 74 | 10,130,775 | 1.76 | 346 | 1,661 | - | TransLink Capital 2
+(비상장) | '11.06 | 단순투자 | USD
+750,000 | 7.56 | 5,093 | 7.56 | 5,093 | 45,924 | -24,511 | TransLink Capital 3
+(비상장) | '14.06 | 단순투자 | USD
+1,500,000 | 5.89 | 4,746 | 2,120 | 2,120 | 5.89 | 6,866 | 117,198 | 2,287 | 추가출자 | TransLink Capital 4
+(비상장) | '17.10 | 단순투자 | USD
+1,500,000 | 1,687 | 1,687 | 13.81 | 1,687 | 10,451 | -1,175 | 최초출자 | INOKOM(비상장) | '97.11 | 단순투자 | MYR
+15,000,000 | 15,000,000 | 15 | 4,439 | 15,000,000 | 15 | 4,439 | 51,631 | 4,975 | Mojo Mobility(비상장) | '12.08 | 단순투자 | USD
+3,000,000 | 4,373,177 | 20.17 | 3,384 | 4,373,177 | 20.17 | 3,384 | 249 | -329 | OSTENDO(비상장) | '14.12 | 단순투자 | USD
+3,000,000 | 937,500 | 0.77 | 3,309 | 937,500 | 0.77 | 3,309 | 10,641 | -35,389 | Sound Hound(비상장) | '11.10 | 단순투자 | USD
+2,000,003 | 298,063 | 1.04 | 2,328 | 191,843 | 5,571 | 5,571 | 489,906 | 2.44 | 7,899 | 39,739 | -37,829 | 추가출자 | Pintango VII(비상장) | '17.11 | 단순투자 | USD
+2,200,000 | 2,394 | 2,394 | 5.56 | 2,394 | 81,717 | 77,139 | 최초출자 | Op Sys(비상장) | '17.12 | 단순투자 | USD
+3,000,000 | 2,196,580 | 3,226 | 3,226 | 2,196,580 | 9.65 | 3,226 | 1,721 | 171 | 최초출자 | Grab(비상장) | '17.12 | 단순투자 | USD
+25,000,005 | 4,511,081 | 26,880 | 26,880 | 4,511,081 | 0.45 | 26,880 | - | - | 최초출자 | 기타 | - | 338 | -106 | - | 232 | 합 계 | 1,982,028 | 51,767 | -51,529 | 1,930,500 | ※ 일부 출자 법인의 최초취득일자 및 최초취득금액은 현재 확인 가능한 기준으로 작성됨.
+※ 현대제철 : '16.2.5일 총보유주식 14,919,336주 중 5,745,741주에 대하여 제3자와 총수익스왑 계약을
+ 체결하고 동 계약수량중 일부를 매도하였으며, 감사보고서 주석 5.(3)번 '지분상품의 내용'을 
+ 참조. 또한, 주가하락 등의 사유로 17.6.30일 238,984백만원 감액(취득원가 1,110,704백만원 대비
+ '17.6.30일 기준 장부가액 871,720백만원의 차이)하였으며, 추가로 주가하락 등의 사유로 '17.9.30일
+ 131,739백만원을 감액함('17.6.30일 기준 장부가액 871,720백만원 대비 '17.9.30일 기준 장부가액 
+ 739,981백만원의 차이)
+※ 17.5월 중 현대중공업 인적 분할에 따라 분할회사 신주 취득 (현대로보틱스, 현대일렉트릭)
+※ 한국항공우주산업 변동 : '16년 중 보유주식에 대하여 제3자와 총수익스왑 계약을 체결함.
+※ 케이티 : 주가하락 등의 사유로 '17.6.30일 828백만원 감액(취득원가 8,655백만원 대비 '17.6.30일
+ 기준 장부가액 7,827백만원의 차이)하였으며, 추가로 주가하락 등의 사유로 '17.9.30일 828백만원을 감액함('17.6.30일 기준 장부가액 7,827백만원 대비 '17.9.30일 기준 장부가액 6,999백만원의 차이)
+※ 현대상선 : 주가하락 등의 사유로 '16.3.31일 7,629백만원 감액(취득원가 9,161백만원 대비 
+ '16.3.31일 기준 장부가액 1,532백만원의 차이)하였고, 주가하락등의 사유로 '17.6.30일 기준
+ 장부가액 866백만원과 '16.3.31일 기준 장부가액 1,532백만원의 차액인 665백만원을 
+ 추가 감액하였음. 또한 주가하락 등의 사유로 '17.9.30일 50백만원을 감액함('17.6.30일 기준 
+ 장부가액 866백만원 대비 '17.9.30일 기준 장부가액 817백만원의 차이). 또한 주가하락 등의 사유로 
+ '17.12.31일 320백만원 감액함('17.11.3일 기준 764백만원 대비 '17.12.31일 기준 444백만원의 차이)
+(2) 종속기업 투자내역 
+(기준일: 2017년 12월 31일) (단위: 백만원, 주, %)
+ 법인명 | 최초취득일자 | 출자
+목적 | 최초취득금액 | 기초잔액 | 증가(감소) | 기말잔액 | 최근사업연도
+재무현황 | 비고 | 수량 | 지분율 | 장부
+가액 | 취득(처분) | 평가
+손익 | 수량 | 지분율 | 장부
+가액 | 총자산 | 당기
+순손익 | 수량 | 금액 | HMA(비상장) | '85.4 | 경영참여 | USD 6,000,000 | 1,150 | 100 | 2,374,046 | 180,912 | 180,912 | 1,150 | 100 | 2,554,958 | 6,991,716 | -868,115 | 추가출자 | HMI(비상장) | '96.6 | 경영참여 | USD 1,000,000 | 8,125,411 | 100 | 754,436 | 8,125,411 | 100 | 754,436 | 3,291,954 | 349,862 | HMMC(비상장) | '06.7 | 경영참여 | EUR 40,000,000 | 100 | 573,875 | 100 | 573,875 | 3,656,291 | 394,078 | HMB(비상장) | '09.12 | 경영참여 | USD 116,000 | 100 | 469,269 | 100 | 469,269 | 1,106,169 | 78,539 | HMMR(비상장) | '08.3 | 경영참여 | USD 430 | 70 | 287,337 | 70 | 287,337 | 1,316,285 | 145,460 | HAOSVT(비상장) | '94.12 | 경영참여 | TRL 1,750,000 | 439,064,500 | 70 | 159,784 | 439,064,500 | 70 | 159,784 | 1,616,576 | 40,053 | HT(비상장) | '89.11 | 경영참여 | USD 5,000,000 | 1,380,000 | 100 | 144,440 | 1,380,000 | 100 | 144,440 | 942,293 | 108,268 | HMF(비상장) | '12.1 | 경영참여 | EUR 76,202,841 | 100 | 143,558 | 100 | 143,558 | 255,137 | 3,157 | HMD(비상장) | '91.1 | 경영참여 | DEM 1,000,000 | 100 | 140,922 | 100 | 140,922 | 767,217 | 12,344 | HMES(비상장) | '09.11 | 경영참여 | EUR 50,000,000 | 100 | 86,589 | 100 | 86,589 | 463,814 | 5,226 | HMCI(비상장) | '08.11 | 경영참여 | EUR 26,642,123 | 100 | 73,890 | 100 | 73,890 | 434,588 | 6,141 | HMETC(비상장) | '05.1 | 경영참여 | EUR 5,000,000 | 100 | 72,447 | 100 | 72,447 | 128,043 | 4,593 | HMCIS B.V
+ (비상장) | '06.12 | 경영참여 | EUR 3,200,000 | 98.6 | 68,041 | 98.6 | 68,041 | 619,774 | 35,313 | CMEs(비상장) | '04.12 | 경영참여 | USD 50,854,138 | 59.6 | 65,067 | 59.6 | 65,067 | 122,343 | 11,141 | HMCA(비상장) | '03.9 | 경영참여 | AUD 15,000,000 | 100 | 59,552 | 100 | 59,552 | 690,611 | -6,871 | HMP(비상장) | '93.10 | 경영참여 | USD 9,993,000 | 172,862 | 100 | 53,052 | 172,862 | 100 | 53,052 | 118,135 | 261 | HME(비상장) | '00.2 | 경영참여 | EUR 5,000,000 | 100 | 41,631 | 100 | 41,631 | 1,607,499 | 5,803 | HATCI(비상장) | '86.5 | 경영참여 | USD 3,000,000 | 1,000 | 100 | 37,782 | 1,000 | 100 | 37,782 | 75,330 | 5,766 | HMCZ(비상장) | '08.5 | 경영참여 | EUR 28,800,000 | 100 | 27,051 | 100 | 27,051 | 185,815 | 3,457 | HMUK(비상장) | '05.7 | 경영참여 | GBP 20,000,000 | 25,600,000 | 100 | 38,213 | 25,600,000 | 100 | 38,213 | 708,456 | 18,052 | BJMSS(비상장) | '94.05 | 경영참여 | USD 2,546,400 | 100 | 8,150 | 100 | 8,150 | 32,080 | 250 | HMM(비상장) | '13.10 | 경영참여 | USD 5,000,000 | 99.99 | 48,615 | -48,615 | 99.99 | 238,604 | -25,847 | 감액 | HMJ R&D
+ (비상장) | '95.10 | 경영참여 | JPY
+ 900,000,000 | 4,000 | 100 | 2,945 | 4,000 | 100 | 2,945 | 4,343 | 414 | HMJ(비상장) | '00.01 | 경영참여 | JPY
+1,000,000,000 | 224,800 | 100 | 224,800 | 100 | 5,803 | 482 | HCCA(비상장) | '14.04 | 경영참여 | CAD 9,000,000 | 90,000,000 | 60 | 82,431 | 32,719 | 32,719 | 145,422,535 | 50 | 115,150 | 1,412,701 | -2,737 | 추가출자 | HMNL(비상장) | '15.01 | 경영참여 | EUR 23,000,000 | 100 | 30,595 | 100 | 30,595 | 155,559 | 1,458 | HTBR(비상장) | '16.12 | 경영참여 | RUB 10,000
+ USD 4,999,838 | 100 | 6,038 | 100 | 6,038 | 30,005 | 1,318 | HCBE(비상장) | '17.3 | 경영참여 | EUR 14,712,267 | 2,251,578 | 29,363 | 29,363 | 2,251,578 | 20 | 29,363 | 475,203 | -28,014 | 최초출자 | HTMV(비상장) | '17.3 | 경영참여 | VND
+ 660,000,000,000 | 66,000,000 | 32,609 | 32,609 | 66,000,000 | 50 | 32,609 | 146,544 | 5,419 | 최초출자 | HTCV(비상장) | '17.10 | 경영참여 | VND
+ 227,600,000,000 | 22,760,000 | 11,367 | 11,367 | 22,760,000 | 50 | 11,367 | 41,058 | -57 | 최초출자 | 현대캐피탈
+ (비상장) | '93.12 | 경영참여 | 8,400 | 59,262,481 | 59.68 | 862,877 | 59,262,481 | 59.68 | 862,877 | 27,608,147 | 299,903 | 현대카드(비상장) | '03.06 | 경영참여 | 43,485 | 59,301,937 | 36.96 | 646,370 | 59,301,937 | 36.96 | 646,370 | 15,416,497 | 191,565 | 현대로템(상장) | '99.07 | 경영참여 | 80,000 | 36,852,432 | 43.36 | 391,906 | 36,852,432 | 43.36 | 391,906 | 4,083,912 | -46,259 | 현대케피코
+ (비상장) | '00.01 | 경영참여 | 3,300 | 16,670,000 | 100 | 285,078 | 16,670,000 | 100 | 285,078 | 1,621,607 | 44,586 | 현대오트론
+ (비상장) | '05.10 | 경영참여 | 250 | 10,397,700 | 60 | 60,300 | 10,397,700 | 60 | 60,300 | 236,700 | 2,000 | 현대파텍스
+ (비상장) | '05.11 | 경영참여 | 22,400 | 4,480,000 | 56 | 25,845 | 4,480,000 | 56 | 25,845 | 151,035 | 809 | 전북현대모터스에프씨(비상장) | '09.01 | 경영참여 | 1,000 | 200,000 | 100 | 1,000 | 200,000 | 100 | 1,000 | 1,750 | 178 | 현대엔지비
+ (비상장) | '00.10 | 경영참여 | 571 | 110,000 | 53.66 | 571 | 110,000 | 53.66 | 571 | 25,364 | 1,607 | 교보악사 Tomorrow 사모 증권투자신탁 12호(비상장) | '14.05 | 투자 | 100,000 | 100 | 100,000 | 100 | 100,000 | 101,029 | 4,166 | 신한 BNPP 법인용 사모증권투자신탁 제36호
+ (비상장) | '14.09 | 투자 | 100,000 | 100 | 100,000 | 100 | 100,000 | 100,659 | 3,912 | 신한 BNPP 법인용 사모증권투자신탁 제34호(비상장) | '14.10 | 투자 | 150,000 | 100 | 150,000 | 100 | 150,000 | 151,073 | 6,018 | 미래에셋트라이엄프 사모증권투자신탁 제15호(비상장) | '14.12 | 투자 | 100,000 | 100 | 100,000 | 100 | 100,000 | 123,856 | 4,959 | 합 계 | 8,573,703 | 286,970 | 238,355 | 8,812,059 | ※ 일부 출자 법인의 최초취득일자 및 최초취득금액은 현재 확인 가능한 기준으로 작성됨.
+※ 상기 종속기업의 장부가액은 원가법을 적용함.
+※ 일부 종속회사를 보유한 국내 및 해외법인의 재무현황은 연결기준으로 작성됨. 
+※ HMM : 결손누적 등의 사유로 '17.12.31일 48,615백만원 감액함
+ ('17.1.1일 기준 장부가액 48,615백만원 전액 감액)
+(3) 조인트벤처 및 관계기업 투자내역 
+(기준일: 2017년 12월 31일) (단위: 백만원, 주, %)
+ 법인명 | 최초
+취득
+일자 | 출자
+목적 | 최초취득금액 | 기초잔액 | 증가(감소) | 기말잔액 | 최근사업연도
+재무현황 | 비고 | 수량 | 지분율 | 장부
+가액 | 취득(처분) | 평가
+손익 | 수량 | 지분율 | 장부
+가액 | 총자산 | 당기
+순손익 | 수량 | 금액 | BHMC(비상장) | '02.09 | 경영참여 | USD 108,695,000 | 50 | 1,564,859 | 50 | 1,564,859 | 10,880,946 | -159,438 | CHMC(비상장) | '12.10 | 경영참여 | USD 21,462,639 | 50 | 159,762 | -159,762 | 50 | - | 835,590 | -97,341 | 감액 | WAE(비상장) | '06.11 | 경영참여 | USD 11,000,000 | 22 | 78,100 | 4,721 | 4,721 | 22 | 82,821 | 1,514,127 | -38,293 | 추가출자 | HMGC(비상장) | '04.10 | 경영참여 | USD 2,250,000 | 50 | 64,504 | 56,330 | 56,330 | 50 | 120,834 | 705,601 | -77,998 | 추가출자 | BDT(비상장) | '03.07 | 경영참여 | USD 11,350,000 | 24.08 | 47,800 | 24.08 | 47,800 | 624,390 | -17,588 | PTS(비상장) | '10.11 | 경영참여 | USD 9,600,000 | 30 | 34,671 | 18,023 | 18,023 | 30 | 52,694 | 1,070,793 | 53,353 | 추가출자 | BHAF(비상장) | '12.07 | 경영참여 | USD 11,118,523 | 280,000,000 | 7 | 49,781 | 280,000,000 | 7 | 49,781 | 4,961,986 | 120,980 | 현대건설(상장) | '11.4 | 경영참여 | 2,984,938 | 23,327,400 | 20.95 | 2,984,938 | -25,028 | 23,327,400 | 20.95 | 2,959,910 | 18,427,045 | 374,321 | 감액 | 기아자동차(상장) | '99.03 | 경영참여 | 504,900 | 137,318,251 | 33.88 | 2,896,832 | 137,318,251 | 33.88 | 2,896,832 | 52,294,438 | 968,018 | 현대파워텍
+ (비상장) | '01.03 | 경영참여 | 40,000 | 34,487,891 | 37.58 | 195,672 | 34,487,891 | 37.58 | 195,672 | 2,703,009 | 172,575 | 현대위아(상장) | '04.04 | 경영참여 | 347 | 6,893,596 | 25.35 | 193,871 | 6,893,596 | 25.35 | 193,871 | 7,193,682 | -63,004 | 현대차투자증권
+ (상장) | '08.04 | 경영참여 | 104,484 | 8,065,595 | 27.49 | 193,807 | 8,065,595 | 27.49 | 193,807 | 7,025,157 | 50,204 | 현대다이모스
+ (비상장) | '00.12 | 경영참여 | 13,216 | 14,184,824 | 47.27 | 139,415 | 14,184,824 | 47.27 | 139,415 | 2,446,674 | 69,837 | 해비치호텔앤드리조트(비상장) | '15.05 | 경영참여 | 110,460 | 2,235,528 | 41.9 | 110,460 | 2,235,528 | 41.9 | 110,460 | 453,061 | 2,407 | 유코카캐리어스
+ (비상장) | '02.12 | 경영참여 | 29,347 | 2,640,000 | 12 | 62,758 | 2,640,000 | 12 | 62,758 | 3,035,885 | 57,618 | 현대커머셜
+ (비상장) | '07.03 | 경영참여 | 50,000 | 10,000,000 | 50 | 54,258 | 10,000,000 | 50 | 54,258 | 7,748,768 | 272,413 | 현대오토에버
+ (비상장) | '00.04 | 경영참여 | 1,250 | 598,000 | 28.96 | 32,030 | 598,000 | 28.96 | 32,030 | 803,956 | 55,179 | 한국경제신문
+ (비상장) | '97.02 | 경영참여 | 3,316 | 3,842,406 | 20.55 | 28,482 | 3,842,406 | 20.55 | 28,482 | 3,484 | 313 | 일진베어링
+ (비상장) | '99.01 | 경영참여 | 300 | 225,400 | 20 | 18,201 | 225,400 | 20 | 18,201 | 2,209 | 106 | 현대엠엔소프트
+ (비상장) | '04.09 | 경영참여 | 778 | 1,319,577 | 31.84 | 13,098 | 1,319,577 | 31.84 | 13,098 | 207,859 | 24,304 | 클레어픽셀
+ (비상장) | '11.09 | 경영참여 | 2,000 | 666,660 | 11.29 | 2,000 | 666,660 | 11.29 | 2,000 | 5,685 | -2,041 | 해비치컨트리클럽(비상장) | '08.06 | 경영참여 | 4,500 | 900,000 | 30 | 900,000 | 30 | 2,866 | 8 | 현대기술투자수소펀드(비상장) | '15.07 | 투자 | 1,070 | 33.23 | 2,140 | 1,070 | 1,070 | 33.23 | 3,210 | 9,282 | -328 | 추가출자 | 합 계 | 8,927,440 | 80,144 | -104,646 | 8,822,793 | ※ 일부 출자 법인의 최초취득일자 및 최초취득금액은 현재 확인 가능한 기준으로 작성됨.
+※ 상기 조인트벤처 및 관계기업의 장부가액은 원가법을 적용함.
+※ 일부 종속회사를 보유한 국내 및 해외법인의 재무현황은 연결기준으로 작성됨.
+※ CHMC: 결손누적 등의 사유로 '17.12.31일 159,762백만원 감액함
+ ('17.1.1일 기준 장부가액 159,762백만원 전액 감액)
+※ 현대건설: 주가하락 등의 사유로 '17.12.31일 25,028백만원 감액함
+ ('17.1.1일 기준 장부가액 2,984,938백만원 대비 '17.12.31일 기준 장부가액 2,959,910백만원의 차이)

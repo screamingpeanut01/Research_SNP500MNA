@@ -1,0 +1,1791 @@
+{
+ "next_id": 192,
+ "units": {
+  "U001": {
+   "type": "review",
+   "depth": "full",
+   "deals": [
+    "N052",
+    "N062"
+   ],
+   "batch": "NV-I",
+   "status": "closed"
+  },
+  "U002": {
+   "type": "review",
+   "depth": "full",
+   "deals": [
+    "K038",
+    "K039"
+   ],
+   "batch": "KK-G",
+   "status": "closed"
+  },
+  "U003": {
+   "type": "review",
+   "depth": "full",
+   "deals": [
+    "K063",
+    "K070"
+   ],
+   "batch": "KK-G",
+   "status": "closed"
+  },
+  "U004": {
+   "type": "review",
+   "depth": "full",
+   "deals": [
+    "N030",
+    "N031"
+   ],
+   "batch": "NV-C",
+   "status": "closed"
+  },
+  "U005": {
+   "type": "review",
+   "depth": "full",
+   "deals": [
+    "N051"
+   ],
+   "batch": "NV-C",
+   "status": "closed"
+  },
+  "U006": {
+   "type": "review",
+   "depth": "full",
+   "deals": [
+    "C005",
+    "C006"
+   ],
+   "batch": "CJ-A",
+   "status": "closed"
+  },
+  "U007": {
+   "type": "review",
+   "depth": "full",
+   "deals": [
+    "C007",
+    "C008"
+   ],
+   "batch": "CJ-A",
+   "status": "closed"
+  },
+  "U008": {
+   "type": "review",
+   "depth": "full",
+   "deals": [
+    "C002",
+    "C004"
+   ],
+   "batch": "CJ-B",
+   "status": "closed"
+  },
+  "U009": {
+   "type": "collect",
+   "depth": "",
+   "deals": [
+    "N081",
+    "N083"
+   ],
+   "batch": "NV-I",
+   "status": "closed"
+  },
+  "U010": {
+   "type": "collect",
+   "depth": "",
+   "deals": [
+    "K041"
+   ],
+   "batch": "KK-C1",
+   "status": "closed"
+  },
+  "U011": {
+   "type": "collect",
+   "depth": "",
+   "deals": [
+    "K052",
+    "K062"
+   ],
+   "batch": "KK-H1",
+   "status": "closed"
+  },
+  "U012": {
+   "type": "collect",
+   "depth": "",
+   "deals": [
+    "K010"
+   ],
+   "batch": "KK-F1",
+   "status": "closed"
+  },
+  "U013": {
+   "type": "review",
+   "depth": "full",
+   "deals": [
+    "C009",
+    "C011"
+   ],
+   "batch": "CJ-B",
+   "status": "closed"
+  },
+  "U014": {
+   "type": "collect",
+   "depth": "",
+   "deals": [
+    "K014",
+    "K016"
+   ],
+   "batch": "KK-F1",
+   "status": "closed"
+  },
+  "U015": {
+   "type": "review",
+   "depth": "full",
+   "deals": [
+    "C012"
+   ],
+   "batch": "CJ-B",
+   "status": "closed"
+  },
+  "U016": {
+   "type": "collect",
+   "depth": "",
+   "deals": [
+    "K043",
+    "K044"
+   ],
+   "batch": "KK-F1",
+   "status": "closed"
+  },
+  "U017": {
+   "type": "review",
+   "depth": "full",
+   "deals": [
+    "K046"
+   ],
+   "batch": "KK-C1",
+   "status": "closed"
+  },
+  "U018": {
+   "type": "collect",
+   "depth": "",
+   "deals": [
+    "K048"
+   ],
+   "batch": "KK-F1",
+   "status": "closed"
+  },
+  "U019": {
+   "type": "review",
+   "depth": "full",
+   "deals": [
+    "K013",
+    "K020"
+   ],
+   "batch": "KK-H1",
+   "status": "closed"
+  },
+  "U020": {
+   "type": "collect",
+   "depth": "",
+   "deals": [
+    "K049",
+    "K050"
+   ],
+   "batch": "KK-C2",
+   "status": "closed"
+  },
+  "U021": {
+   "type": "review",
+   "depth": "full",
+   "deals": [
+    "K021"
+   ],
+   "batch": "KK-H1",
+   "status": "closed"
+  },
+  "U022": {
+   "type": "collect",
+   "depth": "",
+   "deals": [
+    "K051",
+    "K073"
+   ],
+   "batch": "KK-C2",
+   "status": "closed"
+  },
+  "U023": {
+   "type": "review",
+   "depth": "full",
+   "deals": [
+    "K025"
+   ],
+   "batch": "KK-D1",
+   "status": "closed"
+  },
+  "U024": {
+   "type": "collect",
+   "depth": "",
+   "deals": [
+    "K074"
+   ],
+   "batch": "KK-C2",
+   "status": "closed"
+  },
+  "U025": {
+   "type": "review",
+   "depth": "full",
+   "deals": [
+    "K041"
+   ],
+   "batch": "KK-C1",
+   "status": "closed"
+  },
+  "U026": {
+   "type": "review",
+   "depth": "full",
+   "deals": [
+    "N019",
+    "N027"
+   ],
+   "batch": "NV-E",
+   "status": "closed"
+  },
+  "U027": {
+   "type": "review",
+   "depth": "full",
+   "deals": [
+    "N033"
+   ],
+   "batch": "NV-E",
+   "status": "closed"
+  },
+  "U028": {
+   "type": "review",
+   "depth": "light",
+   "deals": [
+    "N037"
+   ],
+   "batch": "NV-I",
+   "status": "closed"
+  },
+  "U029": {
+   "type": "review",
+   "depth": "light",
+   "deals": [
+    "N038"
+   ],
+   "batch": "NV-I",
+   "status": "closed"
+  },
+  "U030": {
+   "type": "review",
+   "depth": "light",
+   "deals": [
+    "N041",
+    "N081"
+   ],
+   "batch": "NV-I",
+   "status": "closed"
+  },
+  "U031": {
+   "type": "review",
+   "depth": "light",
+   "deals": [
+    "N083"
+   ],
+   "batch": "NV-I",
+   "status": "closed"
+  },
+  "U032": {
+   "type": "review",
+   "depth": "light",
+   "deals": [
+    "K072"
+   ],
+   "batch": "KK-G",
+   "status": "closed"
+  },
+  "U033": {
+   "type": "review",
+   "depth": "full",
+   "deals": [
+    "K074"
+   ],
+   "batch": "KK-C2",
+   "status": "closed"
+  },
+  "U034": {
+   "type": "review",
+   "depth": "full",
+   "deals": [
+    "K014"
+   ],
+   "batch": "KK-F1",
+   "status": "closed"
+  },
+  "U035": {
+   "type": "review",
+   "depth": "light",
+   "deals": [
+    "C010"
+   ],
+   "batch": "CJ-B",
+   "status": "closed"
+  },
+  "U036": {
+   "type": "review",
+   "depth": "light",
+   "deals": [
+    "K012"
+   ],
+   "batch": "KK-C1",
+   "status": "closed"
+  },
+  "U037": {
+   "type": "review",
+   "depth": "light",
+   "deals": [
+    "K033"
+   ],
+   "batch": "KK-C1",
+   "status": "closed"
+  },
+  "U038": {
+   "type": "review",
+   "depth": "light",
+   "deals": [
+    "K035"
+   ],
+   "batch": "KK-C1",
+   "status": "closed"
+  },
+  "U039": {
+   "type": "review",
+   "depth": "full",
+   "deals": [
+    "K016"
+   ],
+   "batch": "KK-F1",
+   "status": "closed"
+  },
+  "U040": {
+   "type": "review",
+   "depth": "full",
+   "deals": [
+    "K050"
+   ],
+   "batch": "KK-C2",
+   "status": "closed"
+  },
+  "U041": {
+   "type": "review",
+   "depth": "light",
+   "deals": [
+    "K045",
+    "K052"
+   ],
+   "batch": "KK-H1",
+   "status": "closed"
+  },
+  "U042": {
+   "type": "review",
+   "depth": "light",
+   "deals": [
+    "K062"
+   ],
+   "batch": "KK-H1",
+   "status": "closed"
+  },
+  "U043": {
+   "type": "review",
+   "depth": "light",
+   "deals": [
+    "K010"
+   ],
+   "batch": "KK-F1",
+   "status": "closed"
+  },
+  "U044": {
+   "type": "review",
+   "depth": "light",
+   "deals": [
+    "K043",
+    "K044"
+   ],
+   "batch": "KK-F1",
+   "status": "closed"
+  },
+  "U045": {
+   "type": "review",
+   "depth": "light",
+   "deals": [
+    "K048"
+   ],
+   "batch": "KK-F1",
+   "status": "closed"
+  },
+  "U046": {
+   "type": "collect",
+   "depth": "",
+   "deals": [
+    "K031",
+    "K047"
+   ],
+   "batch": "KK-D1",
+   "status": "closed"
+  },
+  "U047": {
+   "type": "collect",
+   "depth": "",
+   "deals": [
+    "N061"
+   ],
+   "batch": "NV-J1",
+   "status": "closed"
+  },
+  "U048": {
+   "type": "collect",
+   "depth": "",
+   "deals": [
+    "N064",
+    "N082"
+   ],
+   "batch": "NV-J1",
+   "status": "closed"
+  },
+  "U049": {
+   "type": "collect",
+   "depth": "",
+   "deals": [
+    "N084"
+   ],
+   "batch": "NV-J1",
+   "status": "closed"
+  },
+  "U050": {
+   "type": "collect",
+   "depth": "",
+   "deals": [
+    "C014"
+   ],
+   "batch": "CJ-C",
+   "status": "closed"
+  },
+  "U051": {
+   "type": "collect",
+   "depth": "",
+   "deals": [
+    "C015"
+   ],
+   "batch": "CJ-C",
+   "status": "closed"
+  },
+  "U052": {
+   "type": "collect",
+   "depth": "",
+   "deals": [
+    "C016",
+    "C019"
+   ],
+   "batch": "CJ-C",
+   "status": "closed"
+  },
+  "U053": {
+   "type": "collect",
+   "depth": "",
+   "deals": [
+    "K007",
+    "K022"
+   ],
+   "batch": "KK-I1",
+   "status": "closed"
+  },
+  "U054": {
+   "type": "collect",
+   "depth": "",
+   "deals": [
+    "K030",
+    "K057"
+   ],
+   "batch": "KK-I1",
+   "status": "closed"
+  },
+  "U055": {
+   "type": "collect",
+   "depth": "",
+   "deals": [
+    "K003"
+   ],
+   "batch": "KK-H2",
+   "status": "closed"
+  },
+  "U056": {
+   "type": "collect",
+   "depth": "",
+   "deals": [
+    "K061"
+   ],
+   "batch": "KK-H2",
+   "status": "closed"
+  },
+  "U057": {
+   "type": "collect",
+   "depth": "",
+   "deals": [
+    "K065"
+   ],
+   "batch": "KK-H2",
+   "status": "closed"
+  },
+  "U058": {
+   "type": "collect",
+   "depth": "",
+   "deals": [
+    "N028",
+    "N029"
+   ],
+   "batch": "NV-L1",
+   "status": "closed"
+  },
+  "U059": {
+   "type": "collect",
+   "depth": "",
+   "deals": [
+    "N034",
+    "N039"
+   ],
+   "batch": "NV-L1",
+   "status": "closed"
+  },
+  "U060": {
+   "type": "review",
+   "depth": "light",
+   "deals": [
+    "K049",
+    "K051"
+   ],
+   "batch": "KK-C2",
+   "status": "closed"
+  },
+  "U061": {
+   "type": "collect",
+   "depth": "",
+   "deals": [
+    "N040"
+   ],
+   "batch": "NV-L1",
+   "status": "closed"
+  },
+  "U062": {
+   "type": "collect",
+   "depth": "",
+   "deals": [
+    "N042"
+   ],
+   "batch": "NV-K2",
+   "status": "closed"
+  },
+  "U063": {
+   "type": "review",
+   "depth": "light",
+   "deals": [
+    "K073"
+   ],
+   "batch": "KK-C2",
+   "status": "closed"
+  },
+  "U064": {
+   "type": "review",
+   "depth": "full",
+   "deals": [
+    "K047"
+   ],
+   "batch": "KK-D1",
+   "status": "closed"
+  },
+  "U065": {
+   "type": "review",
+   "depth": "full",
+   "deals": [
+    "N084"
+   ],
+   "batch": "NV-J1",
+   "status": "closed"
+  },
+  "U066": {
+   "type": "review",
+   "depth": "full",
+   "deals": [
+    "C016"
+   ],
+   "batch": "CJ-C",
+   "status": "closed"
+  },
+  "U067": {
+   "type": "review",
+   "depth": "full",
+   "deals": [
+    "K007"
+   ],
+   "batch": "KK-I1",
+   "status": "closed"
+  },
+  "U068": {
+   "type": "review",
+   "depth": "full",
+   "deals": [
+    "K030"
+   ],
+   "batch": "KK-I1",
+   "status": "closed"
+  },
+  "U069": {
+   "type": "review",
+   "depth": "full",
+   "deals": [
+    "N064"
+   ],
+   "batch": "NV-J1",
+   "status": "closed"
+  },
+  "U070": {
+   "type": "review",
+   "depth": "full",
+   "deals": [
+    "K065"
+   ],
+   "batch": "KK-H2",
+   "status": "closed"
+  },
+  "U071": {
+   "type": "review",
+   "depth": "full",
+   "deals": [
+    "N082"
+   ],
+   "batch": "NV-J1",
+   "status": "closed"
+  },
+  "U072": {
+   "type": "review",
+   "depth": "full",
+   "deals": [
+    "K022"
+   ],
+   "batch": "KK-I1",
+   "status": "closed"
+  },
+  "U073": {
+   "type": "review",
+   "depth": "full",
+   "deals": [
+    "C019"
+   ],
+   "batch": "CJ-C",
+   "status": "closed"
+  },
+  "U074": {
+   "type": "review",
+   "depth": "full",
+   "deals": [
+    "N040"
+   ],
+   "batch": "NV-L1",
+   "status": "closed"
+  },
+  "U075": {
+   "type": "review",
+   "depth": "light",
+   "deals": [
+    "K011"
+   ],
+   "batch": "KK-D1",
+   "status": "closed"
+  },
+  "U076": {
+   "type": "review",
+   "depth": "full",
+   "deals": [
+    "K057"
+   ],
+   "batch": "KK-I1",
+   "status": "closed"
+  },
+  "U077": {
+   "type": "review",
+   "depth": "full",
+   "deals": [
+    "N028"
+   ],
+   "batch": "NV-L1",
+   "status": "closed"
+  },
+  "U078": {
+   "type": "review",
+   "depth": "light",
+   "deals": [
+    "K018",
+    "K031"
+   ],
+   "batch": "KK-D1",
+   "status": "closed"
+  },
+  "U079": {
+   "type": "review",
+   "depth": "light",
+   "deals": [
+    "N061"
+   ],
+   "batch": "NV-J1",
+   "status": "closed"
+  },
+  "U080": {
+   "type": "review",
+   "depth": "light",
+   "deals": [
+    "C013",
+    "C014"
+   ],
+   "batch": "CJ-C",
+   "status": "closed"
+  },
+  "U081": {
+   "type": "collect",
+   "depth": "",
+   "deals": [
+    "N045"
+   ],
+   "batch": "NV-K2",
+   "status": "closed"
+  },
+  "U082": {
+   "type": "review",
+   "depth": "light",
+   "deals": [
+    "C015"
+   ],
+   "batch": "CJ-C",
+   "status": "closed"
+  },
+  "U083": {
+   "type": "collect",
+   "depth": "",
+   "deals": [
+    "N048",
+    "N056"
+   ],
+   "batch": "NV-K2",
+   "status": "closed"
+  },
+  "U084": {
+   "type": "collect",
+   "depth": "",
+   "deals": [
+    "N053"
+   ],
+   "batch": "NV-H",
+   "status": "closed"
+  },
+  "U085": {
+   "type": "collect",
+   "depth": "",
+   "deals": [
+    "N057"
+   ],
+   "batch": "NV-H",
+   "status": "closed"
+  },
+  "U086": {
+   "type": "collect",
+   "depth": "",
+   "deals": [
+    "N069",
+    "N070"
+   ],
+   "batch": "NV-H",
+   "status": "closed"
+  },
+  "U087": {
+   "type": "collect",
+   "depth": "",
+   "deals": [
+    "N071"
+   ],
+   "batch": "NV-H",
+   "status": "closed"
+  },
+  "U088": {
+   "type": "review",
+   "depth": "light",
+   "deals": [
+    "K003"
+   ],
+   "batch": "KK-H2",
+   "status": "closed"
+  },
+  "U089": {
+   "type": "collect",
+   "depth": "",
+   "deals": [
+    "N005",
+    "N012"
+   ],
+   "batch": "NV-K1",
+   "status": "closed"
+  },
+  "U090": {
+   "type": "collect",
+   "depth": "",
+   "deals": [
+    "N016",
+    "N021"
+   ],
+   "batch": "NV-K1",
+   "status": "closed"
+  },
+  "U091": {
+   "type": "collect",
+   "depth": "",
+   "deals": [
+    "N002",
+    "N003"
+   ],
+   "batch": "NV-D1",
+   "status": "closed"
+  },
+  "U092": {
+   "type": "collect",
+   "depth": "",
+   "deals": [
+    "N004",
+    "N006"
+   ],
+   "batch": "NV-D1",
+   "status": "closed"
+  },
+  "U093": {
+   "type": "collect",
+   "depth": "",
+   "deals": [
+    "N008"
+   ],
+   "batch": "NV-D1",
+   "status": "closed"
+  },
+  "U094": {
+   "type": "collect",
+   "depth": "",
+   "deals": [
+    "C018"
+   ],
+   "batch": "CJ-E",
+   "status": "closed"
+  },
+  "U095": {
+   "type": "collect",
+   "depth": "",
+   "deals": [
+    "C022",
+    "C023"
+   ],
+   "batch": "CJ-E",
+   "status": "closed"
+  },
+  "U096": {
+   "type": "collect",
+   "depth": "",
+   "deals": [
+    "C024",
+    "C025"
+   ],
+   "batch": "CJ-E",
+   "status": "closed"
+  },
+  "U097": {
+   "type": "review",
+   "depth": "light",
+   "deals": [
+    "K061"
+   ],
+   "batch": "KK-H2",
+   "status": "closed"
+  },
+  "U098": {
+   "type": "collect",
+   "depth": "",
+   "deals": [
+    "C026"
+   ],
+   "batch": "CJ-E",
+   "status": "closed"
+  },
+  "U099": {
+   "type": "review",
+   "depth": "full",
+   "deals": [
+    "N045"
+   ],
+   "batch": "NV-K2",
+   "status": "closed"
+  },
+  "U100": {
+   "type": "collect",
+   "depth": "",
+   "deals": [
+    "K006",
+    "K008"
+   ],
+   "batch": "KK-B",
+   "status": "closed"
+  },
+  "U101": {
+   "type": "collect",
+   "depth": "",
+   "deals": [
+    "K019"
+   ],
+   "batch": "KK-B",
+   "status": "closed"
+  },
+  "U102": {
+   "type": "review",
+   "depth": "light",
+   "deals": [
+    "N029",
+    "N034"
+   ],
+   "batch": "NV-L1",
+   "status": "closed"
+  },
+  "U103": {
+   "type": "collect",
+   "depth": "",
+   "deals": [
+    "K026",
+    "K032"
+   ],
+   "batch": "KK-B",
+   "status": "closed"
+  },
+  "U104": {
+   "type": "review",
+   "depth": "full",
+   "deals": [
+    "N069"
+   ],
+   "batch": "NV-H",
+   "status": "closed"
+  },
+  "U105": {
+   "type": "review",
+   "depth": "full",
+   "deals": [
+    "N005"
+   ],
+   "batch": "NV-K1",
+   "status": "closed"
+  },
+  "U106": {
+   "type": "review",
+   "depth": "full",
+   "deals": [
+    "N003",
+    "N004"
+   ],
+   "batch": "NV-D1",
+   "status": "closed"
+  },
+  "U107": {
+   "type": "review",
+   "depth": "full",
+   "deals": [
+    "N006",
+    "N008"
+   ],
+   "batch": "NV-D1",
+   "status": "closed"
+  },
+  "U108": {
+   "type": "review",
+   "depth": "full",
+   "deals": [
+    "C022",
+    "C023"
+   ],
+   "batch": "CJ-E",
+   "status": "closed"
+  },
+  "U109": {
+   "type": "review",
+   "depth": "full",
+   "deals": [
+    "C026"
+   ],
+   "batch": "CJ-E",
+   "status": "closed"
+  },
+  "U110": {
+   "type": "review",
+   "depth": "light",
+   "deals": [
+    "N039"
+   ],
+   "batch": "NV-L1",
+   "status": "closed"
+  },
+  "U111": {
+   "type": "review",
+   "depth": "light",
+   "deals": [
+    "N042",
+    "N048",
+    "N056"
+   ],
+   "batch": "NV-K2",
+   "status": "closed"
+  },
+  "U112": {
+   "type": "review",
+   "depth": "full",
+   "deals": [
+    "N070"
+   ],
+   "batch": "NV-H",
+   "status": "closed"
+  },
+  "U113": {
+   "type": "review",
+   "depth": "light",
+   "deals": [
+    "N022"
+   ],
+   "batch": "NV-E",
+   "status": "closed"
+  },
+  "U114": {
+   "type": "review",
+   "depth": "light",
+   "deals": [
+    "N023"
+   ],
+   "batch": "NV-E",
+   "status": "closed"
+  },
+  "U115": {
+   "type": "review",
+   "depth": "light",
+   "deals": [
+    "N053"
+   ],
+   "batch": "NV-H",
+   "status": "closed"
+  },
+  "U116": {
+   "type": "review",
+   "depth": "light",
+   "deals": [
+    "N057"
+   ],
+   "batch": "NV-H",
+   "status": "closed"
+  },
+  "U117": {
+   "type": "review",
+   "depth": "full",
+   "deals": [
+    "C025"
+   ],
+   "batch": "CJ-E",
+   "status": "closed"
+  },
+  "U118": {
+   "type": "review",
+   "depth": "light",
+   "deals": [
+    "N071"
+   ],
+   "batch": "NV-H",
+   "status": "closed"
+  },
+  "U119": {
+   "type": "review",
+   "depth": "light",
+   "deals": [
+    "N012",
+    "N016"
+   ],
+   "batch": "NV-K1",
+   "status": "closed"
+  },
+  "U120": {
+   "type": "review",
+   "depth": "light",
+   "deals": [
+    "N021"
+   ],
+   "batch": "NV-K1",
+   "status": "closed"
+  },
+  "U121": {
+   "type": "review",
+   "depth": "light",
+   "deals": [
+    "N002"
+   ],
+   "batch": "NV-D1",
+   "status": "closed"
+  },
+  "U122": {
+   "type": "review",
+   "depth": "full",
+   "deals": [
+    "K006"
+   ],
+   "batch": "KK-B",
+   "status": "closed"
+  },
+  "U123": {
+   "type": "review",
+   "depth": "light",
+   "deals": [
+    "C018"
+   ],
+   "batch": "CJ-E",
+   "status": "closed"
+  },
+  "U124": {
+   "type": "review",
+   "depth": "light",
+   "deals": [
+    "C024"
+   ],
+   "batch": "CJ-E",
+   "status": "closed"
+  },
+  "U125": {
+   "type": "collect",
+   "depth": "",
+   "deals": [
+    "K034",
+    "K037"
+   ],
+   "batch": "KK-B",
+   "status": "closed"
+  },
+  "U126": {
+   "type": "collect",
+   "depth": "",
+   "deals": [
+    "N035",
+    "N036"
+   ],
+   "batch": "NV-L2",
+   "status": "closed"
+  },
+  "U127": {
+   "type": "collect",
+   "depth": "",
+   "deals": [
+    "N043"
+   ],
+   "batch": "NV-L2",
+   "status": "closed"
+  },
+  "U128": {
+   "type": "collect",
+   "depth": "",
+   "deals": [
+    "N054",
+    "N063"
+   ],
+   "batch": "NV-L2",
+   "status": "closed"
+  },
+  "U129": {
+   "type": "collect",
+   "depth": "",
+   "deals": [
+    "N009",
+    "N010"
+   ],
+   "batch": "NV-D2",
+   "status": "closed"
+  },
+  "U130": {
+   "type": "review",
+   "depth": "full",
+   "deals": [
+    "K008"
+   ],
+   "batch": "KK-B",
+   "status": "closed"
+  },
+  "U131": {
+   "type": "collect",
+   "depth": "",
+   "deals": [
+    "N014",
+    "N017"
+   ],
+   "batch": "NV-D2",
+   "status": "closed"
+  },
+  "U132": {
+   "type": "collect",
+   "depth": "",
+   "deals": [
+    "N018"
+   ],
+   "batch": "NV-D2",
+   "status": "closed"
+  },
+  "U133": {
+   "type": "collect",
+   "depth": "",
+   "deals": [
+    "C017",
+    "C021"
+   ],
+   "batch": "CJ-F",
+   "status": "closed"
+  },
+  "U134": {
+   "type": "review",
+   "depth": "light",
+   "deals": [
+    "K019"
+   ],
+   "batch": "KK-B",
+   "status": "closed"
+  },
+  "U135": {
+   "type": "collect",
+   "depth": "",
+   "deals": [
+    "C027",
+    "C028"
+   ],
+   "batch": "CJ-F",
+   "status": "closed"
+  },
+  "U136": {
+   "type": "collect",
+   "depth": "",
+   "deals": [
+    "C029"
+   ],
+   "batch": "CJ-F",
+   "status": "closed"
+  },
+  "U137": {
+   "type": "collect",
+   "depth": "",
+   "deals": [
+    "K042"
+   ],
+   "batch": "KK-D2",
+   "status": "closed"
+  },
+  "U138": {
+   "type": "collect",
+   "depth": "",
+   "deals": [
+    "K067"
+   ],
+   "batch": "KK-D2",
+   "status": "closed"
+  },
+  "U139": {
+   "type": "collect",
+   "depth": "",
+   "deals": [
+    "K069",
+    "K071"
+   ],
+   "batch": "KK-D2",
+   "status": "closed"
+  },
+  "U140": {
+   "type": "review",
+   "depth": "full",
+   "deals": [
+    "K032"
+   ],
+   "batch": "KK-B",
+   "status": "closed"
+  },
+  "U141": {
+   "type": "review",
+   "depth": "light",
+   "deals": [
+    "K026"
+   ],
+   "batch": "KK-B",
+   "status": "closed"
+  },
+  "U142": {
+   "type": "collect",
+   "depth": "",
+   "deals": [
+    "N047",
+    "N049",
+    "N073"
+   ],
+   "batch": "NV-N",
+   "status": "closed"
+  },
+  "U143": {
+   "type": "review",
+   "depth": "light",
+   "deals": [
+    "N043"
+   ],
+   "batch": "NV-L2",
+   "status": "closed"
+  },
+  "U144": {
+   "type": "review",
+   "depth": "full",
+   "deals": [
+    "N018"
+   ],
+   "batch": "NV-D2",
+   "status": "closed"
+  },
+  "U145": {
+   "type": "review",
+   "depth": "light",
+   "deals": [
+    "N009",
+    "N010"
+   ],
+   "batch": "NV-D2",
+   "status": "closed"
+  },
+  "U146": {
+   "type": "review",
+   "depth": "light",
+   "deals": [
+    "N014"
+   ],
+   "batch": "NV-D2",
+   "status": "closed"
+  },
+  "U147": {
+   "type": "review",
+   "depth": "full",
+   "deals": [
+    "C029"
+   ],
+   "batch": "CJ-F",
+   "status": "closed"
+  },
+  "U148": {
+   "type": "review",
+   "depth": "light",
+   "deals": [
+    "N054",
+    "N063"
+   ],
+   "batch": "NV-L2",
+   "status": "closed"
+  },
+  "U149": {
+   "type": "review",
+   "depth": "light",
+   "deals": [
+    "C017"
+   ],
+   "batch": "CJ-F",
+   "status": "closed"
+  },
+  "U150": {
+   "type": "review",
+   "depth": "light",
+   "deals": [
+    "C021"
+   ],
+   "batch": "CJ-F",
+   "status": "closed"
+  },
+  "U151": {
+   "type": "review",
+   "depth": "light",
+   "deals": [
+    "K042"
+   ],
+   "batch": "KK-D2",
+   "status": "closed"
+  },
+  "U152": {
+   "type": "review",
+   "depth": "light",
+   "deals": [
+    "K067"
+   ],
+   "batch": "KK-D2",
+   "status": "closed"
+  },
+  "U153": {
+   "type": "collect",
+   "depth": "",
+   "deals": [
+    "N074",
+    "N077"
+   ],
+   "batch": "NV-N",
+   "status": "closed"
+  },
+  "U154": {
+   "type": "review",
+   "depth": "full",
+   "deals": [
+    "C027"
+   ],
+   "batch": "CJ-F",
+   "status": "closed"
+  },
+  "U155": {
+   "type": "review",
+   "depth": "full",
+   "deals": [
+    "K034"
+   ],
+   "batch": "KK-B",
+   "status": "closed"
+  },
+  "U156": {
+   "type": "review",
+   "depth": "full",
+   "deals": [
+    "N035"
+   ],
+   "batch": "NV-L2",
+   "status": "closed"
+  },
+  "U157": {
+   "type": "review",
+   "depth": "light",
+   "deals": [
+    "C028"
+   ],
+   "batch": "CJ-F",
+   "status": "closed"
+  },
+  "U158": {
+   "type": "review",
+   "depth": "full",
+   "deals": [
+    "N017"
+   ],
+   "batch": "NV-D2",
+   "status": "closed"
+  },
+  "U159": {
+   "type": "review",
+   "depth": "full",
+   "deals": [
+    "K037"
+   ],
+   "batch": "KK-B",
+   "status": "closed"
+  },
+  "U160": {
+   "type": "review",
+   "depth": "light",
+   "deals": [
+    "N036"
+   ],
+   "batch": "NV-L2",
+   "status": "closed"
+  },
+  "U161": {
+   "type": "collect",
+   "depth": "",
+   "deals": [
+    "N065",
+    "N066"
+   ],
+   "batch": "NV-J2",
+   "status": "closed"
+  },
+  "U162": {
+   "type": "collect",
+   "depth": "",
+   "deals": [
+    "N072",
+    "N076"
+   ],
+   "batch": "NV-J2",
+   "status": "closed"
+  },
+  "U163": {
+   "type": "collect",
+   "depth": "",
+   "deals": [
+    "N080"
+   ],
+   "batch": "NV-J2",
+   "status": "closed"
+  },
+  "U164": {
+   "type": "collect",
+   "depth": "",
+   "deals": [
+    "K015"
+   ],
+   "batch": "KK-F2",
+   "status": "closed"
+  },
+  "U165": {
+   "type": "collect",
+   "depth": "",
+   "deals": [
+    "K017"
+   ],
+   "batch": "KK-F2",
+   "status": "closed"
+  },
+  "U166": {
+   "type": "collect",
+   "depth": "",
+   "deals": [
+    "K023"
+   ],
+   "batch": "KK-F2",
+   "status": "closed"
+  },
+  "U167": {
+   "type": "review",
+   "depth": "full",
+   "deals": [
+    "K069"
+   ],
+   "batch": "KK-D2",
+   "status": "closed"
+  },
+  "U168": {
+   "type": "review",
+   "depth": "full",
+   "deals": [
+    "K071"
+   ],
+   "batch": "KK-D2",
+   "status": "closed"
+  },
+  "U169": {
+   "type": "review",
+   "depth": "light",
+   "deals": [
+    "N047",
+    "N049",
+    "N073"
+   ],
+   "batch": "NV-N",
+   "status": "closed"
+  },
+  "U170": {
+   "type": "collect",
+   "depth": "",
+   "deals": [
+    "K024"
+   ],
+   "batch": "KK-F2",
+   "status": "closed"
+  },
+  "U171": {
+   "type": "review",
+   "depth": "full",
+   "deals": [
+    "N074"
+   ],
+   "batch": "NV-N",
+   "status": "closed"
+  },
+  "U172": {
+   "type": "review",
+   "depth": "light",
+   "deals": [
+    "N077"
+   ],
+   "batch": "NV-N",
+   "status": "closed"
+  },
+  "U173": {
+   "type": "collect",
+   "depth": "",
+   "deals": [
+    "K028"
+   ],
+   "batch": "KK-F2",
+   "status": "closed"
+  },
+  "U174": {
+   "type": "review",
+   "depth": "light",
+   "deals": [
+    "K015"
+   ],
+   "batch": "KK-F2",
+   "status": "closed"
+  },
+  "U175": {
+   "type": "review",
+   "depth": "full",
+   "deals": [
+    "N080"
+   ],
+   "batch": "NV-J2",
+   "status": "closed"
+  },
+  "U176": {
+   "type": "review",
+   "depth": "light",
+   "deals": [
+    "N072"
+   ],
+   "batch": "NV-J2",
+   "status": "closed"
+  },
+  "U177": {
+   "type": "collect",
+   "depth": "",
+   "deals": [
+    "K029"
+   ],
+   "batch": "KK-F2",
+   "status": "closed"
+  },
+  "U178": {
+   "type": "review",
+   "depth": "light",
+   "deals": [
+    "N065",
+    "N066"
+   ],
+   "batch": "NV-J2",
+   "status": "closed"
+  },
+  "U179": {
+   "type": "review",
+   "depth": "light",
+   "deals": [
+    "K017"
+   ],
+   "batch": "KK-F2",
+   "status": "closed"
+  },
+  "U180": {
+   "type": "collect",
+   "depth": "",
+   "deals": [
+    "K040",
+    "K053"
+   ],
+   "batch": "KK-I2",
+   "status": "closed"
+  },
+  "U181": {
+   "type": "review",
+   "depth": "light",
+   "deals": [
+    "N076"
+   ],
+   "batch": "NV-J2",
+   "status": "closed"
+  },
+  "U182": {
+   "type": "collect",
+   "depth": "",
+   "deals": [
+    "K054"
+   ],
+   "batch": "KK-I2",
+   "status": "closed"
+  },
+  "U183": {
+   "type": "collect",
+   "depth": "",
+   "deals": [
+    "K064",
+    "K068"
+   ],
+   "batch": "KK-I2",
+   "status": "closed"
+  },
+  "U184": {
+   "type": "review",
+   "depth": "light",
+   "deals": [
+    "K023"
+   ],
+   "batch": "KK-F2",
+   "status": "closed"
+  },
+  "U185": {
+   "type": "review",
+   "depth": "light",
+   "deals": [
+    "K028"
+   ],
+   "batch": "KK-F2",
+   "status": "closed"
+  },
+  "U186": {
+   "type": "review",
+   "depth": "light",
+   "deals": [
+    "K024"
+   ],
+   "batch": "KK-F2",
+   "status": "closed"
+  },
+  "U187": {
+   "type": "review",
+   "depth": "light",
+   "deals": [
+    "K064"
+   ],
+   "batch": "KK-I2",
+   "status": "closed"
+  },
+  "U188": {
+   "type": "review",
+   "depth": "light",
+   "deals": [
+    "K040",
+    "K053"
+   ],
+   "batch": "KK-I2",
+   "status": "closed"
+  },
+  "U189": {
+   "type": "review",
+   "depth": "light",
+   "deals": [
+    "K029"
+   ],
+   "batch": "KK-F2",
+   "status": "closed"
+  },
+  "U190": {
+   "type": "review",
+   "depth": "light",
+   "deals": [
+    "K054"
+   ],
+   "batch": "KK-I2",
+   "status": "closed"
+  },
+  "U191": {
+   "type": "review",
+   "depth": "light",
+   "deals": [
+    "K068"
+   ],
+   "batch": "KK-I2",
+   "status": "closed"
+  }
+ }
+}

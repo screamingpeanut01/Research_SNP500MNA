@@ -1,0 +1,118 @@
+{
+ "deal_id": "N028",
+ "review_status": "수정",
+ "review_note": "확인한 것: LINE F-1(SEC 0001193125-16-618753)을 직접 받아 주석 30 사업결합(2015-03-16 Microsoft Mobile Oy로부터 취득, 현금 ¥2,299,444천, 영업권 ¥2,697,621천, 목적 문장 원문 일치), 주석 24·중간주석 9 중단영업(2015 매출 ¥264,306천·세전 ¥(11,503,098)천, 2016 1분기 ¥443,053천·¥(2,497,481)천), 주석 12 손상(영업권 ¥2,691,671천 등), 위험요인 인용, 선택재무정보(총자산 2013 ¥46,522백만·2014 ¥85,664백만, 부채 ¥34,206·¥73,153백만), 매출 구성표(2014 콘텐츠 46.8% 등)를 대조해 모두 일치. NAVER 2015 사업보고서(20160330003610) 주석 34(이전대가 21,021,563천원, 영업권 24,661,702천원, 영업권 인식 사유 문장 일치)·주석 15(손상 31,214백만원, MIXRADIO 영업권 전액 감액)·주석 36(청산 예정), NAVER 2014 사업보고서(20150331003278) 종속회사 표(LINE Corp. 의결권 과반수, 자산 987,933백만원)·요약재무(총자산 3,394,458/2,697,747백만원, 자본 1,475,309백만원)·발행주식 32,962,679주, NAVER 2016(주석 36)·2017(연결 제외 India 청산) 사업보고서 문장, Companies House(2014-12-01 설립, LINE (UK) LIMITED 2014-12-01~2015-03-19, 2020-05-20 해산), Hypebot·PCWorld(\"expected to close early next year\")·eu-japan·뉴스핌(황인준 CFO 인용 원문 일치), Yahoo Finance 035420.KS·JPY=X(2014-12-18 118.796)를 모두 다시 열어 확인. 비율 계산(4.94%, 18.67%, 0.78%, 1.42%)과 USD 환산(19.36) 재계산 일치. 분류(MA① 경영권 인수, 편입 후, 완료 2015-03-16, 인접)는 정의대로 유지. / 고친 것: ① acq_mktcap·size_basis: 가장 이른 발표 보도가 2014-12-18 12:10 UTC(21:10 KST)로 KRX 장 마감 뒤이므로 발표 직전 거래일을 2014-12-17에서 2014-12-18(종가 719,000원, 시총 23,700,166,201,000원)로 바꾸고 12-17 값은 참고로 남김. ② first_filing_date·pre_events_summary: 2014-07-18 Microsoft의 MixRadio 분사 계획 공개, 2014-11-18 TechCrunch 투자자 물색 보도, 2014-12 LINE MUSIC 발표가 빠져 있어 추가하고 보도 시각을 적음. ③ target_op_post·perf_basis·notes: '영업이익 미공시'가 틀림. NAVER 2016 사업보고서(20170331004699) 연결주석 36에 MIXRADIO 중단영업 영업손실(2015 (68,021,112)천원, 2016 (28,343,727)천원)이 있어 추가. ④ target_rev_post·target_op_post: 2016은 1분기 수치만 있어 LINE 2016 20-F(0001157523-17-000925) 연간 수치(매출 ¥443,754천, 세전 ¥(2,726,310)천, 순손실 ¥(1,981,668)천)로 보강. ⑤ post_events_summary: NAVER 연결 구조조정비용 10,225백만원(2016) 추가. / 남은 의문: LINE·Microsoft 발표문 원문과 정확한 공시 시각은 찾지 못해 이벤트 기준일은 보도 시각으로 판단한 것이다. NAVER 표의 중단영업 영업수익은 괄호(음수)로 표기돼 있고 2016 값(976,771천원)이 LINE 2016 매출 ¥443백만과 환산상 크게 어긋나 이유를 확인하지 못했다(LINE 기준 우선). target_rev_pre·target_op_pre는 Microsoft 사업부라 공시가 없어 미확인 유지. NAVER 2014 종속회사 표의 LINE 자산 987,933백만원이 LINE IFRS 연결 총자산(¥85,664백만)의 원화 환산보다 커서 기준 차이로 보이나 확인하지 못함(참고값이라 그대로 둠). 2016 20-F 수치는 수집 에이전트가 SEC에서 받아 둔 같은 문서 파일에서 대조했다.",
+ "corrections": {
+  "acq_mktcap": "계산: NAVER 2014-12-18 종가 719,000원 × 발행주식 32,962,679주 = 23,700,166,201,000원(약 23.7조원). 종가는 Yahoo Finance 035420.KS 조정종가 143,800원에 2018-10 액면분할 5:1을 되돌린 값. 기준일 근거: 확인한 가장 이른 발표 보도가 2014-12-18 12:10 UTC(21:10 KST, Hypebot)로 KRX 장 마감(15:00 KST) 뒤라서 2014-12-18이 발표 직전 거래일이고 시장 반응 첫날은 2014-12-19다(발표문 자체의 공시 시각은 미확인). 참고: 2014-12-17 종가 729,000원 기준이면 24,029,792,991,000원. LINE은 당시 비상장",
+  "size_basis": "거래금액은 LINE F-1(¥)·NAVER 2015 사업보고서(원) 사업결합 주석. LINE 자산·부채는 F-1 선택재무정보(IFRS 연결, 2013·2014 12월 말). NAVER 총자산·자본은 2014 사업보고서(20150331003278) 요약 연결재무정보. 시가총액 기준일은 발표 보도가 KRX 장 마감 뒤(2014-12-18 21:10 KST 이후)에 나온 점을 근거로 2014-12-18(직전 거래일)로 함, 주식수는 2014-12-31 발행주식총수(NAVER 2014 사업보고서)",
+  "first_filing_date": "2014-12-18 LINE·Microsoft 동시 발표(발표문 원문의 공시 시각은 미확인). 확인한 가장 이른 보도는 Hypebot 2014-12-18 12:10 UTC(21:10 KST, KRX 장 마감 후), 이어 TechCrunch 16:47 UTC, PCWorld 19:35 UTC, 일본 주간 ASCII 2014-12-19 02:53 JST. 인수자 LINE을 거론한 사전 인수설 보도는 찾지 못함. 다만 매각 대상이라는 사실은 먼저 알려져 있었다: 2014-07-18 MixRadio 대표 Jyrki Rosenberg가 분사(spin-off) 계획과 투자자 접촉을 공개(Guardian 인용, Hypebot), 2014-11-18 TechCrunch가 Microsoft가 독립 MixRadio의 투자자를 찾고 있다고 보도",
+  "pre_events_summary": "2007: Nokia가 휴대폰 번들 음악 서비스 'Comes with Music' 시작, 이후 Nokia Music·Nokia Music Store·Ovi Music Store로 운영; 2014: Microsoft가 Nokia 단말사업 인수 후 서비스명을 MixRadio로 변경(정확한 날짜 미기재); 2014-07-18: Microsoft 대규모 감원 발표와 함께 MixRadio 분사 계획 보도, Rosenberg 대표 \"Basically, we're planning a spin-off\"(Guardian 인용, Hypebot); 2014-11-18: TechCrunch, Microsoft가 독립 MixRadio의 투자자를 물색 중이라고 보도(분사 협상 진행); 2014-12-01: LINE이 인수 비히클 LINE (UK) Limited 설립; 2014-12 둘째 주: LINE이 일본 전용 음악 스트리밍 사업 LINE MUSIC 발표(TechCrunch 2014-12-18 'last week'); 2014-12-18: LINE–Microsoft Mobile Oy 사업양도계약 체결·발표(분사 대신 LINE에 매각). 발표문 기준 31개국 수백만 청취자, 브리스톨 본사·경영진 유지, Lumia에 제3자 서비스로 계속 제공",
+  "post_events_summary": "2015-03-16: 인수 완료(이전대가 ¥2,299백만, 영업권 ¥2,698백만); 2015-03-19: LINE (UK) Limited → MixRadio Limited 사명 변경; 2015-07-30: NAVER 2분기 컨퍼런스콜에서 MixRadio 인수 마무리로 비용 증가 언급, 인력 약 200명; 2015-12: MixRadio Entertainment India 설립; 2015-Q4: 영업권 전액 등 약 ¥4.6bn 손상; 2016-02-12: LINE 이사회가 MixRadio 사업 포기 승인; 2016-03-21: 서비스 종료, 중단영업으로 소급 재분류, 2016년 1분기 구조조정비용 ¥1,183백만(퇴직급여)+¥127백만(임차계약 해지); 2016: NAVER 연결 기준 MIXRADIO 서비스 종료 관련 구조조정비용 10,225백만원을 중단영업손익에 반영(NAVER 2016 사업보고서 연결주석 21); 2016~2017: NAVER 사업보고서상 MIXRADIO 청산 진행(2017년 상반기 목표); 2017: MixRadio Entertainment India 청산; 2020-05-20: MixRadio Limited 해산",
+  "target_rev_post": "LINE IFRS 기준 중단영업 매출: 2015(2015-03-16~12-31): ¥264,306천; 2016(서비스 종료 2016-03-21까지, 연간): ¥443,754천(1분기 ¥443,053천); 이후 해당 없음(서비스 종료·청산). 참고 NAVER K-IFRS 연결 중단영업 영업수익: 2015: 2,773,252천원, 2016: 976,771천원(공시 표에는 괄호 음수로 표기, 2016 값이 LINE 엔화 수치와 환산상 크게 어긋나 LINE 기준을 우선)",
+  "target_op_post": "NAVER K-IFRS 연결 중단영업(MIXRADIO) 영업손실: 2015: (68,021,112)천원, 2016: (28,343,727)천원; 세전손실 2015: (114,924,465)천원, 2016: (18,902,682)천원 (NAVER 2016 사업보고서 연결주석 36). LINE IFRS 기준(영업이익 항목 없음) 중단영업 세전손실: 2015: ¥(11,503,098)천(손상 포함), 순손실 ¥(7,587,997)천; 2016 연간: 세전손실 ¥(2,726,310)천, 순손실 ¥(1,981,668)천(1분기 세전 ¥(2,497,481)천)",
+  "perf_basis": "인수 후 매출·세전손익은 LINE Corporation IFRS 연결재무제표 중단영업 주석(F-1 연결주석 24, SEC 2016-06-10; 2016 연간은 2016 20-F 연결주석 23, SEC 2017-03-31; 엔화, 12월 결산). 2015·2016 중단영업은 MixRadio 단독(F-1: MixRadio가 중단영업 손실을 ¥7,587,997천 늘렸다고 기재해 2015년 합계와 같음; 2016은 다른 중단사업 없음). 영업손실은 NAVER 2016 사업보고서(20170331004699) 연결주석 36 중단영업 손익표(K-IFRS, 천원, MIXRADIO 단독)에서 가져옴. 두 기준은 회계처리·환율이 달라 직접 비교하지 않는다. 인수 전 실적은 Nokia·Microsoft 사업부라 공시가 없음",
+  "notes": "인수 1년 만에 철수한 실패 사례: 2015년 4분기 MixRadio 영업권 전액 등 약 ¥4.6bn 손상, 2016-02-12 LINE 이사회가 사업 포기 승인, 2016-03-21 서비스 종료·중단영업 재분류, 영국 법인 MixRadio Limited는 2020-05-20 해산(Companies House). 인수 비히클은 2014-12-01 설립한 LINE (UK) Limited(2015-03-19 MixRadio Limited로 사명 변경). NAVER K-IFRS 주석(이전대가 21,021,563천원, 영업권 24,661,702천원)과 LINE IFRS 주석(이전대가 ¥2,299,444천, 영업권 ¥2,697,621천)은 통화만 다르고 같은 거래다. 같은 묶음 N029(위트스튜디오, 라인플러스)와는 별개 거래. target_rev_pre·target_op_pre는 MixRadio가 Nokia→Microsoft 내부 사업부여서 별도 실적 공시가 없어 미확인(F-1·NAVER 사업보고서·보도 확인). 인수 후 영업손실은 NAVER 2016 사업보고서 중단영업 주석에 있고, LINE 기준은 중단영업 세전손익만 있다. Microsoft는 2014-07부터 MixRadio 분사를 추진하다 2014-12 LINE에 매각했다. 발표 보도가 KRX 장 마감 뒤에 나와 이벤트 분석의 반응 첫날은 2014-12-19로 본다. LINE 공식 보도자료 원문(linecorp.com)은 검색으로 찾지 못했고 musicbusinessworldwide·exchange4media 기사는 403으로 열리지 않아, 발표문은 Hypebot·PCWorld 기사로 확인. NAVER 2015년 4분기 컨퍼런스콜의 MixRadio 언급은 찾지 못함."
+ },
+ "evidence_add": [
+  {
+   "field": "acq_mktcap,size_basis,first_filing_date",
+   "phase": "발표",
+   "event_date": "2014-12-18",
+   "event_type": "발표",
+   "content": "기사 메타데이터 article:published_time 2014-12-18T12:10:42Z(21:10 KST, KRX 장 마감 후). LINE이 \"expand its range of services to become an integral part of consumers' daily lives\" 위해 인수",
+   "url": "https://www.hypebot.com/line-messaging-app-acquires-microsofts-mixradio",
+   "doc_type": "언론 보도",
+   "doc_date": "2014-12-18",
+   "doc_id": ""
+  },
+  {
+   "field": "acq_mktcap",
+   "phase": "발표",
+   "event_date": "2014-12-18",
+   "event_type": "기타",
+   "content": "035420.KS 일별 조정종가: 2014-12-17 145,800원, 2014-12-18 143,800원, 2014-12-19 148,000원(2018-10 5:1 분할 소급 반영). 12-18 실제 종가 719,000원",
+   "url": "https://query1.finance.yahoo.com/v8/finance/chart/035420.KS?period1=1418601600&period2=1418947200&interval=1d",
+   "doc_type": "기타",
+   "doc_date": "2026-10-26",
+   "doc_id": ""
+  },
+  {
+   "field": "first_filing_date,pre_events_summary",
+   "phase": "발표",
+   "event_date": "2014-12-18",
+   "event_type": "발표",
+   "content": "datePublished 2014-12-18T16:47:13Z. \"Last month we reported that Microsoft was considering spinning out MixRadio\"; LINE이 \"announced a music streaming business in Japan last week\"",
+   "url": "https://techcrunch.com/2014/12/18/mixradio-line/",
+   "doc_type": "언론 보도",
+   "doc_date": "2014-12-18",
+   "doc_id": ""
+  },
+  {
+   "field": "first_filing_date",
+   "phase": "발표",
+   "event_date": "2014-12-18",
+   "event_type": "발표",
+   "content": "게재 2014年12月19日 02時53分(JST). \"LINE社は12月18日、マイクロソフト コーポレーションから『MixRadio』事業を買収することについて合意しました\"",
+   "url": "https://weekly.ascii.jp/elem/000/002/628/2628755/",
+   "doc_type": "언론 보도",
+   "doc_date": "2014-12-19",
+   "doc_id": ""
+  },
+  {
+   "field": "pre_events_summary,first_filing_date",
+   "phase": "인수 전",
+   "event_date": "2014-07-18",
+   "event_type": "기타",
+   "content": "Microsoft 감원 발표와 함께 MixRadio 분사 계획 보도. Rosenberg 대표 \"Basically, we're planning a spin-off\"(Guardian 인용)",
+   "url": "https://www.hypebot.com/microsoft-to-spin-off-nokias-mixradio",
+   "doc_type": "언론 보도",
+   "doc_date": "2014-07-18",
+   "doc_id": ""
+  },
+  {
+   "field": "pre_events_summary,first_filing_date",
+   "phase": "인수 전",
+   "event_date": "2014-11-18",
+   "event_type": "기타",
+   "content": "\"Microsoft is in the midst of seeking out investors for an independent Nokia MixRadio\", 분사 협상이 \"good progress\"",
+   "url": "https://techcrunch.com/2014/11/18/microsoft-considering-spinning-out-nokia-mixradio/",
+   "doc_type": "언론 보도",
+   "doc_date": "2014-11-18",
+   "doc_id": ""
+  },
+  {
+   "field": "target_op_post,target_rev_post,perf_basis",
+   "phase": "인수 후",
+   "event_date": "2016-12-31",
+   "event_type": "실적",
+   "content": "연결주석 36 중단영업(MIXRADIO): 영업수익 당기 (976,771)·전기 (2,773,252)천원, 영업손실 당기 (28,343,727)·전기 (68,021,112)천원, 세전 중단영업손실 (18,902,682)·(114,924,465)천원, 세후 (11,834,381)·(77,232,523)천원. \"2017년 상반기 완료를 목표로 MIXRADIO 법인의 청산을 진행하고 있습니다\"",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20170331004699",
+   "doc_type": "DART 사업보고서",
+   "doc_date": "2017-03-31",
+   "doc_id": "20170331004699"
+  },
+  {
+   "field": "post_events_summary",
+   "phase": "인수 후",
+   "event_date": "2016",
+   "event_type": "사업철수",
+   "content": "연결주석 21: \"종속기업인 MIXRADIO의 서비스 종료를 결정하였으며, 이와 관련하여 당기중 중단영업손익으로 반영된 구조조정비용은 10,225백만원입니다\"",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20170331004699",
+   "doc_type": "DART 사업보고서",
+   "doc_date": "2017-03-31",
+   "doc_id": "20170331004699"
+  },
+  {
+   "field": "target_rev_post,target_op_post,perf_basis",
+   "phase": "인수 후",
+   "event_date": "2016-12-31",
+   "event_type": "실적",
+   "content": "연결주석 23 Discontinued Operations: 2016 Revenues ¥443,754천, Profit/(loss) before tax ¥(2,726,310)천, loss for the year ¥(1,981,668)천 (2015: ¥264,306천, ¥(11,503,098)천, ¥(7,587,997)천)",
+   "url": "https://www.sec.gov/Archives/edgar/data/1611820/000115752317000925/a51530935.htm",
+   "doc_type": "SEC",
+   "doc_date": "2017-03-31",
+   "doc_id": "0001157523-17-000925"
+  }
+ ],
+ "evidence_drop": []
+}

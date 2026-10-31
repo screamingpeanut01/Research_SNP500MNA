@@ -1,0 +1,94 @@
+{
+ "deal_id": "N068",
+ "review_status": "수정",
+ "review_note": "확인한 것: SEC 원문을 직접 받아 대조 — 10-Q 3Q21(후속사건: 2021-10-12 완료, 현금 USD 6.6M, 언아웃 최대 2.5M; 재무상태표 총자산 608,083천·자본 418,235천·Class A 46,907,119주·Class B 29,991,022주), 10-K 2021(주석 7 이전대가 8,116천·순부채 (396)·무형 1,500·영업권 7,012천, 'Pro forma ... not presented because the impacts are not material', 2021 영업권 손상 없음; 순매출 326,009/261,601천, 영업손익 (44,425)/25,191천; GoshPosh 설립; 위험요인 문구), Ex.21.1(Suede One, Inc. Delaware), 10-Q 2Q22·3Q22(언아웃 1,186·1,223천, 기한 2022-10-31, 영업권 손상 없음, 1~9월 순매출 268,430·영업손실 (61,632)천), 3Q21·4Q21 실적 보도자료(인용 원문 일치), DEFM14A(2022-01-04 첫 접촉), 8-K 2023-01-05, 424B4(6,600,000주·USD 42.00), NAVER 2023-1Q 분기보고서(Poshmark 하위 종속기업에 Suede One 없음 — 일치), FashionNetwork·FashionUnited·Retail Dive·MarTechVibe·CB Insights·digrin(월간 23.76/24.33, 월말 종가인지 불명 — 기록과 같음). 숫자·날짜·인용 모두 원문과 일치. 고친 것: (1) subtype_chk MA⑥→MA① 경영권 인수, chk_note 재작성 — 코디네이터가 알린 갱신 기준(brief_collect 3절: 그룹 계보 기준, 예시에 'Poshmark(2021, NAVER 인수 전)의 Suede One 인수도 MA① + 편입 전'이 명시)에 따름. (2) pre_incorp_chk에 근거 문서 추가(갱신 기준이 '편입일·문서'를 요구). (3) purpose_quote: 발표 당시 보도자료 전문(eSeller365 재게재)을 찾아 회사 목적 문장과 CEO의 구체적 목적 문장으로 교체, 사후 자료(3Q21 실적 보도자료) 인용은 earnings_call_note로 넘김. (4) earnings_call_note: 기록은 '어닝콜 언급 찾지 못함'이었으나 3Q21·4Q21·1Q22·2Q22 어닝콜 녹취록(Motley Fool) 원문에서 Suede One 언급과 통합 일정(2022년 출시 예정→2Q22 시험 단계)을 찾아 추가. (5) post_events_summary에 통합 진행 단계 추가. (6) notes: 'NAVER M&A로 집계하면 안 된다'를 두 축 체계에 맞게 고침, Forloine을 설립자로 단정한 부분 정정(원문은 'CEO'), Form D 0건·완료일 하루 차이·10-K 2021 재무 정정 사실 추가. 남은 의문: 수집 기록 근거 행 중 FashionUnited 행 content의 '창업자 겸 CEO'는 원문에 없음(원문 'Suede One CEO Matt Forloine') — 행 자체는 금액 비공개·첫 인수 근거로 유효해 유지. Suede One 매출·영업이익(인수 전후)은 비상장·미공시로 미확인 유지(Form D·보도·CB Insights 재확인). 언아웃 실제 지급 여부, Suede One 법인 소멸 시점, USD 500 미만 인증 출시 여부는 Poshmark 공시 중단으로 미확인. 발표 직전 일별 종가는 Yahoo·Nasdaq API(데이터 없음)로 재시도했고 stooq·MarketWatch는 봇 차단이라 시도 중단 — acq_mktcap 추정치 유지. 규모 지표의 분모는 발표 당시 공시 원 수치이며, 10-K 2021 정정 후 값(2020말 총자산 288,502천, 2021-09-30 자본 422,417천)을 쓰면 비율이 소폭 달라진다(deal_to_equity 1.94→1.92).",
+ "corrections": {
+  "subtype_chk": "MA① 경영권 인수",
+  "pre_incorp_chk": "편입 전 (거래 당시 매수자 Poshmark는 Nasdaq 상장 독립회사로 NAVER와 지배관계가 없었다 — DEFM14A 'Background of the Merger'상 NAVER와의 첫 접촉은 2022-01-04. Poshmark는 2023-01-05 NAVER 인수 완료로 연결 편입 — Poshmark 8-K 2023-01-05, NAVER 2023년 1분기보고서 연결범위 변동 '신규취득에 따른 지배력 획득'. 이 거래는 2021-10-12 완료)",
+  "chk_note": "기준 분류 유지: 갱신된 분류 기준(subtype_chk는 거래 구조와 '그룹 계보'로 판정)에 따르면 매수자 Poshmark는 추출 시점(2024-05) NAVER 그룹 회사라 그룹 계보 안에 있고, Poshmark가 Suede One, Inc. 100%를 현금 USD 6.6 million(+언아웃 최대 USD 2.5 million)에 취득해 경영권을 처음 얻은 거래다(10-Q 3Q21 후속사건, 10-K 2021 주석 7) → MA① 경영권 인수. 거래 당시(2021-10) Poshmark가 NAVER 그룹 밖이었다는 점은 pre_incorp_chk(편입 전)에서 따로 판정한다. 수집 기록의 MA⑥ 판정은 갱신 전 기준(거래 당시 지배관계)에 따른 것이라 철회한다. 금액·상태는 원자료와 일치(원자료 9.1 = 현금 6.6 + 언아웃 최대 2.5, 2021-10-12 완료; 원자료 comment의 팀 합류 서술도 보도자료와 일치).",
+  "purpose_quote": "\"reflects the company’s focus on strategic investments that drive continued platform innovation, accelerate growth in high-growth resale categories and enhance the user experience to attract and retain both buyers and sellers\" (Poshmark 보도자료 2021-10-13, eSeller365 전문 재게재) / \"scale our authentication services in a meaningful way, and accelerate our momentum in sneakers as well as luxury goods\" (같은 보도자료, Manish Chandra CEO) / \"We are laser focused on making strategic investments that fuel the continued growth of our business\" (같은 보도자료; Retail Dive·FashionNetwork·FashionUnited 재인용)",
+  "notes": "N078(NAVER의 Poshmark 인수, 2022-10-03 발표·2023-01-05 완료)의 대상회사 Poshmark가 NAVER 편입 전에 한 거래다. 2024-05 추출 시점의 자회사 기준 때문에 원자료에 포함됐다. 분류는 MA① 경영권 인수(그룹 계보 기준)이지만, 거래 당시 NAVER 그룹의 M&A는 아니므로 집계 때 pre_incorp_chk(편입 전)로 걸러야 한다. 거래 금액은 언론 보도에서 '비공개'였으나 SEC 공시(10-Q 3Q21 후속사건, 10-K 2021 사업결합 주석)에 현금 USD 6.6M + 언아웃 최대 USD 2.5M으로 공개됐다. 언아웃 부채 공정가치는 USD 1,619천(2021-12-31) → 1,186천(2022-06-30) → 1,223천(2022-09-30)으로 줄었고 언아웃 기한은 2022-10-31이었으나, 이후 Poshmark 공시 중단으로 실제 지급 여부는 미확인. Suede One, Inc.(Delaware)는 2021-12-31 기준 Poshmark 자회사 목록(10-K Ex.21.1)에 있으나 NAVER 2023년 1분기보고서의 Poshmark 하위 종속기업 목록(Canada, UK, 호주, 인도 2곳)에는 없다 → 추정: 2022~2023-01 사이 Poshmark에 흡수되거나 청산된 것으로 보이나 이를 직접 밝힌 공시는 찾지 못함. Suede One 자체 재무는 비상장·미공시이고, Poshmark는 영향이 중요하지 않다며 pro forma를 제시하지 않았다. 보도와 보도자료 전문은 Matt Forloine을 'CEO, Suede One'으로만 표기하고(본인 발언 'We built this company'), 설립자 명단은 확인 못 함. 투자 유치 이력도 미확인(보도 5건·CB Insights에 투자 정보 없음, SEC EDGAR 전문검색상 Suede One 명의 Form D 0건). 보도자료 전문은 'The Suede One team will join the Poshmark team, effective today'(2021-10-13)라고 적어 10-Q의 완료일 2021-10-12와 하루 차이가 있다. 법적 완료일은 SEC 공시(10-Q·10-K)의 2021-10-12를 따른다. 시가총액: 발표 직전 거래일(2021-10-12) POSH 일별 종가를 무료 출처에서 확보하지 못해(Yahoo 차트 API·Nasdaq API는 상장폐지 종목 데이터 없음, stooq·MarketWatch는 봇 차단, 2021-10 Form 4 없음) 월간 시세 기반 추정치만 적었다. 재무 수치 주의: Poshmark 10-K 2021은 과거 재무제표를 정정했다(Note 3, chargeback 등 비중요 오류). 2020-12-31 총자산 285,434→288,502천, 2020 순매출 262,077→261,601천, 2021-09-30 자본 418,235→422,417천(10-Q 3Q22). 이 기록의 규모 지표는 발표 당시 공시돼 있던 원 수치(10-Q 3Q21) 기준이다. 조사 범위: SEC EDGAR(CIK 0001825480) 10-Q 3Q21·10-K 2021·Ex.21.1·10-Q 2Q22·3Q22·실적 8-K 2건·DEFM14A, EDGAR 전문검색('Suede One' 17건), NAVER DART 2023-1Q 분기보고서, 업계 보도 6건(보도자료 전문 포함), CB Insights, Motley Fool 어닝콜 녹취록 4건(3Q21·4Q21·1Q22·2Q22).",
+  "post_events_summary": "2021-10-12: 인수 완료, Suede One 팀이 Poshmark에 합류; 2021-11-09: Poshmark 3Q21 실적 보도자료·어닝콜에서 인수 언급, CEO가 '2022년 플랫폼 적용(go live) 예정'이라고 밝힘; 2021-12-31: 영업권 USD 7,012천·무형자산 USD 1,500천(개발기술 1.3M 3년, 고객관계 0.2M 1년 상각) 인식, 손상 없음, Suede One, Inc.는 Poshmark 자회사로 기재(10-K Ex.21.1); 2022-03-22: 4Q21 어닝콜 '통합 중, 2022년 하반기 기능 출시 예정'; 2022-05-12: 1Q22 어닝콜 '연말까지 인증 서비스 확대' 계획; 2022-06-30~09-30: 영업권 USD 7,012천 유지·손상 없음, 언아웃 부채 공정가치 USD 1,186천→1,223천(2021말 1,619천), 언아웃 기한 2022-10-31; 2022-08-11: 2Q22 어닝콜 'Suede One 기술의 여러 적용을 시험하기 시작', USD 500 미만 인증 확대는 연말 목표; 2022-10-03: Poshmark, NAVER와 합병계약(N078); 2023-01-05: NAVER 인수 완료로 Poshmark와 그 감정 기능이 NAVER 그룹 편입; 2023-03-31: NAVER 분기보고서의 Poshmark 하위 종속기업 목록에 Suede One 없음(추정: 그 이전 흡수·청산); 이후 Suede One 관련 별도 공시·보도 없음. USD 500 미만 가상 인증 서비스가 실제로 출시됐는지는 확인하지 못함(영문 검색 2회)",
+  "earnings_call_note": "2021-11-09 3Q21 실적 보도자료: 사업 하이라이트에 \"In October we acquired Suede One\" 기재, CEO가 성장 동력으로 'expanding authentication services' 언급(8-K Ex.99.1); 2021-11-09 3Q21 어닝콜(Motley Fool 녹취록): Chandra CEO \"Last month, we completed our milestone first acquisition of Suede One\", \"This will build more trust and loyalty with our shoppers ... and help accelerate growth in sneaker and luxury categories\", 질의응답에서 \"We expect it to go live in 2022 in our platform. It's preliminary to give sort of the full impact\"; 2022-03-22 4Q21 실적 보도자료: Suede One 인수 완료를 하이라이트로 재기재; 2022-03-22 4Q21 어닝콜: \"We're working to integrate our acquisition of Suede One\", \"We anticipate launching this capability later in 2022 on our social marketplace\"; 2022-03-30 10-K: 위험요인에 'our ability to integrate acquired businesses, such as Suede One' 기재; 2022-05-12 1Q22 어닝콜: \"look forward to expanding our authentication services by end of the year, as we integrate our Suede One acquisition\"; 2022-08-11 2Q22 어닝콜: \"have started testing various applications of the technology from our Suede One acquisition to drive innovation in our current authentication processes\". NAVER 편입(2023-01) 이후 NAVER·Poshmark의 IR·어닝콜에서 Suede One 개별 성과 언급은 찾지 못함"
+ },
+ "evidence_add": [
+  {
+   "field": "purpose_quote,announce_date_chk,notes,chk_note",
+   "phase": "발표",
+   "event_date": "2021-10-13",
+   "event_type": "발표",
+   "content": "Poshmark 보도자료 전문 재게재: 'today announced that it has acquired Suede One ... The Suede One team will join the Poshmark team, effective today', 'This deal marks Poshmark’s first acquisition and reflects the company’s focus on strategic investments that drive continued platform innovation...', Chandra CEO 'scale our authentication services in a meaningful way, and accelerate our momentum in sneakers as well as luxury goods', 'Matt Forloine, CEO, Suede One'.",
+   "url": "https://eseller365.com/poshmark-acquires-suedeone-sneaker-authenticate/",
+   "doc_type": "언론 보도",
+   "doc_date": "2021-10-14",
+   "doc_id": ""
+  },
+  {
+   "field": "earnings_call_note,post_events_summary",
+   "phase": "인수 후",
+   "event_date": "2021-11-09",
+   "event_type": "어닝콜",
+   "content": "3Q21 어닝콜 녹취록: 'Last month, we completed our milestone first acquisition of Suede One'; Q&A 'We've just closed the acquisition in fourth quarter of 2021. We expect it to go live in 2022 in our platform.'",
+   "url": "https://www.fool.com/earnings/call-transcripts/2021/11/10/poshmark-inc-posh-q3-2021-earnings-call-transcript/",
+   "doc_type": "어닝콜",
+   "doc_date": "2021-11-10",
+   "doc_id": ""
+  },
+  {
+   "field": "earnings_call_note,post_events_summary",
+   "phase": "인수 후",
+   "event_date": "2022-03-22",
+   "event_type": "어닝콜",
+   "content": "4Q21 어닝콜 녹취록: 'We're working to integrate our acquisition of Suede One ... We anticipate launching this capability later in 2022 on our social marketplace.'",
+   "url": "https://www.fool.com/earnings/call-transcripts/2022/03/23/poshmark-inc-posh-q4-2021-earnings-call-transcript/",
+   "doc_type": "어닝콜",
+   "doc_date": "2022-03-23",
+   "doc_id": ""
+  },
+  {
+   "field": "earnings_call_note,post_events_summary",
+   "phase": "인수 후",
+   "event_date": "2022-05-12",
+   "event_type": "어닝콜",
+   "content": "1Q22 어닝콜 녹취록: 'look forward to expanding our authentication services by end of the year, as we integrate our Suede One acquisition.'",
+   "url": "https://www.fool.com/earnings/call-transcripts/2022/05/13/poshmark-inc-posh-q1-2022-earnings-call-transcript/",
+   "doc_type": "어닝콜",
+   "doc_date": "2022-05-13",
+   "doc_id": ""
+  },
+  {
+   "field": "earnings_call_note,post_events_summary",
+   "phase": "인수 후",
+   "event_date": "2022-08-11",
+   "event_type": "어닝콜",
+   "content": "2Q22 어닝콜 녹취록: 'have started testing various applications of the technology from our Suede One acquisition to drive innovation in our current authentication processes', 'We intend to expand our authentication services to price points below 500 by the end of the year.'",
+   "url": "https://www.fool.com/earnings/call-transcripts/2022/08/12/poshmark-inc-posh-q2-2022-earnings-call-transcript/",
+   "doc_type": "어닝콜",
+   "doc_date": "2022-08-12",
+   "doc_id": ""
+  },
+  {
+   "field": "notes,pre_events_summary",
+   "phase": "인수 전",
+   "event_date": "2021",
+   "event_type": "기타",
+   "content": "SEC EDGAR 전문검색 'Suede One' + Form D: 0건(투자 유치 신고 없음). 전체 양식 검색 17건은 Poshmark 공시와 370 Markets LLC(Reg A, Suede One이 스니커즈 감정 수행)뿐.",
+   "url": "https://efts.sec.gov/LATEST/search-index?q=%22Suede%20One%22&forms=D",
+   "doc_type": "SEC",
+   "doc_date": "2026-10-25",
+   "doc_id": ""
+  },
+  {
+   "field": "notes,apex_total_assets",
+   "phase": "인수 후",
+   "event_date": "2021-12-31",
+   "event_type": "기타",
+   "content": "10-K 2021 Note 3 'Revision of Prior Periods' Financial Statement': 2020-12-31 총자산 285,434→288,502천, 2020 순매출 262,077→261,601천 등 비중요 오류 정정.",
+   "url": "https://www.sec.gov/Archives/edgar/data/1825480/000095017022005057/posh-20211231.htm",
+   "doc_type": "SEC",
+   "doc_date": "2022-03-30",
+   "doc_id": "0000950170-22-005057"
+  }
+ ],
+ "evidence_drop": []
+}

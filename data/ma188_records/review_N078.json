@@ -1,0 +1,196 @@
+{
+ "deal_id": "N078",
+ "review_status": "수정",
+ "review_note": "확인한 것: KRX 공시 원문을 dart.py로 다시 받아 한글 깨짐 없이 대조 — 20221004800002(취득목적 '미국 커머스 시장 진출을 위한 전략적 투자', 2,344,147,113,560원, 9.76%, 6.96%, 자산총액 33,691,006,757,040원, 'Poshmark 보유 현금 5.8억불에 대한 대가' 포함), 20221004800009, 20221004800011('미국 커머스 시장 진출을 위한 발행회사의 경영권 확보', 91,272,609주, 요약재무 467,758/-141,082·375,345/27,040백만원), 20221005800681(단순 오기), 20221004800008, 20221004800114, 20230106800002/03/04/05(73,072,626주×22,817원=1,667,307,600,000원, 4.95/6.94%, 1,875,140,721,155원·5.57%, 정산 구조 문장) — 인용·숫자 모두 원문과 같음. DART 정기보고서: 2022 사업보고서(부문 매출, 자산총계 33,899,043/33,691,006백만원, 보고기간 후 사건), 3Q22 주식총수, 2023-1Q·반기(취득일 이후 영업수익 119,691·241,916백만원), 2023 사업보고서(이전대가 1,887,832,704천원, 영업권 1,350,669,471천원, 473,849백만원, CGU 영업권 1,366,245,561천원, 99.27%, 1,735,303,734천원, '크림과 뷰티 브랜드 어뮤즈를 커머스로 재분류' 문구), 2024·2025 사업보고서(CGU 영업권·가정치·그룹 손상 137,561/411,965백만원, Poshmark Pty Ltd. 청산), 2026 반기(99.27%, 1,735,303,734천원), Wallapop 공시. SEC: 8-K·Ex.99.1(USD 17.90, 15%·48% 프리미엄, 해지수수료 52,913,000, 기한 2023-04-03), DEFM14A(협상 경과·시장 점검 6곳 불참·지분가치 약 USD 1,634M·의결권 지지계약 5곳), 8-K 2022-12-27 표결, 8-K 2023-01-05, EDGAR 제출목록, 10-K 2021·10-Q 3Q22·424B4. 네이버금융 일별 시세(193,500→176,500→164,000원), NAVER IR PDF 6건, 보도 12건(MTN 2건·이투데이·뉴시스·딜사이트·뉴데일리·TechCrunch 3건·FashionUnited·Motley Fool·Korea Times) 인용 원문 확인. 고친 것과 이유: (1) chk_note — 갱신된 지침(실제 외부 지급 대가를 따로 적기)에 따라 실제 지급 대가(≈USD 1,471백만)와 NAVER 투입액 추가. (2) notes (3) '추정' 해소: DEFM14A의 Chandra RSU→Proton Parent 주식 전환(약 USD 10M)이 RSU 주식교환 12,677,999천원과 맞음, 풋옵션·holdback 조건 추가. (4) '차이 원인 확인 못 함' 해소: NAVER 1분기보고서 별도 주석의 대여금 출자전환 67,996백만원. (3) Proton Parent 설립일 출처 충돌(KRX '2022년 9월 신설' vs 2023 사업보고서 상세표 2022-10-03)을 acquirer_entity·pre_events·notes에 함께 기재. (4) first_filing_date의 '장 마감 후'는 직접 근거가 없어 추정으로 표시하고 근거(프리미엄 기준일, 8-K 접수 07:31 ET) 추가. (5) 빠진 사건 추가: 사전 VC 지분 구조(424B4)와 NAVER 사전 지분 없음, 2023-01 영국 진출(단일 출처), 2023-02 인력 감축(2개 매체), 잠정→확정 PPA 변화, 2023-07 '포시 렌즈'(NAVER 기술 접목 첫 사례), 2026-03 앱 개편, 2026-08 Linda's Stuff 운영시설 인수(3개 매체), 2026-2Q 매출 40%+ 성장(2개 매체). (6) impairment에 2023년 그룹 영업권 손상 19,630,042천원 추가(Poshmark CGU는 증가해 해당 없음). (7) target_rev_post에 4Q24 C2C 2,140억원(1Q26 IR 차트), target_op_post에 2026-1Q EBITDA 이익률 20% 초과(참고), earnings_call_note에 2026-05 CEO·2026-08-07 CFO 발언 추가. 분류(MA① 경영권 인수, 편입 후, 완료, 핵심)는 갱신 기준으로도 그대로 맞음. 남은 의문: Poshmark 단독 2024·2025 매출·영업이익은 NAVER가 공시하지 않아 미확인 유지(한국어·영어 검색 각 1회 추가, Statista는 유료라 사용 안 함). 2023 영업이익도 미공시. 2026-1Q EBITDA 이익률 발언은 딜사이트 재인용 단일 출처. 2026-08-07 컨콜 CFO 이름은 딜사이트·이데일리가 김희철, 파이낸셜뉴스 사진 설명은 김유원으로 달라 이름 대신 직함을 우선했다. 2022-10-04 인수 설명회 IR PDF와 BusinessWire 원문은 이번에도 열지 못함. 수집 기록의 2025년 Poshmark CGU 영업권 감소(-2.4%)를 환율 효과로 본 것은 CGU별 손상 배분 미공시라 여전히 추정.",
+ "corrections": {
+  "chk_note": "기준 분류 유지: NAVER가 신설 SPC를 통해 Poshmark 지분 100%를 현금 취득해 경영권을 처음 확보(공시 취득목적 '경영권 확보'). 금액·상태도 원자료와 일치(원자료 1,637.54 = 서명 시 지분가치 약 USD 1,634 million; 2022-12-27 주주총회 승인, 2023-01-05 종결). 실제로 외부에 지급된 대가는 이보다 작다: 종결 정정공시상 Proton Parent의 Poshmark 주식 취득금액 1,875,140,721,155원(NAVER 출자분 USD 13.1억 + Poshmark 가용현금 USD 1.6억, 1,274.70원) ≈ USD 1,471백만이며, 미가득 스톡옵션·RSU는 Poshmark가 인건비로 지급해 합병대가에서 빠졌다. NAVER 쪽 투입액은 Proton Parent 투자 장부금액 1,735,303,734천원(유상증자 1,667,307,600천원 + 대여금 출자전환 67,996백만원; NAVER 2023년 1분기보고서 별도 주석). 원자료 sellers 목록(GGV/Granite Asia, Mayfield, Menlo 등)은 전체 주주 중 일부 VC이며, 서명일에 의결권 지지계약을 맺은 주주는 Chandra CEO·Mayfield XIII·Mayfield Select·GGV Capital V L.P.·GGV Capital V Entrepreneurs Fund L.P.(의결권 약 77%, DEFM14A)이다.",
+  "notes": "[Proton Parent PP 확인] 원자료의 2022-10-03 'Proton Parent' 사모발행(1조 6,673억원)은 별개 거래가 아니라 이 인수의 자금 납입 기록이다. Proton Parent, Inc.는 NAVER가 Poshmark 인수만을 위해 2022년 9월 설립한 델라웨어 SPC(대표 김남선·박애너스)로, 합병계약 당사자(NAVER=Parent, Proton Parent, Proton Merger Sub)이며 종결 후 Poshmark의 직접 모회사다(DEFM14A: 'formed by NAVER solely for the purpose of engaging in the transactions contemplated by the Merger Agreement'). NAVER는 2022-10-04 '유상증자결정(종속회사의 주요경영사항)'(20221004800009, 이사회 2022-10-03, 주주배정, 기타자금 2,344,147,113,560원)과 '타법인주식및출자증권취득결정'(20221004800002, 취득방법 '유상증자 참여')으로 이를 공시했고, 종결일 정정공시(20230106800004·20230106800002)에서 신주 73,072,626주 × 22,817원 = 1,667,307,600,000원(USD 13.1억, 1,274.70원), 납입일 2023-01-05로 확정했다. 정정공시 20230106800005는 정산 구조를 'Parent가 네이버로부터 출자 받은 1.67조원을 Poshmark의 기존주주에게 지급', 'Poshmark의 가용 현금 0.21조원을 활용'이라고 적었다. 따라서 PP 1조 6,673억원은 N078 인수대가(합계 1,875,140,721,155원)의 NAVER 부담분이며, 별도 M&A·투자로 집계하면 이중 집계다. 원자료 날짜 2022-10-03은 이사회 결의일, 금액은 종결 시 확정액이다. [그 밖] (1) N068(Suede One 인수, 2021-10)은 Poshmark가 편입 전에 한 거래로 이 인수와 직접 관련 없음. (2) NAVER IR: 'Poshmark인수와 더불어 조달한 차입금 총 8억달러'를 2023년 4분기까지 전액 상환. (3) 종결 후 NAVER의 Proton Parent 지분은 99.27%다. 나머지 약 0.73%는 기존 경영진 RSU를 Proton Parent 주식으로 바꾼 몫이다: DEFM14A는 Chandra CEO의 미가득 RSU(약 USD 10,000,000)가 종결일에 전부 가득되어 'fully vested shares of Proton Parent common stock'으로 전환된다고 적었고, NAVER 사업결합 주석의 '기존 경영진 보유한 RSU에 대한 주식교환' 12,677,999천원(≈USD 9.9백만, 1,274.70원)과 규모가 맞는다(교환 대상이 Chandra 1인뿐인지는 미확인). DEFM14A상 Chandra에게는 Proton Parent IPO(S-1 제출·상장)에 연동해 가득되는 New Hire Options와, 종결 5주년까지 IPO·지배권 변동이 없고 Proton Parent 기업가치가 종결 시의 1.5배 이상이면 보유 주식을 Proton Parent에 되팔 수 있는 풋옵션이 주어졌고, 합병대가 중 USD 20,000,000은 3년 근속 조건으로 에스크로(holdback)에 묶였다. NAVER 2023 1분기·반기보고서 사업결합 주석의 'PROTON PARENT, INC. 주식과 관련하여 일정 조건을 충족하는 경우 주식의 전부 또는 일부를 연결회사에 매각할 수 있도록 하는 권리'는 이 풋옵션과 내용이 맞는다. (4) NAVER 별도 재무제표상 Proton Parent 장부금액 1,735,303,734천원과 유상증자 출자액 1,667,307,600천원의 차이 67,996,134천원은 대여금 출자전환이다(NAVER 2023년 1분기보고서 별도 주석: '당분기 취득금액 중 대여금 출자전환으로 인한 취득금액은 67,996백만원'; 같은 분기 NAVER→Proton Parent 자금대여 207,833,121천원·회수 139,836,987천원으로 차액이 출자전환액과 같다). (5) 한계: NAVER는 Poshmark 개별 매출·영업이익을 2024년 이후 공시하지 않고(연결 주석 요약재무정보는 주요 5개 종속기업만), Poshmark는 2023-01-17 SEC 등록 말소로 2022 연간 실적을 내지 않아 2022 연간·2024~2025 실적은 미확인. 2022-10-04 인수 설명회 IR 자료(PDF)는 텍스트 추출이 안 되는 이미지형이라 대신 보도로 발언을 확인함. (6) Proton Parent 설립일은 출처마다 다르다: 2022-10-04 KRX 공시는 '2022년 9월 신설 법인', NAVER 2023 사업보고서 연결대상 종속회사 상세표는 설립일 2022-10-03. 델라웨어 등기 원부는 열람하지 못해 두 값을 함께 적는다. (7) 인수 후 Poshmark 자신의 인수: 2026-08-03 미국 위탁판매업체 Linda's Stuff의 전용 운영시설을 인수(회사·브랜드 전체 인수는 아님)했다고 발표. 2024-05 추출 이후라 원자료에 행이 없다. (8) 그룹 C2C 확장 맥락: NAVER는 2025-08-05 스페인 C2C 플랫폼 Wallapop 100% 취득을 결정(20250805800320), 2026년부터 IR에 KREAM·SODA·Poshmark·Wallapop을 묶은 'C2C' 부문을 공시.",
+  "acquirer_entity": "NAVER㈜(그룹 지배회사, 합병계약 당사자 'Parent'이자 SPC 의무 이행 연대보증) → 실제 취득 법인 Proton Parent, Inc.(NAVER가 Poshmark 인수 목적으로 설립한 델라웨어 SPC — 2022-10-04 KRX 공시는 '2022년 9월 신설 법인', NAVER 2023 사업보고서 상세표는 설립일 2022-10-03, 종결 후 NAVER 지분 99.27%) → 그 100% 자회사 Proton Merger Sub, Inc.가 Poshmark에 흡수합병(역삼각합병)되어 Poshmark는 Proton Parent의 100% 자회사(NAVER의 간접 자회사)가 됨",
+  "first_filing_date": "2022-10-03 (NAVER·Poshmark 공동 보도자료, BusinessWire 2022-10-03자; Poshmark 8-K는 2022-10-04 07:31 ET 접수, DEFA14A도 같은 날 제출. 추정: 미국 동부시간 장 마감 후 — 보도자료가 10-03 종가 대비 15% 프리미엄을 제시하고 첫 주가 반응이 10-04(Motley Fool, 10:30 ET +13%)인 점에 근거하며, 발표 시각을 직접 밝힌 문서는 찾지 못함) / 한국: 2022-10-04 KRX 공시 '타법인주식및출자증권취득결정' 등 4건(20221004800002 등)과 같은 날 10:00 인수 설명 컨퍼런스콜. 발표 전 인수설 보도는 찾지 못함(영문·국문 뉴스 검색)",
+  "pre_events_summary": "2011-01: Poshmark 설립(GoshPosh, Inc.로 델라웨어 설립 후 같은 해 사명 변경; NAVER 상세표상 설립일 2011-01-28); ~2020: Mayfield·Menlo·Inventus·Anderson Investments·GGV 등 VC 투자 유치(IPO 직전 의결권 Mayfield 26.5%·Menlo 15.8%·Inventus 10.4%·Anderson Investments 9.2%·GGV 7.9%, Chandra 9.2% — 424B4; 2020-12-31 상환전환우선주 52,286,631주, 청산우선권 USD 159,704천); 2019-05: 캐나다 진출; 2021-01-14: Nasdaq 상장(공모가 USD 42.00, 6,600,000주; 2021-01-19 공모 종결·우선주 보통주 전환); 2021-02: 호주 진출; 2021-09: 인도 진출; 2021-10-12: Suede One 인수(N068); 2020→2021: 순매출 USD 261,601천→326,009천, 영업손익 USD 25,191천→(44,425)천으로 적자 전환; 2022-01-04: Poshmark 이사가 Chandra CEO를 NAVER에 소개(한·일 진출·NAVER 미국 진출 제휴와 지분투자 논의; NAVER는 인수 전 Poshmark 지분 없음 — DEFM14A 'Parent does not beneficially own any shares'); 2022-01-12: 상호 비밀유지계약; 2022-02-16: NAVER, USD 1.25억 전환우선주 투자를 포함한 제휴안 제시; 2022-04-01: Poshmark, Goldman Sachs 자문 선임; 2022-05-02: NAVER가 전량 인수 의향 표명; 2022-08-02: 제휴·투자안 종료, NAVER에 정식 인수 제안 요청; 2022-08-05: NAVER 주당 USD 16.50 비구속 제안; 2022-08-08~09-02: 전략적 투자자 5곳·재무적 투자자 1곳 대상 시장 점검(모두 검토 포기); 2022-08-25: USD 17.50; 2022-09-07: USD 17.80; 2022-09-09: 최종 USD 17.90, 09-11 독점협상 계약; 2022-09: NAVER, 인수용 SPC Proton Parent 설립(KRX 공시 '2022년 9월 신설'; NAVER 2023 사업보고서 상세표 설립일 2022-10-03); 2022년 1~9월: 순매출 USD 268,430천(전년 동기 241,806천), 영업손실 USD (61,632)천(전년 동기 (29,429)천); 2022-10-03: 이사회 승인·합병계약 서명, Poshmark 종가 USD 15.57(공모가 대비 약 63% 하락)",
+  "post_events_summary": "2022-10-04: NAVER 주가 -8.8%(176,500원), 10-05 -7.1%(164,000원); 2022-11-18: 미국 HSR 승인; 2022-11-25: 합병 위임장(DEFM14A) 제출; 2022-12-27: Poshmark 주주총회 합병 승인(찬성 258,328,439표, 반대 86,220표); 2023-01-05: 합병 종결·Nasdaq 거래정지와 상장폐지 신청, 기존 이사 전원 퇴임, NAVER가 Proton Parent 유상증자 1,667,307,600,000원 납입(73,072,626주); 2023-01-17: SEC 등록 말소(Form 15-12G); 2023-01: 영국 마켓플레이스 진출(TechCrunch 2023-10-19 'its entry to the U.K. happened in January this year', 단일 출처); 2023-02(2023-02-24 보도): 인력 2% 미만 감축, 주로 미국('our return to being a private company' 등 사유 — TechCrunch; JoongAng Daily 2023-03-09 '약 2%', NAVER '자회사가 독자 결정'); 2023-1Q: Poshmark 조정 EBITDA 흑자 달성, 인수 관련 차입금 USD 8억 중 2.3억 상환(NAVER IR); 2023-03-31: 잠정 PPA(NAVER 1분기보고서) 이전대가 1,749,543,091천원·영업권 1,562,216,641천원 → 2023 사업보고서 확정치는 이전대가 1,887,832,704천원, 무형자산 349,652,189천원 인식, 영업권 1,350,669,471천원; 2023-07-20: NAVER '스마트렌즈' AI 이미지 검색 기술을 접목한 '포시 렌즈' 출시('네이버의 기술력이 포시마크 신규 서비스 출시로 이어진 첫 사례', MTN); 2023-10-19: 인도·호주·영국 마켓플레이스 철수 발표(미국·캐나다 집중); 2023-4Q: 인수 관련 차입금 USD 8억 상환 완료; 2023-12-31: 영업권 1,350,669,471천원 인식(PPA 확정), 취득일 이후 영업수익 473,849백만원·순손실 19,063백만원; 2024: 1·2·4분기 영업이익 흑자, 3분기 적자(NAVER 설명, 딜사이트 보도); 2024-10: 판매 수수료 인하·구매자 수수료 도입 개편 후 판매 감소로 2024-10-24 기존 수수료(20%)로 환원, CEO 사과; 2025-04: NAVER 김남선(투자부문 대표, 전 CFO) Poshmark 이사회 의장(executive chairman) 취임; 2025-08-11: Chandra CEO 퇴임 발표, 김남선 CEO 선임(2025-10-01 효력), Chandra는 이사회 잔류; 2025: Poshmark Pty Ltd.(호주 법인) 청산(NAVER 2025 사업보고서 연결범위 변동); 2025-12-31: Poshmark CGU 영업권 1,520,417,058천원, Poshmark 손상 기재 없음; 2026-03: Poshmark 앱 전면 개편(세로형 화면, 취향 기반 상품·유행 추천 — 파이낸셜뉴스 2026-08-07); 2026-1Q·2Q: NAVER IR이 'C2C' 부문 성장 요인으로 Poshmark 플랫폼 경쟁력 강화·서비스 개편을 언급; 2026-08-03: Linda's Stuff의 전용 운영시설 인수와 기존 Consignment Network를 시설 기반 'consignment as a service'로 바꾼다고 발표(List Perfectly·Value Added Resource 2026-08-11, 딜사이트 2026-10-16); 2026-2Q: Poshmark 매출 전년 동기 대비 40% 이상 증가(NAVER CFO, 2026-08-07 컨퍼런스콜 — 이데일리·딜사이트)",
+  "impairment": "확인 안 됨 (NAVER 2023·2024·2025 사업보고서 연결 무형자산 주석: Poshmark CGU 영업권 2023말 1,366,245,561천원 → 2024말 1,557,608,945천원 → 2025말 1,520,417,058천원으로 Poshmark 손상 기재 없음. 추정: 증감은 환율 효과(2023→2024 증가율 14.0%). 그룹 전체 영업권 손상 2023년 19,630,042천원(이 해 Poshmark CGU 영업권은 PPA 확정치 1,350,669,471천원보다 늘었다)·2024년 137,561백만원·2025년 411,965백만원은 CGU별 배분이 공시되지 않았으나, 같은 기간 Wattpad(632,996→269,755백만원)·문피아(101,615→41,601백만원) 영업권 감소와 대응. 2025년 브랜드 손상 7,368백만원도 CGU 미기재. NAVER 별도 재무제표의 Proton Parent 투자 장부금액은 2023말~2026-06-30 1,735,303,734천원으로 변동 없음. 2026 반기보고서까지 확인)",
+  "target_rev_post": "2023: 473,849백만원 (2023-01-05 취득일 이후 NAVER 연결에 반영된 영업수익; 1분기 119,691백만원, 상반기 241,916백만원); 2024: 미확인 (NAVER 개별 실적 미공시; 참고: NAVER 1Q26 IR의 C2C 부문(KREAM·SODA·Poshmark 합산) 4Q24 매출 2,140억원); 2025: 미확인 (NAVER IR은 2026년부터 'C2C' 부문 합산치만 공개 — 2025년 4개 분기 합 9,865억원, KREAM·SODA 포함); 참고 2026: 2Q26 Poshmark 매출 전년 동기 대비 40% 이상 증가(NAVER CFO 컨퍼런스콜 발언, 금액 미공시 — 이데일리 2026-08-07·딜사이트 2026-10-16)",
+  "target_op_post": "2023: 미확인 (영업이익 미공시; 취득일 이후 당기순손실 19,063백만원, NAVER IR상 2023-1Q부터 조정 EBITDA 흑자); 2024: 미확인 (NAVER 설명상 1·2·4분기 영업이익 흑자·3분기 적자, 금액 미공시 — 딜사이트 2025-04-17); 2025: 미확인; 참고 2026: 1Q26 EBITDA 이익률 20% 초과(김남선 Poshmark CEO 2026-05 발언, 딜사이트 2026-10-16 재인용, 발언 원출처 미확인)",
+  "earnings_call_note": "2022-10-04 인수 설명 컨퍼런스콜(MTN 2022-10-04 보도): 김남선 CFO \"고점에서 많이 내려온 가격에 이 회사를 인수할 수 있었던 측면도 있다\", \"포쉬마크는 이미 흑자를 냈던 경험이 있고\"; 2023-02-03 4Q22 실적발표: 김남선 CFO \"1분기 더 많은 비용 효율화 노력으로 EBITDA 흑자를 충분히 낼 수 있는 상황\", 포쉬마크 2022년 연간 조정 EBITDA 손실 약 300억원(뉴시스 2023-02-03); 2023-05-08 1Q23 IR 자료: \"Poshmark의 EBITDA 흑자 달성\", Poshmark 편입 효과로 커머스 매출 +1,197억원; 2023-08-04 2Q23 IR 자료: 조정 EBITDA 증가 요인 \"포시마크의 흑자 확대\", 최수연 대표 \"포쉬마크는 높은 유저 리텐션을 기반으로 성장을 지속하며 시장점유율을 확대했다\"(MTN 2023-10-24 재인용); 2024-05-03 1Q24 IR 자료: 조정 EBITDA 증가 요인 \"포시마크의 영업이익 확대\"; 2025-02-07 4Q24 컨퍼런스콜: 최수연 대표가 광고비 상승·이커머스 경쟁 심화로 \"성장세가 다소 둔화\"됐으나 \"영업익 흑자를 달성했다\"고 언급(딜사이트 2025-04-17 재인용); 2026-04-30 1Q26 IR 자료: \"Poshmark 플랫폼 경쟁력 강화에 따른 거래액과 매출 가속화\"; 2026-05 김남선 Poshmark CEO: \"올해 1분기 상각 전 영업이익(EBITDA) 이익률이 20%를 넘어섰다\", \"거래액과 매출 증가율도 30%에 근접했다\"(딜사이트 2026-10-16 재인용, 원출처 미확인); 2026-08-07 2Q26 IR 자료: \"Poshmark 서비스 개편 등 플랫폼 경쟁력 강화로 성장 폭 확대\"; 2026-08-07 2Q26 컨퍼런스콜: NAVER CFO(딜사이트·이데일리 표기 김희철) \"인공지능(AI) 기반 검색·추천 기능 개선으로 구매 전환율과 구매 빈도가 높아졌다\", Poshmark 2분기 매출 YoY 40% 이상 증가(딜사이트 2026-10-16; 이데일리 영문 2026-08-07 \"Poshmark recorded revenue growth of over 40% year-over-year in the second quarter\")"
+ },
+ "evidence_add": [
+  {
+   "field": "notes,chk_note",
+   "phase": "발표",
+   "event_date": "2022-10-03",
+   "event_type": "기타",
+   "content": "DEFM14A 'New Arrangements with Company Executive Officers': Chandra의 미가득 RSU(약 USD 10,000,000)는 종결일에 'fully vested shares of Proton Parent common stock'으로 전환, Proton Parent IPO 연동 New Hire Options, 5주년 풋옵션(기업가치 1.5배 조건), 합병대가 중 USD 20,000,000 3년 holdback. 'Parent does not beneficially own any shares of Company'.",
+   "url": "https://www.sec.gov/Archives/edgar/data/1825480/000119312522292273/d387579ddefm14a.htm",
+   "doc_type": "SEC",
+   "doc_date": "2022-11-25",
+   "doc_id": "0001193125-22-292273"
+  },
+  {
+   "field": "pre_events_summary",
+   "phase": "인수 전",
+   "event_date": "2021-01-14",
+   "event_type": "투자유치",
+   "content": "424B4 주요주주표(공모 전 의결권): Mayfield 26.5%, Menlo Ventures 15.8%, Inventus Capital 10.4%, Anderson Investments Pte. Ltd. 9.2%, Manish Chandra 9.2%, GGV Capital 7.9%.",
+   "url": "https://www.sec.gov/Archives/edgar/data/1825480/000119312521009089/d66583d424b4.htm",
+   "doc_type": "SEC",
+   "doc_date": "2021-01-14",
+   "doc_id": "0001193125-21-009089"
+  },
+  {
+   "field": "notes,chk_note,post_events_summary",
+   "phase": "인수 후",
+   "event_date": "2023-03-31",
+   "event_type": "기타",
+   "content": "NAVER 2023년 1분기보고서: 별도 주석 PROTON PARENT 99.27%, 장부금액 1,735,303,734천원, '당분기 취득금액 중 대여금 출자전환으로 인한 취득금액은 67,996백만원', 자금대여 207,833,121천원·회수 139,836,987천원; 연결 사업결합 주석 잠정 이전대가 1,749,543,091천원·영업권 1,562,216,641천원.",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20230512001100",
+   "doc_type": "DART 기타공시",
+   "doc_date": "2023-05-12",
+   "doc_id": "20230512001100"
+  },
+  {
+   "field": "acquirer_entity,pre_events_summary,notes",
+   "phase": "인수 후",
+   "event_date": "2023-12-31",
+   "event_type": "기타",
+   "content": "NAVER 2023 사업보고서 XII-1 연결대상 종속회사 현황(상세): 'PROTON PARENT, INC. | 2022-10-03 | ... Delaware | 기업 인수 목적 | 1,769,798'(설립일 2022-10-03). 2022-10-04 KRX 공시는 '2022년 9월 신설 법인'.",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20240318000844",
+   "doc_type": "DART 사업보고서",
+   "doc_date": "2024-03-18",
+   "doc_id": "20240318000844"
+  },
+  {
+   "field": "impairment",
+   "phase": "인수 후",
+   "event_date": "2023-12-31",
+   "event_type": "기타",
+   "content": "NAVER 2023 사업보고서 연결 주석 13 무형자산 변동표: 당기 영업권 '손상 및 환입' (19,630,042)천원(그룹 전체), Poshmark CGU 영업권 기말 1,366,245,561천원(PPA 확정치 1,350,669,471천원보다 증가).",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20240318000844",
+   "doc_type": "DART 사업보고서",
+   "doc_date": "2024-03-18",
+   "doc_id": "20240318000844"
+  },
+  {
+   "field": "first_filing_date",
+   "phase": "발표",
+   "event_date": "2022-10-04",
+   "event_type": "발표",
+   "content": "EDGAR 접수 정보: Poshmark 8-K(Item 1.01·8.01) 'Filing Date 2022-10-04 Accepted 2022-10-04 07:31:04', DEFA14A 07:34:01.",
+   "url": "https://www.sec.gov/Archives/edgar/data/1825480/000119312522257206/0001193125-22-257206-index.htm",
+   "doc_type": "SEC",
+   "doc_date": "2022-10-04",
+   "doc_id": "0001193125-22-257206"
+  },
+  {
+   "field": "post_events_summary",
+   "phase": "인수 후",
+   "event_date": "2023-01",
+   "event_type": "기타",
+   "content": "TechCrunch 2023-10-19: 'Poshmark expanded to India and Australia in 2021, whereas its entry to the U.K. happened in January this year.'",
+   "url": "https://techcrunch.com/2023/10/19/poshmark-international/amp",
+   "doc_type": "언론 보도",
+   "doc_date": "2023-10-19",
+   "doc_id": ""
+  },
+  {
+   "field": "post_events_summary",
+   "phase": "인수 후",
+   "event_date": "2023-02-24",
+   "event_type": "기타",
+   "content": "TechCrunch 2023-02-24: 'reduce the size of some of our teams to better align with our priorities for the future, the current economic climate and our return to being a private company'; 'less than 2% of its workforce was affected, primarily in the U.S.'",
+   "url": "https://techcrunch.com/2023/02/24/poshmark-lays-off-employees-just-two-months-after-being-acquired-by-naver/",
+   "doc_type": "언론 보도",
+   "doc_date": "2023-02-24",
+   "doc_id": ""
+  },
+  {
+   "field": "post_events_summary",
+   "phase": "인수 후",
+   "event_date": "2023-02",
+   "event_type": "기타",
+   "content": "Korea JoongAng Daily 2023-03-09: Poshmark가 지난달 직원 약 2%를 감원, NAVER 대변인 'the decisions to lay off employees were made independently by the subsidiaries themselves'.",
+   "url": "https://www.koreajoongangdaily.com/business/naver-lays-off-employees-though-only-dozens-and-overseas/10825340",
+   "doc_type": "언론 보도",
+   "doc_date": "2023-03-09",
+   "doc_id": ""
+  },
+  {
+   "field": "post_events_summary,core_basis",
+   "phase": "인수 후",
+   "event_date": "2023-07-20",
+   "event_type": "통합",
+   "content": "MTN 2023-07-20: 포시마크가 사진 검색 '포시 렌즈' 출시, '포시 렌즈는 네이버의 기술력이 포시마크 신규 서비스 출시로 이어진 첫 사례다. 네이버 \"스마트렌즈\"의 기반 기술인 AI(인공지능) 이미지 검색 기술이 접목됐다.'",
+   "url": "https://news.mtn.co.kr/news-detail/2023072015001165282",
+   "doc_type": "언론 보도",
+   "doc_date": "2023-07-20",
+   "doc_id": ""
+  },
+  {
+   "field": "target_rev_post",
+   "phase": "인수 후",
+   "event_date": "2024-12-31",
+   "event_type": "실적",
+   "content": "NAVER 1Q26 실적발표 자료 분기별 매출 차트: C2C(크림 및 소다, 포시마크, 왈라팝) 4Q24 214.0·1Q25 222.7·2Q25 227.5·3Q25 250.6·4Q25 285.7·1Q26 351.1(십억원), 'C2C YoY 57.7%, QoQ 22.9%'.",
+   "url": "https://www.navercorp.com/api/article/download/0ce4e7c3-c1ab-4628-9848-baecc3cfcf86",
+   "doc_type": "IR 자료",
+   "doc_date": "2026-04-30",
+   "doc_id": ""
+  },
+  {
+   "field": "post_events_summary",
+   "phase": "인수 후",
+   "event_date": "2026-03",
+   "event_type": "기타",
+   "content": "파이낸셜뉴스 2026-08-07: '포시마크는 지난 3월 상품 사진을 크게 보여주는 세로형 화면을 도입하고 이용자 취향에 맞춰 상품과 유행을 추천하는 방식으로 앱을 전면 개편했다'; C2C 매출 3979억원(YoY 74.9%).",
+   "url": "https://www.fnnews.com/news/202608070839075398",
+   "doc_type": "언론 보도",
+   "doc_date": "2026-08-07",
+   "doc_id": ""
+  },
+  {
+   "field": "earnings_call_note,target_rev_post,post_events_summary",
+   "phase": "인수 후",
+   "event_date": "2026-08-07",
+   "event_type": "어닝콜",
+   "content": "이데일리(영문) 2026-08-07 2Q26 컨퍼런스콜: CFO 'Poshmark recorded revenue growth of over 40% year-over-year in the second quarter as a result of significantly improved purchase conversion rates and purchase frequency'.",
+   "url": "https://en.edaily.co.kr/news/eda202608075217/",
+   "doc_type": "언론 보도",
+   "doc_date": "2026-08-07",
+   "doc_id": ""
+  },
+  {
+   "field": "earnings_call_note,target_rev_post,target_op_post,post_events_summary",
+   "phase": "인수 후",
+   "event_date": "2026-08-07",
+   "event_type": "어닝콜",
+   "content": "딜사이트 2026-10-16: '포시마크의 올해 2분기 매출은 전년 동기 대비 40% 이상 증가했다', 김희철 CFO '인공지능(AI) 기반 검색·추천 기능 개선으로 구매 전환율과 구매 빈도가 높아졌다'; 김남선 CEO(5월) '올해 1분기 상각 전 영업이익(EBITDA) 이익률이 20%를 넘어섰다'; 8월 Linda's Stuff 전문 운영시설 인수.",
+   "url": "https://dealsite.co.kr/articles/170690",
+   "doc_type": "언론 보도",
+   "doc_date": "2026-10-16",
+   "doc_id": ""
+  },
+  {
+   "field": "post_events_summary,notes",
+   "phase": "인수 후",
+   "event_date": "2026-08-03",
+   "event_type": "추가취득",
+   "content": "List Perfectly 2026-08-11: 'On August 3, 2026, Poshmark announced that it is replacing the current model with a purpose-built “consignment as a service” operation supported by facilities acquired from Linda’s Stuff'; 'It did not announce that it acquired the entire Linda’s Stuff company or brand.'",
+   "url": "https://listperfectly.com/?p=11786",
+   "doc_type": "언론 보도",
+   "doc_date": "2026-08-11",
+   "doc_id": ""
+  },
+  {
+   "field": "post_events_summary,notes",
+   "phase": "인수 후",
+   "event_date": "2026-08",
+   "event_type": "추가취득",
+   "content": "Value Added Resource 2026-08-11(2026-10-24 갱신): 'Poshmark acquires its dedicated operational facilities to revamp its consignment offering'; Poshmark 회사 블로그 발표 인용.",
+   "url": "https://www.valueaddedresource.net/lindas-stuff-consignment-moves-ebay-poshmark/",
+   "doc_type": "언론 보도",
+   "doc_date": "2026-08-11",
+   "doc_id": ""
+  }
+ ],
+ "evidence_drop": []
+}

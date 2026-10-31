@@ -1,0 +1,187 @@
+{
+ "deal_id": "C030",
+ "review_status": "수정",
+ "review_note": "확인한 것: evidence 25행의 출처를 모두 다시 열어 대조함 — 東宝 적시공시 2023-12-11(225百万米ドル·33,098百万円·25.0%·払込期日 2023-12-12·출자 전 80/20·Toho International 자본금 USD 138.3M·설립 1953-07-20·'軽微'·147.1円), 東宝 2023년 2월기 決算短信(534,097·423,691·409,306·244,295·158,015·66,913·18,202百万円), 2024년 2월기 3Q 決算短信(186,490,633주·11,897,267주), 2024년 2월기 決算短信(32,297百万円, 持分法 +176), KED 2023-12-12, CJ ENM 2023~2025 사업보고서·2026 반기보고서(지분 60%, 비지배 +219,814,053천원, 자본변동표 41,927,789,898/235,342,580,556원, 순공정가치 손상검사 문구, 경영진단 부채상환 문구), Endeavor 2023 10-K(15%, USD 10.1M, 대여 2023-09), 딜사이트, MTN, 아시아경제, 메리츠 2건, IR PDF(4Q23·4Q25 '#TOHO_presents'), Broadcast, TechCrunch, SFNet, Yahoo Finance(9602.T 1,071.0→1,085.2, 분할 5:1; 035760.KQ 75,500→78,700→75,000). 계산값(6.20%·7.81%·8.09%, 998,657,339,715円, 1,655,651,127,000원)을 재계산해 일치. 분류(MA⑤, 편입 후, 완료 2023-12-12, 인접) 재판정 결과 유지. / 고친 것: chk_note — KED 인용 'bought newly issued shares'는 원문에 없는 문구라 원문('via a rights offering'·'the sale of its new shares to Toho')으로 고치고, 지침이 요구하는 '신주 발행에 의한 지분 희석(그룹이 구주를 판 것이 아님), 대금은 자회사로 유입' 문구와 희석 전후 지분율을 명시, 원자료 날짜 2023-12-10은 CJ ENM 보도자료가 밝힌 유상증자 단행일(미국 현지)임을 반영; announce_date_chk·first_filing_date — 수집 단계에서 못 찾은 CJ ENM 국문 보도자료(CJ 뉴스룸 2023-12-11)와 Deadline 전재본 게시 시각(2023-12-11 06:43 UTC = KST 15:43) 추가; purpose_quote·earnings_call_note — KED 영문 재인용 대신 CJ ENM 보도자료 원문(투자금 용도, 구창근 대표 발언)으로 바꾸고, 딜사이트 인용을 기자 서술이 아닌 관계자 실제 발언으로 정정; impairment — 950억원은 CGU별 공시가 없어 발언+계산으로만 뒷받침됨을 명시하고, CJ ENM 별도 CJ ENM USA INC. 투자주식 손상(2023 계산 약 1,957억)과 東宝 2025·2026년 2월기 持分法投資損益을 추가; target_op_pre/post — DS투자증권 법인별 실적표로 FS 연간 영업손익 보완; notes — 원자료의 Raine·O'Melveny 자문은 TheWrap으로 확인, 공시 목록 확인 범위를 2024-02까지로; acq_mktcap — 분할 효력일 2026-03-01(東宝 공시) 병기; size_basis — 원화 환산 출처를 CJ ENM 보도자료로; post_events_summary — 별도 손상, 東宝 지분법 손익, Severance 계약 체결 시점, 2026 상반기 실적 추가. / 남은 의문: 東宝의 FS 지분법 손익·감손 금액(FS 몫 미공시); 東宝 TDnet 공시 시각(이벤트 창 판단에 필요) 미확인; FS 연간 영업손익은 증권사 집계(2022는 IB토마토 418억과 차이); 2023 FS 영업권 손상 정확한 금액 미공시. acq_total_assets(Toho International 총자산)는 東宝 적시공시(자본금만)·決算短信·중기계획 자료에서 다시 찾았으나 공시되지 않아 미확인 유지.",
+ "corrections": {
+  "chk_note": "기준 분류 유지(MA⑤ 그룹의 지분 매각 — 신주 발행에 의한 지분 희석(그룹이 구주를 판 것이 아님), 대금은 자회사로 유입): 원자료는 매도자를 CJ ENM과 Endeavor로, 설명란을 'acquired 25% stake ... from Endeavor ... and CJ ENM'으로 적었지만 실제로는 CJ ENM FIFTH SEASON, LLC의 Toho International 대상 제3자 배정 유상증자다. 근거: CJ ENM 보도자료(2023-12-11) '피프스시즌은 10일(미국 현지시간) 토호 인터내셔널을 대상으로 2억 2,500만 달러 규모의 제3자 배정 유상증자를 단행', CJ ENM 2023 사업보고서 'CJ ENM FIFTH SEASON, LLC는 2023년 12월 제3자 배정 유상증자를 진행하여 당기 중 비지배지분이 증가', Endeavor 2023 10-K 'ownership interest is 15% as a result of an investment made in Fifth Season by a third party investor', 東宝 적시공시 'FIFTH SEASON への出資', KED 'via a rights offering'·'the sale of its new shares to Toho'. 희석 전후 지분율: CJ ENM(CJ ENM USA Holdings) 80%→60%, Endeavor(IMG Worldwide Content) 20%→15%, Toho International 0%→25%(80×0.75=60, 20×0.75=15). 대금 USD 225M은 CJ ENM·Endeavor가 아니라 Fifth Season에 들어갔고, CJ ENM은 2023 경영진단에서 이 자금이 연결 부채 상환에 기여했다고 적었다. 원자료 설명란의 '~USD 230 million'은 USD 225M이 정확. 원자료 날짜 2023-12-10은 CJ ENM 보도자료가 밝힌 유상증자 단행일(미국 현지)과 같고, 공식 발표는 2023-12-11(JST·KST).",
+  "announce_date_chk": "2023-12-11 (東宝 이사회 결의·TDnet 적시공시, CJ ENM 보도자료 '11일 밝혔다'(KST); 미국 현지로는 2023-12-10 밤 Deadline 보도 — Yahoo 전재본 게시 2023-12-11 06:43 UTC = 12-10 22:43 PT = 12-11 15:43 KST. CJ ENM 보도자료는 유상증자 자체를 '10일(미국 현지시간)' 단행했다고 씀)",
+  "first_filing_date": "2023-12-10(미국 현지 밤)/2023-12-11(KST): Deadline 기사(Yahoo 전재본 2023-12-11 06:43 UTC = KST 15:43)와 다른 매체 기사(Yahoo 전재본 06:20 UTC = KST 15:20)로 보도, 같은 날 東宝 TDnet 적시공시와 CJ ENM 보도자료(CJ 뉴스룸 2023-12-11). 東宝 공시 시각은 미확인. CJ ENM 주가는 2023-12-11 종가 78,700원(+4.2%, 종가=당일 고가)으로 장 마감(15:30) 전 반영 여부는 불분명. 사전 정황: 2023-08-24 'CJ ENM이 해외 투자자와 FS 지분 매각·최대 USD 300M 조달 협의' 보도와 CJ ENM의 매각 부인(MTN). CJ ENM의 DART·KIND 공시는 없음(2023-11~2024-02 목록 확인)",
+  "purpose_quote": "\"実写コンテンツビジネスについても、日本国内市場にとどまらず、グローバル市場へと進出していくための重要な一歩\" (東宝 적시공시 '本提携の背景と目的') / \"当社グループと FIFTH SEASON との間において、実写コンテンツを共同で開発・製作する体制が確立されます\" (같은 공시) / CJ ENM 측: \"투자금은 글로벌 유통 사업 확대 등 피프스시즌을 글로벌 최고의 스튜디오로 성장시키기 위한 사업 기반을 공고히 하는데 투입할 예정\" (CJ ENM 보도자료 2023-12-11) / \"글로벌 메이저 스튜디오로 도약 중인 피프스시즌이 일본 최고 엔터테인먼트 기업을 파트너로 맞이하게 돼 기쁘다\" (구창근 CJ ENM 대표, 같은 보도자료) / 사후 서술: \"(주)빌리프랩 지분 매각 및 FIFTH SEASON 유상증자 자금 통한 부채 상환\" (CJ ENM 2023 사업보고서 경영진단)",
+  "acq_mktcap": "계산: 998,657,339,715円 (발표 직전 거래일 2023-12-08 실제 종가 5,355円 × 발행주식 186,490,633주, 자기주식 11,897,267주 포함, 2023-11-30). Yahoo Finance 9602.T 분할 조정 종가 1,071.0円에 5:1 주식분할(효력발생 2026-03-01 — 東宝 2026년 2월기 決算短信 '2026年３月１日付で普通株式１株につき５株', Yahoo 분할 기준일 2026-02-26)을 되돌려(×5) 산출",
+  "size_basis": "東宝 총자산·순자산은 2023년 2월기 決算短信(2023-04-13), 발행주식수는 2024년 2월기 3분기 決算短信(2024-01-15). 거래금액은 적시공시의 엔화 환산값(2023-12-06 147.1円/USD). 東宝는 출자 영향이 '軽微'하다고 공시. 매도·발행 측 CJ ENM 참고: 발표 직전 2023-12-08 종가 75,500원 × 21,929,154주 = 1,655,651,127,000원(계산), 거래금액은 CJ ENM 2022말 연결 총자산의 약 2.8%(계산: 약 2,900억원/10조 3,322억원, 원화 환산은 CJ ENM 보도자료 '한화 약 2,900억원'(딜사이트 보도도 같음))",
+  "impairment": "있음(그룹 측) — [연결] CJ ENM은 이 거래의 출자가(USD 225M/25%, post-money USD 900M)를 Fifth Season CGU의 공정가치로 보고 2023년 FS 영업권을 손상(CJ ENM 2023 사업보고서 20240318000857 연결주석 17 'CJ ENM FIFTH SEASON, LLC 현금창출단위 영업권의 경우 제3자 배정 유상증자 금액을 공정가치로 판단하여 순공정가치를 기초로 손상검사'). 금액은 공시에 CGU별로 없고, CJ ENM 관계자 발언 '이에 지난해 약 950억원의 손상차손을 반영했다'(딜사이트 2024-02-08)와 계산 범위 약 897억~961억원(FS CGU 영업권 363,613,494→273,896,082천원 감소 89,717,412천원 + FS 몫 환율효과)으로 뒷받침(C020 impairment 참조). [별도] 같은 2023년 CJ ENM 별도 재무제표는 '투자주식 CJ ENM USA INC. 등'의 손상을 인식(종속기업 합계 207,090,188천원, CJ ENM USA INC. 몫 계산 약 1,957억원; 20240318000857 별도주석 15). [매수자] 東宝의 FS 투자 손상은 확인 안 됨: 2024년 2월기 決算短信(2024-04-15) 持分法投資損益 +176百万円, 2026년 2월기 決算短信(2026-04-14) 持分法投資損益 2025년 2월기 △4,210百万円·2026년 2월기 △2,113百万円(FS 외 관계회사 포함, FS 몫과 감손 여부는 미공시)",
+  "target_op_pre": "증권사 집계(공시 아님): 2022: -44.0십억원(DS투자증권 2026-02-06 법인별 실적표, 자료: CJ ENM; IB토마토 2023-04-28은 '418억원의 영업적자'); 2021: 미확인(대상 사업 영업손익 비공개). 공시 대체 지표: 2022 당기순손실 69,235,740천원(CJ ENM 2022 사업보고서), FS 2022 세전손실 USD 48.3M(Endeavor 2022 10-K). 참고 거래 연도 2023: 영업손익 -65.5십억원(DS; 대신증권 '655억원의 적자'와 일치), 2Q23 -326억원(MTN 2023-08-24), 순손실 117,915,270천원",
+  "target_op_post": "증권사 집계(공시 아님): 2024: -52.0십억원; 2025(잠정): -5.6십억원 (DS투자증권 2026-02-06 법인별 실적표, 자료: CJ ENM; 같은 표 매출은 DART와 일치). 분기: 4Q24 +80억원(메리츠 2025-02-13), 2Q25 +32억원(메리츠 2025-08-08), 2025년 2분기·4분기 흑자(CJ ENM 보도자료 2026-02-05), 참고 1Q26 -29억원(하나증권 2026-05-08). 공시 대체 지표 당기순손익(CJ ENM 사업보고서 종속기업 요약재무정보, 천원): 2024: -91,812,320; 2025: -42,163,187; 2026 상반기: -33,590,641",
+  "earnings_call_note": "2023-12-12 KED: 삼성증권 조민하 \"This is a winning deal for all three\", 출자금으로 콘텐츠 제작 정상화·이듬해 수익성 개선 기대, CJ ENM 목표주가 88,000원으로 상향; 2024-02-07 4Q23 실적발표 자료: 엔터 부문 'FIFTH SEASON 턴어라운드', 영화드라마 '[FY2024] ... FIFTH SEASON 턴어라운드 목표'; 2023-12-11 CJ ENM 보도자료: '이번 투자는 CJ ENM 산하 스튜디오가 유치한 외부 투자 가운데 역대 최대 규모', 구창근 대표 '글로벌 메이저 스튜디오로 도약 중인 피프스시즌이 일본 최고 엔터테인먼트 기업을 파트너로 맞이하게 돼 기쁘다'; 2024-02-08 딜사이트: CJ ENM 관계자 'CJ ENM이 피프스시즌을 인수할 당시 콘텐츠 제작사가 호황이였지만, 현재는 20~25% 정도 가격이 낮아졌다', '이에 지난해 약 950억원의 손상차손을 반영했다'(기사 재인용; '피프스시즌 투자유치 과정에서 지분가치 하락으로 손상차손을 950억원 반영'은 기자 서술); 2024-03-18 CJ ENM 2023 사업보고서 경영진단: '(주)빌리프랩 지분 매각 및 FIFTH SEASON 유상증자 자금 통한 부채 상환 등 영향으로' 총차입금 3,495억원 감소. (어닝콜 녹취록은 찾지 못해 IR 자료·기사·사업보고서로 대신함)",
+  "post_events_summary": "2023-12-12: 납입 완료 — 주주 구성 CJ ENM 60%·Toho International 25%·Endeavor(IMG Worldwide Content) 15%; 2023-12: CJ ENM 연결 비지배지분 +219,814,053천원, Endeavor 지분 희석이익 USD 10.1M; 2023 결산: CJ ENM이 출자가를 공정가치로 FS 영업권 약 950억원 손상, 별도 재무제표에서 CJ ENM USA INC. 투자주식 손상 약 1,957억원(계산), 유상증자 자금 등으로 총차입금 3,495억원 감소; 2024: FS 매출 1,038,782,865천원·순손실 91,812,320천원, 4Q24 FS 영업이익 80억원(증권사 인용); 2024-12-31·2025-12-31·2026-06-30: CJ ENM FS 지분 60% 유지(사업보고서·반기보고서); 2024·2025 회계연도(2월 결산): 東宝 持分法投資損益 2025년 2월기 △4,210百万円·2026년 2월기 △2,113百万円(FS 외 포함); 2025: FS 매출 789,711,200천원·순손실 42,163,187천원, 2분기·4분기 흑자(CJ ENM 보도자료), CJ ENM 별도 CJ ENM USA INC. 투자주식 손상 832억원(2025 사업보고서); 2025-09-26: 공동CEO Chris Rice 연말 퇴임 발표; 2026-01-07~03-22: CJ ENM 공연사업이 東宝 제작 뮤지컬 <센과 치히로의 행방불명> 내한공연 진행('#TOHO_presents', 4Q25 실적자료) — 東宝와의 협업 사례; 2026-02-12 보도: Apple이 <Severance> IP·전체 권리 인수(약 USD 70M, 계약은 2025년 말 체결 — Broadcast); 2026-03: FS USD 500M 신용한도 갱신; 2026 상반기: FS 매출 284,057,366천원·순손실 33,590,641천원, 1Q26 FS 영업손실 29억원(하나증권)",
+  "notes": "C020(2021-11 CJ ENM의 Endeavor Content 80% 인수)의 후속 거래. 가치 비교(계산): CJ ENM 인수 시 80%에 USD 785.38M → 100% 환산 약 USD 982M(인수 시 신규 출자 USD 120M 포함 post-money USD 970M) vs 이번 거래 post-money USD 900M·pre-money USD 675M — 인수 후 약 2년 만에 기업가치가 약 30% 낮게 평가됐다. CJ ENM은 이 출자가를 Fifth Season CGU의 공정가치로 보고 2023년 영업권 약 950억원을 손상 처리했다(C020 impairment 참조). 연결 회계: 비지배지분 +219,814,053천원(주석37), 2023 연결자본변동표 '종속기업의 자본 변동으로 인한 증가' 지배기업 소유주지분 +41,927,789,898원·비지배지분 +235,342,580,556원(다른 종속기업 변동 포함 가능). Endeavor는 지분 희석으로 USD 10.1M 이익 인식. 사전 정황: 2023-08-24 'FS 지분 매각 등 최대 USD 300M 조달 검토' 보도에 CJ ENM이 매각 부인. 공시: CJ ENM은 본건을 DART·KIND에 별도 공시하지 않았다(2023-11~2024-02 공시 목록 확인). Toho 쪽은 FS를 関係会社株式로 취득한 것으로 보임(東宝 2024년 2월기 CF '関係会社株式の取得による支出 32,297百万円'에서 추정; 東宝 2025-04-15 중기계획 자료는 FS를 'Acquired a partial equity stake' 목록에 기재). 매수 측 지표(acq_*)는 원칙대로 매수자 Toho 기준으로 적었다. 조사 한계: Deadline 원문은 유료지만 Yahoo 전재본(2023-12-11 06:43 UTC)으로 내용·시각을 확인했다. CJ ENM 국문 보도자료 원문은 검토 단계에서 CJ 뉴스룸(2023-12-11)으로 확인했다. Toho의 FS 지분 회계처리(持分法 여부)와 감손 여부는 2026년 2월기 決算短信까지 봤으나 FS 몫은 따로 공시되지 않음. 원자료 설명란의 'Raine Group·O'Melveny가 Fifth Season 자문'은 TheWrap(2023-12-11) 'Fifth Season was advised on this transaction by The Raine Group, which acted as exclusive financial advisor, and O’Melveny as legal advisor'로 확인. 검토 보완: 그룹 측 손상은 연결 영업권(약 950억) 외에 CJ ENM 별도 재무제표의 CJ ENM USA INC. 투자주식 손상(2023 계산 약 1,957억)도 있음. FS 연간 영업손익은 DS투자증권 법인별 표(자료: CJ ENM)로 보완."
+ },
+ "evidence_add": [
+  {
+   "field": "chk_note,purpose_quote,announce_date_chk,first_filing_date,size_basis,earnings_call_note",
+   "phase": "발표",
+   "event_date": "2023-12-10",
+   "event_type": "발표",
+   "content": "CJ ENM 보도자료: '피프스시즌은 10일(미국 현지시간) 토호 인터내셔널(Toho International)을 대상으로 2억 2,500만 달러 규모의 제3자 배정 유상증자를 단행했다', '한화 약 2,900억원', '투자금은 글로벌 유통 사업 확대 등 피프스시즌을 글로벌 최고의 스튜디오로 성장시키기 위한 사업 기반을 공고히 하는데 투입할 예정', 구창근 대표 발언",
+   "url": "https://cjnews.cj.net/cj-enm-%e7%be%8e-%ec%8a%a4%ed%8a%9c%eb%94%94%ec%98%a4-%ed%94%bc%ed%94%84%ec%8a%a4%ec%8b%9c%ec%a6%8c-%e6%97%a5-%ed%86%a0%ed%98%b8%e7%a4%be-2900%ec%96%b5%ec%9b%90-%ed%88%ac%ec%9e%90-%ec%9c%a0/",
+   "doc_type": "회사 보도자료",
+   "doc_date": "2023-12-11",
+   "doc_id": ""
+  },
+  {
+   "field": "chk_note",
+   "phase": "발표",
+   "event_date": "2023-12-10",
+   "event_type": "발표",
+   "content": "디지털데일리(교차 확인): '피프스시즌은 10일(미국 현지시간) 토호 인터내셔널을 대상으로 2억2500만달러 규모의 제3자 배정 유상증자를 단행했다'",
+   "url": "https://www.ddaily.co.kr/page/view/2023121115355258926",
+   "doc_type": "언론 보도",
+   "doc_date": "2023-12-11",
+   "doc_id": ""
+  },
+  {
+   "field": "notes",
+   "phase": "발표",
+   "event_date": "2023-12-11",
+   "event_type": "발표",
+   "content": "TheWrap: 'The investment gives Toho a 25% equity stake'; 'Fifth Season was advised on this transaction by The Raine Group, which acted as exclusive financial advisor, and O’Melveny as legal advisor'",
+   "url": "https://www.thewrap.com/fifth-season-toho-investment-225-million",
+   "doc_type": "언론 보도",
+   "doc_date": "2023-12-11",
+   "doc_id": ""
+  },
+  {
+   "field": "first_filing_date,announce_date_chk",
+   "phase": "발표",
+   "event_date": "2023-12-10",
+   "event_type": "발표",
+   "content": "Deadline 기사 Yahoo 전재본 'Japan’s Toho Acquires 25% Stake In Fifth Season; Korea’s CJ ENM Remains Majority Shareholder', 게시 2023-12-11T06:43:35Z; '$225M to acquire a 25% stake ... through Toho's U.S. subsidiary, Toho International'",
+   "url": "https://ca.news.yahoo.com/japan-toho-acquires-25-stake-064335279.html",
+   "doc_type": "언론 보도",
+   "doc_date": "2023-12-11",
+   "doc_id": ""
+  },
+  {
+   "field": "chk_note",
+   "phase": "발표",
+   "event_date": "2023-12-11",
+   "event_type": "발표",
+   "content": "KED 원문: 'Toho’s US subsidiary Toho International has taken over a 25% stake in Fifth Season via a rights offering'; 'the proceeds from the sale of its new shares to Toho'",
+   "url": "https://www.kedglobal.com/newsView/ked202312120004",
+   "doc_type": "언론 보도",
+   "doc_date": "2023-12-12",
+   "doc_id": ""
+  },
+  {
+   "field": "impairment,post_events_summary",
+   "phase": "인수 후",
+   "event_date": "2023-12-31",
+   "event_type": "손상차손",
+   "content": "CJ ENM 2023 별도주석 15: 종속기업투자손상차손 207,090,188천원, '당기말 현재 투자주식 CJ ENM USA INC. 등에 대해 장부금액이 회수가능액에 미달하여 손상차손을 인식'; CJ ENM USA Inc. 장부 894,395,943(전기)+92,823,880(이관) → 791,521,030천원",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20240318000857",
+   "doc_type": "DART 사업보고서",
+   "doc_date": "2024-03-18",
+   "doc_id": "20240318000857"
+  },
+  {
+   "field": "post_events_summary",
+   "phase": "인수 후",
+   "event_date": "2025-12-31",
+   "event_type": "손상차손",
+   "content": "CJ ENM 2025 별도주석 14 '(*1) ... CJ ENM USA Inc 832억원 등이 포함'; CJ ENM USA INC. 장부 791,521,030 → 708,311,978천원",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260318001469",
+   "doc_type": "DART 사업보고서",
+   "doc_date": "2026-03-18",
+   "doc_id": "20260318001469"
+  },
+  {
+   "field": "impairment,post_events_summary,acq_mktcap",
+   "phase": "인수 후",
+   "event_date": "2026-02-28",
+   "event_type": "실적",
+   "content": "東宝 2026년 2월기 決算短信: (参考) 持分法投資損益 2026年２月期 △2,113百万円·2025年２月期 △4,210百万円; '2026年３月１日付で普通株式１株につき５株の割合で株式分割'",
+   "url": "https://www2.jpx.co.jp/disc/96020/081220260410501786_tse-acedjpsm-96020-20260414396020-ixbrl.htm",
+   "doc_type": "TDnet",
+   "doc_date": "2026-04-14",
+   "doc_id": ""
+  },
+  {
+   "field": "notes",
+   "phase": "인수 후",
+   "event_date": "2025-04-15",
+   "event_type": "기타",
+   "content": "東宝 중기경영계획 관련 자료(영문): 'Key Subsidiaries and Affiliates Acquired During TOHO Mid-Term Plan 2025' 중 'Acquired a partial equity stake' 목록에 CJ ENM FIFTH SEASON LLC.",
+   "url": "https://www.fse.or.jp/files/lis_tkj/25041596020.pdf",
+   "doc_type": "TDnet",
+   "doc_date": "2025-04-15",
+   "doc_id": ""
+  },
+  {
+   "field": "target_op_pre,target_op_post",
+   "phase": "인수 후",
+   "event_date": "2025-12-31",
+   "event_type": "실적",
+   "content": "DS투자증권 표6 'CJ ENM 법인별 실적 추이'(자료: CJ ENM): 피프스시즌 영업이익 2022 -44.0·2023 -65.5·2024 -52.0·2025P -5.6십억원, 매출 699.6·347.6·1,038.8·789.7십억원",
+   "url": "https://stock.pstatic.net/stock-research/company/66/20260206_company_258023000.pdf",
+   "doc_type": "기타",
+   "doc_date": "2026-02-06",
+   "doc_id": ""
+  },
+  {
+   "field": "target_op_pre",
+   "phase": "인수 전",
+   "event_date": "2022-12-31",
+   "event_type": "실적",
+   "content": "IB토마토: FIFTH SEASON '약 7000억원의 매출을 기록했으나 ... 418억원의 영업적자가 발생'",
+   "url": "https://newstomato.com/ReadNews.aspx?no=1186293",
+   "doc_type": "언론 보도",
+   "doc_date": "2023-04-28",
+   "doc_id": ""
+  },
+  {
+   "field": "target_op_pre",
+   "phase": "인수 전",
+   "event_date": "2023-06-30",
+   "event_type": "실적",
+   "content": "MTN: '피프스시즌은 올 2분기만 326억원의 영업손실'",
+   "url": "https://news.mtn.co.kr/news-detail/2023082416243261543",
+   "doc_type": "언론 보도",
+   "doc_date": "2023-08-24",
+   "doc_id": ""
+  },
+  {
+   "field": "target_op_post,post_events_summary",
+   "phase": "인수 후",
+   "event_date": "2026-03-31",
+   "event_type": "실적",
+   "content": "하나증권 1Q26 리뷰: '피프스시즌이 3개의 드라마 타이틀이 반영되며 영업적자 29억원(+144억원)으로 크게 개선'",
+   "url": "https://stock.pstatic.net/stock-research/company/57/20260508_company_132069000.pdf",
+   "doc_type": "기타",
+   "doc_date": "2026-05-08",
+   "doc_id": ""
+  },
+  {
+   "field": "earnings_call_note,impairment",
+   "phase": "인수 후",
+   "event_date": "2024-02-08",
+   "event_type": "손상차손",
+   "content": "딜사이트(정정 인용): CJ ENM 관계자 \"현재는 20~25% 정도 가격이 낮아졌다\"며 \"이에 지난해 약 950억원의 손상차손을 반영했다\"; '피프스시즌 투자유치 과정에서 지분가치 하락으로 손상차손을 950억원 반영'은 기자 서술",
+   "url": "https://dealsite.co.kr/articles/117814",
+   "doc_type": "언론 보도",
+   "doc_date": "2024-02-08",
+   "doc_id": ""
+  },
+  {
+   "field": "post_events_summary",
+   "phase": "인수 후",
+   "event_date": "2026-02-12",
+   "event_type": "매각",
+   "content": "Broadcast: Severance 계약 'which was struck late last year', Apple이 'all IP and rights' 확보, 약 $70m",
+   "url": "https://www.broadcastnow.co.uk/broadcast-international/apple-tv-buys-out-severance-from-fifth-season/5213779.article",
+   "doc_type": "언론 보도",
+   "doc_date": "2026-02-12",
+   "doc_id": ""
+  }
+ ],
+ "evidence_drop": []
+}

@@ -1,0 +1,103 @@
+{
+ "deal_id": "K066",
+ "review_status": "수정",
+ "review_note": "확인한 것: 카카오엔터 영문 보도자료('has acquired 100 percent of the shares of Wuxiaworld Limited', 'Jingping Lai will retain his day-to-day management', 'profit growth of up to 40 percent', 'reach a new and wider demographic')와 국문 보도자료 9641(2014년 징핑 라이 설립, 40% 매출 성장, 85% 정기 구독, 5%·4분의 1, '3년 내 글로벌 거래액 3배 확대', 이진수 인용 원문), TechCrunch 금액 $37.5M을 직접 열어 일치 확인. 카카오엔터 2021 연결감사보고서 사업결합(100%, 이전대가 44,501,835 = 현금 26,924,656 + 지분상품 17,577,179, 무형자산 7,129,800, 영업권 38,094,545천원)과 CGU 표(Radish CGU 증가 419,218,461 = 381,123,916 + 38,094,545), 2023 CGU(WuxiaWorld 33,952 vs 12,288백만원), 2024(11,285 vs 12,317, 손상 없음), 2025(11,953 vs 5,590, 손상 6,363,460천원, 잔액 6,251,231천원), 카카오 2021 사업보고서 연결범위 변동을 원문으로 대조 — 일치. 매도 측·국내 공시: 카카오엔터 2021-12 DART 공시 목록에 Wuxiaworld 건이 없음을 재확인. / 고친 것: ① chk_note — 'Ren Woxing = 창업자 Lai의 필명'을 추정에서 확인으로(Asia Times 2017, Wuxiaworld 공지). ② value_chk_local — 금액을 코리아중앙데일리로 교차 확인. ③ post_events_summary — 되사기 날짜를 1차 출처로 정정·보강(2026-09-20 공지, 완료는 그 전주 초 추정), '한 달 남짓'을 원문 'just under a month'(한 달이 채 안 됨)로 정정, 상위 법인 대여·증자·별도 손상 추가. ④ impairment — 카카오엔터 별도 기준 Tapas Entertainment 투자주식 손상 추가(Wuxiaworld는 TE 자회사라 간접 포함). ⑤ pre_events_summary — 설립 2014-12와 필명. / 남은 의문: 대상회사 매출·영업이익(인수 전후)은 국문('우시아월드 매출')·영문('Wuxiaworld revenue') 검색과 TechCrunch·코리아중앙데일리·SCMP(403)·회사 페이지를 다시 찾아도 없음 — 코리아중앙데일리도 '매출을 밝히지 않았다'고 적어 미확인 유지. 이전대가 중 지분상품 17,577,179천원의 정체(Radish 주식 교부 추정)는 공시로 확인 못 함. 2026 되사기 가격 비공개. collect_status '부분'과 분류(MA① 경영권 인수, 편입 후, 핵심)는 유지.",
+ "corrections": {
+  "chk_note": "기준 분류 유지(MA①): 카카오엔터 자회사 Radish가 그룹 밖 Wuxiaworld Limited(홍콩) 지분 100%를 처음 취득. 금액·상태는 원자료와 일치. 대가의 39.5%(17,577,179천원)가 '지분상품'인데 어떤 주식인지는 공시되지 않았다. 추정: Radish 주식 교부 — 카카오엔터의 Radish 지분율이 구주·1차 신주 취득 뒤 계산상 약 99%였다가 2021년말 94.58%(116,860,378주)로 낮아져 약 5.5백만주가 다른 주주에게 발행된 것과 규모가 맞는다(17,577백만원 ÷ 공개매수 단가 USD 3.07×1,184원 ≈ 4.8백만주). 경영진 표기: 원자료 설명란은 'Ren Woxing will remain Chief Executive Officer', 카카오엔터 보도자료는 'Jingping Lai will retain his day-to-day management' — 확인: Ren Woxing(RWX)은 창업자 Jingping(JP) Lai의 필명이다(Asia Times 2017-05-01 'Lai is better known as RWX on Wuxia World', 김용 소설 인물 Ren Wo Xing의 약자; 2026-09-20 Wuxiaworld 공지도 'I (RWX, original founder of Wuxiaworld)'). 두 출처의 CEO 표기는 같은 사람이다. 매도자(원자료 '-')는 창업자 등 기존 주주로 보이나 명단은 공개되지 않았다.",
+  "value_chk_local": "USD 37.5 million (TechCrunch 2021-12-15 'The transaction size is $37.5 million', 코리아중앙데일리 2021-12-16 'has purchased Wuxiaworld for $37.5 million' — 두 매체 모두 출처 미명시; 카카오엔터 국문·영문 보도자료는 금액 비공개). 회계상 이전대가 44,501,835천원 = 현금 26,924,656천원 + 주식 등(지분상품) 17,577,179천원 (카카오엔터 2021 연결감사보고서, 카카오 2021 사업보고서)",
+  "pre_events_summary": "2014-12: 전 미국 외교관 Jingping Lai(JP Lai, 필명 RWX)가 중국 무협·판타지 소설 번역 플랫폼 Wuxiaworld 설립, 홍콩 본사·완전 원격 운영(TechCrunch·보도자료); 이후~2021: 마케팅 없이 매년 약 40% 성장(보도자료는 매출, 영문 보도자료는 이익 기준으로 표현), 매출 약 85%가 월 구독, 100여 개국에서 일 수백만 페이지뷰, 이용자 미국·캐나다 30%·동남아 30%·유럽 20%; 2021-12 이전: 카카오엔터 IP('템빨', '탐식의 재림')가 작품의 약 5%로 매출의 약 4분의 1 — 이미 카카오엔터 IP의 유통 채널; 매수자 측: 2021-08-03 Radish가 카카오엔터 자회사로 편입, 2021-09 1차 신주 USD 30백만 예정; 배경: 카카오엔터의 북미 '스토리 IP 삼각편대'(타파스·래디쉬·우시아월드) 구축과 '3년 내 글로벌 거래액 3배' 목표",
+  "post_events_summary": "2021-12-16: 인수 발표·완료, 창업자가 일상 경영 유지; 2021: 영업권 38,094,545천원·식별 무형자산 7,129,800천원 인식, Radish CGU에 포함; 2022-05-19: Tapas·Radish 합병 발표, Wuxiaworld는 합병법인 산하에서 독립 운영; 2022-07: Tapas·Radish·Wuxiaworld를 Tapas 브랜드 아래 통합하는 감원·재편 보도; 2022-09-01: Tapas Entertainment 출범, Wuxiaworld Limited(100%)·Wuxiaworld Publishing USA가 그 자회사; 2022: 통합 CGU 영업권 손상 545,342백만원(Wuxiaworld 몫 분리 불가); 2022~2024: 상위 법인 Tapas Entertainment에 카카오엔터가 2022년 31,682,500천원·2023년 20,630,400천원 대여, 2024년 34,595,680천원 증자, 카카오엔터 별도 기준 Tapas Entertainment 투자주식 전액 손상(2022 294,167,369·2023 447,142,738·2024 34,595,680천원); 2023: Wuxiaworld 부분 CGU 장부가액 33,952백만원 vs 회수가능액 12,288백만원(통합 손상 459,788백만원에 포함); 2024: 회수가능액 12,317 > 장부 11,285백만원, 손상 없음; 2025: Wuxiaworld CGU 손상 6,363백만원(장부 11,953 vs 회수가능 5,590백만원); 2025-12-31: 자매 플랫폼 Radish 종료, 우시아월드는 유지; 2026-07: 월 매출총손실 약 3만 달러(창업자 블로그); 2026-09-20: Wuxiaworld 공지 'Guess Who's Back, Back Again' — RWX가 '지난주 초'(2026-09-14 주 초로 추정) Tapas Entertainment로부터 100% 되사기를 완료해 다시 단독 소유·운영(가격 비공개); 2026-09-22: 창업자 블로그 — 같은 날 Tapas Entertainment 종료가 공개됐고 되사기가 아니었으면 Wuxiaworld도 곧 문을 닫을 상황이었다, 되사기는 시작부터 종결까지 한 달이 채 안 걸림('just under a month'); 2027-03-31: 모회사 플랫폼 Tapas 서비스 종료 예정",
+  "impairment": "있음 (카카오엔터 연결 기준. 인수 영업권 38,094,545천원은 2021년 Radish CGU(431,490,424천원), 2022년부터 Tapas Entertainment CGU에 포함. 2023년 부분 CGU 'WuxiaWorld Limited' 장부가액 33,952백만원 vs 회수가능액 12,288백만원(차이 21,664백만원, 계산 — Tapas Entertainment 영업권 손상 459,787,651천원에 포함), 2025년 'WuxiaWorld Limited' CGU 장부 11,953 vs 회수가능 5,590백만원 → Tapas Entertainment 영업권 손상 6,363,460천원으로 반영(금액 일치). 2022년 통합 CGU 손상 545,342,061천원 중 Wuxiaworld 몫은 분리 불가. 2025년말 Tapas Entertainment 영업권 잔액 6,251,231천원(Wuxiaworld 관련으로 추정)은 2026-09 재매각으로 제거될 것으로 추정. 문서: 카카오엔터 2021~2025 연결감사보고서, 카카오 2023 사업보고서). 별도 기준(카카오엔터 별도 감사보고서) 투자주식 손상도 있음: 종속기업투자 Tapas Entertainment(구 Radish; 2022년 합병으로 Tapas Media 투자 351,090,082천원 합산) 손상 2022년 294,167,369천원(사용가치, 세후 할인율 12.9%·영구성장률 1%), 2023년 447,142,738천원(잔액 전액, 12.3%·0%), 2024년 불균등 유상증자분 34,595,680천원 전액 — 누계 775,905,787천원으로 2021년 취득원가 741,310,107천원(Radish 390,220,025 + Tapas Media 351,090,082)과 2024 증자분을 모두 상각했고 2023년말 이후 장부금액은 0, 2025년 변동 없음. 연결 영업권 손상과 같은 손실을 다른 회계 단위에서 본 것이므로 두 금액을 합산하지 않는다. 참고: 카카오엔터는 2022년 31,682,500천원, 2023년 20,630,400천원을 Tapas Entertainment에 대여했고(2023년말 대여금 잔액 52,865,400천원), 2023년 대여금 대손충당금 54,888백만원을 인식했으나 회사별 배분은 공시되지 않았다(추정: 대부분 Tapas Entertainment 대여금). 별도 문서: 카카오엔터 2021~2025 별도 감사보고서 20220331003215·20230331004022·20240329003122·20250328002112·20260327001463"
+ },
+ "evidence_add": [
+  {
+   "field": "chk_note,pre_events_summary",
+   "phase": "인수 전",
+   "event_date": "2017-05-01",
+   "event_type": "기타",
+   "content": "Asia Times(Lin Wanxia, 2017-05-01) 'Wuxia goes West: ex-diplomat feeds hunger for genre': 'Lai is better known as RWX on Wuxia World', RWX는 김용 『소오강호』 인물 Ren Wo Xing의 약자.",
+   "url": "https://asiatimes.com/?p=125318",
+   "doc_type": "언론 보도",
+   "doc_date": "2017-05-01",
+   "doc_id": ""
+  },
+  {
+   "field": "pre_events_summary",
+   "phase": "인수 전",
+   "event_date": "2014-12",
+   "event_type": "설립",
+   "content": "Wuxiaworld About 페이지: 'Wuxiaworld.com, owned by Wuxiaworld Limited, was founded in December of 2014 by RWX'.",
+   "url": "https://www.wuxiaworld.com/about?full=1",
+   "doc_type": "회사 보도자료",
+   "doc_date": "2026-10",
+   "doc_id": ""
+  },
+  {
+   "field": "value_chk_local,value_chk_usdmm",
+   "phase": "발표",
+   "event_date": "2021-12-16",
+   "event_type": "발표",
+   "content": "코리아중앙데일리(윤소연, 2021-12-16 16:42): Kakao Entertainment 'has purchased Wuxiaworld for $37.5 million', 'acquired Wuxiaworld via its Radish subsidiary', 'The company did not reveal Wuxiaworld's revenue figures' — TechCrunch 금액 교차 확인.",
+   "url": "https://www.koreajoongangdaily.com/business/kakao-entertainment-acquires-hong-kongs-wuxiaworld/11864600",
+   "doc_type": "언론 보도",
+   "doc_date": "2021-12-16",
+   "doc_id": ""
+  },
+  {
+   "field": "post_events_summary",
+   "phase": "인수 후",
+   "event_date": "2026-09-20",
+   "event_type": "매각",
+   "content": "Wuxiaworld 공지 'Guess Who's Back, Back Again'(timePosted 2026-09-20 15:46 UTC): 'As of the start of last week, I (RWX, original founder of Wuxiaworld) have completed a buyback of Wuxiaworld from Tapas Entertainment and am once more the 100% owner and operator of this company.' 2026-09-20은 일요일이므로 완료는 2026-09-14 주 초로 추정.",
+   "url": "https://www.wuxiaworld.com/news?full=1",
+   "doc_type": "회사 보도자료",
+   "doc_date": "2026-09-20",
+   "doc_id": ""
+  },
+  {
+   "field": "post_events_summary,earnings_call_note",
+   "phase": "인수 후",
+   "event_date": "2026-09-22",
+   "event_type": "매각",
+   "content": "Wuxiaworld 'Ren Blog 1: The Return'(2026-09-22 13:44 UTC) 본문 전체 확인(/blog 페이지 HTML): 'Tapas Entertainment, the Kakao Entertainment subsidiary which has been Wuxiaworld’s parent company for the past three years, is being shut down', 'this buyback process, which from start to finish took just under a month', 'monthly gross profit of over $300,000 - but for July 2026 … a gross loss of around $30,000'.",
+   "url": "https://www.wuxiaworld.com/blog",
+   "doc_type": "회사 보도자료",
+   "doc_date": "2026-09-22",
+   "doc_id": ""
+  },
+  {
+   "field": "impairment,post_events_summary,status_chk,notes",
+   "phase": "인수 후",
+   "event_date": "2022-12-31",
+   "event_type": "손상차손",
+   "content": "카카오엔터 2022 별도 감사보고서 종속기업투자 변동: 'Tapas Entertainment, Inc.(구,Radish Media, Inc.) | 390,220,025 | - | - | (294,167,369) | 351,090,082 | 447,142,738' (2022년 취득액 없음, Tapas Media 투자 대체), 주석 '장부가액이 회수가능액을 294,167백만원 초과하여 … 기타비용으로 인식 … 세후 할인율 12.9%와 영구성장률 1%'. 특수관계자 자금거래: Tapas Entertainment 자금대여 31,682,500천원.",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20230331004022",
+   "doc_type": "DART 감사보고서",
+   "doc_date": "2023-03-31",
+   "doc_id": "20230331004022"
+  },
+  {
+   "field": "impairment,post_events_summary",
+   "phase": "인수 후",
+   "event_date": "2023-12-31",
+   "event_type": "손상차손",
+   "content": "카카오엔터 2023 별도 감사보고서: 'Tapas Entertainment, Inc.(*5) | 447,142,738 | - | - | (447,142,738) | - | -', (*5) '장부가액이 회수가능액을 447,143백만원 초과하여 해당 금액을 포괄손익계산서상 기타비용으로 인식 … 세후 할인율 12.3%와 영구성장률 0%'. 자금대여 Tapas Entertainment 20,630,400천원, 기말 대여금 52,865,400천원, '대여금에 대해서는 신용위험에 따라 대손충당금을 설정하였으며, 충당금 54,888백만원을 인식'(회사별 배분 없음).",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20240329003122",
+   "doc_type": "DART 감사보고서",
+   "doc_date": "2024-03-29",
+   "doc_id": "20240329003122"
+  },
+  {
+   "field": "impairment,post_events_summary",
+   "phase": "인수 후",
+   "event_date": "2024-12-31",
+   "event_type": "손상차손",
+   "content": "카카오엔터 2024 별도 감사보고서: 'Tapas Entertainment, Inc(*2) | - | 34,595,680 | - | (34,595,680) | - | -', (*2) '당기에 유상증자 하였습니다'; 특수관계자 자금거래 '유상증(감)자 및 기타투자' Tapas Entertainment 34,595,680천원. 2025 별도 감사보고서(20260327001463)에는 당기 변동 없음(장부 0).",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20250328002112",
+   "doc_type": "DART 감사보고서",
+   "doc_date": "2025-03-28",
+   "doc_id": "20250328002112"
+  }
+ ],
+ "evidence_drop": []
+}

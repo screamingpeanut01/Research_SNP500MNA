@@ -1,0 +1,34 @@
+{
+ "deal_id": "N014",
+ "review_status": "수정",
+ "review_note": "확인한 것: (1) Yahoo Japan·USEN 공동 보도자료 2009-04-07(Wayback 사본)을 다시 열어 발표일 2009-04-07, 取得時期 2009年4月30日, 取得株式数 4,998株, 取得価格 529,788,000円, 取得後の出資比率 51%, 매도자 USEN의 100% 자회사, purpose_quote 원문이 기록과 같음을 확인했다. (2) M&A Online 2009-04-07 기사에서 GyaO 売上高53億9000万円·営業利益△27億1000万円·取得価額5億2900万円을 확인했다(원자료 설명란의 영업이익 +27억 엔은 부호 오류라는 chk_note 유지). (3) LINE야후 2023-10-25 TDnet 공시 PDF에서 GYAO 2023년 3월기(단체, 일본 기준) 매출 3,945백만 엔, 영업이익 537백만 엔, 순자산 △3,214백만 엔, 설립 2008-10-22, LINE야후 100%를 확인했다. (4) Yahoo Japan 2009-03-31 연결재무제표(SEC Exhibit 99.1, 0001193125-09-199964)에서 TOTAL ASSETS ¥311,552백만, Total equity ¥236,470백만, 발행주식 58,107,980주를 확인했다. deal_to_assets_pct 0.17%, deal_to_equity_pct 0.22% 계산이 맞다. (5) FY2010(2010-03) 연결재무제표(SEC Exhibit 99.1, 0001193125-10-221089)에서 GyaO 과반 취득·연결 편입과 'not material' 문구를 확인했다. 분류(MA① 경영권 인수), 편입 전, 완료 판정은 정의에 맞아 그대로 둔다. / 고친 것: impairment — 같은 FY2010 재무제표 주석에 손상차손 ¥1,470백만(영업권 ¥798백만 포함)이 있으나 그 영업권은 'Goodwill originally recognized at the merger of Brainer'로 Brainer(같은 묶음 N009·N010) 관련이며 GyaO 관련 손상은 기재가 없음을 명시했다. value_chk_usdmm — 추정 환율 대신 같은 SEC 재무제표가 쓴 편의 환율(¥311,552백만 = $3,171,653천, 약 ¥98.23/$, 2009-03-31 기준)로 환산한 값으로 바꿨다(약 5.39백만 달러, 원자료 5.27과 ±10% 이내). / 남은 의문: 인수 후 첫 2개 회계연도 GyaO 법인 실적과 2007년 실적은 여전히 미확인(light 검토라 추가 검색하지 않음). FY2011 이후 Yahoo Japan의 GyaO 관련 손상 여부도 보지 않았다. Yahoo의 GyaO 지분 100% 확보 시점 미확인.",
+ "corrections": {
+  "impairment": "확인 안 됨 (Yahoo Japan FY2010(2010-03) 연결재무제표 SEC 첨부본은 GyaO 인수를 'not material'로 기재. 같은 해 손상차손 ¥1,470백만(영업권 ¥798백만 포함)이 있으나 영업권 손상은 'Goodwill originally recognized at the merger of Brainer'로 Brainer 관련이며 GyaO 관련 손상 기재는 없음. FY2011 이후 연도는 보지 않았다)",
+  "value_chk_usdmm": "원자료와 일치 (원자료 5.27. JPY 529.788백만을 Yahoo Japan 2009-03-31 연결재무제표 SEC 첨부본의 편의 환율 약 ¥98.23/$(¥311,552백만 = $3,171,653천)로 환산하면 약 5.39백만 달러로 ±10% 이내. 원자료 값은 약 ¥100.5/$에 해당)"
+ },
+ "evidence_add": [
+  {
+   "field": "impairment",
+   "phase": "인수 후",
+   "event_date": "2010-03-31",
+   "event_type": "손상차손",
+   "content": "FY2010 손상차손 ¥1,470백만 중 Goodwill ¥798백만: 'Goodwill originally recognized at the merger of Brainer was written down...'. GyaO 인수는 'not material to the Group's financial statements'.",
+   "url": "https://www.sec.gov/Archives/edgar/data/1011006/000119312510221089/dex991.htm",
+   "doc_type": "SEC",
+   "doc_date": "2010",
+   "doc_id": "0001193125-10-221089"
+  },
+  {
+   "field": "value_chk_usdmm",
+   "phase": "발표",
+   "event_date": "2009-03-31",
+   "event_type": "기타",
+   "content": "2009-03-31 연결 대차대조표 TOTAL ASSETS ¥311,552백만 = $3,171,653천(편의 환산, 약 ¥98.23/$).",
+   "url": "https://www.sec.gov/Archives/edgar/data/1011006/000119312509199964/dex991.htm",
+   "doc_type": "SEC",
+   "doc_date": "2009",
+   "doc_id": "0001193125-09-199964"
+  }
+ ],
+ "evidence_drop": []
+}
