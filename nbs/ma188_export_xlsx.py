@@ -53,8 +53,7 @@ COLS = [
     ("성과", "target_rev_pre", "매출 (인수 전)", 36, True), ("성과", "target_rev_post", "매출 (인수 후)", 36, True),
     ("성과", "target_op_pre", "영업이익 (인수 전)", 36, True), ("성과", "target_op_post", "영업이익 (인수 후)", 36, True),
     ("성과", "perf_basis", "실적 기준", 40, True), ("성과", "earnings_call_note", "어닝콜·IR 언급", 40, True),
-    ("검토", "collect_status", "수집 상태", 8, False), ("검토", "collected_on", "수집 일시", 17, False),
-    ("검토", "review_status", "검토 결과", 8, False), ("검토", "review_note", "검토 메모", 70, True),
+    ("수집", "collect_status", "수집 상태", 8, False), ("수집", "collected_on", "수집 일시", 17, False),
 ]
 EV_COLS = [("deal_id", "거래", 8, False), ("_target", "대상회사", 26, True), ("phase", "시점", 8, False),
            ("event_date", "사건 날짜", 12, False), ("event_type", "사건 종류", 16, True), ("content", "내용", 70, True),
@@ -63,7 +62,7 @@ EV_COLS = [("deal_id", "거래", 8, False), ("_target", "대상회사", 26, True
 
 GROUP_FILL = {"식별": "1F4E4C", "분류 요약": "0F5C5A", "원자료": "5C6B67", "원자료 대조": "7A4E00",
               "인수 목적·핵심": "3E5C2E", "규모": "34506E", "주가 이벤트": "4E3F6E", "전후 이벤트": "8A2E2E",
-              "성과": "2E5E6E", "검토": "4A4A4A"}
+              "성과": "2E5E6E", "수집": "4A4A4A"}
 NAMES = {"MA①": "경영권 인수", "MA②": "기존 지분 확대", "MA③": "소수지분 매입", "MA④": "그룹 내부 재편",
          "MA⑤": "그룹의 지분 매각", "MA⑥": "외부자 간 거래", "MA⑦": "매수자 미기재"}
 thin = Side(style="thin", color="D3DCD9")
@@ -151,8 +150,6 @@ def deals_sheet(wb, d):
         ("_imp", f'${col["_imp"]}4="있음"', "FBE4E1"), ("_imp", f'${col["_imp"]}4="확인 안 됨"', "FBEFD9"),
         ("_chk", f'${col["_chg"]}4="변경"', "D5EBE8"), ("_chg", f'${col["_chg"]}4="변경"', "D5EBE8"),
         ("_val", f'${col["_val"]}4="불일치"', "FBE4E1"),
-        ("review_status", f'${col["review_status"]}4="통과"', "DFF1E4"),
-        ("review_status", f'${col["review_status"]}4="수정"', "FBEFD9"),
         ("collect_status", f'${col["collect_status"]}4="완료"', "DFF1E4"),
     ]:
         ws.conditional_formatting.add(f"{col[key]}4:{col[key]}{last}", FormulaRule(formula=[rule], fill=fill(color)))
@@ -227,7 +224,6 @@ def summary_sheet(wb, col, last):
 
     firms = ["CJ ENM", "Kakao", "Naver"]
     table("기업별 수집 상태", firms, ["완료", "부분"], "firm", "collect_status", row_label="기업")
-    table("기업별 검토 결과", firms, ["수정", "통과"], "firm", "review_status", row_label="기업")
     codes_b = ["MA①", "MA②", "MA③", "MA④", "MA⑤", "MA⑥", "MA⑦"]
     codes_c = ["MA①", "MA②", "MA③", "MA④", "MA⑤", "MA⑥"]
     table("분류 대조: 원자료 기반(행) → 원문 확인(열)", codes_b, codes_c, "_base", "_chk", row_label="원자료 분류")
@@ -271,7 +267,7 @@ def guide_sheet(wb, n, ne):
         ("원본", "meeting/20261102/MA188_수집시트.csv, MA188_근거.csv (이 파일은 그 CSV를 nbs/ma188_export_xlsx.py로 옮긴 것)"),
         ("내용", f"CJ ENM 30·Kakao 74·Naver 84, 거래 {n}건과 근거 {ne}행. 설계와 결과 해석은 meeting/20261102/주차연구정리_20261102.md"),
         ("시트", None),
-        ("  요약", "기업별 수집·검토 상태, 분류 대조표, 손상·편입 시점·금액 대조 집계. 모두 '거래' 시트를 세는 수식"),
+        ("  요약", "기업별 수집 상태, 분류 대조표, 손상·편입 시점·금액 대조 집계. 모두 '거래' 시트를 세는 수식"),
         ("  거래", "한 행이 한 거래. 1행은 열 묶음, 2행은 열 이름, 3행은 CSV 열 이름이며 3행에 필터가 있다. 거래·기업·날짜·대상회사 열은 고정"),
         ("  근거", "한 행이 근거 하나. URL을 누르면 원문이 열린다. '뒷받침하는 열'은 그 근거가 '거래' 시트의 어느 열 값을 뒷받침하는지 적은 것"),
         ("열 묶음", None),
@@ -281,9 +277,9 @@ def guide_sheet(wb, n, ne):
         ("  원자료 대조", "공시·감사보고서로 확인한 분류, 편입 시점, 상태, 금액, 발표일과 메모"),
         ("  인수 목적·핵심 / 규모 / 주가 이벤트", "발표 당시 목적, 핵심 여부, 인수 주체·그룹 정점의 규모와 비율, 종목과 처음 알려진 날"),
         ("  전후 이벤트 / 성과", "인수 전후 사건, 손상, 대상회사 인수 전후 매출·영업이익, 어닝콜 언급"),
-        ("  검토", "수집 상태(완료/부분), 독립 검토 결과(수정/통과)와 검토 메모"),
+        ("  수집", "수집 상태(완료 = 모든 항목을 채움, 부분 = 공개 자료가 없어 비어 있는 항목이 있음)와 수집 일시"),
         ("값 표기", "미확인 = 찾았지만 근거가 없음 · 해당 없음 = 그 거래에 해당하지 않음 · 추정: = 추정한 값"),
-        ("색", "확인 분류·분류 변경 칸 청록 = 원자료와 분류가 다름 · 손상 구분 빨강 = 손상 있음, 주황 = 확인 안 됨 · 금액 대조 빨강 = 불일치 · 검토 초록 = 통과, 주황 = 수정"),
+        ("색", "확인 분류·분류 변경 칸 청록 = 원자료와 분류가 다름 · 손상 구분 빨강 = 손상 있음, 주황 = 확인 안 됨 · 금액 대조 빨강 = 불일치 · 수집 상태 초록 = 완료"),
         ("금액 단위", "원자료 금액은 거래 당시 환율로 환산한 백만 달러. 공시로 확인한 금액은 '금액 확인' 열에 현지 통화와 환산값으로 적었다"),
         ("행 높이", "긴 글은 칸 안에서 줄바꿈되고 행 높이는 고정이다. 전체 내용은 셀을 선택해 수식 입력줄에서 보거나 행 높이를 늘려 본다"),
     ]
