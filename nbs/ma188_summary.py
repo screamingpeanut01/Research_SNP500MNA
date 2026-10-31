@@ -69,7 +69,7 @@ def main():
     print(d.is_core.map(lambda s: s.split(" (")[0]).value_counts())
     print("\n[10] 이중 집계·표본 제외 언급이 notes/chk_note에 있는 거래")
     m = (d.notes + " " + d.chk_note).str.contains("이중 집계|중복 행|제외 후보")
-    print(int(m.sum()), " ".join(d[m].deal_id))
+    print(int(m.sum()), " ".join(d[m].ciq_id))
     print("\n[11] 근거")
     print("근거 행", len(e), "/ 고유 URL", e.url[e.url != ""].nunique())
     print(e.doc_type.value_counts().head(12))

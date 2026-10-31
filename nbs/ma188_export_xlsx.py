@@ -24,7 +24,7 @@ FONT = "맑은 고딕"
 
 # (그룹, 열 키, 표시 이름, 폭, 줄바꿈)
 COLS = [
-    ("식별", "deal_id", "거래", 8, False), ("식별", "firm", "기업", 9, False), ("식별", "date", "날짜", 11, False),
+    ("식별", "ciq_id", "CIQ ID", 16, False), ("식별", "firm", "기업", 9, False), ("식별", "date", "날짜", 11, False),
     ("식별", "target", "대상회사", 30, True), ("식별", "value_rank", "금액 순위", 7, False),
     ("식별", "top50", "상위 50", 7, False), ("식별", "event_group", "사건 묶음", 9, False),
     ("분류 요약", "_base", "거래 형태 (설명란 판정)", 11, False), ("분류 요약", "_chk", "거래 형태 (공시 확인)", 11, False),
@@ -58,7 +58,7 @@ COLS = [
     ("성과", "perf_basis", "실적 기준", 40, True), ("성과", "earnings_call_note", "어닝콜·IR 언급", 40, True),
     ("수집", "collect_status", "수집 상태", 8, False), ("수집", "collected_on", "수집 일시", 17, False),
 ]
-EV_COLS = [("deal_id", "거래", 8, False), ("_target", "대상회사", 26, True), ("phase", "시점", 8, False),
+EV_COLS = [("ciq_id", "CIQ ID", 16, False), ("_target", "대상회사", 26, True), ("phase", "시점", 8, False),
            ("event_date", "사건 날짜", 12, False), ("event_type", "사건 종류", 16, True), ("content", "내용", 70, True),
            ("doc_type", "문서 종류", 16, True), ("doc_date", "문서 날짜", 12, False), ("doc_id", "문서 번호", 18, False),
            ("url", "URL", 45, False), ("field", "뒷받침하는 열", 30, True)]
@@ -159,7 +159,7 @@ def evidence_sheet(wb, e, targets):
     ws = wb.create_sheet("근거")
     header(ws, 1, [c[1] for c in EV_COLS], [c[2] for c in EV_COLS])
     for r, rec in enumerate(e.to_dict(orient="records"), 2):
-        rec["_target"] = targets.get(rec["deal_id"], "")
+        rec["_target"] = targets.get(rec["ciq_id"], "")
         for i, (key, _l, _w, wrap) in enumerate(EV_COLS, 1):
             v = rec[key]
             cell = ws.cell(row=r, column=i, value=v if v != "" else None)
@@ -277,7 +277,7 @@ def guide_sheet(wb, n, ne):
         ("  거래", "한 행이 한 거래. 1행은 열 묶음, 2행은 열 이름, 3행은 CSV 열 이름이며 3행에 필터가 있다. 거래·기업·날짜·대상회사 열은 고정"),
         ("  근거", "한 행이 근거 하나. URL을 누르면 원문이 열린다. '뒷받침하는 열'은 그 근거가 '거래' 시트의 어느 열 값을 뒷받침하는지 적은 것"),
         ("열 묶음", None),
-        ("  식별", "거래 번호(C=CJ ENM, K=Kakao, N=Naver), 날짜, 대상회사, 원자료 금액 순위"),
+        ("  식별", "CIQ ID(Capital IQ의 CIQ Transaction ID), 기업, 날짜, 대상회사, 원자료 금액 순위"),
         ("  분류 요약 (파생)", "원래 열에서 뽑은 값. 거래 형태 (설명란 판정)·거래 형태 (공시 확인)(MA①~⑦ 코드), 형태 변경(변경/같음), 손상 구분(있음 / 없음 (확인) / 식별 불가 / 미확인 / 해당 없음, 근거는 '손상 구분 근거' 열), 금액 대조(일치/불일치/기타), 편입 시점"),
         ("  원자료 (Capital IQ)", "Capital IQ에서 추출한 그대로의 값: 상태, 금액, 매수자, 매도자, 설명란"),
         ("  10-19 설명란 판정", "10-19 분석(nbs/pp_ma_record_audit.py)이 설명란·매수자·매도자 칸을 규칙으로 읽어 붙인 값. 편입 전 표시는 작성자의 배경지식(경영통합 연도 등)에 기댄다"),
@@ -314,7 +314,7 @@ def main():
     wb = Workbook()
     guide_sheet(wb, len(d), len(e))
     _, col, last = deals_sheet(wb, d)
-    evidence_sheet(wb, e, dict(zip(d.deal_id, d.target)))
+    evidence_sheet(wb, e, dict(zip(d.ciq_id, d.target)))
     summary_sheet(wb, col, last)
     wb.calculation.fullCalcOnLoad = True  # 엑셀이 열 때 '요약' 수식을 계산하게 한다
     wb.save(OUT)

@@ -25,6 +25,7 @@ import pandas as pd
 ROOT = Path(__file__).resolve().parents[1]
 SHEET = ROOT / "meeting" / "20261102" / "MA188_수집시트.csv"
 OUT = ROOT / "data" / "ma188_impairment_class.csv"
+CIQ_MAP = ROOT / "data" / "ma188_deal_ciq.csv"  # nbs/ma188_build_sheet.py가 만든다
 
 NA_SAME = "동일지배 합병·그룹 내 이전으로 새 영업권·투자주식 평가가 생기지 않음"
 NA_SALE = "그룹의 지분 매각(MA⑤)이라 매수자 쪽 손상을 따지지 않음"
@@ -124,6 +125,9 @@ JUDGED = {
 
 def main():
     d = pd.read_csv(SHEET, dtype=str, keep_default_na=False)
+    # JUDGED는 수집 기록 번호(deal_id)로 적었다. 시트는 CIQ ID만 실으므로 대응표로 되돌린다.
+    m = pd.read_csv(CIQ_MAP, dtype=str)
+    d["deal_id"] = d.ciq_id.map(dict(zip(m.ciq_id, m.deal_id)))
     rows = []
     for _, r in d.iterrows():
         if r.deal_id in JUDGED:
@@ -132,8 +136,8 @@ def main():
             cls, basis = "있음", "수집·검토 기록에 인수 뒤 손상이 적혀 있음"
         else:
             raise KeyError(f"{r.deal_id}: 판정이 없는 거래")
-        rows.append((r.deal_id, cls, basis))
-    out = pd.DataFrame(rows, columns=["deal_id", "impairment_class", "impairment_class_basis"])
+        rows.append((r.ciq_id, cls, basis))
+    out = pd.DataFrame(rows, columns=["ciq_id", "impairment_class", "impairment_class_basis"])
     OUT.parent.mkdir(exist_ok=True)
     out.to_csv(OUT, index=False, encoding="utf-8-sig")
     print(out.impairment_class.value_counts().to_string())
