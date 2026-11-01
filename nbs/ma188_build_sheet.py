@@ -33,6 +33,7 @@ import json
 import re
 from datetime import date
 from pathlib import Path
+from urllib.parse import urlparse
 
 import pandas as pd
 
@@ -73,6 +74,13 @@ COLLECT = [
 ]
 EVID_COLS = ["ciq_id", "field", "phase", "event_date", "event_type", "content", "url", "doc_type",
              "doc_date", "doc_id"]
+# 시트에 싣는 열. 수집 상태(collect_status)는 기록에만 남기고 싣지 않는다(2026-11-02).
+# 대신 근거 표에서 만든 '확인한 출처'(sources_checked)를 싣는다.
+OUT_COLS = BASE + [c for c in COLLECT if c not in ("collect_status", "collected_on", "review_status", "review_note")] \
+    + ["sources_checked", "collected_on", "review_status", "review_note"]
+DOC_ORDER = ["DART 주요사항보고서", "DART 기타공시", "DART 사업보고서", "DART 감사보고서",
+             "DART 공정위 대규모기업집단현황공시", "KIND", "EDINET", "TDnet", "SEC", "IR 자료", "어닝콜",
+             "회사 보도자료", "언론 보도", "기타"]
 
 
 def ciq_ids(d):
@@ -113,6 +121,24 @@ def base_sheet():
     size = d.groupby(key)["ciq_id"].transform("size")
     d["event_group"] = first.where(size > 1, "")
     return d[["deal_id"] + BASE]
+
+
+def sources_checked(evid):
+    """거래마다 근거로 쓴 문서를 종류별로 센다. 같은 문서(URL)가 여러 열의 근거여도 한 번만 센다.
+    '기타'(시세·환율·웹 보관소 등)에는 많이 쓴 사이트 이름을 세 개까지 붙인다.
+    근거 표에는 값을 뒷받침한 문서만 있으므로, 열어 봤지만 값이 없던 출처는 여기에 나오지 않는다."""
+    def one(g):
+        c = g.doc_type.value_counts()
+        parts = []
+        for k in [k for k in DOC_ORDER if k in c] + [k for k in c.index if k not in DOC_ORDER]:
+            s = f"{k} {c[k]}"
+            if k == "기타":
+                host = g[g.doc_type == k].url.map(lambda u: urlparse(u).netloc.removeprefix("www."))
+                s += " (" + ", ".join(h for h in host.value_counts().index[:3] if h) + ")"
+            parts.append(s)
+        return " · ".join(parts)
+    u = evid[evid.url != ""].drop_duplicates(["ciq_id", "url"])
+    return u.groupby("ciq_id")[["doc_type", "url"]].apply(one)
 
 
 def load_existing(path, cols):
@@ -204,7 +230,8 @@ def main():
         evid[c] = evid[c].fillna("").astype(str).map(sub)
     base[["deal_id", "ciq_id"]].to_csv(CIQ_MAP, index=False, encoding="utf-8-sig")
 
-    sheet[BASE + COLLECT].to_csv(a.out / SHEET, index=False, encoding="utf-8-sig")
+    sheet["sources_checked"] = sheet.ciq_id.map(sources_checked(evid)).fillna("")
+    sheet[OUT_COLS].to_csv(a.out / SHEET, index=False, encoding="utf-8-sig")
     evid[EVID_COLS].to_csv(a.out / EVID, index=False, encoding="utf-8-sig")
 
     s = sheet
@@ -212,7 +239,7 @@ def main():
           f"Naver {sum(s.firm == 'Naver')}), 상위 {TOP_N}건 금액 비중 "
           f"{s.loc[s.top50.astype(str) == 'True', 'value'].astype(float).sum() / s.value.astype(float).sum():.1%}")
     print(f"사건 묶음 {s.event_group.replace('', pd.NA).nunique()}개, "
-          f"수집 완료 {sum(s.collect_status == '완료')}건, 검토 통과 {sum(s.review_status == '통과')}건, "
+          f"검토 통과 {sum(s.review_status == '통과')}건, "
           f"근거 {len(evid)}행")
 
 

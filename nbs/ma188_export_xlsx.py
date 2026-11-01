@@ -53,7 +53,7 @@ COLS = [
     ("성과", "target_rev_pre", "매출 (인수 전)", 36, True), ("성과", "target_rev_post", "매출 (인수 후)", 36, True),
     ("성과", "target_op_pre", "영업이익 (인수 전)", 36, True), ("성과", "target_op_post", "영업이익 (인수 후)", 36, True),
     ("성과", "perf_basis", "실적 기준", 40, True), ("성과", "earnings_call_note", "어닝콜·IR 언급", 40, True),
-    ("수집", "collect_status", "수집 상태", 8, False), ("수집", "collected_on", "수집 일시", 17, False),
+    ("수집", "sources_checked", "확인한 출처", 60, True),("수집", "collected_on", "수집 일시", 17, False),
 ]
 EV_COLS = [("ciq_id", "CIQ ID", 16, False), ("_target", "대상회사", 26, True), ("phase", "시점", 8, False),
            ("event_date", "사건 날짜", 12, False), ("event_type", "사건 종류", 16, True), ("content", "내용", 70, True),
@@ -144,7 +144,6 @@ def deals_sheet(wb, d):
         ("impairment_class", f'${col["impairment_class"]}4="없음 (확인)"', "DFF1E4"),
         ("impairment_class", f'OR(${col["impairment_class"]}4="식별 불가",${col["impairment_class"]}4="미확인")', "FBEFD9"),
         ("_val", f'${col["_val"]}4="불일치"', "FBE4E1"),
-        ("collect_status", f'${col["collect_status"]}4="완료"', "DFF1E4"),
     ]:
         ws.conditional_formatting.add(f"{col[key]}4:{col[key]}{last}", FormulaRule(formula=[rule], fill=fill(color)))
     del rng
@@ -217,7 +216,6 @@ def summary_sheet(wb, col, last):
             c = ws.cell(row=row, column=j, value=f"=SUM({L}{top}:{L}{row - 1})"); c.font = bold; c.border = BORDER
 
     firms = ["CJ ENM", "Kakao", "Naver"]
-    table("기업별 수집 상태", firms, ["완료", "부분"], "firm", "collect_status", row_label="기업")
     codes_c = ["MA①", "MA②", "MA③", "MA④", "MA⑤", "MA⑥"]
     table("기업별 거래 형태 (공시 확인)", firms, codes_c, "firm", "_chk", row_label="기업")
     table("기업별 손상 구분 (188건 전체)", firms, IMP_CLASSES, "firm", "impairment_class", row_label="기업")
@@ -268,7 +266,7 @@ def guide_sheet(wb, n, ne):
         ("원본", "meeting/20261102/MA188_수집시트.csv, MA188_근거.csv (이 파일은 그 CSV를 nbs/ma188_export_xlsx.py로 옮긴 것)"),
         ("내용", f"CJ ENM 30·Kakao 74·Naver 84, 거래 {n}건과 근거 {ne}행. 설계와 결과 해석은 meeting/20261102/주차연구정리_20261102.md"),
         ("시트", None),
-        ("  요약", "기업별 수집 상태, 분류 대조표, 손상·편입 시점·금액 대조 집계. 모두 '거래' 시트를 세는 수식"),
+        ("  요약", "분류 대조표, 손상·편입 시점·금액 대조 집계. 모두 '거래' 시트를 세는 수식"),
         ("  거래", "한 행이 한 거래. 1행은 열 묶음, 2행은 열 이름, 3행은 CSV 열 이름이며 3행에 필터가 있다. 거래·기업·날짜·대상회사 열은 고정"),
         ("  근거", "한 행이 근거 하나. URL을 누르면 원문이 열린다. '뒷받침하는 열'은 그 근거가 '거래' 시트의 어느 열 값을 뒷받침하는지 적은 것"),
         ("열 묶음", None),
@@ -279,9 +277,9 @@ def guide_sheet(wb, n, ne):
         ("  공시 확인", "공시·감사보고서로 확인한 거래 형태, 편입 시점, 상태, 금액, 발표일과 메모"),
         ("  인수 목적 / 규모 / 주가 이벤트", "발표 당시 목적과 인수 주체의 주력 사업, 인수 주체·그룹 정점의 규모와 비율, 종목과 처음 알려진 날"),
         ("  전후 이벤트 / 성과", "인수 전후 사건, 손상, 대상회사 인수 전후 매출·영업이익, 어닝콜 언급"),
-        ("  수집", "수집 상태(완료 = 모든 항목을 채움, 부분 = 공개 자료가 없어 비어 있는 항목이 있음)와 수집 일시"),
+        ("  수집", "확인한 출처(근거로 쓴 문서를 종류별로 센 것. 같은 문서는 한 번만 셈. 기타는 사이트 이름을 붙임)와 수집 일시"),
         ("값 표기", "미확인 = 찾았지만 근거가 없음 · 해당 없음 = 그 거래에 해당하지 않음 · 추정: = 추정한 값"),
-        ("색", "손상 구분 빨강 = 있음, 초록 = 없음 (확인), 주황 = 식별 불가·미확인 · 금액 대조 빨강 = 불일치 · 수집 상태 초록 = 완료"),
+        ("색", "손상 구분 빨강 = 있음, 초록 = 없음 (확인), 주황 = 식별 불가·미확인 · 금액 대조 빨강 = 불일치"),
         ("손상 구분", "있음 = 인수 뒤 손상 확인 · 없음 (확인) = 인수 뒤 영업권·투자주식이 손상 없이 유지됨을 확인 · 식별 불가 = 영업권이 부문 단위로 묶여 이 거래 몫을 알 수 없음 · 미확인 = 확인 기간이 짧거나 비어 판단 자료 부족 · 해당 없음 = 그룹 밖 매수자, 그룹의 매각, 동일지배 합병, 공정가치 금융자산 등 구조상 손상을 따지지 않는 거래"),
         ("금액 단위", "원자료 금액은 거래 당시 환율로 환산한 백만 달러. 공시로 확인한 금액은 '금액 확인' 열에 현지 통화와 환산값으로 적었다"),
         ("행 높이", "긴 글은 칸 안에서 줄바꿈되고 행 높이는 고정이다. 전체 내용은 셀을 선택해 수식 입력줄에서 보거나 행 높이를 늘려 본다"),

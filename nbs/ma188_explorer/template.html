@@ -151,7 +151,7 @@ a.rcp:hover{color:var(--ink);border-color:var(--ink)}
 <div class="wrap">
   <div>
     <h1>M&amp;A 188 거래 원장</h1>
-    <p class="sub">CJ ENM·Kakao·Naver의 M&amp;A 188건을 공시·감사보고서·보도로 대조한 수집 시트와 근거 __N_EV__행. 수집 완료 __N_DONE__건, 일부 항목을 아직 확인하지 못한 거래 __N_PART__건. 원본: <span class="mono">meeting/20261102/MA188_수집시트.csv</span>, <span class="mono">MA188_근거.csv</span> (__ASOF__ 기준)</p>
+    <p class="sub">CJ ENM·Kakao·Naver의 M&amp;A 188건을 공시·감사보고서·보도로 대조한 수집 시트와 근거 __N_EV__행. 원본: <span class="mono">meeting/20261102/MA188_수집시트.csv</span>, <span class="mono">MA188_근거.csv</span> (__ASOF__ 기준)</p>
   </div>
   <div class="stats" id="stats"></div>
 
@@ -175,7 +175,6 @@ a.rcp:hover{color:var(--ink);border-color:var(--ink)}
     <select id="f-chk" aria-label="거래 형태 (공시 확인)"><option value="">거래 형태 전체</option></select>
     <select id="f-pre" aria-label="편입 시점"><option value="">편입 시점 전체</option></select>
     <select id="f-imp" aria-label="손상"><option value="">손상 전체</option></select>
-    <select id="f-col" aria-label="수집 상태"><option value="">수집 상태 전체</option></select>
     <label><input type="checkbox" id="f-val"> 금액 불일치만</label>
     <label><input type="checkbox" id="f-top"> 금액 상위 50만</label>
     <button id="reset" type="button">필터 지우기</button>
@@ -184,7 +183,7 @@ a.rcp:hover{color:var(--ink);border-color:var(--ink)}
   <div class="list"><table><thead><tr>
     <th data-k="ciq_id">CIQ ID</th><th data-k="date">날짜</th><th data-k="target">대상회사 · 매수자</th>
     <th data-k="chk">거래 형태 (공시 확인)</th><th data-k="prec">편입 시점</th><th data-k="v" class="num">금액 $M (원자료)</th>
-    <th data-k="imp">손상</th><th data-k="collect_status">수집</th>
+    <th data-k="imp">손상</th><th data-k="nsrc" class="num">출처</th>
   </tr></thead><tbody id="tb"></tbody></table></div>
   <p class="foot">금액은 원자료 value(거래 당시 환율 기준 백만 달러)입니다. 공시로 확인한 금액은 각 거래 서류철의 '금액 확인'에 있습니다. 행을 누르거나 주소 끝에 #C001처럼 거래 번호를 붙이면 그 거래가 열립니다.</p>
 </div>
@@ -195,7 +194,8 @@ a.rcp:hover{color:var(--ink);border-color:var(--ink)}
 <script id="data" type="application/json">__DATA__</script>
 <script>
 const {deals, ev} = JSON.parse(document.getElementById('data').textContent);
-deals.forEach(d => { d.v = parseFloat(d.value) || 0; d.vr = parseInt(d.value_rank) || 999; });
+// nsrc: 거래가 근거로 쓴 서로 다른 문서(URL) 수. 수집 시트의 '확인한 출처'와 같은 기준으로 센다.
+deals.forEach(d => { d.v = parseFloat(d.value) || 0; d.vr = parseInt(d.value_rank) || 999; d.nsrc = new Set((ev[d.ciq_id]||[]).map(r => r[4]).filter(Boolean)).size; });
 const byId = Object.fromEntries(deals.map(d => [d.ciq_id, d]));
 const $ = id => document.getElementById(id);
 const esc = s => String(s ?? '').replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
@@ -276,14 +276,13 @@ const state = {mx:null, sort:'vr', dir:1};
 
 function impChip(k){ const m={'있음':'k-bad','없음 (확인)':'k-ok','식별 불가':'k-warn','미확인':'k-warn','해당 없음':'k-mute'}; return `<span class="chip ${m[k]||'k-mute'}">손상 ${esc(k)}</span>`; }
 function revChip(k){ return `<span class="chip ${k==='통과'?'k-ok':k==='수정'?'k-warn':'k-bad'}">${esc(k)}</span>`; }
-function colChip(k){ return `<span class="chip ${k==='완료'?'k-ok':'k-mute'}">${esc(k)}</span>`; }
 function chg(d){ return `<span class="chip k-mute">${d.chk} ${NAMES[d.chk]||''}</span>`; }
 
 function stats(){
-  const n=deals.length, done=deals.filter(d=>d.collect_status==='완료').length;
+  const n=deals.length;
   const buy=deals.filter(d=>['MA①','MA②','MA③'].includes(d.chk)), imp=buy.filter(d=>d.imp==='있음').length, judged=buy.filter(d=>d.imp==='있음'||d.imp==='없음 (확인)');
   const evn=Object.values(ev).reduce((a,b)=>a+b.length,0), mis=deals.filter(d=>d.valc==='불일치').length;
-  $('stats').innerHTML=[[n,'거래'],[done,'수집 완료 (나머지 '+(n-done)+'건 부분)'],[mis,'금액 불일치'],[imp+'/'+judged.length,'그룹이 산 거래 중 손상 있음 (판정 가능한 거래 기준)'],[evn.toLocaleString(),'근거 행']]
+  $('stats').innerHTML=[[n,'거래'],[mis,'금액 불일치'],[imp+'/'+judged.length,'그룹이 산 거래 중 손상 있음 (판정 가능한 거래 기준)'],[evn.toLocaleString(),'근거 행']]
     .map(([b,s])=>`<div class="stat"><b>${b}</b><span>${s}</span></div>`).join('');
 }
 
@@ -323,7 +322,7 @@ function fillSelect(id,key,order){
   $(id).insertAdjacentHTML('beforeend', vals.map(v=>`<option value="${esc(v)}">${esc(key==='chk'?v+' '+(NAMES[v]||''):v)} (${deals.filter(d=>d[key]===v).length})</option>`).join(''));
 }
 
-const F=[['f-firm','firm'],['f-chk','chk'],['f-pre','prec'],['f-imp','imp'],['f-col','collect_status']];
+const F=[['f-firm','firm'],['f-chk','chk'],['f-pre','prec'],['f-imp','imp']];
 function filtered(){
   const q=$('q').value.trim().toLowerCase();
   return deals.filter(d=>{
@@ -348,7 +347,7 @@ function render(){
     <td class="tg"><b>${esc(d.target)}</b><small>${esc(d.firm)} · ${esc(d.buyers||'매수자 미기재')}</small></td>
     <td>${chg(d)}</td><td>${esc(d.prec)}</td>
     <td class="num mono">${d.v.toLocaleString(undefined,{maximumFractionDigits:2})}${d.valc==='불일치'?' <span class="chip k-bad">불일치</span>':''}</td>
-    <td>${impChip(d.imp)}</td><td>${colChip(d.collect_status)}</td></tr>`).join('') || `<tr><td colspan="8" style="padding:24px;color:var(--muted)">조건에 맞는 거래가 없습니다. 필터를 지워 보세요.</td></tr>`;
+    <td>${impChip(d.imp)}</td><td class="num mono">${d.nsrc}</td></tr>`).join('') || `<tr><td colspan="8" style="padding:24px;color:var(--muted)">조건에 맞는 거래가 없습니다. 필터를 지워 보세요.</td></tr>`;
   $('tb').querySelectorAll('tr.row').forEach(tr=>{ tr.onclick=()=>open(tr.dataset.id); tr.onkeydown=e=>{ if(e.key==='Enter'){ open(tr.dataset.id); } }; });
 }
 
@@ -361,7 +360,7 @@ const SECTIONS=[
   ['주가 이벤트용',[['event_ticker','종목'],['event_ticker_basis','종목 근거'],['first_filing_date','처음 알려진 날']]],
   ['전후 이벤트',[['pre_events_summary','인수 전'],['post_events_summary','인수 후'],['impairment_class','손상 구분'],['impairment_class_basis','손상 구분 근거'],['impairment','손상 (수집 기록)']]],
   ['성과',[['target_rev_pre','매출 (인수 전)'],['target_rev_post','매출 (인수 후)'],['target_op_pre','영업이익 (인수 전)'],['target_op_post','영업이익 (인수 후)'],['perf_basis','실적 기준'],['earnings_call_note','어닝콜·IR 언급']]],
-  ['수집 상태',[['collect_status','수집 상태']]],
+  ['확인한 출처',[['sources_checked','확인한 출처']]],
 ];
 // 서류철 맨 위의 핵심 요약: 각 열에서 첫 문장(또는 첫 항목)만 뽑는다
 function head(s,n){
@@ -400,7 +399,7 @@ function open(id){
   const rel=d.event_group?deals.filter(x=>x.event_group===d.event_group&&x.ciq_id!==id):[];
   const sameT=deals.filter(x=>x.target===d.target&&x.ciq_id!==id&&!rel.includes(x));
   let h=`<header><div class="t"><div class="mono" style="font-size:12px;color:var(--muted)">${d.ciq_id} · ${esc(d.firm)} · ${esc(d.date)}${d.value_rank?' · 금액 순위 '+esc(d.value_rank):''}</div>
-    <h3>${esc(d.target)}</h3><div style="display:flex;flex-wrap:wrap;gap:6px">${chg(d)} ${impChip(d.imp)} ${colChip(d.collect_status)}</div></div>
+    <h3>${esc(d.target)}</h3><div style="display:flex;flex-wrap:wrap;gap:6px">${chg(d)} ${impChip(d.imp)}</div></div>
     <button class="tog" id="rawbtn" type="button" aria-pressed="${state.raw?'true':'false'}">원문 금액</button>
     <button class="close" id="cl" type="button">닫기</button></header><div class="body">`;
   h+=summary(d);
@@ -439,7 +438,6 @@ document.querySelectorAll('th[data-k]').forEach(th=>th.onclick=()=>{ const k=th.
 $('reset').onclick=()=>{ $('q').value=''; F.forEach(([id])=>$(id).value=''); ['f-val','f-top'].forEach(id=>$(id).checked=false); state.mx=null; matrix(); render(); };
 
 fillSelect('f-firm','firm'); fillSelect('f-chk','chk',CODES); fillSelect('f-pre','prec'); fillSelect('f-imp','imp',['있음','없음 (확인)','식별 불가','미확인','해당 없음']);
-fillSelect('f-col','collect_status');
 // 필터 드롭다운: 항목에 마우스를 올리거나 키보드로 고르면 목록 아래에 그 분류의 설명이 나온다
 const ALL='필터를 쓰지 않고 모든 거래를 보여 줍니다.';
 const DESC={
@@ -447,8 +445,6 @@ const DESC={
   'f-chk':{'MA①':'그룹이 이 거래로 처음 지배력을 얻었습니다.','MA②':'이미 지배하던 회사의 지분을 더 샀습니다. 거래 전 지분이 지분법 지분이었으면 단계적 경영권 인수로 적었습니다.','MA③':'거래 뒤에도 지배력이 없는 지분을 샀습니다.','MA④':'그룹 회사끼리 지분이나 사업을 옮겼습니다.','MA⑤':'그룹이 지분을 팔았습니다. 자회사가 외부에 신주를 발행해 그룹 지분이 줄어든 경우도 포함합니다.','MA⑥':'매수자와 매도자 모두 그룹 계보 밖입니다.'},
   'f-pre':{'편입 후':'거래한 날 매수자가 이미 그룹 지배회사이거나 그 연결 자회사였습니다. 그룹이 결정한 거래입니다.','편입 전':'거래한 날 매수자나 대상이 아직 그룹 밖이었습니다. 나중에 그룹에 들어온 회사라서 데이터에 섞였습니다. 예: 카카오 인수 전 로엔의 거래, NAVER와 무관하던 시절 Yahoo Japan의 거래.','지분법 합작 계열':'매수자가 NAVER가 지분만 가지고 지배하지는 않는 회사였습니다. 주로 2021-03 경영통합 뒤의 LY·LINE 계열입니다.'},
   'f-imp':{'있음':'인수 뒤 관련 영업권·투자주식·무형자산의 손상을 공시에서 확인했습니다.','없음 (확인)':'인수 뒤 공시에서 관련 영업권·투자주식이 손상 없이 유지되거나 \'손상 없음\'이 적혀 있는 것을 확인했습니다.','식별 불가':'영업권이 부문(현금창출단위) 전체로 묶였거나 손상액이 합계로만 공시돼, 이 거래 몫을 알 수 없습니다.','미확인':'확인한 기간이 짧거나 중간이 비어 판단할 자료가 부족합니다.','해당 없음':'거래 구조상 손상을 따지지 않습니다. 그룹 밖 매수자, 그룹의 지분 매각, 같은 그룹 안 합병·이전, 공정가치로 처리한 금융자산 등입니다.'},
-  'collect_status':{},
-  'f-col':{'완료':'수집 항목을 모두 채웠습니다.','부분':'일부 항목이 비어 있습니다. 대개 비상장 대상회사의 영업이익이나 어닝콜 언급처럼 공개 자료가 없는 항목입니다.'},
 };
 const DD=[];
 function dropdown(sel, desc){
