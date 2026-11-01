@@ -1,0 +1,19 @@
+{
+ "deal_id": "N044",
+ "ciq_id": "IQTR573091525",
+ "gaps": [
+  {
+   "field": "acq_total_assets",
+   "before": "미확인 (LFG Holdings Limited는 홍콩 비상장 법인으로 재무 비공개). 참고: 중간 지배회사 LINE Corporation 연결 총자산 ¥303,439백만 (2017-12-31, IFRS, LINE 20-F 2018 선택재무정보)",
+   "class": "공개 자료 없음",
+   "reason": "인수 주체 LFG Holdings는 홍콩 비상장 법인이고, 그 재무가 실릴 수 있는 LINE 20-F 2018·2019의 종속기업 표와 EDGAR 전문검색 'LFG HOLDINGS' 4건은 모두 사업·지분율만 적은 종속기업 목록이어서 공개된 재무가 없음을 수집 단계에서 확인함",
+   "retry": "재시도 안 함",
+   "after": "미확인 (LFG Holdings Limited는 홍콩 비상장 법인으로 재무 비공개). 참고: 중간 지배회사 LINE Corporation 연결 총자산 ¥303,439백만 (2017-12-31, IFRS, LINE 20-F 2018 선택재무정보)"
+  }
+ ],
+ "corrections": {},
+ "impairment_class_after": null,
+ "evidence_add": [],
+ "other_issues": "",
+ "summary": "빈 칸은 LFG Holdings 총자산 하나이며, 홍콩 비상장 법인의 재무가 LINE 20-F와 EDGAR 어디에도 없다는 근거가 메모에 있어 공개 자료 없음으로 분류하고 다시 찾지 않았다."
+}

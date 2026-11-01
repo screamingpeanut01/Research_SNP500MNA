@@ -1,0 +1,119 @@
+{
+ "deal_id": "N034",
+ "ciq_id": "IQTR421564126",
+ "gaps": [
+  {
+   "field": "deal_to_equity_pct",
+   "before": "미확인 (LINE Vietnam 자기자본 비공개). 참고 계산: NAVER 2016-12-31 연결 자본총계 4,129,599백만원 대비 0.056 (2,305 ÷ 4,129,599)",
+   "class": "공개 자료 없음",
+   "reason": "LINE Vietnam 자기자본이 실린 자료 없음. 이번에 열어 본 출처: NAVER 2016 사업보고서(20170331004699, 캐시 nv2016) 종속회사 표(자산총액 358백만원만)와 연결주석 '주요 종속기업의 요약 재무정보'(LINE Vietnam 없음); 베트남 사업자 검색(위 검색어, 재무 없음). LINE 20-F FY2016·FY2017에도 개별 재무 없음(수집 단계 확인)",
+   "retry": "못 찾음",
+   "after": "미확인 (LINE Vietnam 자기자본 비공개). 참고 계산: NAVER 2016-12-31 연결 자본총계 4,129,599백만원 대비 0.056 (2,305 ÷ 4,129,599)"
+  },
+  {
+   "field": "acq_mktcap",
+   "before": "계산: NAVER 26,271,255,163,000원 (발표 직전 거래일 2017-02-22 종가 797,000원[Yahoo Finance 035420.KS 분할조정 종가 159,400원 × 5; 2018-10 5:1 액면분할 전] × 발행주식 32,962,679주[NAVER 2016 사업보고서 '주식의 총수']). LINE(TSE:3938) 당시 시가총액은 상장폐지 종목이라 Yahoo Finance 시세가 없어 미확인",
+   "class": "미완",
+   "reason": "LINE(TSE:3938) 시가총액이 '상장폐지로 Yahoo 시세 없음'이라 미확인이었음. 실제 종가는 이번에도 확보하지 못해, N040(FIVE) 검토와 같은 방식으로 LINE 20-F(FY2016 0001157523-17-000925, FY2017 0001193125-18-102738, 캐시 work/NV-L1/dl/20f_2016.txt·20f_2017.txt)의 도쿄증권거래소 고가·저가 표와 자본금 변동표의 발행주식수로 범위를 추정함",
+   "retry": "일부 채움",
+   "after": "계산: NAVER 26,271,255,163,000원 (발표 직전 거래일 2017-02-22 종가 797,000원[Yahoo Finance 035420.KS 분할조정 종가 159,400원 × 5; 2018-10 5:1 액면분할 전] × 발행주식 32,962,679주[NAVER 2016 사업보고서 '주식의 총수']). LINE(TSE:3938) 추정: JPY 765.5~848.2 billion (LINE 20-F FY2016 Item 9의 2017년 2월 도쿄증권거래소 월중 저가 3,515엔·고가 3,895엔 × 2016-12-31 발행주식 217,775,500주[LINE 20-F FY2017 자본금 변동표]; 발표 직전 거래일 2017-02-22의 실제 종가는 상장폐지로 확보하지 못함)"
+  },
+  {
+   "field": "post_events_summary",
+   "before": "2017-03: LINE Plus가 제3자로부터 LINE Vietnam 잔여 5% 취득해 100% 자회사화(LINE 6-K 2017-05-12); 2017-04-01: 사업양도 완료(Adways 연혁 2017-04); 2017-12-31: LINE Vietnam 자산총액 6,673백만원(2016년 말 358백만원에서 증가, NAVER 2017 사업보고서); 2018-12-31: NAVER 연결 종속기업 목록에 LINE Vietnam 계속 기재(NAVER 2018 사업보고서); 2021-03: LINE–Z Holdings 경영통합으로 LINE 계열이 NAVER 지분법 합작 계열(A Holdings)로 바뀜 — 추정: LINE Vietnam도 LINE Plus를 통해 LY Corporation 계열로 남음(근거: LINE Plus가 LY 자회사라는 linecorp.com 회사정보, LINE Vietnam 자체 확인은 못 함); 이후 LINE Vietnam Co., Ltd 현황 미확인",
+   "class": "미완",
+   "reason": "'이후 LINE Vietnam Co., Ltd 현황 미확인'이었음. 이번에 베트남어 검색 2회('\"Kraze Vina\"…', '\"Công ty TNHH LINE Việt Nam\"…')와 영문 검색 1회('\"LINE Vietnam Co., Ltd\" 2022 OR 2023 OR 2024…')를 했으나 법인 존속·청산을 확인할 공식 자료를 찾지 못함(검색 요약에 나온 세무코드 0304494625는 chogia.vn 페이지가 HTTP 500으로 열리지 않아 쓰지 않음)",
+   "retry": "못 찾음",
+   "after": "2017-03: LINE Plus가 제3자로부터 LINE Vietnam 잔여 5% 취득해 100% 자회사화(LINE 6-K 2017-05-12); 2017-04-01: 사업양도 완료(Adways 연혁 2017-04); 2017-12-31: LINE Vietnam 자산총액 6,673백만원(2016년 말 358백만원에서 증가, NAVER 2017 사업보고서); 2018-12-31: NAVER 연결 종속기업 목록에 LINE Vietnam 계속 기재(NAVER 2018 사업보고서); 2021-03: LINE–Z Holdings 경영통합으로 LINE 계열이 NAVER 지분법 합작 계열(A Holdings)로 바뀜 — 추정: LINE Vietnam도 LINE Plus를 통해 LY Corporation 계열로 남음(근거: LINE Plus가 LY 자회사라는 linecorp.com 회사정보, LINE Vietnam 자체 확인은 못 함); 이후 LINE Vietnam Co., Ltd 현황 미확인"
+  },
+  {
+   "field": "impairment_class",
+   "before": "미확인",
+   "class": "미완",
+   "reason": "분류 근거가 'LINE 20-F FY2017~2019에서 언급을 찾지 못한 수준이며 이후를 확인하지 않음'이었음. 이번에 LINE 20-F FY2017 캐시(work/NV-L1/dl/20f_2017.txt)에서 사업결합 문장과 Adways 언급(0건)을 확인함",
+   "retry": "채움",
+   "after": "식별 불가"
+  },
+  {
+   "field": "target_rev_pre",
+   "before": "2015: 미확인; 2016: 43,598백만 VND (약 223백만엔, 양도 대상 소프트웨어 개발 사업 매출)",
+   "class": "미완",
+   "reason": "이번에 열어 본 출처: Adways 적시공시 캐시(work/U059/adways_20170223.txt, TDnet 140120170222405033)의 '譲渡事業の経営成績(平成28年12月期)'는 2016년 売上高 한 해만 적음; 日本M&Aセンター 뉴스(https://www.nihon-ma.co.jp/news/20170223_2489-4/)는 양도가액만 적음. ATV(베트남 법인) 자체 재무 공시와 Adways 유가증권보고서는 열지 않아 미완. 2015 매출이 실린 자료를 찾지 못함",
+   "retry": "못 찾음",
+   "after": "2015: 미확인; 2016: 43,598백만 VND (약 223백만엔, 양도 대상 소프트웨어 개발 사업 매출)"
+  },
+  {
+   "field": "target_rev_post",
+   "before": "미확인 (양수 사업은 LINE Vietnam에 흡수되었고 LINE Vietnam 개별 실적은 비공개; NAVER 사업보고서 종속기업 요약재무정보에 미기재). 참고: LINE Vietnam 자산총액 2017-12-31 6,673백만원",
+   "class": "공개 자료 없음",
+   "reason": "열어 본 출처: ② NAVER 2015 사업보고서(20160330003610, 캐시 nv2015)·2016 사업보고서(20170331004699, 캐시 nv2016) 연결주석 '주요 종속기업의 요약 재무정보' 표: LINE·라인플러스·네이버비즈니스플랫폼·라인씨앤아이·네이버아이앤에스·웍스모바일·라인프렌즈·캠프모바일·LINE Taiwan만 있고 LINE Vietnam 없음(종속회사 개요 표에는 자산총액 2015 1,071·2016 358·2017 6,673백만원만); NAVER 2017·2018 사업보고서와 LINE 20-F FY2017(사업결합 주석 'no other significant business combinations', 개별 재무 없음)는 수집 단계 확인 ① 베트남 사업자 검색 '\"Công ty TNHH LINE Việt Nam\" OR \"LINE VIETNAM COMPANY LIMITED\" mã số thuế Keangnam'(재무 없음) ③ 해외 법인이라 공정위 대상 아님 ④ 영문 검색 '\"LINE Vietnam Co., Ltd\" 2022 OR 2023 OR 2024 LINE Plus subsidiary Hanoi'(재무 없음). 인수 후 LINE Vietnam 매출이 실린 자료 없음",
+   "retry": "못 찾음",
+   "after": "미확인 (양수 사업은 LINE Vietnam에 흡수되었고 LINE Vietnam 개별 실적은 비공개; NAVER 사업보고서 종속기업 요약재무정보에 미기재). 참고: LINE Vietnam 자산총액 2017-12-31 6,673백만원"
+  },
+  {
+   "field": "target_op_pre",
+   "before": "미확인 (Adways 공시는 매출만 기재)",
+   "class": "미완",
+   "reason": "이번에 열어 본 출처: Adways 적시공시 캐시(work/U059/adways_20170223.txt, TDnet 140120170222405033)의 '譲渡事業の経営成績(平成28年12月期)'는 2016년 売上高 한 해만 적음; 日本M&Aセンター 뉴스(https://www.nihon-ma.co.jp/news/20170223_2489-4/)는 양도가액만 적음. ATV(베트남 법인) 자체 재무 공시와 Adways 유가증권보고서는 열지 않아 미완. 영업이익이 실린 자료를 찾지 못함",
+   "retry": "못 찾음",
+   "after": "미확인 (Adways 공시는 매출만 기재)"
+  },
+  {
+   "field": "target_op_post",
+   "before": "미확인 (위와 같음)",
+   "class": "공개 자료 없음",
+   "reason": "열어 본 출처: ② NAVER 2015 사업보고서(20160330003610, 캐시 nv2015)·2016 사업보고서(20170331004699, 캐시 nv2016) 연결주석 '주요 종속기업의 요약 재무정보' 표: LINE·라인플러스·네이버비즈니스플랫폼·라인씨앤아이·네이버아이앤에스·웍스모바일·라인프렌즈·캠프모바일·LINE Taiwan만 있고 LINE Vietnam 없음(종속회사 개요 표에는 자산총액 2015 1,071·2016 358·2017 6,673백만원만); NAVER 2017·2018 사업보고서와 LINE 20-F FY2017(사업결합 주석 'no other significant business combinations', 개별 재무 없음)는 수집 단계 확인 ① 베트남 사업자 검색 '\"Công ty TNHH LINE Việt Nam\" OR \"LINE VIETNAM COMPANY LIMITED\" mã số thuế Keangnam'(재무 없음) ③ 해외 법인이라 공정위 대상 아님 ④ 영문 검색 '\"LINE Vietnam Co., Ltd\" 2022 OR 2023 OR 2024 LINE Plus subsidiary Hanoi'(재무 없음). 인수 후 영업이익이 실린 자료 없음",
+   "retry": "못 찾음",
+   "after": "미확인 (위와 같음)"
+  },
+  {
+   "field": "perf_basis",
+   "before": "인수 전 매출은 Adways 적시공시(2017-02-23)의 '譲渡事業の経営成績(平成28年12月期)' — ATV의 양도 대상 사업 매출(12월 결산, 베트남동; 엔 환산은 1円=194.70VND, 2016-12-31). ATV는 Adways 비연결 자회사라 Adways 연결재무제표에 개별 실적이 없다. 인수 후 실적은 매수자 측 공개 자료가 없어 미확인",
+   "class": "공개 자료 없음",
+   "reason": "실적 기준을 설명하는 열이며, 빈 부분(인수 후 실적)은 target_rev_post에 적은 출처를 열어 값이 없음을 확인함",
+   "retry": "못 찾음",
+   "after": "인수 전 매출은 Adways 적시공시(2017-02-23)의 '譲渡事業の経営成績(平成28年12月期)' — ATV의 양도 대상 사업 매출(12월 결산, 베트남동; 엔 환산은 1円=194.70VND, 2016-12-31). ATV는 Adways 비연결 자회사라 Adways 연결재무제표에 개별 실적이 없다. 인수 후 실적은 매수자 측 공개 자료가 없어 미확인"
+  },
+  {
+   "field": "earnings_call_note",
+   "before": "확인 안 됨 (LINE 20-F FY2017에 이 거래 언급 없음; LINE 실적발표 자료·어닝콜은 소형 거래라 따로 보지 않음)",
+   "class": "미완",
+   "reason": "'LINE 실적발표 자료·어닝콜은 소형 거래라 따로 보지 않음'이었음. 이번에 일본어 검색 'LINE 決算説明会 2017 ベトナム アドウェイズ 開発拠点 事業譲受'와 LINE 2017년 12월기 決算短信(2018-01-31, TDnet 140120180131460550, minkabu 미러 https://assets.minkabu.jp/news/article_media_content/urn:newsml:tdnet.info:20180131460550/140120180131460550.pdf) 원문 검색을 했으나 ベトナム·Adways 사업양수 언급이 없음. 2017년 1·2분기 결산설명회 자료·녹취는 찾지 못함",
+   "retry": "못 찾음",
+   "after": "확인 안 됨 (LINE 20-F FY2017에 이 거래 언급 없음; LINE 실적발표 자료·어닝콜은 소형 거래라 따로 보지 않음)"
+  }
+ ],
+ "corrections": {
+  "acq_mktcap": "계산: NAVER 26,271,255,163,000원 (발표 직전 거래일 2017-02-22 종가 797,000원[Yahoo Finance 035420.KS 분할조정 종가 159,400원 × 5; 2018-10 5:1 액면분할 전] × 발행주식 32,962,679주[NAVER 2016 사업보고서 '주식의 총수']). LINE(TSE:3938) 추정: JPY 765.5~848.2 billion (LINE 20-F FY2016 Item 9의 2017년 2월 도쿄증권거래소 월중 저가 3,515엔·고가 3,895엔 × 2016-12-31 발행주식 217,775,500주[LINE 20-F FY2017 자본금 변동표]; 발표 직전 거래일 2017-02-22의 실제 종가는 상장폐지로 확보하지 못함)"
+ },
+ "impairment_class_after": {
+  "value": "식별 불가",
+  "basis": "LINE 20-F FY2017 사업결합 주석이 'There were no other significant business combinations'로 이 사업양수를 개별 기재하지 않아(본문 Adways 언급 0건) 생긴 영업권의 귀속 현금창출단위를 알 수 없고, LINE Vietnam 개별 재무도 공시되지 않는다(NAVER 2015·2016 주요 종속기업 표에 없음). LINE은 2020-12 상장폐지돼 FY2020 이후 20-F가 없다. 따라서 이 거래 몫의 손상 여부는 공개 자료로 식별할 수 없다"
+ },
+ "evidence_add": [
+  {
+   "url": "https://www.sec.gov/Archives/edgar/data/1611820/000115752317000925/a51530935.htm",
+   "doc_type": "SEC",
+   "doc_date": "2017-03",
+   "doc_id": "0001157523-17-000925",
+   "field": "acq_mktcap",
+   "phase": "발표",
+   "event_date": "2017-02",
+   "event_type": "기타",
+   "content": "LINE 20-F FY2016 Item 9 월별 주가표: 'February 2017 | 3,895 | 3,515'(도쿄증권거래소 고가·저가, 엔)"
+  },
+  {
+   "url": "https://www.sec.gov/Archives/edgar/data/1611820/000119312518102738/d661717d20f.htm",
+   "doc_type": "SEC",
+   "doc_date": "2018-03-30",
+   "doc_id": "0001193125-18-102738",
+   "field": "acq_mktcap",
+   "phase": "발표",
+   "event_date": "2016-12-31",
+   "event_type": "기타",
+   "content": "LINE 20-F FY2017 자본금 변동표: 2016-12-31 발행주식 217,775,500주, 2017년 스톡옵션 행사 19,713,500주·신주 1,007,810주, 2017-12-31 238,496,810주"
+  }
+ ],
+ "other_issues": "매수자 LINE Vietnam Co.,Ltd는 N016의 대상(Kraze Vina Vietnam → NHN Vietnam)과 같은 법인이다. Adways 공시의 설립일 2007-11-19를 N016 pre_events_summary에 '추정'으로 반영했다.",
+ "summary": "LINE 시가총액을 20-F 월중 고가·저가로 범위 추정해 채웠고, 손상 분류를 '식별 불가'로 정했다. 인수 후 실적·자기자본은 NAVER 주석·베트남 사업자 검색으로 값이 없음을 확인했다. 인수 전 2015 매출·영업이익, LINE Vietnam의 이후 현황, 어닝콜 언급은 찾지 못했다."
+}

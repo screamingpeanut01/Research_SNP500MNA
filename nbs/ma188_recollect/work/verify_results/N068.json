@@ -1,0 +1,38 @@
+{
+ "deal_id": "N068",
+ "ciq_id": "IQTR1685044102",
+ "checks": [
+  {
+   "field": "target_rev_pre",
+   "class": "공개 자료 없음",
+   "retry": "못 찾음",
+   "reason": "인수 직전 회계연도(2019·2020; 회사는 2020년 설립) 매출을 담은 자료가 없다. ① 대상회사 자체 공시: SEC EDGAR 전문검색 'Suede One' 17건을 모두 대조했으나 모두 Poshmark 명의 문서이고, Suede One 명의 Form D 등 자체 제출 문서는 0건(수집 기록). ② 인수 주체 Poshmark(CIK 0001825480)의 10-Q 3Q21 후속사건 주석(대가만 기재), 10-K 2021 주석 7 사업결합(이전대가·영업권만 기재, 'Pro forma ... not presented because the impacts are not material', 인수 후 매출 미기재), Ex.21.1, 10-Q 2Q22·3Q22(언아웃 부채만 기재), 실적 8-K 2건을 열었으나 Suede One 매출·영업이익 없음; 지배회사 NAVER 2023년 1분기보고서 연결 종속기업 목록에는 Suede One이 없음. ③ 공정위 기업집단현황공시: Suede One은 미국 법인이고 거래 당시 NAVER 계열이 아니어서 회사 손익현황 표의 대상이 아님. ④ 보도자료 전문(eSeller365 재게재)·FashionNetwork·FashionUnited·Retail Dive·MarTechVibe 등 업계 보도 6건·CB Insights, Motley Fool 어닝콜 녹취록 4건(3Q21~2Q22) 확인 결과 재무 수치 없음; 이번 웹 검색('\"Suede One\" sneaker authentication revenue funding') 결과 15건도 금액 비공개·2020년 설립·별도 투자 라운드 없음만 확인되고 매출·손익 수치 없음.",
+   "after": "미확인 (Suede One 비상장·재무 미공개; Poshmark는 영향이 중요하지 않다며 pro forma·인수 후 매출을 제시하지 않음—10-K 2021)"
+  },
+  {
+   "field": "target_op_pre",
+   "class": "공개 자료 없음",
+   "retry": "못 찾음",
+   "reason": "인수 직전 회계연도 영업이익을 담은 자료가 없다. ① 대상회사 자체 공시: SEC EDGAR 전문검색 'Suede One' 17건을 모두 대조했으나 모두 Poshmark 명의 문서이고, Suede One 명의 Form D 등 자체 제출 문서는 0건(수집 기록). ② 인수 주체 Poshmark(CIK 0001825480)의 10-Q 3Q21 후속사건 주석(대가만 기재), 10-K 2021 주석 7 사업결합(이전대가·영업권만 기재, 'Pro forma ... not presented because the impacts are not material', 인수 후 매출 미기재), Ex.21.1, 10-Q 2Q22·3Q22(언아웃 부채만 기재), 실적 8-K 2건을 열었으나 Suede One 매출·영업이익 없음; 지배회사 NAVER 2023년 1분기보고서 연결 종속기업 목록에는 Suede One이 없음. ③ 공정위 기업집단현황공시: Suede One은 미국 법인이고 거래 당시 NAVER 계열이 아니어서 회사 손익현황 표의 대상이 아님. ④ 보도자료 전문(eSeller365 재게재)·FashionNetwork·FashionUnited·Retail Dive·MarTechVibe 등 업계 보도 6건·CB Insights, Motley Fool 어닝콜 녹취록 4건(3Q21~2Q22) 확인 결과 재무 수치 없음; 이번 웹 검색('\"Suede One\" sneaker authentication revenue funding') 결과 15건도 금액 비공개·2020년 설립·별도 투자 라운드 없음만 확인되고 매출·손익 수치 없음.",
+   "after": "미확인 (같은 이유)"
+  },
+  {
+   "field": "target_rev_post",
+   "class": "공개 자료 없음",
+   "retry": "못 찾음",
+   "reason": "인수 후 Suede One은 Poshmark 감정 기능으로 통합됐고 Poshmark 10-Q 2Q22·3Q22에도 분리 매출이 없으며, 2023-01-17 Poshmark 등록 말소 뒤로는 SEC 공시가 없고 NAVER 공시에는 Suede One 항목이 없다. ① 대상회사 자체 공시: SEC EDGAR 전문검색 'Suede One' 17건을 모두 대조했으나 모두 Poshmark 명의 문서이고, Suede One 명의 Form D 등 자체 제출 문서는 0건(수집 기록). ② 인수 주체 Poshmark(CIK 0001825480)의 10-Q 3Q21 후속사건 주석(대가만 기재), 10-K 2021 주석 7 사업결합(이전대가·영업권만 기재, 'Pro forma ... not presented because the impacts are not material', 인수 후 매출 미기재), Ex.21.1, 10-Q 2Q22·3Q22(언아웃 부채만 기재), 실적 8-K 2건을 열었으나 Suede One 매출·영업이익 없음; 지배회사 NAVER 2023년 1분기보고서 연결 종속기업 목록에는 Suede One이 없음. ③ 공정위 기업집단현황공시: Suede One은 미국 법인이고 거래 당시 NAVER 계열이 아니어서 회사 손익현황 표의 대상이 아님. ④ 보도자료 전문(eSeller365 재게재)·FashionNetwork·FashionUnited·Retail Dive·MarTechVibe 등 업계 보도 6건·CB Insights, Motley Fool 어닝콜 녹취록 4건(3Q21~2Q22) 확인 결과 재무 수치 없음; 이번 웹 검색('\"Suede One\" sneaker authentication revenue funding') 결과 15건도 금액 비공개·2020년 설립·별도 투자 라운드 없음만 확인되고 매출·손익 수치 없음.",
+   "after": "미확인 (Poshmark 내부 감정 기능으로 통합되어 별도 실적 미공시. 참고: 승계 회사 Poshmark 연결 순매출 2021년 USD 326,009천, 2022년 1~9월 USD 268,430천)"
+  },
+  {
+   "field": "target_op_post",
+   "class": "공개 자료 없음",
+   "retry": "못 찾음",
+   "reason": "인수 후 영업이익도 같은 문서들에 분리 기재가 없다. ① 대상회사 자체 공시: SEC EDGAR 전문검색 'Suede One' 17건을 모두 대조했으나 모두 Poshmark 명의 문서이고, Suede One 명의 Form D 등 자체 제출 문서는 0건(수집 기록). ② 인수 주체 Poshmark(CIK 0001825480)의 10-Q 3Q21 후속사건 주석(대가만 기재), 10-K 2021 주석 7 사업결합(이전대가·영업권만 기재, 'Pro forma ... not presented because the impacts are not material', 인수 후 매출 미기재), Ex.21.1, 10-Q 2Q22·3Q22(언아웃 부채만 기재), 실적 8-K 2건을 열었으나 Suede One 매출·영업이익 없음; 지배회사 NAVER 2023년 1분기보고서 연결 종속기업 목록에는 Suede One이 없음. ③ 공정위 기업집단현황공시: Suede One은 미국 법인이고 거래 당시 NAVER 계열이 아니어서 회사 손익현황 표의 대상이 아님. ④ 보도자료 전문(eSeller365 재게재)·FashionNetwork·FashionUnited·Retail Dive·MarTechVibe 등 업계 보도 6건·CB Insights, Motley Fool 어닝콜 녹취록 4건(3Q21~2Q22) 확인 결과 재무 수치 없음; 이번 웹 검색('\"Suede One\" sneaker authentication revenue funding') 결과 15건도 금액 비공개·2020년 설립·별도 투자 라운드 없음만 확인되고 매출·손익 수치 없음.",
+   "after": "미확인 (참고: 승계 회사 Poshmark 연결 영업손실 2021년 USD (44,425)천, 2022년 1~9월 USD (61,632)천)"
+  }
+ ],
+ "corrections": {},
+ "evidence_add": [],
+ "other_issues": "",
+ "summary": "목록의 출처(SEC EDGAR 전문검색, Poshmark 10-K·10-Q·8-K, NAVER 2023-1Q, 보도·CB Insights, 추가 웹 검색)를 모두 확인했으나 Suede One 개별 실적이 없어 4칸 모두 공개 자료 없음으로 확정했다."
+}

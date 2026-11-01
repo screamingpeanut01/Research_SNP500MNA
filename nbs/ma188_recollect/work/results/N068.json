@@ -1,0 +1,51 @@
+{
+ "deal_id": "N068",
+ "ciq_id": "IQTR1685044102",
+ "gaps": [
+  {
+   "field": "impairment_class",
+   "before": "미확인",
+   "class": "미완",
+   "reason": "수집 기록은 2022-09 이후 확인 불가라고 적었다. 같은 묶음 N078 기록(NAVER 2023~2025 연결 무형자산 주석)을 대조해 판정을 새로 정했다",
+   "retry": "채움",
+   "after": "식별 불가"
+  },
+  {
+   "field": "target_rev_pre",
+   "before": "미확인 (Suede One 비상장·재무 미공개; Poshmark는 영향이 중요하지 않다며 pro forma·인수 후 매출을 제시하지 않음—10-K 2021)",
+   "class": "공개 자료 없음",
+   "reason": "Suede One은 비상장이고 재무를 공개한 적이 없다. Poshmark 10-K 2021은 영향이 중요하지 않다며 pro forma와 인수 후 매출을 제시하지 않았고, 이후 Poshmark 내부 감정 기능으로 통합됐다(수집 기록에서 원문 확인)",
+   "retry": "재시도 안 함",
+   "after": "미확인 (Suede One 비상장·재무 미공개; Poshmark는 영향이 중요하지 않다며 pro forma·인수 후 매출을 제시하지 않음—10-K 2021)"
+  },
+  {
+   "field": "target_rev_post",
+   "before": "미확인 (Poshmark 내부 감정 기능으로 통합되어 별도 실적 미공시. 참고: 승계 회사 Poshmark 연결 순매출 2021년 USD 326,009천, 2022년 1~9월 USD 268,430천)",
+   "class": "공개 자료 없음",
+   "reason": "Suede One은 비상장이고 재무를 공개한 적이 없다. Poshmark 10-K 2021은 영향이 중요하지 않다며 pro forma와 인수 후 매출을 제시하지 않았고, 이후 Poshmark 내부 감정 기능으로 통합됐다(수집 기록에서 원문 확인)",
+   "retry": "재시도 안 함",
+   "after": "미확인 (Poshmark 내부 감정 기능으로 통합되어 별도 실적 미공시. 참고: 승계 회사 Poshmark 연결 순매출 2021년 USD 326,009천, 2022년 1~9월 USD 268,430천)"
+  },
+  {
+   "field": "target_op_pre",
+   "before": "미확인 (같은 이유)",
+   "class": "공개 자료 없음",
+   "reason": "Suede One은 비상장이고 재무를 공개한 적이 없다. Poshmark 10-K 2021은 영향이 중요하지 않다며 pro forma와 인수 후 매출을 제시하지 않았고, 이후 Poshmark 내부 감정 기능으로 통합됐다(수집 기록에서 원문 확인)",
+   "retry": "재시도 안 함",
+   "after": "미확인 (같은 이유)"
+  },
+  {
+   "field": "target_op_post",
+   "before": "미확인 (참고: 승계 회사 Poshmark 연결 영업손실 2021년 USD (44,425)천, 2022년 1~9월 USD (61,632)천)",
+   "class": "공개 자료 없음",
+   "reason": "Suede One은 비상장이고 재무를 공개한 적이 없다. Poshmark 10-K 2021은 영향이 중요하지 않다며 pro forma와 인수 후 매출을 제시하지 않았고, 이후 Poshmark 내부 감정 기능으로 통합됐다(수집 기록에서 원문 확인)",
+   "retry": "재시도 안 함",
+   "after": "미확인 (참고: 승계 회사 Poshmark 연결 영업손실 2021년 USD (44,425)천, 2022년 1~9월 USD (61,632)천)"
+  }
+ ],
+ "corrections": {},
+ "impairment_class_after": "식별 불가 (Suede One 인수 영업권은 Poshmark의 단일 보고 단위에 묶였다. Poshmark 10-K 2021·10-Q 2022-3Q까지는 손상이 없고, 2022-4Q는 Poshmark 공시 중단으로 알 수 없다. 2023-01 NAVER 인수 때 Poshmark의 기존 영업권은 NAVER의 취득원가 배분으로 대체됐고, NAVER 연결의 Poshmark 현금창출단위 영업권은 2023~2025년 손상 기재가 없다(N078 기록). 따라서 이 거래 몫의 손상 여부를 따로 알 수 없다)",
+ "evidence_add": [],
+ "other_issues": "",
+ "summary": "대상회사 실적 4칸은 비상장·중요성 미달로 공개 자료 없음으로 분류했다. 손상 분류는 영업권이 Poshmark 단위에 묶여 이 거래 몫을 알 수 없으므로 식별 불가로 새로 판정했다."
+}

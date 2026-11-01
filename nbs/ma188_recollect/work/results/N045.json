@@ -1,0 +1,75 @@
+{
+ "deal_id": "N045",
+ "ciq_id": "IQTR594672156",
+ "gaps": [
+  {
+   "field": "status_chk",
+   "before": "완료 (2018-11-09 인수 보도 기준; 정확한 잔금일은 미확인)",
+   "class": "미완",
+   "reason": "'정확한 잔금일은 미확인'으로 덜 찾은 상태였음. 이번에 웹 검색 '미래에셋 네이버 아시아그로스펀드 베트남 물류센터 530억 인수 2018년 11월'과 'theinvestor.co.kr Mirae Asset Naver Asia Growth Fund Vietnam logistics centers Yen Phong 2018'을 했으나 VIR·Viet Nam News 2018-11-12 보도 외에 잔금일 문서가 없었음. 법무법인 세종 사례(https://shinkim.com/kor/media/case/4276, 2020-09-18)는 2020년 LogisValley Vina 지분 인수 건으로 이 거래가 아님",
+   "retry": "못 찾음",
+   "after": "완료 (2018-11-09 인수 보도 기준; 정확한 잔금일은 미확인)"
+  },
+  {
+   "field": "acq_total_assets",
+   "before": "미확인 (매수 펀드는 2018년 설정이라 인수 직전 결산 없음). 참고: 싱가포르 MIRAE ASSET-NAVER ASIA GROWTH INVESTMENT 2018-12-31 총자산 190,113백만원·당기순손익 -5,138백만원, 한국 PEF(미래에셋 네이버 아시아 그로쓰 사모투자 합자회사) 총자산 118,002백만원 (NAVER 2018 사업보고서 타법인출자현황, 인수 후 시점)",
+   "class": "공개 자료 없음",
+   "reason": "기존 기록에서 연 출처: NAVER 2018 사업보고서(20190401004489) 타법인출자현황(싱가포르 투자법인 최초취득 2018-08-30)과 이사회 2018-03-27 펀드 출자 안건, VIR 2018-11-12('earlier that March created a fund'). 매수 펀드는 2018년에 결성돼 인수 직전 결산이 존재하지 않음",
+   "retry": "재시도 안 함",
+   "after": "미확인 (매수 펀드는 2018년 설정이라 인수 직전 결산 없음). 참고: 싱가포르 MIRAE ASSET-NAVER ASIA GROWTH INVESTMENT 2018-12-31 총자산 190,113백만원·당기순손익 -5,138백만원, 한국 PEF(미래에셋 네이버 아시아 그로쓰 사모투자 합자회사) 총자산 118,002백만원 (NAVER 2018 사업보고서 타법인출자현황, 인수 후 시점)"
+  },
+  {
+   "field": "first_filing_date",
+   "before": "2018-11-09: 국내 언론의 업계 관계자 인용 보도(원문 미확인; VIR·Viet Nam News 2018-11-12가 'said industry sources on Friday'로 재인용, 사진 출처 THE INVESTOR). DealStreetAsia 2018-11-12 'Mirae-Naver fund in $47m logistics deal'. NAVER의 DART 공시는 없음(2018-01~2019-04 공시 목록 확인).",
+   "class": "미완",
+   "reason": "국내 원 보도(2018-11-09) 원문을 찾지 못한 상태였음. 이번에 위 두 검색어로 찾았으나 국내 원문은 검색되지 않고 베트남 매체 재인용만 나옴",
+   "retry": "못 찾음",
+   "after": "2018-11-09: 국내 언론의 업계 관계자 인용 보도(원문 미확인; VIR·Viet Nam News 2018-11-12가 'said industry sources on Friday'로 재인용, 사진 출처 THE INVESTOR). DealStreetAsia 2018-11-12 'Mirae-Naver fund in $47m logistics deal'. NAVER의 DART 공시는 없음(2018-01~2019-04 공시 목록 확인)."
+  },
+  {
+   "field": "target_rev_pre",
+   "before": "미확인",
+   "class": "미완",
+   "reason": "이번에 열어 본 출처: 웹 검색 '\"LogisValley\" Bac Ninh doanh thu OR revenue OR \"báo cáo tài chính\" Logis Valley Yên Phong' — 무료 자료에는 재무가 없고, EMIS 기업 정보(LogisValley Vina Co., Ltd)는 재무 보고서를 유료로만 제공함(2018 대상 보유 법인으로 추정되는 LogisValley BacNinh JSC 자료는 찾지 못함). 기존 기록의 출처: NAVER FY2018~2025 사업보고서 연결주석(20190401004489 등)에는 싱가포르 투자법인 단위 지분법 손익만 있음. 대상 법인 자체 재무 공시와 유료 DB를 보지 못해 미완",
+   "retry": "못 찾음",
+   "after": "미확인"
+  },
+  {
+   "field": "target_rev_post",
+   "before": "미확인",
+   "class": "미완",
+   "reason": "이번에 열어 본 출처: 웹 검색 '\"LogisValley\" Bac Ninh doanh thu OR revenue OR \"báo cáo tài chính\" Logis Valley Yên Phong' — 무료 자료에는 재무가 없고, EMIS 기업 정보(LogisValley Vina Co., Ltd)는 재무 보고서를 유료로만 제공함(2018 대상 보유 법인으로 추정되는 LogisValley BacNinh JSC 자료는 찾지 못함). 기존 기록의 출처: NAVER FY2018~2025 사업보고서 연결주석(20190401004489 등)에는 싱가포르 투자법인 단위 지분법 손익만 있음. 대상 법인 자체 재무 공시와 유료 DB를 보지 못해 미완",
+   "retry": "못 찾음",
+   "after": "미확인"
+  },
+  {
+   "field": "target_op_pre",
+   "before": "미확인",
+   "class": "미완",
+   "reason": "이번에 열어 본 출처: 웹 검색 '\"LogisValley\" Bac Ninh doanh thu OR revenue OR \"báo cáo tài chính\" Logis Valley Yên Phong' — 무료 자료에는 재무가 없고, EMIS 기업 정보(LogisValley Vina Co., Ltd)는 재무 보고서를 유료로만 제공함(2018 대상 보유 법인으로 추정되는 LogisValley BacNinh JSC 자료는 찾지 못함). 기존 기록의 출처: NAVER FY2018~2025 사업보고서 연결주석(20190401004489 등)에는 싱가포르 투자법인 단위 지분법 손익만 있음. 대상 법인 자체 재무 공시와 유료 DB를 보지 못해 미완",
+   "retry": "못 찾음",
+   "after": "미확인"
+  },
+  {
+   "field": "target_op_post",
+   "before": "미확인",
+   "class": "미완",
+   "reason": "이번에 열어 본 출처: 웹 검색 '\"LogisValley\" Bac Ninh doanh thu OR revenue OR \"báo cáo tài chính\" Logis Valley Yên Phong' — 무료 자료에는 재무가 없고, EMIS 기업 정보(LogisValley Vina Co., Ltd)는 재무 보고서를 유료로만 제공함(2018 대상 보유 법인으로 추정되는 LogisValley BacNinh JSC 자료는 찾지 못함). 기존 기록의 출처: NAVER FY2018~2025 사업보고서 연결주석(20190401004489 등)에는 싱가포르 투자법인 단위 지분법 손익만 있음. 대상 법인 자체 재무 공시와 유료 DB를 보지 못해 미완",
+   "retry": "못 찾음",
+   "after": "미확인"
+  },
+  {
+   "field": "earnings_call_note",
+   "before": "미확인 (수집 단계의 국문·영문 웹 검색에 더해, 검토 단계에서 '네이버 컨퍼런스콜 미래에셋 아시아그로쓰펀드 지분법 이익' 국문 검색과 'Naver earnings call Asia Growth fund Vietnam logistics' 영문 검색을 추가로 했으나 NAVER 실적발표·어닝콜에서 이 물류센터 투자를 언급한 자료를 찾지 못함. NAVER IR 실적 PDF·스크립트 원문은 열지 않음)",
+   "class": "미완",
+   "reason": "NAVER IR 실적 PDF·스크립트 원문을 열지 않은 상태였음. 이번에 NAVER IR 자료실(https://www.navercorp.com/investment/irReport)을 열었으나 동적 페이지라 2018~2019 실적 자료 링크를 받지 못함",
+   "retry": "못 찾음",
+   "after": "미확인 (수집 단계의 국문·영문 웹 검색에 더해, 검토 단계에서 '네이버 컨퍼런스콜 미래에셋 아시아그로쓰펀드 지분법 이익' 국문 검색과 'Naver earnings call Asia Growth fund Vietnam logistics' 영문 검색을 추가로 했으나 NAVER 실적발표·어닝콜에서 이 물류센터 투자를 언급한 자료를 찾지 못함. NAVER IR 실적 PDF·스크립트 원문은 열지 않음)"
+  }
+ ],
+ "corrections": {},
+ "impairment_class_after": null,
+ "evidence_add": [],
+ "other_issues": "",
+ "summary": "잔금일·국내 원 보도·어닝콜 언급은 추가 검색에도 찾지 못했다. 대상 실적 4칸은 무료 자료에 없고 EMIS 유료 보고서에만 있을 수 있어 미완으로 두었다. 인수 직전 총자산은 펀드가 2018년 결성이라 존재하지 않는다."
+}

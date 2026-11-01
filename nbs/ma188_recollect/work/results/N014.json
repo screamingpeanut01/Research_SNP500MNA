@@ -1,0 +1,126 @@
+{
+ "deal_id": "N014",
+ "ciq_id": "IQTR54671192",
+ "gaps": [
+  {
+   "field": "pre_events_summary",
+   "before": "2005-04: USEN이 무료 동영상 서비스 GyaO 시작(추정: 일반 알려진 사실, 출처 미확인); 2008-10: USEN이 완전자회사 ㈜GyaO 설립(2008-10-22, LINE야후 2023-10-25 공시); 2008-08: GyaO 직전 회계연도(2008-08 결산) 매출 53억9000만 엔, 영업손실 27억1000만 엔(M&A Online); 2009-03: USEN이 GyaO 사업본부를 폐지하고 4-1자로 ㈜GyaO에 이관한다고 발표; 2009: USEN은 연결 영업권 손상 276억 엔 등으로 순자산이 25억 엔까지 줄고, 쇼타임·갸가 매각 등 영상·콘텐츠 사업을 재편 중이었다(USEN 2009-08기 결산 설명자료)",
+   "class": "미완",
+   "reason": "2005-04 항목이 '추정: 일반 알려진 사실, 출처 미확인'이었다. Internet Watch 2005-04-05 기사를 직접 열어 4-25 개시·4-6 시험방송 문장을 확인했다",
+   "retry": "채움",
+   "after": "2005-04-25: USEN이 무료 브로드밴드 방송 GyaO 개시(2005-04-06 시험방송 시작; Internet Watch 2005-04-05); 2008-10: USEN이 완전자회사 ㈜GyaO 설립(2008-10-22, LINE야후 2023-10-25 공시); 2008-08: GyaO 직전 회계연도(2008-08 결산) 매출 53억9000만 엔, 영업손실 27억1000만 엔(M&A Online); 2009-03: USEN이 GyaO 사업본부를 폐지하고 4-1자로 ㈜GyaO에 이관한다고 발표; 2009: USEN은 연결 영업권 손상 276억 엔 등으로 순자산이 25억 엔까지 줄고, 쇼타임·갸가 매각 등 영상·콘텐츠 사업을 재편 중이었다(USEN 2009-08기 결산 설명자료)"
+  },
+  {
+   "field": "impairment_class",
+   "before": "미확인",
+   "class": "미완",
+   "reason": "수집 기록이 FY2010만 보고 FY2011 이후를 보지 않았다. 이번에 Yahoo! Inc. 10-K/A에 첨부된 Yahoo Japan 감사 연결재무제표를 더 확인했으나 FY2017 이후는 보지 못해 판정을 바꾸지 않았다",
+   "retry": "못 찾음",
+   "after": "미확인"
+  },
+  {
+   "field": "target_rev_pre",
+   "before": "2008(2008-08 결산, USEN의 GyaO 사업): JPY 53억9000만; 2007: 미확인",
+   "class": "공개 자료 없음",
+   "reason": "2007년 GyaO 사업은 법인이 아니라 USEN의 사업이었고, USEN 2008年8月期 決算説明資料(unext-hd.co.jp)를 직접 받아 보니 GyaO는 映像・コンテンツ 세그먼트에 묶여 별도 매출·영업이익이 없다. ㈜GyaO는 2008-10-22 신설이어서 2007년 법인 실적도 없다. 2008년 수치는 Yahoo·USEN 발표 시 공개된 1개년분뿐이다",
+   "retry": "재시도 안 함",
+   "after": "2008(2008-08 결산, USEN의 GyaO 사업): JPY 53억9000만; 2007: 미확인"
+  },
+  {
+   "field": "target_rev_post",
+   "before": "FY2009(2010-03): 미확인; FY2010(2011-03): 미확인; FY2022(2023-03, 단체, 일본 기준): JPY 3,945백만",
+   "class": "미완",
+   "reason": "수집 메모에 '공시 자료가 없어 미확인'이라고만 적혀 있어 미완으로 보았다. 이번에 웹 검색 3회(GyaO 2010年3月期 실적, USEN의 2010-03 GyaO 지분 양도 공시, 5개 방송·광고사 출자 보도)를 했으나, 보도는 2009-12 월간 흑자만 전하고 연간 매출·영업이익은 없었다. 官報 決算公告는 열지 않았다(비상장 소규모 회사의 공고는 대차대조표 위주라 매출은 나오지 않을 가능성이 크다)",
+   "retry": "못 찾음",
+   "after": "FY2009(2010-03): 미확인; FY2010(2011-03): 미확인; FY2022(2023-03, 단체, 일본 기준): JPY 3,945백만"
+  },
+  {
+   "field": "target_op_pre",
+   "before": "2008(2008-08 결산): JPY -27억1000만(영업손실); 2007: 미확인",
+   "class": "공개 자료 없음",
+   "reason": "2007년 GyaO 사업은 법인이 아니라 USEN의 사업이었고, USEN 2008年8月期 決算説明資料(unext-hd.co.jp)를 직접 받아 보니 GyaO는 映像・コンテンツ 세그먼트에 묶여 별도 매출·영업이익이 없다. ㈜GyaO는 2008-10-22 신설이어서 2007년 법인 실적도 없다. 2008년 수치는 Yahoo·USEN 발표 시 공개된 1개년분뿐이다",
+   "retry": "재시도 안 함",
+   "after": "2008(2008-08 결산): JPY -27억1000만(영업손실); 2007: 미확인"
+  },
+  {
+   "field": "target_op_post",
+   "before": "FY2009(2010-03): 미확인(2009-12 월간 흑자 달성 보도); FY2010(2011-03): 미확인; FY2022(2023-03, 단체, 일본 기준): JPY 537백만 (같은 해 순자산 JPY -3,214백만)",
+   "class": "미완",
+   "reason": "수집 메모에 '공시 자료가 없어 미확인'이라고만 적혀 있어 미완으로 보았다. 이번에 웹 검색 3회(GyaO 2010年3月期 실적, USEN의 2010-03 GyaO 지분 양도 공시, 5개 방송·광고사 출자 보도)를 했으나, 보도는 2009-12 월간 흑자만 전하고 연간 매출·영업이익은 없었다. 官報 決算公告는 열지 않았다(비상장 소규모 회사의 공고는 대차대조표 위주라 매출은 나오지 않을 가능성이 크다)",
+   "retry": "못 찾음",
+   "after": "FY2009(2010-03): 미확인(2009-12 월간 흑자 달성 보도); FY2010(2011-03): 미확인; FY2022(2023-03, 단체, 일본 기준): JPY 537백만 (같은 해 순자산 JPY -3,214백만)"
+  },
+  {
+   "field": "perf_basis",
+   "before": "인수 전: M&A Online 2009-04-07 기사(보도자료 기반 수치로 보이며 USEN 쪽 GyaO 사업 실적, 결산월 8월). 최근: LINE야후 2023-10-25 TDnet 공시의 GYAO 2023-03기 단체 일본 기준 실적. 인수 후 첫 2년 법인 실적은 공시 자료가 없어 미확인.",
+   "class": "미완",
+   "reason": "값 안에 '미확인'이 있다. 2007년이 비어 있는 이유(USEN 세그먼트 공시 구조)를 확인해 덧붙였고, 인수 후 2개년은 여전히 찾지 못했다",
+   "retry": "일부 채움",
+   "after": "인수 전: M&A Online 2009-04-07 기사(보도자료 기반 수치로 보이며 USEN 쪽 GyaO 사업 실적, 결산월 8월). 최근: LINE야후 2023-10-25 TDnet 공시의 GYAO 2023-03기 단체 일본 기준 실적. 인수 후 첫 2년 법인 실적은 공시 자료가 없어 미확인. 2007년(2007-08 결산) GyaO 사업 실적은 USEN이 GyaO를 映像・コンテンツ 세그먼트(放送・業務店·映像・コンテンツ·人材関連·ISP의 4개 세그먼트)에 포함해 공시했으므로 별도 수치가 없다(USEN 2008年8月期 決算説明資料). ㈜GyaO 법인은 2008-10 신설이어서 법인 실적도 없다. FY2009(2010-03)·FY2010(2011-03)은 Yahoo Japan 감사 연결재무제표가 GyaO 취득을 'not material'로만 적고, 보도는 2009-12 월간 흑자만 전한다."
+  }
+ ],
+ "corrections": {
+  "pre_events_summary": "2005-04-25: USEN이 무료 브로드밴드 방송 GyaO 개시(2005-04-06 시험방송 시작; Internet Watch 2005-04-05); 2008-10: USEN이 완전자회사 ㈜GyaO 설립(2008-10-22, LINE야후 2023-10-25 공시); 2008-08: GyaO 직전 회계연도(2008-08 결산) 매출 53억9000만 엔, 영업손실 27억1000만 엔(M&A Online); 2009-03: USEN이 GyaO 사업본부를 폐지하고 4-1자로 ㈜GyaO에 이관한다고 발표; 2009: USEN은 연결 영업권 손상 276억 엔 등으로 순자산이 25억 엔까지 줄고, 쇼타임·갸가 매각 등 영상·콘텐츠 사업을 재편 중이었다(USEN 2009-08기 결산 설명자료)",
+  "perf_basis": "인수 전: M&A Online 2009-04-07 기사(보도자료 기반 수치로 보이며 USEN 쪽 GyaO 사업 실적, 결산월 8월). 최근: LINE야후 2023-10-25 TDnet 공시의 GYAO 2023-03기 단체 일본 기준 실적. 인수 후 첫 2년 법인 실적은 공시 자료가 없어 미확인. 2007년(2007-08 결산) GyaO 사업 실적은 USEN이 GyaO를 映像・コンテンツ 세그먼트(放送・業務店·映像・コンテンツ·人材関連·ISP의 4개 세그먼트)에 포함해 공시했으므로 별도 수치가 없다(USEN 2008年8月期 決算説明資料). ㈜GyaO 법인은 2008-10 신설이어서 법인 실적도 없다. FY2009(2010-03)·FY2010(2011-03)은 Yahoo Japan 감사 연결재무제표가 GyaO 취득을 'not material'로만 적고, 보도는 2009-12 월간 흑자만 전한다."
+ },
+ "impairment_class_after": "미확인 (Yahoo Japan 감사 연결재무제표(Yahoo! Inc. 10-K/A Exhibit 99.1) FY2010~FY2016 확인: FY2010 손상 1,470백만円은 Brainer 영업권(797)·사업용 자산, FY2012 영업권 일괄상각 324백만円은 'in relation to the goodwill of Cirius', FY2014 829백만円은 Community Factory 관련이며, FY2011·FY2012 문서의 GyaO 언급은 연결 편입 사실뿐이다. EDGAR 전문검색('GyaO' impairment)에서 FY2013·FY2014 문서는 걸리지 않아 GyaO 언급 자체가 없다. FY2015·FY2016(IFRS) 문서의 '중요한 영업권' CGU 표에도 GyaO가 없다. 다만 FY2017 이후, 특히 GYAO! 종료(2023-03)와 GYAO 순자산 △3,214백만円(2023-03) 시점의 연결·단체 처리는 확인하지 못했다)",
+ "evidence_add": [
+  {
+   "field": "pre_events_summary",
+   "phase": "인수 전",
+   "event_date": "2005-04-25",
+   "event_type": "기타",
+   "content": "USEN이 무료 브로드밴드 방송 GyaO를 4-25 개시, 4-6 시험방송. 원문: 'USENは、無料のブロードバンド放送サービス「GyaO」を4月25日に開始する。'",
+   "url": "https://internet.watch.impress.co.jp/cda/news/2005/04/05/7142.html",
+   "doc_type": "언론 보도",
+   "doc_date": "2005-04-05",
+   "doc_id": ""
+  },
+  {
+   "field": "perf_basis,target_rev_pre,target_op_pre",
+   "phase": "인수 전",
+   "event_date": "2008-08",
+   "event_type": "실적",
+   "content": "USEN FY08 실적을 放送・業務店·映像・コンテンツ·人材関連·ISP 4개 세그먼트로만 제시. GyaO는 映像・コンテンツ에 포함('GyaO収益化の遅れ'), 별도 수치 없음",
+   "url": "https://www.unext-hd.co.jp/ir/archive/pdf/2008/FY_fs.pdf",
+   "doc_type": "IR 자료",
+   "doc_date": "2008-10",
+   "doc_id": ""
+  },
+  {
+   "field": "impairment_class",
+   "phase": "인수 후",
+   "event_date": "2011-03-31",
+   "event_type": "기타",
+   "content": "Yahoo Japan FY2011(2011-03) 감사 연결재무제표: GyaO는 FY2010 과반 취득·연결 편입 사실만 기재, 손상 항목은 전기(FY2010) 1,470만 있음",
+   "url": "https://www.sec.gov/Archives/edgar/data/1011006/000119312511250387/d225725dex991.htm",
+   "doc_type": "SEC",
+   "doc_date": "2011-09-16",
+   "doc_id": "0001193125-11-250387"
+  },
+  {
+   "field": "impairment_class",
+   "phase": "인수 후",
+   "event_date": "2012-03-31",
+   "event_type": "기타",
+   "content": "Yahoo Japan FY2012 감사 연결재무제표: 영업권 일괄상각 324백만円은 'in relation to the goodwill of Cirius', GyaO 손상 기재 없음",
+   "url": "https://www.sec.gov/Archives/edgar/data/1011006/000119312512406831/d395311dex991.htm",
+   "doc_type": "SEC",
+   "doc_date": "2012-09-27",
+   "doc_id": "0001193125-12-406831"
+  },
+  {
+   "field": "impairment_class",
+   "phase": "인수 후",
+   "event_date": "2016-03-31",
+   "event_type": "기타",
+   "content": "Yahoo Japan FY2016 IFRS 연결재무제표: 중요한 영업권 CGU는 Marketing solutions·Shopping·Ikyu·Others(251)·Settlement- and finance-related로 GyaO 없음. 종속회사 표에 'GYAO Corporation 66.7'",
+   "url": "https://www.sec.gov/Archives/edgar/data/1011006/000119312516713480/d222075dex991.htm",
+   "doc_type": "SEC",
+   "doc_date": "2016-09-19",
+   "doc_id": "0001193125-16-713480"
+  }
+ ],
+ "other_issues": "(1) pre_events_summary의 항목 순서가 2008-10 다음에 2008-08로 되어 있어 시간순이 아니다(값은 바꾸지 않음). (2) notes는 'Yahoo는 51% 유지'·'100% 확보 시점 미확인'이라고 적는데, Yahoo Japan FY2015 IFRS 연결재무제표(0001193125-15-327472) 종속회사 표에 GYAO Corporation 지분이 66.7(2015-03)·58.0(전기)으로, FY2016 문서에는 66.7·66.7로 나온다. 2010-03 이후 Yahoo 지분이 늘었다는 뜻이므로 post_events_summary에 반영할지 검토가 필요하다.",
+ "summary": "pre_events_summary의 2005-04 항목을 Internet Watch 원문으로 확인해 고쳤고, perf_basis에 2007년이 빈 이유(USEN 세그먼트 공시)를 덧붙였다. 2007년 실적은 공개 자료 없음으로 분류했다. 인수 후 2개년 실적은 찾지 못했다. 손상 분류는 FY2016까지 GyaO 손상이 없음을 확인했으나 FY2017 이후를 보지 못해 미확인으로 둔다."
+}

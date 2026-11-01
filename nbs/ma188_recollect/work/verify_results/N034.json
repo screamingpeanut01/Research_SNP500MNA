@@ -1,0 +1,17 @@
+{
+ "deal_id": "N034",
+ "ciq_id": "IQTR421564126",
+ "checks": [
+  {
+   "field": "perf_basis",
+   "class": "공개 자료 없음",
+   "retry": "못 찾음",
+   "reason": "빈 부분은 인수 후(2017·2018과 최근) 실적이다. 양수 사업은 LINE Vietnam Co., Ltd로 넘어갔으므로 그 법인 실적을 찾았다. ② 지배회사 주석: NAVER 2017 사업보고서(20180402004149) 연결주석(작업 파일 work/NV-I/nv2017_notes.txt) '종속기업 요약 재무정보' 표에 LINE Vietnam 없음, 종속회사 개황 표에는 자산총액 6,673백만원만; NAVER 2018 사업보고서(20190401004489) 연결주석(캐시 20190401004489_13) 요약 재무정보 표에 없음, 종속회사 개황(캐시 20190401004489_3)에는 사명이 바뀐 'LINE TECHNOLOGY VIETNAM Corp.'(설립 2012-01-20, Keangnam Hanoi) 자산총액 3,323백만원만; LINE 20-F FY2017(work/NV-L1/dl/20f_2017.txt) 사업결합 주석 'no other significant business combinations', 개별 재무 없음(수집 단계, FY2016~FY2019 20-F 문서명 기재); LINE야후 有価証券報告書 FY2023 텍스트(https://edinetdb.jp/company/E05000/text?fy=2023) 関係会社の状況에 베트남 법인 없음('その他114社'로 묶음). ① 대상 법인 공시: 베트남 비상장 법인으로 1차 재수집의 베트남 사업자 검색('\"Công ty TNHH LINE Việt Nam\" OR \"LINE VIETNAM COMPANY LIMITED\" mã số thuế Keangnam')에서 재무 없음. ③ 해외 법인이라 공정위 기업집단현황공시 대상이 아님(NAVER 계열 국내회사 목록에 없음). ④ 보도: 웹 검색 '\"LINE Technology Vietnam\" doanh thu OR revenue Adways Technology Vietnam'(2026-11-01) 결과 구인 사이트 소개만 있고 재무 없음; 1차 재수집의 영문 검색도 재무 없음.",
+   "after": "인수 전 매출은 Adways 적시공시(2017-02-23)의 '譲渡事業の経営成績(平成28年12月期)' — ATV의 양도 대상 사업 매출(12월 결산, 베트남동; 엔 환산은 1円=194.70VND, 2016-12-31). ATV는 Adways 비연결 자회사라 Adways 연결재무제표에 개별 실적이 없다. 인수 후 실적은 매수자 측 공개 자료가 없어 미확인"
+  }
+ ],
+ "corrections": {},
+ "evidence_add": [],
+ "other_issues": "매수자 LINE Vietnam Co., Ltd는 NAVER 2018 사업보고서(20190401004489) 연결대상 종속회사 개황과 주석에서 'LINE TECHNOLOGY VIETNAM Corp.'(설립일 2012-01-20, 주소 Keangnam Hanoi Landmark Tower 25F, 2018말 자산총액 3,323백만원)로 사명이 바뀌어 있고, NAVER 2020 사업보고서(20210316001214) 주석에도 LINE TECHNOLOGY VIETNAM으로 나온다. notes의 '2021-03 이후 존속·청산 미확인'과 post_events_summary에 사명 변경 사실을 반영할지 검토가 필요하다.",
+ "summary": "인수 후 LINE Vietnam(이후 LINE TECHNOLOGY VIETNAM) 실적은 NAVER 2017·2018 연결주석, LINE 20-F, LY 유가증권보고서, 웹 검색을 열어 확인했으나 없어 공개 자료 없음으로 확정했다. 사명 변경 사실을 other_issues에 적었다."
+}

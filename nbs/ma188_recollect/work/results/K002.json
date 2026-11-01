@@ -1,0 +1,26 @@
+{
+  "deal_id": "K002",
+  "ciq_id": "IQTR53185363",
+  "gaps": [
+    {"field": "acq_mktcap",
+     "before": "추정: 약 3.9억~6.9억 달러 (2008년 4분기 주가 범위 $2.93~$5.12 × 발행주식 134,358,494주(2009-01-31), 10-K 2008). 발표 직전 거래일 종가는 미확인",
+     "class": "미완",
+     "reason": "수집 메모에 '발표 직전 거래일 종가는 무료 시세원으로 확인하지 못함'이라고 적혀 있어 덜 찾은 항목이다.",
+     "retry": "일부 채움",
+     "after": "참고값: USD 약 567.3M (계산: 2008-10-28 종가 USD 4.20 × 발행주식 135,061,961주(2008-10-31, RealNetworks 10-Q 2008년 3분기 표지)). 같은 날 Yahoo Finance 시세 페이지에 표시된 시가총액은 USD 599.04M(이전 발행주식수 기준으로 보임). 이사회 결의일(2008-10-31)의 직전 거래일인 2008-10-30 종가는 미확인. 이전 추정 범위: 약 3.9억~6.9억 달러 (2008년 4분기 주가 범위 $2.93~$5.12 × 발행주식 134,358,494주(2009-01-31), 10-K 2008)"}
+  ],
+  "corrections": {
+    "acq_mktcap": "참고값: USD 약 567.3M (계산: 2008-10-28 종가 USD 4.20 × 발행주식 135,061,961주(2008-10-31, RealNetworks 10-Q 2008년 3분기 표지)). 같은 날 Yahoo Finance 시세 페이지에 표시된 시가총액은 USD 599.04M(이전 발행주식수 기준으로 보임). 이사회 결의일(2008-10-31)의 직전 거래일인 2008-10-30 종가는 미확인. 이전 추정 범위: 약 3.9억~6.9억 달러 (2008년 4분기 주가 범위 $2.93~$5.12 × 발행주식 134,358,494주(2009-01-31), 10-K 2008)"
+  },
+  "impairment_class_after": null,
+  "evidence_add": [
+    {"field": "acq_mktcap", "phase": "발표", "event_date": "2008-10-28", "event_type": "기타",
+     "content": "Yahoo Finance RNWK 시세 페이지의 Wayback 사본(2008-10-29 04:05 UTC 저장): 'Last Trade: 4.20 Trade Time: Oct 28', 'Prev Close: 3.77', 'Market Cap: 599.04M'. 사본이 이 날짜 하나뿐이라 2008-10-30 종가는 얻지 못함.",
+     "url": "http://web.archive.org/web/20081029040551/http://finance.yahoo.com:80/q?s=rnwk", "doc_type": "기타", "doc_date": "2008-10-29", "doc_id": ""},
+    {"field": "acq_mktcap", "phase": "발표", "event_date": "2008-10-31", "event_type": "기타",
+     "content": "RealNetworks 10-Q(2008년 3분기) 표지: 'The number of shares of the registrant's Common Stock outstanding as of October 31, 2008 was 135,061,961.'",
+     "url": "https://www.sec.gov/Archives/edgar/data/0001046327/000095013408019923/v50432e10vq.htm", "doc_type": "SEC", "doc_date": "2008-11", "doc_id": "0000950134-08-019923"}
+  ],
+  "other_issues": "",
+  "summary": "Wayback에 남은 Yahoo Finance 사본으로 2008-10-28 종가($4.20)를 찾고, 10-Q 표지의 발행주식수(2008-10-31)를 곱해 시가총액 참고값(약 USD 567.3M)을 채웠다. 직전 거래일인 2008-10-30 종가는 Yahoo 차트 API에 상장폐지 종목 자료가 없고 Wayback 사본도 없어 미확인으로 남겼다."
+}

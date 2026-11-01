@@ -1,10 +1,15 @@
 {
  "deal_id": "N014",
  "review_status": "수정",
- "review_note": "확인한 것: (1) Yahoo Japan·USEN 공동 보도자료 2009-04-07(Wayback 사본)을 다시 열어 발표일 2009-04-07, 取得時期 2009年4月30日, 取得株式数 4,998株, 取得価格 529,788,000円, 取得後の出資比率 51%, 매도자 USEN의 100% 자회사, purpose_quote 원문이 기록과 같음을 확인했다. (2) M&A Online 2009-04-07 기사에서 GyaO 売上高53億9000万円·営業利益△27億1000万円·取得価額5億2900万円을 확인했다(원자료 설명란의 영업이익 +27억 엔은 부호 오류라는 chk_note 유지). (3) LINE야후 2023-10-25 TDnet 공시 PDF에서 GYAO 2023년 3월기(단체, 일본 기준) 매출 3,945백만 엔, 영업이익 537백만 엔, 순자산 △3,214백만 엔, 설립 2008-10-22, LINE야후 100%를 확인했다. (4) Yahoo Japan 2009-03-31 연결재무제표(SEC Exhibit 99.1, 0001193125-09-199964)에서 TOTAL ASSETS ¥311,552백만, Total equity ¥236,470백만, 발행주식 58,107,980주를 확인했다. deal_to_assets_pct 0.17%, deal_to_equity_pct 0.22% 계산이 맞다. (5) FY2010(2010-03) 연결재무제표(SEC Exhibit 99.1, 0001193125-10-221089)에서 GyaO 과반 취득·연결 편입과 'not material' 문구를 확인했다. 분류(MA① 경영권 인수), 편입 전, 완료 판정은 정의에 맞아 그대로 둔다. / 고친 것: impairment — 같은 FY2010 재무제표 주석에 손상차손 ¥1,470백만(영업권 ¥798백만 포함)이 있으나 그 영업권은 'Goodwill originally recognized at the merger of Brainer'로 Brainer(같은 묶음 N009·N010) 관련이며 GyaO 관련 손상은 기재가 없음을 명시했다. value_chk_usdmm — 추정 환율 대신 같은 SEC 재무제표가 쓴 편의 환율(¥311,552백만 = $3,171,653천, 약 ¥98.23/$, 2009-03-31 기준)로 환산한 값으로 바꿨다(약 5.39백만 달러, 원자료 5.27과 ±10% 이내). / 남은 의문: 인수 후 첫 2개 회계연도 GyaO 법인 실적과 2007년 실적은 여전히 미확인(light 검토라 추가 검색하지 않음). FY2011 이후 Yahoo Japan의 GyaO 관련 손상 여부도 보지 않았다. Yahoo의 GyaO 지분 100% 확보 시점 미확인.",
+ "review_note": "확인한 것: (1) Yahoo Japan·USEN 공동 보도자료 2009-04-07(Wayback 사본)을 다시 열어 발표일 2009-04-07, 取得時期 2009年4月30日, 取得株式数 4,998株, 取得価格 529,788,000円, 取得後の出資比率 51%, 매도자 USEN의 100% 자회사, purpose_quote 원문이 기록과 같음을 확인했다. (2) M&A Online 2009-04-07 기사에서 GyaO 売上高53億9000万円·営業利益△27億1000万円·取得価額5億2900万円을 확인했다(원자료 설명란의 영업이익 +27억 엔은 부호 오류라는 chk_note 유지). (3) LINE야후 2023-10-25 TDnet 공시 PDF에서 GYAO 2023년 3월기(단체, 일본 기준) 매출 3,945백만 엔, 영업이익 537백만 엔, 순자산 △3,214백만 엔, 설립 2008-10-22, LINE야후 100%를 확인했다. (4) Yahoo Japan 2009-03-31 연결재무제표(SEC Exhibit 99.1, 0001193125-09-199964)에서 TOTAL ASSETS ¥311,552백만, Total equity ¥236,470백만, 발행주식 58,107,980주를 확인했다. deal_to_assets_pct 0.17%, deal_to_equity_pct 0.22% 계산이 맞다. (5) FY2010(2010-03) 연결재무제표(SEC Exhibit 99.1, 0001193125-10-221089)에서 GyaO 과반 취득·연결 편입과 'not material' 문구를 확인했다. 분류(MA① 경영권 인수), 편입 전, 완료 판정은 정의에 맞아 그대로 둔다. / 고친 것: impairment — 같은 FY2010 재무제표 주석에 손상차손 ¥1,470백만(영업권 ¥798백만 포함)이 있으나 그 영업권은 'Goodwill originally recognized at the merger of Brainer'로 Brainer(같은 묶음 N009·N010) 관련이며 GyaO 관련 손상은 기재가 없음을 명시했다. value_chk_usdmm — 추정 환율 대신 같은 SEC 재무제표가 쓴 편의 환율(¥311,552백만 = $3,171,653천, 약 ¥98.23/$, 2009-03-31 기준)로 환산한 값으로 바꿨다(약 5.39백만 달러, 원자료 5.27과 ±10% 이내). / 남은 의문: 인수 후 첫 2개 회계연도 GyaO 법인 실적과 2007년 실적은 여전히 미확인(light 검토라 추가 검색하지 않음). FY2011 이후 Yahoo Japan의 GyaO 관련 손상 여부도 보지 않았다. Yahoo의 GyaO 지분 100% 확보 시점 미확인. / 재수집(2026-11-01): pre_events_summary의 2005-04 항목을 Internet Watch 원문으로 확인해 고쳤고, perf_basis에 2007년이 빈 이유(USEN 세그먼트 공시)를 덧붙였다. 2007년 실적은 공개 자료 없음으로 분류했다. 인수 후 2개년 실적은 찾지 못했다. 손상 분류는 FY2016까지 GyaO 손상이 없음을 확인했으나 FY2017 이후를 보지 못해 미확인으로 둔다. 2차 확인: 東洋経済 2009-04-10 기사로 2007/8期 매출 약 47억엔·영업손실 약 20억엔을 새로 채움(언론 1개 매체). 재수집 중 발견한 다른 문제: (1) pre_events_summary의 항목 순서가 2008-10 다음에 2008-08로 되어 있어 시간순이 아니다(값은 바꾸지 않음). (2) notes는 'Yahoo는 51% 유지'·'100% 확보 시점 미확인'이라고 적는데, Yahoo Japan FY2015 IFRS 연결재무제표(0001193125-15-327472) 종속회사 표에 GYAO Corporation 지분이 66.7(2015-03)·58.0(전기)으로, FY2016 문서에는 66.7·66.7로 나온다. 2010-03 이후 Yahoo 지분이 늘었다는 뜻이므로 post_events_summary에 반영할지 검토가 필요하다.",
  "corrections": {
   "impairment": "확인 안 됨 (Yahoo Japan FY2010(2010-03) 연결재무제표 SEC 첨부본은 GyaO 인수를 'not material'로 기재. 같은 해 손상차손 ¥1,470백만(영업권 ¥798백만 포함)이 있으나 영업권 손상은 'Goodwill originally recognized at the merger of Brainer'로 Brainer 관련이며 GyaO 관련 손상 기재는 없음. FY2011 이후 연도는 보지 않았다)",
-  "value_chk_usdmm": "원자료와 일치 (원자료 5.27. JPY 529.788백만을 Yahoo Japan 2009-03-31 연결재무제표 SEC 첨부본의 편의 환율 약 ¥98.23/$(¥311,552백만 = $3,171,653천)로 환산하면 약 5.39백만 달러로 ±10% 이내. 원자료 값은 약 ¥100.5/$에 해당)"
+  "value_chk_usdmm": "원자료와 일치 (원자료 5.27. JPY 529.788백만을 Yahoo Japan 2009-03-31 연결재무제표 SEC 첨부본의 편의 환율 약 ¥98.23/$(¥311,552백만 = $3,171,653천)로 환산하면 약 5.39백만 달러로 ±10% 이내. 원자료 값은 약 ¥100.5/$에 해당)",
+  "pre_events_summary": "2005-04-25: USEN이 무료 브로드밴드 방송 GyaO 개시(2005-04-06 시험방송 시작; Internet Watch 2005-04-05); 2008-10: USEN이 완전자회사 ㈜GyaO 설립(2008-10-22, LINE야후 2023-10-25 공시); 2008-08: GyaO 직전 회계연도(2008-08 결산) 매출 53억9000만 엔, 영업손실 27억1000만 엔(M&A Online); 2009-03: USEN이 GyaO 사업본부를 폐지하고 4-1자로 ㈜GyaO에 이관한다고 발표; 2009: USEN은 연결 영업권 손상 276억 엔 등으로 순자산이 25억 엔까지 줄고, 쇼타임·갸가 매각 등 영상·콘텐츠 사업을 재편 중이었다(USEN 2009-08기 결산 설명자료)",
+  "perf_basis": "인수 전: M&A Online 2009-04-07 기사(보도자료 기반 수치로 보이며 USEN 쪽 GyaO 사업 실적, 결산월 8월). 최근: LINE야후 2023-10-25 TDnet 공시의 GYAO 2023-03기 단체 일본 기준 실적. 인수 후 첫 2년 법인 실적은 공시 자료가 없어 미확인. 2007년(2007-08 결산) GyaO 사업 실적은 USEN이 GyaO를 映像・コンテンツ 세그먼트(放送・業務店·映像・コンテンツ·人材関連·ISP의 4개 세그먼트)에 포함해 공시했으므로 별도 수치가 없다(USEN 2008年8月期 決算説明資料). ㈜GyaO 법인은 2008-10 신설이어서 법인 실적도 없다. FY2009(2010-03)·FY2010(2011-03)은 Yahoo Japan 감사 연결재무제표가 GyaO 취득을 'not material'로만 적고, 보도는 2009-12 월간 흑자만 전한다.",
+  "target_rev_pre": "2007(2007-08 결산, USEN의 GyaO 사업): 약 JPY 47억 (東洋経済オンライン 2009-04-10, 언론 1개 매체); 2008(2008-08 결산, USEN의 GyaO 사업): JPY 53억9000만",
+  "target_op_pre": "2007(2007-08 결산): 약 JPY -20억(영업손실, 東洋経済オンライン 2009-04-10, 언론 1개 매체); 2008(2008-08 결산): JPY -27억1000만(영업손실)",
+  "notes": "편입 전 거래(Yahoo Japan 계열의 2021-03 이전 거래). 대상회사 GyaO(2008-10-22 설립)는 USEN의 GyaO 사업을 2009-04-01자로 분사해 넘겨받은 신설 완전자회사였고, 인수 직후 Yahoo!動画와 통합됐다(2009-09 새 사이트). 2010-03 TV아사히·덴쓰·TBS HD·TV도쿄·하쿠호도DY미디어파트너스가 지분 참여해 USEN 지분은 49%→7%로 줄고 Yahoo는 51% 유지(Internet Watch 2010-03-25). Yahoo가 100%를 확보한 시점은 확인하지 못했다(2023-10-01 시점 LINE야후 100%는 TDnet 공시로 확인). 같은 묶음의 IQTR37372758·IQTR41385429(Brainer)과 직접 관계없음. 인수 전 2개 회계연도 실적과 인수 후 첫 2개 회계연도 법인 실적은 GyaO가 비상장·비공시 회사여서 찾지 못했다(Yahoo Japan SEC 첨부 재무제표는 'not material'로만 기재, 관보 결산공고는 유료·로그인 자료라 보지 않음). / 재수집(2026-11-01): 채움 pre_events_summary, target_rev_pre, target_op_pre; 일부 채움 perf_basis; 못 찾음 impairment_class, target_rev_post, target_op_post."
  },
  "evidence_add": [
   {
@@ -28,6 +33,83 @@
    "doc_type": "SEC",
    "doc_date": "2009",
    "doc_id": "0001193125-09-199964"
+  },
+  {
+   "field": "pre_events_summary",
+   "phase": "인수 전",
+   "event_date": "2005-04-25",
+   "event_type": "기타",
+   "content": "USEN이 무료 브로드밴드 방송 GyaO를 4-25 개시, 4-6 시험방송. 원문: 'USENは、無料のブロードバンド放送サービス「GyaO」を4月25日に開始する。'",
+   "url": "https://internet.watch.impress.co.jp/cda/news/2005/04/05/7142.html",
+   "doc_type": "언론 보도",
+   "doc_date": "2005-04-05",
+   "doc_id": ""
+  },
+  {
+   "field": "perf_basis,target_rev_pre,target_op_pre",
+   "phase": "인수 전",
+   "event_date": "2008-08",
+   "event_type": "실적",
+   "content": "USEN FY08 실적을 放送・業務店·映像・コンテンツ·人材関連·ISP 4개 세그먼트로만 제시. GyaO는 映像・コンテンツ에 포함('GyaO収益化の遅れ'), 별도 수치 없음",
+   "url": "https://www.unext-hd.co.jp/ir/archive/pdf/2008/FY_fs.pdf",
+   "doc_type": "IR 자료",
+   "doc_date": "2008-10",
+   "doc_id": ""
+  },
+  {
+   "field": "impairment_class",
+   "phase": "인수 후",
+   "event_date": "2011-03-31",
+   "event_type": "기타",
+   "content": "Yahoo Japan FY2011(2011-03) 감사 연결재무제표: GyaO는 FY2010 과반 취득·연결 편입 사실만 기재, 손상 항목은 전기(FY2010) 1,470만 있음",
+   "url": "https://www.sec.gov/Archives/edgar/data/1011006/000119312511250387/d225725dex991.htm",
+   "doc_type": "SEC",
+   "doc_date": "2011-09-16",
+   "doc_id": "0001193125-11-250387"
+  },
+  {
+   "field": "impairment_class",
+   "phase": "인수 후",
+   "event_date": "2012-03-31",
+   "event_type": "기타",
+   "content": "Yahoo Japan FY2012 감사 연결재무제표: 영업권 일괄상각 324백만円은 'in relation to the goodwill of Cirius', GyaO 손상 기재 없음",
+   "url": "https://www.sec.gov/Archives/edgar/data/1011006/000119312512406831/d395311dex991.htm",
+   "doc_type": "SEC",
+   "doc_date": "2012-09-27",
+   "doc_id": "0001193125-12-406831"
+  },
+  {
+   "field": "impairment_class",
+   "phase": "인수 후",
+   "event_date": "2016-03-31",
+   "event_type": "기타",
+   "content": "Yahoo Japan FY2016 IFRS 연결재무제표: 중요한 영업권 CGU는 Marketing solutions·Shopping·Ikyu·Others(251)·Settlement- and finance-related로 GyaO 없음. 종속회사 표에 'GYAO Corporation 66.7'",
+   "url": "https://www.sec.gov/Archives/edgar/data/1011006/000119312516713480/d222075dex991.htm",
+   "doc_type": "SEC",
+   "doc_date": "2016-09-19",
+   "doc_id": "0001193125-16-713480"
+  },
+  {
+   "field": "target_rev_pre,target_op_pre",
+   "phase": "인수 전",
+   "event_date": "2007-08",
+   "event_type": "실적",
+   "content": "USEN의 GyaO 사업 2007년 8월기 매출 약 47억엔, 영업적자 약 20억엔. 원문 '２００７年８月期は売上高４７億円に対し営業赤字が２０億円'",
+   "url": "https://toyokeizai.net/articles/-/10130?display=b",
+   "doc_type": "언론 보도",
+   "doc_date": "2009-04-10",
+   "doc_id": ""
+  },
+  {
+   "field": "target_rev_pre,target_op_pre",
+   "phase": "인수 전",
+   "event_date": "2008-08",
+   "event_type": "실적",
+   "content": "GyaO 2008년 8월기 매출 54억엔, 영업적자 27억엔(교차 확인). 원문 'ギャオの直近(2008年8月期)業績は売上高54億円、営業赤字27億円'",
+   "url": "https://toyokeizai.net/articles/-/10135?display=b",
+   "doc_type": "언론 보도",
+   "doc_date": "2009-04-13",
+   "doc_id": ""
   }
  ],
  "evidence_drop": []
