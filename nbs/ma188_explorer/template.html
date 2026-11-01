@@ -1,3 +1,8 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <title>M&amp;A 188 거래 원장</title>
 <meta name="claude:viewport-fit-sides" content="cover">
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -19,6 +24,8 @@
   --bg:#0e1514; --panel:#152020; --sunk:#1b2827; --line:#2b3b39; --fg:#e4ecea; --muted:#94a6a2;
   --ink:#5fc4be; --ink-soft:#173a38; --bad:#f97066; --bad-soft:#3a1d1b; --warn:#f2b44c; --warn-soft:#3a2c14; --ok:#6fcf8f; --ok-soft:#173222; color-scheme:dark}
 *{box-sizing:border-box}
+/* hidden 속성이 .dossier의 display:flex 등에 밀리지 않게 한다(파일로 열 때 빈 서류철이 떠서 닫히지 않던 문제) */
+[hidden]{display:none!important}
 body{background:var(--bg);color:var(--fg);font-family:var(--f-body);font-size:14px;line-height:1.55}
 .wrap{padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:20px 40px;max-width:1500px;margin:0 auto;display:grid;gap:18px}
 h1{font-family:var(--f-display);font-weight:800;font-size:clamp(22px,3vw,30px);margin:0;letter-spacing:-.01em;text-wrap:balance}
@@ -138,6 +145,8 @@ a.rcp:hover{color:var(--ink);border-color:var(--ink)}
 @media (prefers-reduced-motion:no-preference){.dossier{animation:slide .18s ease-out}@keyframes slide{from{transform:translateX(24px);opacity:.6}to{transform:none;opacity:1}}}
 .foot{font-size:12px;color:var(--muted)}
 </style>
+</head>
+<body>
 
 <div class="wrap">
   <div>
@@ -477,3 +486,5 @@ const reset0=$('reset').onclick; $('reset').onclick=()=>{ reset0(); DD.forEach(x
 stats(); matrix(); bars(); render();
 const h0=location.hash.slice(1); if(byId[h0]) open(h0);
 </script>
+</body>
+</html>
