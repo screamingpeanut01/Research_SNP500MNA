@@ -6,6 +6,9 @@
 
 실행 (faster-whisper가 설치된 파이썬으로)
     받아쓰기: python transcribe_calls.py transcribe <음성 폴더> <받아쓰기 폴더>
+        (카카오·NAVER 31개는 속도 때문에 large-v3-turbo 일괄 처리로 받아썼다. 같은 함수 본문에서
+         모델을 BatchedInferencePipeline(WhisperModel("large-v3-turbo"))로, batch_size=16으로 바꾼 것이다.)
+    반복 구간 고치기: python transcribe_calls.py repair <음성 폴더> <받아쓰기 폴더>
     검색·자르기: python transcribe_calls.py clip <받아쓰기 폴더> <음성 폴더> <조각 폴더> <검색어 JSON>
         검색어 JSON 형식: {"<라벨>": {"files": ["<음성 파일 이름>", ...], "pattern": "<정규식>"}}
 """
@@ -32,7 +35,7 @@ def transcribe(src, out):
     from faster_whisper import WhisperModel
     out.mkdir(parents=True, exist_ok=True)
     model = WhisperModel(MODEL, device="cuda", compute_type="float16")
-    for f in sorted(src.glob("*.mp3")):
+    for f in sorted([*src.glob("*.mp3"), *src.glob("*.m4a")]):
         dst = out / f"{f.stem}.json"
         if dst.exists():
             continue
@@ -42,6 +45,43 @@ def transcribe(src, out):
         (out / f"{f.stem}.txt").write_text(
             "\n".join(f"[{fmt(r['start'])}] {r['text']}" for r in rows), encoding="utf-8")
         print(f"{f.name}: {info.duration / 60:.1f}분, 구간 {len(rows)}개", flush=True)
+
+
+LOOP = re.compile(r"(\S+)( \1){6,}")  # 같은 낱말이 일곱 번 넘게 이어지면 받아쓰기가 반복에 빠진 구간으로 본다
+
+
+def repair(src, txt):
+    """빠른 설정(large-v3-turbo, 일괄 처리)에서 반복에 빠진 구간만 정밀 설정(large-v3, beam 5,
+    반복 n-gram 금지)으로 다시 받아쓴다. 반복 구간에 묻힌 발언을 놓치지 않기 위한 것이다."""
+    import os
+    import site
+    for sp in site.getsitepackages():
+        for sub in ("cublas", "cudnn", "cuda_nvrtc"):
+            d = Path(sp) / "nvidia" / sub / "bin"
+            if d.exists():
+                os.add_dll_directory(str(d))
+                os.environ["PATH"] = f"{d};{os.environ['PATH']}"
+    from faster_whisper import WhisperModel
+    model = WhisperModel(MODEL, device="cuda", compute_type="float16")
+    for p in sorted(txt.glob("*.json")):
+        rows = json.loads(p.read_text(encoding="utf-8"))
+        bad = [i for i, r in enumerate(rows) if LOOP.search(r["text"])]
+        if not bad:
+            continue
+        audio = next(f for f in src.iterdir() if f.stem == p.stem)
+        wav = load_audio(audio)
+        for i in bad:
+            r = rows[i]
+            seg = wav[int(r["start"] * 16000):int(r["end"] * 16000)]
+            out, _ = model.transcribe(seg, language="ko", beam_size=5, condition_on_previous_text=False,
+                                      no_repeat_ngram_size=3, vad_filter=True)
+            r["text"] = " ".join(s.text.strip() for s in out)
+            r["repaired"] = True
+        p.write_text(json.dumps(rows, ensure_ascii=False, indent=0), encoding="utf-8")
+        p.with_suffix(".txt").write_text(
+            "\n".join(f"[{fmt(r['start'])}] {r['text']}" for r in rows), encoding="utf-8")
+        left = sum(1 for r in rows if LOOP.search(r["text"]))
+        print(f"{p.stem}: 반복 구간 {len(bad)}개 다시 받아씀, 남은 반복 {left}개", flush=True)
 
 
 def load_audio(f):
@@ -85,6 +125,8 @@ if __name__ == "__main__":
     cmd = sys.argv[1]
     if cmd == "transcribe":
         transcribe(Path(sys.argv[2]), Path(sys.argv[3]))
+    elif cmd == "repair":
+        repair(Path(sys.argv[2]), Path(sys.argv[3]))
     else:
         clip(Path(sys.argv[2]), Path(sys.argv[3]), Path(sys.argv[4]),
              json.loads(Path(sys.argv[5]).read_text(encoding="utf-8")))

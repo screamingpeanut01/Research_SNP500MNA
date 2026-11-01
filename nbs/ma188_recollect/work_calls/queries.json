@@ -1,0 +1,163 @@
+{
+ "C015_하이업": {
+  "files": [
+   "20180427_cjem.mp3",
+   "20180808_cjenm.mp3",
+   "20181107_cjenm.mp3",
+   "20190214_cjenm.mp3",
+   "20190509_cjenm.mp3",
+   "20190808_cjenm.mp3",
+   "20191107_cjenm.mp3",
+   "20200213_cjenm_2019_4Q.mp3"
+  ],
+  "pattern": "하이 ?업|high ?up"
+ },
+ "K010_지니랩스": {
+  "files": [
+   "kakao2016Q4.m4a",
+   "kakao2017Q1.m4a",
+   "kakao2017Q2.m4a",
+   "kakao2017Q3.m4a",
+   "kakao2017Q4.m4a"
+  ],
+  "pattern": "지니 ?랩|zinny"
+ },
+ "K011_밸류포션": {
+  "files": [
+   "kakao2016Q4.m4a",
+   "kakao2017Q1.m4a",
+   "kakao2017Q2.m4a",
+   "kakao2017Q3.m4a",
+   "kakao2017Q4.m4a"
+  ],
+  "pattern": "밸류 ?포션|value ?potion"
+ },
+ "K019_페이브": {
+  "files": [
+   "kakao2018Q1.m4a",
+   "kakao2018Q2.m4a",
+   "kakao2018Q3.m4a",
+   "kakao2018Q4.m4a",
+   "kakao2019Q1.m4a",
+   "kakao2019Q2.m4a",
+   "kakao2019Q3.m4a",
+   "kakao2019Q4.m4a"
+  ],
+  "pattern": "페이브|fave"
+ },
+ "K023_엔글": {
+  "files": [
+   "kakao2018Q1.m4a",
+   "kakao2018Q2.m4a",
+   "kakao2018Q3.m4a",
+   "kakao2018Q4.m4a",
+   "kakao2019Q1.m4a",
+   "kakao2019Q2.m4a",
+   "kakao2019Q3.m4a",
+   "kakao2019Q4.m4a"
+  ],
+  "pattern": "엔글|(?<![A-Za-z])NGLE(?![A-Za-z])"
+ },
+ "K024_손노리": {
+  "files": [
+   "kakao2018Q1.m4a",
+   "kakao2018Q2.m4a",
+   "kakao2018Q3.m4a",
+   "kakao2018Q4.m4a",
+   "kakao2019Q1.m4a",
+   "kakao2019Q2.m4a",
+   "kakao2019Q3.m4a",
+   "kakao2019Q4.m4a"
+  ],
+  "pattern": "손노리|로이 ?게임"
+ },
+ "K026_플레이엠": {
+  "files": [
+   "kakao2018Q1.m4a",
+   "kakao2018Q2.m4a",
+   "kakao2018Q3.m4a",
+   "kakao2018Q4.m4a",
+   "kakao2019Q1.m4a",
+   "kakao2019Q2.m4a",
+   "kakao2019Q3.m4a",
+   "kakao2019Q4.m4a"
+  ],
+  "pattern": "플레이 ?엠|플랜 ?에이|Play ?M (Entertainment|엔터)"
+ },
+ "K031_삼양씨앤씨": {
+  "files": [
+   "kakao2018Q1.m4a",
+   "kakao2018Q2.m4a",
+   "kakao2018Q3.m4a",
+   "kakao2018Q4.m4a",
+   "kakao2019Q1.m4a",
+   "kakao2019Q2.m4a",
+   "kakao2019Q3.m4a",
+   "kakao2019Q4.m4a"
+  ],
+  "pattern": "삼양 ?(씨앤씨|CNC|C&C)|씨앤씨"
+ },
+ "K040_에이윈즈": {
+  "files": [
+   "kakao2020Q1.m4a",
+   "kakao2020Q2.m4a"
+  ],
+  "pattern": "윈즈|awins|키즈 ?노트"
+ },
+ "N042_N048_N056_컴퍼니AI": {
+  "files": [
+   "naver2018Q1.m4a",
+   "naver2018Q2.m4a",
+   "naver2018Q3.m4a",
+   "naver2018Q4.m4a",
+   "naver2019Q1.m4a",
+   "naver2019Q2.m4a",
+   "naver2019Q3.m4a",
+   "naver2019Q4.m4a",
+   "naver2020Q1.m4a",
+   "naver2020Q2.m4a",
+   "naver2020Q3.m4a",
+   "naver2020Q4.m4a",
+   "naver2021Q1.m4a",
+   "naver2021Q2.m4a",
+   "naver2021Q3.m4a",
+   "naver2021Q4.m4a"
+  ],
+  "pattern": "컴퍼니 ?(ai|에이아이)|company ?ai"
+ },
+ "N045_베트남물류": {
+  "files": [
+   "naver2018Q1.m4a",
+   "naver2018Q2.m4a",
+   "naver2018Q3.m4a",
+   "naver2018Q4.m4a",
+   "naver2019Q1.m4a",
+   "naver2019Q2.m4a",
+   "naver2019Q3.m4a",
+   "naver2019Q4.m4a"
+  ],
+  "pattern": "베트남.{0,30}(물류|센터|부동산)|물류 ?센터|아시아 ?그로|미래에셋.{0,40}(펀드|베트남|물류)"
+ },
+ "N053_와이랩": {
+  "files": [
+   "naver2020Q1.m4a",
+   "naver2020Q2.m4a",
+   "naver2020Q3.m4a",
+   "naver2020Q4.m4a",
+   "naver2021Q1.m4a",
+   "naver2021Q2.m4a",
+   "naver2021Q3.m4a",
+   "naver2021Q4.m4a"
+  ],
+  "pattern": "와이 ?랩|y ?lab"
+ },
+ "N069_비닷두": {
+  "files": [
+   "naver2021Q1.m4a",
+   "naver2021Q2.m4a",
+   "naver2021Q3.m4a",
+   "naver2021Q4.m4a"
+  ],
+  "pattern": "비닷|브이닷|V\\.DO(?![A-Za-z])"
+ }
+}

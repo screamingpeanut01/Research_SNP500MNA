@@ -1,0 +1,959 @@
+[
+{
+"start": 0.0,
+"end": 30.1,
+"text": "안녕하세요. IR 자산운용 담당 조기선입니다. 2018년 2분기 실적 발표에 참여해주신 투자가 여러분들께 감사의 말씀드립니다. 오늘 컨퍼런스 콜에는 한성숙 대표, 박상진 CFO, 최인혁 비즈니스위원회 리더가 참석해 있습니다. 오늘 실적 발표 내용은 2018년도 한국채택국제회계기준을 기초로 작성된 것으로 회사의 경영성과를 신속하게 제공하기 위해 외부감사인의 회계감사전 기준으로 작성되었으며"
+},
+{
+"start": 30.1,
+"end": 54.5,
+"text": "차후 감사인의 검토 결과에 따라 다소 변경될 수 있음을 알려드립니다. 그럼 먼저 사업 현황에 대해 한성숙 대표가 말씀드리겠습니다."
+},
+{
+"start": 54.5,
+"end": 84.9,
+"text": "The earnings results are based on 2018 KIFRS standards provided for timely communications and are yet to be audited by an independent auditor and hence are subject to change after the review. With that, I turn it over to CEO Han for the presentation on business highlights."
+},
+{
+"start": 84.9,
+"end": 113.3,
+"text": "모바일 성장 둔화와 온라인 시장의 성숙도에 따라 기존 사업의 성장 여력이 줄어드는 동시에 글로벌 경쟁이 더욱 치열해지는 환경에 놓여 있습니다. 모바일에서 전체 인터넷 이용 사용 시간이 증가하고는 있지만 포털과 SNS의 사용 시간은 정체된 반면 동영상 컨텐츠 소비가 압도적으로 빠르게 증가하면서 포털의 경쟁주의가 약해지고 있는 상황입니다."
+},
+{
+"start": 113.3,
+"end": 137.8,
+"text": "이러한 환경에서 기존 서비스의 경쟁력 유지와 글로벌 시장 확장을 위한 투자의 확대는 불가피하며 인터넷 사업에서 우수 인재 확보는 가장 중요한 투자라는 측면에서 글로벌 수준의 인재 확보에도 더욱 노력할 계획입니다."
+},
+{
+"start": 137.8,
+"end": 156.0,
+"text": "NAVIR continued its growth in Q2 through various different efforts but is faced with constrained growth potential from its current businesses as we witness sluggish growth in mobile and maturing of the online market and is also a fiercer competition from its global peers."
+},
+{
+"start": 156.0,
+"end": 183.2,
+"text": "despite the increase in total time spent on the mobile internet competitiveness of portal sites has weakened as the amount of time spent in portals and SNS pages has been stagnant whereas consumption of video content is rapidly increasing under this environment it is essential that we expand our investment to maintain competitiveness of our existing business and also to pioneer into the global market"
+},
+{
+"start": 183.2,
+"end": 213.2,
+"text": "앞서 말씀드린 바와 같이 인터넷 시장은 이용자의 행태 변화와 기술의 발전에 따라 동영상을 중심으로 빠르게 재편되고 있으며 네이버 역시 이러한 위협적인 상황에서 당사의 동영상 역량 강화를 위해 다각도로 준비하고 있습니다."
+},
+{
+"start": 213.2,
+"end": 242.9,
+"text": "먼저 블로썸데이를 통해 소개한 바와 같이 하반기에는 블로그 내 동영상을 손쉽게 편집할 수 있는 무비 에디터를 추가하고 블로그 개별 동영상도 검색이 가능하도록 하고 동영상 부여를 개선하는 등 블로그를 통해 동영상 컨텐츠가 더욱 활발하게 생산되고 유통될 수 있도록 동영상 중심의 기능을 대폭 강화할 계획입니다."
+},
+{
+"start": 242.9,
+"end": 261.7,
+"text": "지속적인 투자를 통해 셀럽을 중심으로 한 엔터테인먼트 동영상 컨텐츠 확보에도 주력하겠습니다. VLIVE는 2분기 글로벌 누적 다운로드 5,500만을 달성하였고 특히 베트남에서 MAU가 400만 명을 기록하였습니다."
+},
+{
+"start": 261.7,
+"end": 283.4,
+"text": "베트남과 같이 이용자가 많은 지역의 로컬 컨텐츠를 강화하는 한편 VLIVE의 주 이용자인 10대 20대 여성의 주요 관심사인 뷰티 분야의 동영상 크리에이터 양성을 통한 하우트 영상 확보에 주력하는 등 다방면으로 준비할 예정입니다. VLIVE의 셀럽 중심의 컨텐츠와"
+},
+{
+"start": 283.4,
+"end": 298.9,
+"text": "네이버 웹툰 IP를 활용한 드라마, 영화 콘텐츠, 그리고 잼 라이브의 생중계 퀴즈쇼 등 엔터테인먼트 버티컬 서비스의 확장은 동영상 콘텐츠 강화 측면에서 중요한 기여를 할 것으로 기대하고 있습니다."
+},
+{
+"start": 299.4,
+"end": 328.3,
+"text": "인터넷 market is rapidly realigning around video content in line with the changed behavior of users and technology development. Faced with such threat, NAVIR is coming up with different measures from various different angles to strengthen its capabilities in the video segment. First, as showcased during the Blossom Day in the second half, we plan to make drastic enhancements around video-related features"
+},
+{
+"start": 328.3,
+"end": 357.0,
+"text": "video content can be produced and distributed much more actively through blogs. We added Movie Editor that allows users to edit and compile their video easily on their blogs and make video content from the blogs to be searchable and also make enhancements on the video viewers. Also, Naver will focus on sourcing celebrity-oriented entertainment video content through continuous investment into live video streaming platform Vlive."
+},
+{
+"start": 357.0,
+"end": 367.3,
+"text": "VLIVE also saw Q2 global cumulative download of 55 million, and especially in Vietnam, MAU reached 4 million users."
+},
+{
+"start": 367.4,
+"end": 391.5,
+"text": "We plan to make various different efforts such as strengthening local content in countries showing a solid growth in user base such as in Vietnam as well as focus on sourcing of how-to videos by cultivating video creators in beauty category as it is the key interest point for the main users of VLIVE who are mostly women in their teens and twenties.",
+"repaired": true
+},
+{
+"start": 391.7,
+"end": 417.7,
+"text": "네이버는 치열한 국내 경쟁 환경에 대응하고 미래 성장 동력을 마련하기 위해 스마트 스피커,"
+},
+{
+"start": 417.7,
+"end": 446.4,
+"text": "IoT 등 신규 플랫폼에 적합한 스마트 콘텐츠를 확보하고 이를 기반으로 국내에서의 경쟁력 강화는 물론 해외에서 제2의 라인과 같은 성공 사례를 만들어내기 위해 노력하겠습니다. 국내의 성공적인 서비스 경험을 기반으로 해외 서비스를 강화하고 있는 네이버 웹툰은 2분기 북미 지역의 MAO가 500만 명을 기록하면서 해당 지역의 서비스가 활성화되고 있으며"
+},
+{
+"start": 446.4,
+"end": 474.0,
+"text": "일본 라인의 망가 서비스와 시너지를 도모하는 한편 미국 등 해외 사업 확대를 위한 마케팅에 더욱 집중할 계획입니다. 또한 어제 이사회에서 결의한 바와 같이 웹툰과 네이버 앤스토어 사업 부문 합정을 통해 프리미엄 유료 컨텐츠 유통 흐름을 개선하고 컨텐츠 사용자들의 편의를 강화해 나갈 계획입니다. 작년부터 지금까지"
+},
+{
+"start": 474.0,
+"end": 501.4,
+"text": "웹툰, YZ엔터테인먼트, 딩고, 72초 TV 등 콘텐츠 확보와 글로벌 확장을 위해 약 4천억 원의 투자를 집행하였고 내년까지 3년간 다양한 기기에 적합한 스마트 콘텐츠에 약 6천억 원의 수준으로 투자를 투자할 계획입니다."
+},
+{
+"start": 501.4,
+"end": 529.0,
+"text": "그의 새로운 플랫폼을 통해 스마트스피커, IoT, 그리고 다른 것들. 이 부분은 우리의 공간이 아니라 우리의 공간이 아니라 우리의 공간이 아니라 우리의 공간이 아니라 우리의 공간이 아니라 우리의 공간이 아니라 우리의 공간이 아니라 우리의 공간이 아니라 우리의 공간이 아니라 우리의 공간이 아니라 우리의 공간이 아니라 우리의 공간이 아니라 우리의 공간이 아니라 우리의 공간이 아니라 우리의 공간이 아니라 우리의 공간이 아니라 우리의 공간이 아니라 우리의 공간이 아니라 우리의 공간이 아니라 우리의 공간이 아니라 우리의 공간이 아니라 우리의 공간이 아니라 우리의 공간이 아니라 우리의 공간이 아니라 우리의 공간이 아니라 우리의 공간이 아니라 우리의 공간이 아니라 우리의 공간이 아니라 우리의 공간이 아니라 우리의 공간이 아니라 우리의 공간이 아니라 우리의 공간이 아니라 우리의 공"
+},
+{
+"start": 529.0,
+"end": 556.8,
+"text": "2. 시nergies과 라인의 맘과가를 포커시 더욱 더 업그레이드 시스템을 통해 미국의 시스템을 통해 미국의 시스템을 통해 미국의 시스템을 통해 미국의 시스템을 통해 미국의 시스템을 통해 미국의 시스템을 통해 미국의 시스템을 통해 미국의 시스템을 통해 미국의 시스템을 통해 미국의 시스템을 통해 미국의 시스템을 통해 미국의 시스템을 통해 미국의 시스템을 통해 미국의 시스템을 통해 미국의 시스템을 통해 미국의 시스템을 통해 미국의 시스템을 통해 미국의 시스템을 통해 미국의 시스템을 통해 미국의 시스템을 통해 미국의 시스템을 통해 미국의 시스�"
+},
+{
+"start": 556.8,
+"end": 582.8,
+"text": "그리고 사용자들에게 더욱 유용한 기능을 제공할 것입니다 지난해, 웹툰, YG 엔터테인먼트, 딩고, 72세컨TV 등의 노력으로 인한 글로벌 개발을 통해 올해 400백만 원 정도를 투자했으며, 올해까지 600백만만 원을 투자할 계획입니다",
+"repaired": true
+},
+{
+"start": 582.8,
+"end": 596.4,
+"text": "다음으로는 AI 기술의 서비스 적용과 향후 계획에 대해 말씀드리겠습니다."
+},
+{
+"start": 596.4,
+"end": 618.3,
+"text": "컨텐츠 추천, 장소 추천, 상품 추천, 검색 등 네이버의 서비스 전반에 다양하게 활용되고 있습니다. 그 중 컨텐츠 추천 엔진 에어스는 작년 네이버 뉴스판 적용을 시작으로 네이버의 다양한 서비스로 적용 범위가 확대되어 이용자들의 편리한 컨텐츠 서비에 기여하고 있습니다."
+},
+{
+"start": 618.3,
+"end": 636.5,
+"text": "7월부터는 라인의 컨텐츠 포탈 서비스인 라인투데이를 시작으로 글로벌 서비스에 적용하는 실험도 시작했으며 향후 적용 국가를 확대해 나갈 계획입니다. 또한 지난 4월에는 시간과 공간에 대한 이해를 토대로 최적의 장소를 추천하는"
+},
+{
+"start": 636.5,
+"end": 664.8,
+"text": "스마트 어라운드를 네이버 앱에 추가, 이용자들이 검색어를 입력하지 않고도 맞춤형 장소 정보를 접할 수 있게 하는 등 사용자 편의성 향상을 위해 노력하고 있습니다."
+},
+{
+"start": 664.8,
+"end": 691.4,
+"text": "Of those, AIRS is a recommendation engine for content which was used for the News tab last year and its service scope is being broadened to other neighbor services and is helping to make users consume content much more easily. Since July, we've taken Line Today, which is Line's Content Portal service, to test for global services and we plan to increase on the number of countries served."
+},
+{
+"start": 691.5,
+"end": 719.1,
+"text": "이미지 검색 서비스인 스마트 렌즈는 쇼핑 렌즈,"
+},
+{
+"start": 719.1,
+"end": 741.6,
+"text": "상점 간판 인식 등의 기능에 이어 최근 외화 집회와 와인 라벨 인식 기능을 추가하며 검색 서비스 품질을 더욱 고도화하고 있습니다. 지난 6월 라인 플랫폼 내 쇼핑 렌즈 도입을 통해 비주얼 검색을 시도하는 등 서비스 지역 또한 일본으로 확대하였습니다."
+},
+{
+"start": 741.6,
+"end": 758.5,
+"text": "딥러닝 기술을 활용한 음성합성 및 화자인식 기술은 AI 플랫폼 클로버가 탑재된 네이버와 라인의 다양한 서비스에 적용될 예정이며 사용자에게 새로운 경험을 제공하는 데 기여할 것으로 기대합니다. 앞서 말씀드린 바와 같이"
+},
+{
+"start": 758.5,
+"end": 782.5,
+"text": "네이버는 기존 사업 경쟁력 유지와 새로운 성장기의 모색을 위한 투자를 지속할 계획이며 이는 향후 성장을 위해 필수적인 만큼 당분간 공격적인 기조를 유지할 계획입니다. 앞으로도 투자자 여러분의 계속적인 관심과 지원을 부탁드리며 이어서 박상진 CFO가 재무 부분에 대한 설명을 드리도록 하겠습니다."
+},
+{
+"start": 783.0,
+"end": 811.7,
+"text": "Smart Lens is an image search service which offers shopping lens features and store signage recognition and has recently been equipped with features that recognize foreign currency bills and wine labels. As such, we are upgrading the quality of our search services. Last June, we introduced Shopping Lens inside the Lion platform, trying an attempt at the visual search, at the same time expanding the service geography to Japan."
+},
+{
+"start": 812.0,
+"end": 842.0,
+"text": "Voice synthesis and speaker recognition technology using deep learning will be used for various different services of Naver and Line where the AI platform Clover is applied, and we expect it will contribute to offering new experiences to the user base. As mentioned, Naver will continue with the aggressive investment stance for the time being in order to bolster its existing business and to find new growth opportunities as we believe this is essential for future growth."
+},
+{
+"start": 842.0,
+"end": 872.0,
+"text": "I look forward to your continued interest and support. I now turn it over to CFO 박상진 for the financial results."
+},
+{
+"start": 872.0,
+"end": 901.4,
+"text": "단기 순위 1금 전년 동기 대비 83.1%, 전분기 대비 104.2% 증가한 3,140억 원을 기록했습니다. 2분기 단기 순위 극정한 이유는 숲뱅크의 라인 모바일 투자에 따른 대적 30%로 발생한 종속기업 투자 처분이익 327억 원과 해외 펀드 평가이익 232억 원, 배당금 수익 107억 원 등 영업의 수익 금지 때문입니다."
+},
+{
+"start": 901.4,
+"end": 930.6,
+"text": "Q2, Consolidated Operating Revenue, was up 20.7% year-over-year and 4.2% Q1Q to $1,363.6 billion. Consolidated Operating Profit was down 12.1% year-over-year and 2.5% Q1Q to $250.6 billion. Net Profit was up 83.1% year-over-year and 104.2% Q1Q to report $314 billion."
+},
+{
+"start": 930.6,
+"end": 958.8,
+"text": "The reason why Q2 net profits are such a steep rise is due to 112.7 billion won of disposition gains from consolidated subsidiaries arising out of loss of control from SoftBank's investment into Line Mobile, as well as 23.2 billion of valuation gains from offshore funds and dividend income of 10.7 trillion booked under the non-operating revenue. 이번기 연결영업수익의 부문별 기준은 광고 11%였고요.",
+"repaired": true
+},
+{
+"start": 958.8,
+"end": 987.0,
+"text": "비즈니스 플랫폼 45%, IT 플랫폼 6%, 컨텐츠 서비스 2%, 라인 및 기타 플랫폼이 36%를 기록했으며 연결 영업 비용은 플랫폼 개발 및 운영이 17%, 대행 및 파트너가 24%, 인프라가 6%, 마케팅 7%, 라인 및 기타 플랫폼이 46%를 기록했습니다. 영업 수익을 부문별로 보면 광고는 모바일 메일"
+},
+{
+"start": 987.0,
+"end": 1015.7,
+"text": "상품 개선이 지속되었으나 높은 기저 영향으로 성장률이 다소 증화되어 전년 동기 대비 11.1%, 전문기 대비 11.7% 증가한 1,487억 원을 지속했습니다. 제2플래소는 파워링크 광고 소재 확대를 통한 광고 성능과 개발과 쇼핑 검색 광고에 안정적인 성장 영향으로 전년 동기 대비 7.2%, 전문기 대비 3.2% 증가한 6,176억 원을 지속했습니다."
+},
+{
+"start": 1016.6,
+"end": 1043.5,
+"text": "Q2에 관한 내용입니다.",
+"repaired": true
+},
+{
+"start": 1043.6,
+"end": 1061.2,
+"text": "Under the operating revenue, although there was sustained mobile main product improvement on high base effect, growth rate was somewhat subdued, with ads revenue of 11.1% year-over-year and 11.7% Q1Q, reporting 148.7 billion won."
+},
+{
+"start": 1061.3,
+"end": 1090.7,
+"text": "IT 플랫폼은 웹업 페이 이용자와 가맹점수 증가 영향으로 전년 동기 대비 73.4%"
+},
+{
+"start": 1090.7,
+"end": 1113.3,
+"text": "전용 동기 대비 7.3% 증가한 317억 원을 교육했습니다. 라임 유키사 플랫폼은 전용 동기 대비 21.6% 전분기 대비 1% 증가한 4,859억 원을 교육했습니다."
+},
+{
+"start": 1114.1,
+"end": 1136.9,
+"text": "IT platform revenue was up 73.4% year-over-year and 18.3% QonQ to 85.7 billion won growth in labor pay users and merchants. Content service was up 27% year-over-year and 7.3% QonQ to 31.7 billion won driven mostly by Webtoon and Vlive revenue."
+},
+{
+"start": 1136.9,
+"end": 1165.7,
+"text": "LINE & Other Platform Revenue was up 21.6% year-over-year and 1% Q&Q, reporting 485.9 billion won."
+},
+{
+"start": 1165.7,
+"end": 1195.7,
+"text": "광고 및 페이 매출 성장에 따른 판매 및 경제 수수료 증가로 전년 동기 대비 28.4%, 전문기 대비 9.1% 증가한 2,622억 원을 기록했습니다. 인사비용은 KPEX 지속 증가 영향으로 전년 동기 대비 15.7%, 전문기 대비 5.9% 증가한 638억 원이며, 마케팅비는 페이 거래 성장에 따른 생수 정류, AI 스피커 마케팅 영향으로 전년 동기 대비 45.9%,"
+},
+{
+"start": 1195.7,
+"end": 1209.2,
+"text": "전문기 대비 19.6% 증가한 849억 원. 라이미 기타 별문은 전년동기 대비 36.3% 전문기 대비 2.6% 증가한 5,119억 원을 되어있습니다."
+},
+{
+"start": 1210.0,
+"end": 1229.7,
+"text": "Q2의 공공공공공공공공공공공공공공공공공공공공공공공공공공공공공공공공공공공공공공공공공공공공공공공공공공공공공공공공공공공공공공공공공공공공공공공공공공공공공공공공공공공공공공공공공공공공공공공공공공공공공공공공공공공공공공공공공공공공공공공공공공공공공공공공공공공공공공공공공공공공공공공공공공공공공공공공공공공공공공공공공공공공공공공공공공공공공공공공공공공공공공공공공공공공공공공공공공공공공공공공공공공공공공공공공공공공공공공공공공공공공"
+},
+{
+"start": 1229.7,
+"end": 1259.8,
+"text": "2.4% Q&A"
+},
+{
+"start": 1259.8,
+"end": 1287.5,
+"text": "2분기 연결 영업이익은 전년 동기 대비 12.1%, 전분기 대비 2.5% 감소한 2,506억 원."
+},
+{
+"start": 1287.5,
+"end": 1303.0,
+"text": "영업이익률은 18.4%를 기록했으며 단기 순이익은 전년 동기 대비 83.1%, 전분기 대비 104.2% 증가한 3,140억 원, 단기 순이익률은 23%를 기록했습니다."
+},
+{
+"start": 1303.1,
+"end": 1331.9,
+"text": "Q2 Consolidated Operating Profit was down 12.1% year-over-year and 2.5% Q1Q to 250.6 billion won with operating profit margin reporting 18.4%. Net profit was up 83.1% year-over-year and 104.2% Q1Q to 314 billion won with net profit margin of 23%."
+},
+{
+"start": 1331.9,
+"end": 1361.1,
+"text": "전분기 대비 1.3% 증가한 2,765억 원을 라인 부분은 전년 동기 대비 적자 전환 전분기 대비 적자 폭이 증가한 259억 원 손실을 기록했습니다. 다만 이는 한국채택국제회계기준의 연결실적을 네이버 주요사 부분과 그 외 부분으로 구분한 것으로 라인의 발표 수치와는 차이가 있음을 다시 한번 말씀드립니다. 2분기 연구개발비는 전년 동기 대비 21.2%"
+},
+{
+"start": 1361.1,
+"end": 1389.9,
+"text": "전분기 대비 2.8% 증가한 3,388억 원을 기록했습니다. 2분기 영업수익 대비 연구개발위 지출 비중은 국내 최고 수준인 24.8%로 공격적인 인지 확보 지속에 따라 연간 20% 정도 증가할 것으로 예상하고 있습니다. CAPEX는 신사업 건축 및 서버 투자 영향으로 전년 동기 대비 32.2%, 전분기 대비 37.6% 증가한 1,635억 원을 기록했습니다."
+},
+{
+"start": 1389.9,
+"end": 1401.8,
+"text": "2분기에도 K펀드, 소프트앤코펀드 등 주요 펀드 투자를 통해 총 1,339억 원의 투자를 지탱했으며 연간 투자 규모는 정량과 유사한 수준이 될 것으로 보고 있습니다."
+},
+{
+"start": 1402.5,
+"end": 1424.5,
+"text": "Looking at the breakdown of consolidated operating profit, NAVOR saw a rise of 5.9% year-over-year and 1.3% Q-on-Q, reporting 276.5 billion won, with LINE turning to a loss on an year-over-year basis, reporting 25.9 billion won of operating loss with a widened Q-on-Q loss amount."
+},
+{
+"start": 1424.6,
+"end": 1445.8,
+"text": "Q2 R&D spend was up 21.2% year-over-year and 2.8% Q1Q to 338.8 billion won."
+},
+{
+"start": 1446.0,
+"end": 1472.0,
+"text": "R&D spend against Q2 operating revenue was 24.8%, which is the highest level in Korea, and we expect it to rise around 20% this year with a continuation of aggressive talent acquisition. CapEx was up 32.2% year-over-year and 37.6% Q1Q to 163.5 billion won due to the construction of new company building and server investment."
+},
+{
+"start": 1472.0,
+"end": 1499.6,
+"text": "Q2에 비해 133.9밀리언의 투자에 대한 투자의 투자에 대한 투자의 투자에 대한 투자의 투자에 대한 투자의 투자에 대한 투자의 투자에 대한 투자의 투자에 대한 투자의 투자에 대한 투자의 투자에 대한 투자의 투자에 대한 투자의 투자에 대한 투자의 투자에 대한 투자의 투자에 대한 투자의 투자에 대한 투자의 투자에 대한 투자의 투자에 대한 투자의 투자에 대한 투자의 투자에 대한 투자의 투자에 대한 투자의 투자에 대한 투자의 투자에 대한 투자의 투자에 대한 투자의 투자에 대한 투자의 투자에 대한 투자의 투자에 대한 투자의 투자에 대한 투자의 투자에 대한 투자의 투자에 대한 투자의 투자에 대한 투자의 투자에 대한 투자의 투"
+},
+{
+"start": 1499.6,
+"end": 1526.2,
+"text": "500원인 현재의 액면가를 100원으로 낮추어 발행주식 총수를 5배 늘리고 투자 접근성과 유동성 개선을 동호함으로써 장기적인 주주가치 제고에 기여하고자 하는 것입니다. 9월 7일 열릴 임시주주총회에서 액면가에 대한 정관 변경이 승인되면 대략 10월 8일부터 11일까지의 매매 거래 정지 기간을 거쳐서 잠정적으로는 10월 12일 경부터 거래가 재개될 예정입니다."
+},
+{
+"start": 1526.4,
+"end": 1553.6,
+"text": "그럼 2분기 실적에 대한 설명을 마치고 지금부터 투자자 여러분들의 질문을 받도록 하겠습니다."
+},
+{
+"start": 1553.6,
+"end": 1581.5,
+"text": "이 시각의 주식을 위해 이 시각의 주식을 위해 이 시각의 주식을 위해 수행을 위해 수행을 위해 수행을 위해 수행을 위해 수행을 위해 수행을 위해 수행을 위해 수행을 위해 수행을 위해 수행을 위해 수행을 위해 수행을 위해 수행을 위해 수행을 위해 수행을 위해 수행을 위해 수행을 위해 수행을 위해 수행을 위해 수행을 위해 수행을 위해 수행을 위해 수행을 위해 수행을 위해 수행을 위해 수행을 위해 수행을 위해 수행을 위해 수행을 위해 수행을 위해 수행을 위해 수행을 위해 수행을 위해 수행을 위해 수행을 위해 수행을 위해 수행을 위해 수행을 위해 수행을 위해 수행을 위해 수행을 위해 수행을 위해 수행을 위해 수행을 위해 수행을 위해 수행을 위해 수행을 위해 수행을 위해 수행을 위해 수행을 위해"
+},
+{
+"start": 1581.5,
+"end": 1610.2,
+"text": "Q2의 결과는 이제 질문을 드리겠습니다."
+},
+{
+"start": 1610.2,
+"end": 1636.0,
+"text": "유동성을 개선시키겠다고 말씀하셨는데 사실 최근에 삼성전자 사례에서도 보시듯이 액면 분할이 크게 유동성 개선이나 주가에는 도움이 별로 안 되는 쪽으로 지금 분위기가 흘러가고 있는 상황이고요. 저희는 일단 현금이 좀 많은 상황에서 무상증자나 이런 다른 대안이 있었을 텐데 왜 액면 분할을 했는지 이해가 안 되는 부분들이 있습니다. 이 부분에 대해서 설명 좀 부탁드리고요."
+},
+{
+"start": 1636.0,
+"end": 1666.3,
+"text": "두 번째 실적 관련해서 결국 인력 투자들이 너무 많이 진행되고 있다 보니까 실적으로서는 조금 네거티브한 상황인데 이 관련해서 최근에 채용하시고 있는 인재들이 어떤 부분에 투자가 되고 있고 기존 사업 부분 쪽인지 아니면 신규 사업을 위한 채용인지 이런 부분들을 말씀해 주시면 감사하겠습니다."
+},
+{
+"start": 1666.3,
+"end": 1691.0,
+"text": "이 시각은 이 시각에서의 상승전을 보게 될 수 있습니다. 하지만 이 시각에서의 상승전을 보게 될 수 있습니다. 이 시각에서의 상승전을 보게 될 수 있습니다. 이 시각에서의 상승전을 보게 될 수 있습니다. 이 시각에서의 상승전을 보게 될 수 있습니다."
+},
+{
+"start": 1691.0,
+"end": 1720.0,
+"text": "제 2번 질문은, 당신의 탈렛을 수 있는 탈렛을 수 있는 탈렛을 수 있는 탈렛을 수 있는 탈렛을 수 있는 탈렛을 수 있는 탈렛을 수 있는 탈렛을 수 있는 탈렛을 수 있는 탈렛을 수 있는 탈렛을 수 있는 탈렛을 수 있는 탈렛을 수 있는 탈렛을 수 있는 탈렛을 수 있는 탈렛을 수 있는 탈렛을 수 있는 탈렛을 수 있는 탈렛을 수 있는 탈렛을 수 있는 탈렛을 수 있는 탈렛을 수 있는 탈렛을 수 있는 탈렛을 수 있는 탈렛을 수 있는 탈렛을 수 있는 탈렛을 수 있는 탈렛을 수 있는 탈렛을 수 있는 탈렛을 수 있는 탈렛을 수"
+},
+{
+"start": 1720.0,
+"end": 1748.8,
+"text": "모두에서 말씀드린 것처럼 어쨌든 저희 주가 자체가 사실은 500원 액면 기준으로 낮은 편은 아니기 때문에 이 부분을 좀 더 스프레트를 해서 투자자들이 좀 더 접근, 투자를 용이하게 할 수 있게 해주는 것이 큰 의미겠다고 생각하고요. 삼성전자 사례를 말씀하셨는데 사실 액면 분할 자체가 본질 가치의 변화를 가져오는 건 아니기 때문에 이 자체가 주가 상승, 기업 가치에 도움이 된다 안 된다를 논하는 것은 좀 무리인 것 같고요."
+},
+{
+"start": 1748.8,
+"end": 1766.9,
+"text": "하지만 어쨌든 저는 많은 국민들이 네이버를 사용하고 계시고 네이버 주식에 대한 적금을 생각하시더라도 거기에 대한 장벽이 있다고 생각하기 때문에 저희는 충분히 의미가 있는 일이라고 생각을 합니다."
+},
+{
+"start": 1766.9,
+"end": 1785.3,
+"text": "저희는 저희의 상품을 통해서, 우리의 상품을 통해서, 500원을 통해서, 500원을 통해서, 이 상품을 통해서, 우리의 상품을 통해서, 우리의 상품을 통해서, 우리의 상품을 통해서, 우리의 상품을 통해서, 우리의 상품을 통해서,"
+},
+{
+"start": 1785.3,
+"end": 1814.4,
+"text": "삼성전자의 상황에 대해 말씀하셨지만 사업을 분리시키는 것만으로도 회사의 핵심 가격에 대한 기본적인 변화는 없을 것입니다 그래서 회사에 대한 상당한 비용이 증가할 것이라고 말할 수 있습니다 한국에서는 많은 사람들이 네이버 제품을 사용하고 있습니다 그리고 우리는 네이버를 통해 투자에 대한 예금을 제공하는 것에 의미가 있습니다",
+"repaired": true
+},
+{
+"start": 1815.6,
+"end": 1845.5,
+"text": "액면 분할을 통해서 신규 투자자들의 접근성이 크게 증가될 것으로 기대를 하고요. 동일한 효과로 기대할 수 있는 주직 배당이라든가 무상증자 등을 고려하지 않고 왜 액면 분할을 선택하냐고 물으신 질문에 대해서는 사실 액면 분할 대비 주직 배당이나 무상증자의 경우에는 회사의 자본 구조라든가 투자자들의 여러 가지 이익에 미치는 영향들이 차이가 있습니다."
+},
+{
+"start": 1845.5,
+"end": 1883.7,
+"text": "액면 분할을 선택하게 됐고요. 주주 무상증자라든가 주식 배당 등은 아니지만 저희가 기존까지 잉여 현금 흐름의 한 30% 정도를 환원하는 계획을 계속 가지고 있고 이러한 주주 환원 정책의 틀은 바뀐 게 없고요. 향후 추가적인 어떤 주주 환원 계획에 대해서는 적절한 시점에 계속 검토를 해서"
+},
+{
+"start": 1883.7,
+"end": 1908.7,
+"text": "저희는 저희의 정책을 통해 저희의 정책을 통해 저희의 정책을 통해 저희의 정책을 통해 저희의 정책을 통해 저희의 정책을 통해 저희의 정책을 통해 저희의 정책을 통해 저희의 정책을 통해 저희의 정책을 통해 저희의 정책을 통해 저희의 정책을 통해 저희의 정책을 통해 저희의 정책을 통해 저희의 정책을 통해 저희의 정책을 통해 저희의 정책을 통해 저희의 정책을 통해 저희의 정책을 통해 저희의 정책을 통해 저희의 정책을 통해 저희의 정책을 통해 저희의 정책을 통해 저희의 정책을 통해 저희의 정책을 통해 저희의 정책을 통해 저희의 정책을 통해 저희의 정책을 통해 저희의 정책을 통해 저희의 정책을 통해 저희의 정책을 통해 저희의 정책을"
+},
+{
+"start": 1908.7,
+"end": 1938.4,
+"text": "그게 우리는 그냥 완전 requires and that is also the reason why we chose to go the stock split approach. When it comes to our shareholder return policies, basically our policy to actually return 30% of our surplus cash flow, that whole framework stays intact, we're going to stick to that plan and once we have any additional plans, we will communicate that with you.",
+"repaired": true
+},
+{
+"start": 1940.0,
+"end": 1969.7,
+"text": "두 번째로 질문하신 저희 실적과 관련해서 인력 투자가 증가하고 있고 이 부분이 많은 비용 부담이 되기 때문에 당황 실적에 영향을 줄 것 같다고 말씀을 하셨고요. 이런 채용이 주로 어떤 부분에서 신규 사업인지 이런 사업인지에 대해서 좀 말씀을 해달라고 하셨는데요. 이 부분에 대해서는 저희가 1분기에도 유사한 답을 드리는 바가 있습니다. 그래서 저희의 채용은 상당 부분 신규 사업에 관련된 투자가 많고요."
+},
+{
+"start": 1969.7,
+"end": 1999.7,
+"text": "기존 사업의 경쟁력 강화를 위해서 계속 또 인력을 채용을 하지만 많은 부분은 신규사업입니다. 그래서 네이버 플랫폼 같은 경우에는 전체 채용 인력 중에 절반 가까운 인력들이 개발 부분이고요. 이 개발 인력들은 Search and Clover AI 쪽이라던가 이런 쪽에 대부분 채용이 되고 있습니다. 또 연결 전체를 보면 저희가 라인 및 기타 플랫폼에서도 꽤 많은 인력 채용이 있는데요."
+},
+{
+"start": 1999.7,
+"end": 2012.5,
+"text": "AI라던가 이런 신규 사업들에 인력을 채용을 많이 하고 있습니다."
+},
+{
+"start": 2012.5,
+"end": 2041.9,
+"text": "그리고 이 회사는 어떤 회사는 어떤 회사는 어떤 회사는 어떤 회사는 어떤 회사는 어떤 회사는 어떤 회사는 어떤 회사는 어떤 회사는 어떤 회사는 어떤 회사는 어떤 회사는 어떤 회사는 어떤 회사는 어떤 회사는 어떤 회사는 어떤 회사는 어떤 회사는 어떤 회사는 어떤 회사는 어떤 회사는 어떤 회사는 어떤 회사는 어떤 회사는 어떤 회사는 어떤 회사는 어떤 회사는 어떤 회사는 어떤 회사는 어떤 회사는 어떤 회사는 어떤 회사는 어떤 회사는 어떤 회사는 어떤 회사는 어떤 회사는 어떤 회사는 어떤 회사는 어떤 회사는 어떤 회사는 어떤 회사는 어떤 회사는 어떤 회사는 어떤 회사는 어떤 회사는 어떤 회사는 어떤 회사는 어떤 회사는 어떤 회사는 어떤 회사는 어떤 회사는 어떤 회사는 어떤 회사는 어떤 회사는 어떤 회사"
+},
+{
+"start": 2041.9,
+"end": 2074.2,
+"text": "다음으로 질문해 주실 분은 한국투자증권의 김성은입니다."
+},
+{
+"start": 2074.2,
+"end": 2101.0,
+"text": "The following question will be presented by Sung-Eun Kim from Korea Investment and Securities. Please go ahead with your question, sir."
+},
+{
+"start": 2101.0,
+"end": 2132.1,
+"text": "두 번째 질문은 IT 플랫폼 매출 성장률이 예상보다 훨씬 높은 것으로 보이는데 드러나 배경이 궁금합니다. 거래 증가가 대부분인 것인지 아니면 클라우드 매출적이 올라오시는지 말씀 부탁드립니다."
+},
+{
+"start": 2132.1,
+"end": 2162.8,
+"text": "첫 번째 모바일 개편에 대해서 말씀드리면 지난 5월에 저희가 발표한 대로 모바일 개편에 대해서 저희가 논의를 진행 중에 있고 구성 방안을 다각도록 검토하고 있습니다. 다만 현재로서는 모바일 메인에 들어갈"
+},
+{
+"start": 2162.8,
+"end": 2175.1,
+"text": "콘텐츠 광고 상품 등에 대해서는 아직 계속 논의 중이고 확정된 부분은 아직 없습니다."
+},
+{
+"start": 2175.1,
+"end": 2204.3,
+"text": "그래서 모바일 메인 구성방은 확정되지 않아서 아직 매출에 미치는 역량을 측정하기에는 예측하기에는 좀 이런 시점이지만"
+},
+{
+"start": 2204.3,
+"end": 2233.9,
+"text": "구성에 따라서는 일부 부정적 역량도 있을 수 있을 거로 판단하고 있습니다."
+},
+{
+"start": 2233.9,
+"end": 2263.4,
+"text": "매출에는 네이버페이, 클라우드, 네이버워크 등 다양한 매출이 구성되고 있는데 특히 그 중에서 상당수의 매출 증가는 네이버페이 그레익 증가에 대한 부분이 많이 반영되어 있고요. 클라우드 비즈니스는 아직 초창기지만 여러 가지 서비스들을 확대해 나가고 있어서 계속 경쟁력을 확보하고 있고 매출은 아주 초창기지만 꾸준히 성장을 하고 있는 상태입니다."
+},
+{
+"start": 2264.0,
+"end": 2272.1,
+"text": "그 IT 플랫폼은 네이버페이, 클라우드, 워크스 등에 포함되어 있습니다.",
+"repaired": true
+},
+{
+"start": 2272.1,
+"end": 2301.3,
+"text": "네이버 페이 그래픽 증가로"
+},
+{
+"start": 2301.3,
+"end": 2323.5,
+"text": "그대액 증가가 꾸진되고 있는데 이는 이용자 수 증가와 가맹점 확대에 힘입어서 성장을 하고 있고요. 2분기 중부터 현대다컴 등과 같은 온라인 쇼핑몰 등 매우 페이를 채택하는 신규 가맹점이 계속 증가하고 있고 2분기 말 기준으로 21만 6천 개의 가맹점들을 보유하고 있고 앞으로도 계속 성장하느라 생각하고 있습니다."
+},
+{
+"start": 2324.1,
+"end": 2358.9,
+"text": "다음으로 질문해주실 분은 JP Morgan의 스테인리 양입니다."
+},
+{
+"start": 2358.9,
+"end": 2388.9,
+"text": "다음 질문은 스탠리아의 질문입니다."
+},
+{
+"start": 2388.9,
+"end": 2414.1,
+"text": "많이 고용을 하셨잖아요. 향후에는 인력 충원의 어떤 페이스라든지 아니면 규모 자체가 줄어드는 건지 아니면 계속해서 지속이 되는 건지 연태까지 지난 1년 과정, 그 다음에 앞으로 또 1년 후 비교해서 설명해 주시면 감사하겠고요. 두 번째는 스노우와 웹툰의"
+},
+{
+"start": 2414.1,
+"end": 2443.7,
+"text": "영업 손실이 계속되고 있는 것 같은데요. 그 부분이 언제쯤 자회사들이 턴어라운드 할지 비즈니스 모델을 언제쯤 붙여서 영업이익으로 전환이 되는 시점이라도 할까요? 그런 전략이나 시점에 대해서 말씀해주시면 감사하겠습니다."
+},
+{
+"start": 2443.7,
+"end": 2463.4,
+"text": "You have been making significant investments into hiring of talent, especially focused on the areas of AI. I would like to understand how this whole trend is going to play out as we go forward. So if we were to look at the past one year, there's been a significant hiring of headcount. Now going forward, if we were to look out for the coming..."
+},
+{
+"start": 2463.4,
+"end": 2488.9,
+"text": "다음 질문에 대해서는,"
+},
+{
+"start": 2488.9,
+"end": 2516.1,
+"text": "먼저 질문하신 AI 등 신규 투자 인력의 어떤 증가 추이가 과거와 비교해서 향후 1년, 2년간 어떻게 될 것 같다고 질문하셨고요. 저희가 계속 작년부터 실적 배표를 드리면서"
+},
+{
+"start": 2516.1,
+"end": 2546.3,
+"text": "AI 등 신규 사업과 4차 산업에 대비한 기술인력 확보를 위해서 인력 충원을 굉장히 많이 하고 있다는 말씀을 드렸고 그게 1년 반 동안 지속되어 온 것 같습니다. 사실은 시장에서 예상하시는 것보다 훨씬 많은 인력을 채용했고 또 저희가 기존 사업의 경쟁력을 유지하고 신규 사업의 시장 확대를 위해서는 불가피한 선택이라고 생각을 하고 있습니다."
+},
+{
+"start": 2546.3,
+"end": 2575.6,
+"text": "이 시각 세계였습니다."
+},
+{
+"start": 2575.6,
+"end": 2601.4,
+"text": "이러한 증가는 비단 국내에서의 네이버 뿐만이 아니라 경쟁사도 마찬가지일 것 같고요. 또 해외에서는 페이스북이나 구글, 바이듀 등도 굉장한 인력 채용을 공격적으로 하고 있습니다. 지난 1년 반 정도 한 기간 동안의 어떤 신규 채용과 비교해서 향후의 1년, 1년 반 동안은"
+},
+{
+"start": 2601.4,
+"end": 2618.3,
+"text": "이러한 채용 증가 추세가 계속 이어질 것이냐에 대한 질문에 대해서는 저희가 지금 속단하기는 어렵지만 분명히 채용은 계속 이루어져야 될 것 같고요. 다만 증가폭 자체에 대해서는 아마 지금까지 보다 더 적극적이다, 크다 라고 말씀드릴 수 있을 것 같지는 않습니다."
+},
+{
+"start": 2620.8,
+"end": 2649.9,
+"text": "탑 탤런트 사업의 증폭은 네이버 뿐만 아니라, 페이스북, 구글, 바이듀 등 국내 회사들로 인해 매우 강력하게 탈런트를 얻고 있습니다. 그래서 여러분의 질문은 지난 1.5년 동안 우리에게 전달된 그런 트렌드가 있다면, 앞으로 1년이나 1.6년 동안 계속될 것인지에 대한 질문이었습니다.",
+"repaired": true
+},
+{
+"start": 2649.9,
+"end": 2678.9,
+"text": "두 번째 질문은 스노우와 웹툰처럼 최근 2년 이내 별도 법인으로 분할한 플랫폼의 손실 증가폭이 커 보인다."
+},
+{
+"start": 2678.9,
+"end": 2708.0,
+"text": "언제까지 이렇게 지속이 되고 또 수익화 시점은 언제일까에 대한 질문을 주셨는데요. 저희 네이버는 앞서 말씀드린 기술인력들에 대한 투자 외에도 사업 확장을 위한 다양한 투자를 적극적으로 진행을 하고 있습니다. 특히 웹툰이나 스노우, VLIVE 같은 콘텐츠 서비스들은 현재 글로벌 확장에 매진하고 있는 시점입니다. 그래서 실제로 그 성과들이 서비스의 이용자 지표 등으로 꾸준하게 나타나고 있고요."
+},
+{
+"start": 2708.0,
+"end": 2735.5,
+"text": "특히 저희가 목표로 하고 있는 각 지역에서의 성과나 서비스의 안정적인 안착까지는 시간이 좀 걸리고 있는 편입니다."
+},
+{
+"start": 2735.5,
+"end": 2764.7,
+"text": "그리고 많은 업무가 있습니다."
+},
+{
+"start": 2765.0,
+"end": 2794.3,
+"text": "특히 웹툰이나 스노우의 비용 증가 부분은 저희가 비용 분석을 해보면 실질적으로 글로벌 시장 확대를 위한 마케팅 비용의 증가가 대부분이기 때문에 이 부분을 제외를 하면 어느 정도 비용은 저희가 관리를 하고 있다고 생각을 하고요. 실제 웹툰의 어떤 국내 시장, 그 다음에 스노우의 최근 쨈 라이브 같은 그런 서비스들은 나름대로 수익 모델들이 어느 정도 자리를 잡아가고 있고 또 다양한 가능성들을 테스트를 하고 있는 상황입니다."
+},
+{
+"start": 2794.3,
+"end": 2816.9,
+"text": "특히 JemLive는 국내 성적이 꽤 많이 증가해서 최근에 17만 명 돌팔했고요. 서비스를 써보신 분들은 아시겠지만 스폰서 광고 등의 수익 모델들을 테스트를 하고 있고 이런 부분들의 확장을 기대를 할 수 있을 것 같습니다."
+},
+{
+"start": 2816.9,
+"end": 2845.0,
+"text": "mostly it has to do with marketing expenses for the purpose of global expansion so if you were to carve out the marketing expense then most of the other cost items are being well managed webtoon is quite successful within the domestic market and also if you look at snow we have jam live services so we have these business models that have been actually quite well established and we are testing many different options and many different approaches"
+},
+{
+"start": 2845.0,
+"end": 2873.1,
+"text": "마지막으로 네이버가 초기에 저희가 성장하면서 그랬듯이 웹툰이나 스노우 같은 플랫폼들은 굉장히 빠르게 경쟁 환경이 변하고 있고요."
+},
+{
+"start": 2873.1,
+"end": 2903.0,
+"text": "또 소비자들의 어떤 그런 기호도 바뀌고 있기 때문에 사실 이러한 인터넷 서비스의 특성은 향후 매출을 쉽게 예측하기에는 굉장히 어려운 부분이 있습니다. 하지만 지금까지 네이버가 성장한 것처럼 꾸준하게 투자를 하고 저희 서비스 경쟁력을 강화해서 제2, 제3의 라인이 만들어지도록 계속 노력할 계획입니다."
+},
+{
+"start": 2903.0,
+"end": 2931.7,
+"text": "Webtoon & Snow is in a market and an industry where the competitive landscape is changing so rapidly and also the tastes and preferences of the user base is also changing very rapidly as well. Therefore, it is very difficult to make a clear and specific projection for the future. However, as we have done through the growth phase of Naver, we will continue to stick to investment and also strengthening of our service competitive."
+},
+{
+"start": 2931.8,
+"end": 2964.0,
+"text": "다음으로 질문해주실 분은 CLSA의 노승주님입니다. 다음 질문은 CLSA의 클로스에서의 질문을 드리겠습니다. 감사합니다. 두 가지 질문이 있는데요. 네이버 쇼핑하고 스마트 쇼핑 사업이 계속 꾸준히 성장하는 걸로 파악되는데요."
+},
+{
+"start": 2964.0,
+"end": 2992.7,
+"text": "이로 인해 여타 오픈마켓 사업자와의 이해 상충은 없는지 궁금하고요. 이에 대한 지금 참석하신 경영진 분들의 생각이 어떠신지 궁금했습니다. 두 번째 질문은 앞서 메인 화면 개편과 관련된 답변 주실 때 광고에 부정적인 영향이 있을 수도 있다고 말씀하셨는데요. 말씀하신 배경이 그게 메인 화면 개편으로 인해 광고 영향이 줄어들어서 그럴 수 있는 건지 아니면 뉴스를 사용하시는 사용자분들의 시간이..."
+},
+{
+"start": 2992.7,
+"end": 3015.9,
+"text": "그렇게 될 수도 있는 건지 그것도 조금 더 부연 설명해 주시면 감사드리겠습니다."
+},
+{
+"start": 3015.9,
+"end": 3046.0,
+"text": "네이버 쇼핑의 성장과 합작자들의 여러가지 예관계 질문을 주셨는데요."
+},
+{
+"start": 3046.0,
+"end": 3072.9,
+"text": "네이버 쇼핑은 저희 사용자들에게 좋은 DB를 제공하고 편리한 쇼핑 검증이 될 수 있도록 하고 있고 판매자들의 판매 증대에 기여할 수 있는 좋은 플랫폼 역할을 하는 것이 궁극적 목표입니다. 이에 이런 노력의 일환으로 네이버 쇼핑을 통한 그렉이 계속 증가하고 있는데 네이버 쇼핑에 입점한 오픈마켓 사업자들의 그렉도"
+},
+{
+"start": 3072.9,
+"end": 3098.9,
+"text": "꾸준히 증가를 하고 있어서 이로 인해서 서로 좋은 제휴 관계에 있다고 생각을 하고 앞으로도 저희 제휴사업자와 같이 성장할 수 있도록 노력해 나가려고 생각하고 있습니다 네이버 쇼핑의 성장에 대한 질문을 하셨습니다 오픈마켓 제휴에 대한 상담이 가능한지에 대해 말씀해 주셨습니다",
+"repaired": true
+},
+{
+"start": 3098.9,
+"end": 3120.8,
+"text": "네이버의 주요가, 저희는 좋은 데이터를 사용하는 데이터를 사용하는 데이터를 사용하는 데이터를 사용하는 데이터를 사용하는 데이터를 사용하는 데이터를 사용하는 데이터를 사용하는 데이터를 사용하는 데이터를 사용하는 데이터를 사용하는 데이터를 사용하는 데이터를 사용하는 데이터를 사용하는 데이터를 사용하는 데이터를 사용하는 데이터를 사용하는 데이터를 사용하는 데이터를 사용하는 데이터를 사용하는 데이터를 사용하는 데이터를 사용하는 데이터를 사용하는 데이터를 사용하는 데이터를 사용하는 데이터를 사용하는 데이터를 사용하는 데이터를 사용하는 데이터를 사용하는 데이터를 사용하는 데이터를 사용하는 데이터를 사용하는 데이터를 사용하는 데이터를 사용하는 데이터를 사용하는 데이터�"
+},
+{
+"start": 3120.8,
+"end": 3147.1,
+"text": "두 번째 모바일 개편에 대한 광고 역량에 대해서 질문 주셨는데요."
+},
+{
+"start": 3147.1,
+"end": 3166.5,
+"text": "방향성은 정해져 있지만 구체적 안이 아직 계속 디벨롭 중이고 확정이 되지 않고 있어서 어떤 영향으로 영향을 줄지는 아직 저희도 예측은 조심스럽게 해보고 있고 구성화가 확정이 되면 또 나중에 화면을 보시면 쉽게 알 수 있지 않을까 생각을 합니다."
+},
+{
+"start": 3168.1,
+"end": 3183.8,
+"text": "이제는 우리의 모바일을 사용할 수 있습니다."
+},
+{
+"start": 3183.8,
+"end": 3213.5,
+"text": "하지만 이번 메인 개편이 큰 변화를 줄 거라고 생각하고 있고 사용자 입장에서도 적용하는 시간들이 걸릴 거라고 예상하고 있습니다. 그래서 그 관점에서 저희가 잘 안착할 수 있도록 여러 가지 고민과 준비를 하고 있습니다."
+},
+{
+"start": 3214.4,
+"end": 3242.8,
+"text": "다음으로 질문해 주실 분은 삼성증권의 오동환입니다."
+},
+{
+"start": 3242.9,
+"end": 3268.1,
+"text": "The following question will be presented by Mr. Donghwan Oh from Samsung Securities. Please go ahead with your question, sir."
+},
+{
+"start": 3268.1,
+"end": 3281.5,
+"text": "저희의 자율주행차 개발 단계 그리고 상용화 시점 이런 점들은 어느 정도까지 왔는지 궁금합니다."
+},
+{
+"start": 3281.5,
+"end": 3316.8,
+"text": "쇼핑 검색 광고 질문 주셨는데 저희가 지난 1분기 실적 파이프트 말씀드렸는데 저희 과금 파탄수 1분기에는 약 2만 3천 분"
+},
+{
+"start": 3316.8,
+"end": 3344.1,
+"text": "지금 6월 말 현재 약 2만 6천분의 명예 광고주가 쇼핑 검색 광고를 이용하고 있어서 광고주들의 반응은 되게 좋고 광고주가 꾸준히 증가하고 있습니다. 저희는 쇼핑 검색 광고를 통해서 검색 품질과 상품 개선에 계속 집중하고 있고 이를 통해서 매출은 꾸준히 성장을 하고 있습니다. 매출 드라이브보다는 서비스 품질의 유지"
+},
+{
+"start": 3344.1,
+"end": 3364.8,
+"text": "유지를 하고 있고 그로 인해서 자연스럽게 매출은 증가하고 있고요. 향후 카테고리들을 조금씩 확장하고 있어서 이용자 니즈를 고려해서 확장하고 있고 이로 인해서 당분간 상품 개선도 좋아지고 광고주 증가세는 계속 지속될 것으로 예상하고 있습니다."
+},
+{
+"start": 3366.6,
+"end": 3388.3,
+"text": "Q1에 대해서는 저희는 23,000에서의 주인공에 대해서는 23,000에서의 주인공에 대해서는 26,000에서의 주인공에 대해서는 26,000에서의 주인공에 대해서는 26,000에서의 주인공에 대해서는 26,000에서의 주인공에 대해서는 26,000에서의 주인공에 대해서는 26,000에서의 주인공에 대해서는 26,000에서의 주인공에 대해서는 26,000에서의 주인공에 대해서는 26,000에서의 주인공에 대해서는 26,000에서의 주인공에 대해서는 26,000에서의 주인공에 대해서는 26,000에서의 주인공에 대해서는 26,000에서의 주인공에 대해서는 26,000에서의 주인공에 대해서는 26,000에서의 주인공에 대해서는 26,000에서의 주인공에 대해서는 26,000에서의 주인공에 대해서는 26,000에서의 주인공"
+},
+{
+"start": 3388.3,
+"end": 3418.6,
+"text": "네, 두 번째 자율주행차"
+},
+{
+"start": 3418.6,
+"end": 3446.7,
+"text": "저희의 상경화 시점과 개발 관계에 대해서 질문을 해주셨는데요. 저희 네이버 랩스에서 진행하고 있는 자율주행차 부분은 현재 저희가 일반 도로 시험주행을 통해서 실제 도로주행 환경상에서의 데이터를 축적하고 분석해서 기술 완성도를 높이기 위해서 노력을 하고 있습니다. 추가로 이런 완성도를 높이기 위해서 지난 5월에는 레이더나"
+},
+{
+"start": 3446.7,
+"end": 3474.7,
+"text": "카메라 등 차량 센서 분야에서 국내 최고 기술을 가진 만도와 MOU를 체결해서 같이 개발 고도화를 위해서 노력을 하고 있습니다."
+},
+{
+"start": 3474.7,
+"end": 3503.8,
+"text": "이 기술을 통해서 이 기술을 통해서 이 기술을 통해서 이 기술을 통해서 이 기술을 통해서 이 기술을 통해서 이 기술을 통해서 이 기술을 통해서 이 기술을 통해서 이 기술을 통해서 이 기술을 통해서 이 기술을 통해서 이 기술을 통해서 이 기술을 통해서 이 기술을 통해서 이 기술을 통해서 이 기술을 통해서 이 기술을 통해서 이 기술을 통해서 이 기술을 통해서 이 기술을 통해서 이 기술을 통해서 이 기술을 통해서 이 기술을 통해서 이 기술을 통해서 이 기술을 통해서 이 기술을 통해서 이 기술을 통해서 이 기술을 통해서 이 기술을 통해서 이 기술을 통해서 이 기술을 통해서 이 기술을 통해서 이 기술을 통해서 이 기술을 통해서 이 기술을 통해서 이 기술을 통해서 이 기"
+},
+{
+"start": 3503.9,
+"end": 3535.5,
+"text": "저희의 개발 단계는 미국 자동차공학회에서 아마 제시하는 SAE 개발 단계 가운데 3.5에서 4 정도 되는 걸로 알고 있고요. 아직 상환 시점에 대해서는 아직 계획은 있지 않기 때문에 구체적으로 말씀드리기는 어려울 것 같습니다."
+},
+{
+"start": 3535.5,
+"end": 3568.1,
+"text": "다음으로 질문해주실 분은 UBS의 김태원입니다."
+},
+{
+"start": 3568.1,
+"end": 3597.3,
+"text": "그리고 두 번째 질문은 저희 주주환원 정책에 대해서 말씀 주셔서 추가 질문 드리고 싶은데요."
+},
+{
+"start": 3597.3,
+"end": 3625.7,
+"text": "자사주 소각도 같은 맥락에서 같이 고려 중이신지 궁금합니다. 감사합니다."
+},
+{
+"start": 3625.7,
+"end": 3656.2,
+"text": "네이버 페이의 네이버 페이가 참여하게 되었는데요. 네이버는 그동안 소상공인들의 창업"
+},
+{
+"start": 3656.2,
+"end": 3681.6,
+"text": "사업성장 그리고 이를 위한 지원들에 대해서 여러 가지 노력을 해왔습니다. 이번 서울페이의 경우도 소상공인들의 수수료 인하라는 좋은 취지가 있고 그 다음에 네이버 페이 사용자들의 결제 경험의 사용성을 오프라인에도 경험할 수 있도록 확장하는 개념으로 저희는 접근하고 있고"
+},
+{
+"start": 3681.6,
+"end": 3700.2,
+"text": "네이버페이은 소울페이의 지원을 통해 소울페이의 지원을 통해 소울페이의 지원을 통해 소울페이의 지원을 통해 소울페이의 지원을 통해 소울페이의 지원을 통해 소울페이의 지원을 통해 소울페이의 지원을 통해 소울페이의 지원을 통해 소울페이의 지원을 통해 소울페이의 지원을 통해 소울페이의 지원을 통해 소울페이의 지원을 통해 소울페이의 지원을 통해 소울페이의 지원을 통해 소울페이의 지원을 통해 소울페이의 지원을 통해 소울페이의 지원을 통해 소울페이의 지원을 통해 소울페이의 지원을 통해 소울페이의 지원을 통해 소울페이의 지원을 통해 소울페이의 지원을 통해 소울페이의 지원을 통해 소울"
+},
+{
+"start": 3700.2,
+"end": 3729.5,
+"text": "서울페이의 지원을 지원하는 것입니다. 서울페이의 지원을 지원하는 것입니다. 서울페이의 지원을 지원하는 것입니다. 서울페이의 지원을 지원하는 것입니다. 서울페이의 지원을 지원하는 것입니다. 서울페이의 지원을 지원하는 것입니다. 서울페이의 지원을 지원하는 것입니다. 서울페이의 지원을 지원하는 것입니다. 서울페이의 지원을 지원하는 것입니다. 서울페이의 지원을 지원하는 것입니다. 서울페이의 지원을 지원하는 것입니다. 서울페이의 지원을 지원하는 것입니다. 서울페이의 지원을 지원하는 것입니다. 서울페이의 지원을 지원하는 것입니다. 서울페이의 지원을 지원하는 것입니다. 서울페이의 지원을 지원하는 것입니다. 서울페이의 지원을 지원하는 것입니다. 서울페이의 지원을 지원하는 것입니다. 서울페이의 지원을 지원하는 것입니다. 서울페이의 지원을 지원하는 것입니다. 서울페이의"
+},
+{
+"start": 3729.5,
+"end": 3759.9,
+"text": "두 번째로 질문해주신 주주관원 정책의 자사주 소각 계획에 대해서 말씀을 드리면요."
+},
+{
+"start": 3759.9,
+"end": 3785.4,
+"text": "주주환환한 정책을 유지를 하고 있고요. 그 결과로 저희가 연초에 배당과 함께 자사주 매입을 했습니다. 사실 자사주 소각도 하나의 수단이 될 수 있긴 하지만 지금까지 저희가 그랬던 것처럼 아직까지는 주로 자사주 매입과 배당의 형태를 통해서 주주환환 정책을 계속 펼쳐나갈 계획이고요. 자사주 소각도 장기적으로는"
+},
+{
+"start": 3785.4,
+"end": 3816.9,
+"text": "하나의 좋은 정책이 될 수 있다고 생각합니다. 하지만 아직은 당장 검토하고 있는 바는 없습니다."
+},
+{
+"start": 3816.9,
+"end": 3847.6,
+"text": "다음으로 질문해주실 분은 모건 스탠리의 박세현님입니다."
+},
+{
+"start": 3847.7,
+"end": 3876.0,
+"text": "다음 질문은 세연 파크의 모ργ한 스탠리입니다. 질문을 하세요."
+},
+{
+"start": 3876.0,
+"end": 3901.1,
+"text": "결국 투자라는 것은 리턴이 온다는 과정이 붙는 건데 우리가 이 투자에 대한 리턴을 언제까지 기다릴 수 있는지가 궁금합니다. 지금 라인을 제한 네이버 주요 사업의 영업하진률이 30%대 후반에서 거의 30% 초반까지 빠졌는데 계속해서 투자를 한다면 30% 아래까지도 가는 것을"
+},
+{
+"start": 3901.1,
+"end": 3930.5,
+"text": "투자 입장에서는 기대를 어느 정도 해야 되는지도 궁금하고요. 두 번째 질문은 자사주 소각을 아까 김턴 연구원님이 언급을 했는데 이걸 안 하는 이유가 혹시 뭔지 좀 들을 수 있을까요? 이게 따로 현금이 들어가는 것도 아니고 사실 소각이 없는 자사주 매입은 실질적인 어떤"
+},
+{
+"start": 3930.5,
+"end": 3956.4,
+"text": "주주 환원으로 사실 보기엔 좀 어려운 면이 있어서 이 결정에 들어가는 고려사항이 뭔지 좀 궁금합니다. 고맙습니다."
+},
+{
+"start": 3956.4,
+"end": 3984.1,
+"text": "이 시각 세계였습니다."
+},
+{
+"start": 3984.1,
+"end": 4014.1,
+"text": "네, 먼저 질문하신 투자가 계속 확대되고 있는데 이러한 투자가 언제까지 이루어지고 리턴이 언제쯤 가능한 것이냐."
+},
+{
+"start": 4014.1,
+"end": 4040.9,
+"text": "지속적인 마진 하락이 계속 예상이 되는데 이런 것에 대한 전망을 질문을 하셨고요. 사실 투자의 필요성에 대해서는 저희가 모두에서 그리고 몇 가지 인력이라든가 이런 질문에 대해서 계속 답변을 드렸고요. 이 리턴 시점에 대해서는 사실 저희 비즈니스가 굉장히 경쟁이 치열하고 급격하게 변하는 상황이 이루어지기 때문에 솔직히 정확하게 말씀드릴 수는 없을 것 같긴 합니다."
+},
+{
+"start": 4042.7,
+"end": 4067.6,
+"text": "Your question had to do with how the investment is increasing and ongoing and when can we expect a return since we are experiencing an erosion of the margin. In terms of the necessity and inevitability of the investment, I think I've previously explained that. In terms of the return from such investment, because the business that we are in has a lot of..."
+},
+{
+"start": 4067.6,
+"end": 4097.0,
+"text": "하지만 저희가 네이버가 내년이면 20주년이 되는데요. 처음에 검색에서 1위 사업자가 되기 위해서 투자했던 시점이나 저희가 모바일로 플랫폼이 전환되는 시점에서 기존의 위치를 유지하고 또 일본에서 새로운 라인이라는 플랫폼을 런칭시키기 위해서 투자했던 어떤 시간과 어떤 투자 규모를 고려해보면"
+},
+{
+"start": 4097.0,
+"end": 4125.0,
+"text": "지금은 또 하나의 새로운 프로덕트를 만들기 위한 도전의 과정에 있다고 보고요. 그 투자는 당분간은 불가피할 것 같습니다. 하지만 저희가 투자의 어떤 성과가 보이지 않거나 어떤 투자의 결과가 의미가 없는 부분에 투자하는 일은 절대 없을 거고요. 저희 경영진들도 지속적으로 투자의 어떤 성과와 결과를 도출하기 위해서 지속적인 목표 관리와 어떤 토플리오 관리를 잘 하고 있습니다."
+},
+{
+"start": 4127.4,
+"end": 4135.4,
+"text": "다음 년에는 네이버가 20주년을 축하할 예정입니다.",
+"repaired": true
+},
+{
+"start": 4135.4,
+"end": 4161.1,
+"text": "We are now in a process of a challenging road, just as we made investments to become number one as a search engine, and just as we successfully transformed ourselves to befit the changing times of where there was a significant migration to a mobile platform, and also just as when we had made investments into LINE and made that success, LINE Japan."
+},
+{
+"start": 4161.1,
+"end": 4175.4,
+"text": "지금 지금 그 시간을 맞춰서는 우리에게는 중요한 시간을 맞춰서 우리가 그 시간을 맞춰서 우리가 맞춰서 우리가 맞춰서 우리에게는 어려운 상황을 맞춰서 우리에게는 어려운 상황을 맞춰서 우리에게는 어려운 상황을 맞춰서 우리에게는 어려운 상황을 맞춰서 우리에게는 어려운 상황을 맞춰서 우리에게는 어려운 상황을 맞춰서 우리에게는 어려운 상황을 맞춰서 우리에게는 어려운 상황을 맞춰서 우리에게는 어려운 상황을 맞춰서 우리에게는 어려운 상황을 맞춰서 우리에게는 어려운 상황을 맞춰서 우리에게는 어려운 상황을 맞춰서 우리에게는 어려운 상황을 맞춰서 우리에게는 어려운 상황을 맞춰서 우리에게는 어려운 상황을 맞춰서 우리에게는 어려운 상황을 맞춰서 우리에게는 어려운 상황을 맞춰서 우리에게는 어려운 상황을 맞춰서 우리에게는 어려운 상황을 맞춰서 우리"
+},
+{
+"start": 4175.4,
+"end": 4202.6,
+"text": "이러한 투자 및 비용 지출의 결과로 마진율이 하락을 하고 있고요."
+},
+{
+"start": 4202.6,
+"end": 4229.6,
+"text": "작년에 저희가 연결 기준 말고 네이버 플랫폼 부문의 영업이익률이 30% 중반이었는데 지금 1분기 2분기 30% 초반도 내려왔는데요. 일단 올해는 저희가 네이버 플랫폼의 영업이익률은 30% 초반을 유지할 것으로 전망합니다. 물론 투자의 어떤 속도나 규모의 증가에 따라 내년에는 이 부분도 좀 하락할 여지도 있지만 계속적으로 저희는 좀 효율적인"
+},
+{
+"start": 4229.6,
+"end": 4235.2,
+"text": "투자와 함께 성과가 나도록 노력을 하고 있습니다."
+},
+{
+"start": 4235.2,
+"end": 4262.4,
+"text": "With such investment and spending, margin is going down. But if you look at Naver platform only, not on a consolidated basis, basically its margin used to be in the mid-30%, but Q1 and Q2, it was lower to the early 30%. So for this year, we think for Naver platform margin, it will stay at a lower 30% level."
+},
+{
+"start": 4262.4,
+"end": 4291.0,
+"text": "두 번째 질문은 자사주 소각을 안 하는 이유에 대해서 질문을 해주셨는데요. 저희가 생각하는 자사주는 어떤 형태로든 주주에게 이익이 되는 주주 환원의 수단으로 쓰여져야 합니다."
+},
+{
+"start": 4291.0,
+"end": 4320.1,
+"text": "된다는 생각에는 절대 변함이 없습니다. 그렇기 때문에 저희가 내부적으로 설정한 주주환환 정책에 근거해서 지금까지 줄곧 한 8년 동안 자사주를 매입을 해왔고요. 다만 지금 저희가 자사주를 소각하지 않는 이유는 조금 전에 말씀드렸던 투자의 어떤 그런 배경과도 같이 결부지껴서 설명드릴 수 있을 것 같습니다. 지금 현재 네이버가 보유한 캐시가 2조가 좀 안 되는데요. 1조 5천억 정도 되는데 사실 저희의 이런 투자 재원은"
+},
+{
+"start": 4320.1,
+"end": 4346.1,
+"text": "글로벌 피어들과 비교하면 굉장히 작은 규모입니다. 그래서 저희가 가능하다면 가용 형성평 자산을 확보를 해서 투자의 기회가 생겼고 의미 있는 성과가 나는 곳이 있을 때 어떻게 보면 회사 가치가 상승할 수 있는 곳에 쓸 수 있다는 기대감이 있기 때문에 이런 부분에 쓸 수 있다면 단순한 소각보다는 훨씬 더 주주에게 가는 이익이 클 거라고 생각을 해서 저희가 자사주 소각 부분은 신중하게 접근하겠습니다."
+},
+{
+"start": 4348.0,
+"end": 4372.9,
+"text": "이제 두 번째 질문에 대해선, 왜 공채가 없다고 생각하는지에 대해 답변 드리겠습니다. 우리 회사의 정책은 공채를 사용하는 것입니다. 공채로 인한 혜택이 있어야 합니다. 즉, 공채로 다시 돌아올 수 있도록 사용해야 합니다. 이 정책에 대해서 논의하고 있습니다. 그리고 지난 8년 동안 공채도 구입을 하고 있습니다. 그럼 왜 공세가 없다는 것입니까?",
+"repaired": true
+},
+{
+"start": 4372.9,
+"end": 4389.0,
+"text": "I think that can be explained together with the whole initiative around investment. NAEVA currently holds less than $2 trillion, around $1.5 trillion of cash, and compared to our global peers, these investment resources are significantly smaller."
+},
+{
+"start": 4389.0,
+"end": 4419.7,
+"text": "네, 그럼 시간 관계상 앞으로 한 분의 질문을 더 받도록 하겠습니다. 추가 질문은 저희 IR팀으로 부탁드릴게요."
+},
+{
+"start": 4419.7,
+"end": 4450.5,
+"text": "마지막으로 질문해주실 분은 하위투자증권의 김민정님입니다. 질문 기회 감사합니다. 저도 두 가지 질문이 있는데요. 첫 번째는 최근에 데일리 모션이라는 VLIVE와 성격이 비슷한 외산 동영상 서비스가 한국에 진출도 했고"
+},
+{
+"start": 4450.5,
+"end": 4468.5,
+"text": "동영상 사업에 있어서 별도의 동영상 스트리밍 앱이 아니고 네이버 내 블로그 동영상 강화만으로 어떻게 글로벌 동영상 스트리밍 업체랑 경쟁을 하실지 궁금하고요. 그리고 두 번째는 웹툰 사업에 있어서 경쟁이 심화되고 있는데"
+},
+{
+"start": 4468.5,
+"end": 4498.7,
+"text": "경쟁사가 기다리면 모르라는 서비스로 트래픽을 많이 끌어올린 것처럼 네이버 간의 차별화된 전략이 있으신지 그리고 웹툰 IP를 활용한 영상 콘텐츠 사업 전략도 있으시면 좀 공유 부탁드리겠습니다."
+},
+{
+"start": 4498.7,
+"end": 4526.7,
+"text": "I would like to understand how Naver is going to really strengthen and solidify its video services without having a separate streaming application. How are you going to compete with your global peers? And secondly, your Webtoon service is also faced with quite severe competition with your competitor coming up with a new product which generated high level of traffic. So could you elaborate as to how you would respond to such competitive pressure?"
+},
+{
+"start": 4526.7,
+"end": 4558.0,
+"text": "그리고 웹툰 IP를 사용하는 방법은 무엇인가요?"
+},
+{
+"start": 4558.0,
+"end": 4586.8,
+"text": "하지만 그 가운데서도 여전히 유튜브가 가장 동영상 시장에서는 독점적인 지위를 확보하고 있고 트래픽을 꾸준히 늘려가고 있다고 생각을 하고요. 이러한 어떤 유튜브에 대한 네이버의 동영상 전략은 일단은 조금은 달라야 될 것 같은데요. 먼저 방송국이나 어떤 스튜디오나 기획사들과의 협업이나 또 다양한 주제에서의 어떤 영상 소싱, 또 하우터 영상 소싱 등의 어떤 집중을 통해서"
+},
+{
+"start": 4586.8,
+"end": 4614.1,
+"text": "네이버에서만 볼 수 있는 영상 확보를 위해서 노력을 해야 될 것 같습니다. 그리고 두 번째로는 엔터테인먼트 분야에 좀 더 집중을 해서 해당 영역에서 V LIVE를 통해서 글로벌 탑 엔터테인먼트 플랫폼 위치를 가져오고자 하는 부분이 있고요. 또 마지막으로는 기존 네이버 TV의 채널 개선 승인 절차 등을 완화해가면서 네이버 이용자라면 누구나 네이버에서 쉽게 영상을 올리고"
+},
+{
+"start": 4614.1,
+"end": 4644.1,
+"text": "크리에이터가 될 수 있도록 준비를 해나가는 형태로 저희가 대응을 해나가려고 합니다."
+},
+{
+"start": 4644.1,
+"end": 4671.1,
+"text": "수업을 통해서 많은 수업을 통해서 사용하는 것입니다. 모든 서비스에서 유튜브는, 유튜브는, 이 점점의 전쟁이 많습니다. 유튜브는, 유튜브에 대한 전쟁이 많습니다. 유튜브에 대한 전쟁이 많습니다. 유튜브에 대한 전쟁이 많습니다. 유튜브에 대한 전쟁이 많습니다. 유튜브에 대한 전쟁이 많습니다. 유튜브에 대한 전쟁이 많습니다. 유튜브에 대한 전쟁이 많습니다."
+},
+{
+"start": 4671.1,
+"end": 4697.6,
+"text": "네이버 플랫폼을 통해 사람들이 시청할 수 있는 비디오 콘텐츠를 제공할 것입니다. 또한, V LIVE 서비스를 통해 엔터테인먼트 시스템에 집중할 것이라고 생각합니다. 그리고 세 번째는 네이버 TV에 채널을 열어보기 위해서 도움을 드리고 싶습니다",
+"repaired": true
+},
+{
+"start": 4697.6,
+"end": 4727.8,
+"text": "두 번째 질문은 웹툰의 어떤 차별화된 상품 전략이라든가 IP 발용에 대해서 질문을 해주셨는데요."
+},
+{
+"start": 4727.8,
+"end": 4756.6,
+"text": "어떻게 보면 최초로 유료 모델들을 많은 부분들을 시도했고요. 특히 일본에서는 유료화 모델이 제법 안정적으로 안착이 된 라인 망가와 같이 결합을 해서 시장 경쟁력과 시너지를 창출할 예정입니다. 그리고 미국도 지금 보면 MAU나 DAU가 의미 있는 지표를 보여주고 있는데요. 미국은 아직은 자유로운 창작자 참여 코너인 디스커버에"
+},
+{
+"start": 4756.6,
+"end": 4784.5,
+"text": "인센티브 제도 강화 등을 통해서 더 많은 창작자들이 참여하고 또 마케팅을 통한 사용자 확보를 해나갈 계획입니다."
+},
+{
+"start": 4784.5,
+"end": 4812.2,
+"text": "그리고 일본과 함께하는 것과 함께하는 것과 함께하는 것과 함께하는 것과 함께하는 것과 함께하는 것과 함께하는 것과 함께하는 것과 함께하는 것과 함께하는 것과 함께하는 것과 함께하는 것과 함께하는 것과 함께하는 것과 함께하는 것과 함께하는 것과 함께하는 것과 함께하는 것과 함께하는 것과 함께하는 것과 함께하는 것과 함께하는 것과 함께하는 것과 함께하는 것과 함께하는 것과 함께하는 것과 함께하는 것과 함께하는 것과 함께하는 것과 함께하는 것과 함께하는 것과 함께하는 것과 함께하는 것과 함께하는 것과 함께하는 것과 함께하는 것과 함께하는 것과 함께하는 것과 함께하는 것과 함께하는 것과 함께하는 것과 함께하는 것과 함께하는 것과 함께하는 것과 함께하는 것과 함께하는 것과 함께하는 것과 함께하는 것과 함께하는 것과 함께하는 것과 함께하는 것과 함께하는 것과 함께하는 것과 함께하는 것과 함께하는 것과 함께"
+},
+{
+"start": 4812.2,
+"end": 4839.1,
+"text": "오늘 저희가 아침에 공시를 한 것이 네이버 안에 있는 엔스토어의 TV 영화 부분을 분할을 해서 기존의 웹툰이 서비스하고 있고"
+},
+{
+"start": 4839.1,
+"end": 4868.8,
+"text": "웹툰 장르 소설 부분과 합병을 시킬 예정입니다. 그래서 향후 어떤 웹툰의 프리미엄 유료 컨텐츠 유통 플랫폼을 확대를 할 예정이고요. 이러한 어떤 나라 비용은 하반기에 완료될 예정인데 아마 이렇게 되면 웹툰의 오리지널 IP를 활용한 드라마라든가 영화 등의 어떤 파생 컨텐츠로의 연계가 굉장히 쉬워질 것 같고요. 이러한 확대를 통해서 기존의 웹툰과 컨텐츠 사업 규모 자체가 확도되고 다양한"
+},
+{
+"start": 4868.8,
+"end": 4890.8,
+"text": "시너지가 기대될 수 있을 것으로 전망하고 있습니다."
+},
+{
+"start": 4890.8,
+"end": 4916.5,
+"text": "저희는 이 시각 세계였습니다."
+},
+{
+"start": 4917.6,
+"end": 4931.7,
+"text": "그럼 이상으로 2분기 시작 발표를 마치겠습니다. 오늘 참석해주신 투자자분들께 다시 한번 감사의 말씀드립니다."
+}
+]

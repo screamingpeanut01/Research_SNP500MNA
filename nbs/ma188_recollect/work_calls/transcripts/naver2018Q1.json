@@ -1,0 +1,806 @@
+[
+{
+"start": 0.0,
+"end": 24.9,
+"text": "안녕하세요. IR 자산운종 담당 조기선입니다. 2018년 1분기 실적 발표에 참여해주신 투자가 여러분들께 감사의 말씀드립니다. 오늘 컨퍼런스 콜에는 한성숙 대표, 박상진 CFO, 최인혁 비즈니스 총괄이 참석해 있습니다. 본 실적 발표 내용은 2018년도 재개정된 한국채택국제회계기준을 기초로 작성된 것으로"
+},
+{
+"start": 24.9,
+"end": 48.5,
+"text": "회사의 경영 성과를 신속하게 제공하기 위해 외부 감사인의 회계 감사 전 기준으로 작성되었으며 사후 감사인의 검토 결과에 따라 변경할 수 있음을 알려드립니다. 오늘 진행은 먼저 네이버 현황을 중심으로 설명드리고 이어서 재무 성과에 대해 설명드리겠습니다. 그럼 먼저 사업 현황에 대해 한성국 대표가 말씀드리겠습니다."
+},
+{
+"start": 48.5,
+"end": 76.8,
+"text": "Q1 2018 earnings presentation"
+},
+{
+"start": 76.8,
+"end": 108.4,
+"text": "네이버는 AI, 블록체인 등 새로운 기술과 플랫폼 환경에서 글로벌 플레이어들과 경쟁하고 미래 기술을 확보하기 위해 관련 인재 확보에 지속적으로 투자하고 있습니다. AI 기반 기술 및 서비스 선점을 위해 다양한 파트너들과 협업하여"
+},
+{
+"start": 108.4,
+"end": 132.1,
+"text": "클로바 플랫폼을 확장해 나감과 동시에 네이버 검색과의 연계를 강화하여 기존 핵심 사업의 생태계를 확대하고 있습니다. 3월에는 국내외 석박사 400명을 초청하여 네이버 AI 콜로키움 행사를 개최하였고 지난 12일에는 네이버 라인 홍콩과학기술대학 AI 연구소도 개소했습니다."
+},
+{
+"start": 132.1,
+"end": 147.4,
+"text": "이는 네이벌 앱스 유럽에 이은 두 번째 해외 AI 연구소로서 글로벌 기술 인재를 발굴함과 동시에 산학 공동 연구의 시너지를 발휘해 나갈 계획입니다."
+},
+{
+"start": 147.4,
+"end": 172.8,
+"text": "저희는 Ava의 연구소에 대한 연구소에 대한 연구소에 대한 연구소에 대한 연구소에 대한 연구소에 대한 연구소에 대한 연구소에 대한 연구소에 대한 연구소에 대한 연구소에 대한 연구소에 대한 연구소에 대한 연구소에 대한 연구소에 대한 연구소에 대한 연구소에 대한 연구소에 대한 연구소에 대한 연구소에 대한 연구소에 대한 연구소에 대한 연구소에 대한 연구소에 대한 연구소에 대한 연구소에 대한 연구소에 대한 연구소에 대한 연구소에 대한 연구소에 대한 연구소에 대한 연구소에 대한 연구소에 대한 연구소에 대한 연구소에 대한 연구소에 대한 연구소에 대한 연구소에 대한 연구소에 대한 연구소에 대한 연구소에 대한 연구소에 대한 연구소에 대한 연구소에"
+},
+{
+"start": 172.8,
+"end": 201.5,
+"text": "Also, by strengthening linkages with NAVER Search, we are broadening our core business ecosystem. In March, we hosted NAVER AI Colloquium, inviting 400 engineers and PhDs from both Korea and abroad, and also opened NAVER and LINE Hong Kong University of Science and Technology Laboratory earlier this month. This is the second overseas AI laboratory following NAVER Labs in Europe."
+},
+{
+"start": 201.5,
+"end": 230.5,
+"text": "We plan to discover global technology talent and bring about synergies from industry, academia, research collaborations."
+},
+{
+"start": 230.5,
+"end": 260.3,
+"text": "다양한 제품군으로 지속 확대할 예정이며 사용자들이 생활 속에서 음악 감상, 간편 주문 등 다양한 서비스 접점을 늘려감으로써 궁극적으로는 네이버의 컨텐츠와 검색 품질 향상에 기여할 것으로 기대하고 있습니다. 뉴스와 쇼핑을 시작으로 다양한 서비스 영역으로 확대되고 있는 컨텐츠 추천 기술은 러닝 기반으로 이용자의 취향을 고려하고 구매 패턴을 분석하여"
+},
+{
+"start": 260.3,
+"end": 285.8,
+"text": "기술이 점차 고도화되고 있습니다. 추천 기술 도입 이후 모바일 쇼핑판 내 AI템즈 추천 영역의 상품 노출과 클릭이 개선되고 이용자들의 긍정적인 피드백이 증가하고 있습니다."
+},
+{
+"start": 285.8,
+"end": 314.1,
+"text": "Qlova, AI platform, we plan to expand it beyond speakers to wearable devices, smart display, laptops, refrigerators, TV, mobile phones, and will continue to expand into different product categories. And as we increase service touchpoints in the users' daily lives as they listen to music, order things through simplified processes, we expect ultimately it will work to enhance neighbors' content and search quality."
+},
+{
+"start": 314.3,
+"end": 339.0,
+"text": "we began applying suggestion technology to news and shopping for contents and it is being expanded into various service areas as we speak the technology is becoming more sophisticated as it analyzes buying patterns and reflects users preferences based on deep learning since the adoption number of clicks and impressions inside the shopping tab's items"
+},
+{
+"start": 339.0,
+"end": 371.0,
+"text": "지난 2월에는 쇼핑 관련 빅데이터를 제공하는 쇼핑 인사이트 코너를 오픈하고 네이버 쇼핑에서 발생하는 데이터를 연령별, 성별, 기기별로 세분화해 제공함으로써 사업자가 고객의 니즈를 잘 유추하고 이를 마케팅에 활용할 수 있도록 있게 되었습니다. 네이버 페이는"
+},
+{
+"start": 371.0,
+"end": 400.1,
+"text": "20만 이상의 가맹점과 2,600만 명의 이용자를 연결하며 네이버의 검색과 쇼핑 서비스 흐름을 크게 개선하였고 이에 따른 이용자와 판매자 증가에 힘입어 높은 성장세를 유지하고 있습니다. 앞으로도 스몰 비즈니스와 사용자를 보다 잘 연결하는 데 집중하여 사용자의 효용과 중소상공인들의 사업 기회를 더욱 넓혀갈 계획입니다."
+},
+{
+"start": 400.4,
+"end": 418.8,
+"text": "Last February, we opened Shopping Insights that provide shopping-related big data. Basically, we segment data from neighbor shopping by age, gender, device, and offer them to business operators so that they may identify with customer needs and use such insights in marketing activities.",
+"repaired": true
+},
+{
+"start": 419.3,
+"end": 445.5,
+"text": "네이버페이 더 200,000 merchants with 26 million users and is sustaining a high growth rate, driven by innovative improvements in 네이버 search and shopping service flows, which boosted a growth in the number of users and sellers. We will continue to focus on connecting small businesses with shoppers so as to broaden users' benefit and small businesses' opportunities for success."
+},
+{
+"start": 446.5,
+"end": 469.5,
+"text": "웹툰 플랫폼은 새로운 문화를 만들어가며 미국과 인도네시아, 일본 중심으로 이용자가 지속적으로 증가하여 글로벌 MAU 4,600만 명을 달성하는 등 다양한 국가에서 1위 플랫폼으로 자리매김하고 있습니다."
+},
+{
+"start": 469.5,
+"end": 498.1,
+"text": "이용자들에게 새로운 즐거움을 선사하며 국내 실시간 동시 접속자 수가 11만 명을 돌파하는 등 좋은 성과를 거두고 있는 가운데 3월 일본 출시에 이어 프랑스 스타트업과의 제휴를 통한 현지 서비스도 준비 중으로 글로벌 서비스 기반을 만들어가고 있습니다."
+},
+{
+"start": 498.1,
+"end": 520.5,
+"text": "해외 이용자 비중이 80%로 글로벌 라이브 스트리밍 플랫폼으로서의 기반을 더욱 굳혀가고 있습니다. 네이버 뮤직은 AI 스피커 출시를 계기로 앞으로도 AI 기술을 바탕으로 한 취향 분석 및 추천 기능 강화와 DB 고도화를 통해 서비스를 차별화 시켜 나갈 계획입니다."
+},
+{
+"start": 521.9,
+"end": 551.4,
+"text": "The Webtoon platform is creating a new culture where users and creators come together and we are seeing user growth led by US, Indonesia and Japan with global MAU reaching 46 million people, positioning itself as the number one platform in various countries around the world. Snow launched Jam Live, which is a mobile live quiz show offering a new and a fun type of an entertainment and its outcome has been quite good."
+},
+{
+"start": 551.4,
+"end": 568.3,
+"text": "with concurrent number of users hitting above 110,000 mark in the domestic market. In addition, we have been building the base for global services by launching the service in Japan in March and preparing for a local service in France by partnering up with a local startup."
+},
+{
+"start": 568.7,
+"end": 584.5,
+"text": "Vlive, a special platform where artists and fans can communicate, saw its cumulative download at 46 million, 80% of which are overseas users, setting itself apart as a solid global live streaming platform."
+},
+{
+"start": 584.9,
+"end": 611.2,
+"text": "Following the introduction of AI speakers, NeighborMusic plans to differentiate its service offering by using AI technologies that further sophisticate the databases and recommendation functions based on the analysis of users' preference. Neighbor Cloud Platform NCP는 작년 한 해 다양한 상품을 개발하는 데 집중하여 제공 상품을 89개로 확대했으며"
+},
+{
+"start": 611.2,
+"end": 631.5,
+"text": "올해는 다양한 파트널들과 협업을 진행하는 한편 빅데이터 및 AI 솔루션과 갈합한 상품들을 추가로 출시하고 고객층을 차츰 늘려갈 계획입니다. 네이버랩스는 작년 제록스 리서치 센터 유럽 인수 이후 쇼핑 및 상품 검색 관련 이미지"
+},
+{
+"start": 631.5,
+"end": 657.2,
+"text": "실내 AR 내비게이션 등 다양한 프로젝트를 네이버와 네이버 랩스와 공동으로 진행하며 기술 연구와 협업에 더욱 매진하고 있습니다. 어제 예약 판매를 시작한 키즈폰 아키는 클로바 기반의 음성 명령 및 컨텐츠 검색 기능을 제공하며 네이버 랩스의 정확한 위치 측정, 장소 이해 기술을 기반으로"
+},
+{
+"start": 657.2,
+"end": 684.5,
+"text": "실내 공간에서도 정확한 위치 정보를 확인 가능하다는 장점을 가지고 있습니다."
+},
+{
+"start": 684.5,
+"end": 704.4,
+"text": "so as to gradually expand our customer base. Naver Labs continues to focus on R&D and collaboration in various projects such as shopping and product search related images and indoor GPS using AR technology together with Xerox Research Center Europe since its acquisition."
+},
+{
+"start": 704.4,
+"end": 735.1,
+"text": "Aki, which is a wearable kid's phone, which started its pre-order yesterday, allows users to search for contents through voice-enabled search by utilizing Clova, and has competitive edge on accurately placing the users' indoor location as it was based on Naver Labs' in-house developed technology of accurate location positioning system."
+},
+{
+"start": 735.1,
+"end": 759.6,
+"text": "미래를 준비해야 한다고 생각하며 올해도 전년도 이상으로 투자와 R&D 규모를 확대해 나갈 계획입니다. 이를 통해 새로운 가치를 창출하고 지속 가능한 성장의 토대를 만들고자 합니다. 네이버에 대한 지속적인 관심과 지원 부탁드리며 이어서 박상진 씨의 보호가 재무 부분에 대한 설명을 드리도록 하겠습니다."
+},
+{
+"start": 760.0,
+"end": 777.5,
+"text": "We at NAVER believe that in order to survive in this fierce global competitive environment, it is crucial to prepare for future with talent acquisition and technology development. In line with this belief, we will expand the size of investment and R&D from that of last year."
+},
+{
+"start": 778.4,
+"end": 809.1,
+"text": "안녕하세요. CFO 박상진입니다."
+},
+{
+"start": 809.1,
+"end": 838.1,
+"text": "전년 동기 대비 11.6%, 전분기 대비 11.7% 감소한 1570억 원을, 단기 순이익은 전년 동기 대비 27.1%, 전분기 대비 10.6% 감소한 1538억 원을 기록했습니다. 네이버는 작년부터 네이버까지 1500명 이상의 우수 개발 인재를 신규로 확보해서 AI 등 기술 연구 개발에 집중 투자하고 있습니다."
+},
+{
+"start": 838.3,
+"end": 868.0,
+"text": "또한 글로벌 서비스 확장을 위한 컨텐츠 확보와 마케팅을 확대하고 라인은 신규 사업을 준비하면서 관련 비용들이 증가하고 있습니다. 이에 따라서 연결 영업 수익은 안정적인 성장세를 보였으나 이익은 전년 대비 부진하였습니다. 이 같은 투자는 현재 계획된 범위 내에서 집행되고 있으며 네이버와 라인의 경쟁력을 강화하고 새로운 성장 동력 마련을 위한 인재 확보에 대해서"
+},
+{
+"start": 868.0,
+"end": 883.7,
+"text": "이런 투전을 앞으로도 계속하고자 합니다."
+},
+{
+"start": 883.7,
+"end": 903.1,
+"text": "Consolidated Operating Profit was down 11.6% year-over-year and 11.7% QonQ to 257 billion won, with Net Profit down 27.1% year-over-year and 10.6% QonQ to 153.8 billion won."
+},
+{
+"start": 903.3,
+"end": 927.3,
+"text": "지난해, 첫 번째, Q2, NAVIR has added more than 1,500 top-tier developers, continuing its focused R&D investments into technology, including AI. Also, to expand global services, we have increased content sourcing and marketing activities, and with lines preparing for new business, relevant expenses have been on the rise."
+},
+{
+"start": 927.4,
+"end": 956.4,
+"text": "1분기 연결 영업 수익의 부문별 기준은 광고 50%, 비즈 플랫폼 45%,"
+},
+{
+"start": 956.4,
+"end": 979.3,
+"text": "IT플랫폼 6%, 센처서비스 입구, 그리고 라인 및 기타 플랫폼이 37%를 기록했으며 연결 영업비용은 플랫폼 개발과 운영이 17%, 대행 파트너비가 23%, 인프라비용이 6%, 마케팅 7%, 라인 및 기타 플랫폼이 47%를 기록했습니다."
+},
+{
+"start": 979.8,
+"end": 1006.5,
+"text": "Q1에 관한 내용입니다.",
+"repaired": true
+},
+{
+"start": 1006.5,
+"end": 1035.1,
+"text": "7%와 47%의 마케팅은 7%와 라인과 다른 플랫폼은 47%의 영업 수익을 부문별로 하면 광고는 모바일 상품 개선과 평창 올림픽 이벤트의 성공적인 대응에 따라 투자 효율 성장률을 회복하며 전년 동기 대비 18.6% 증가했으나 계절적 비수기 영향으로 전분기 대비로는 11.5% 감소한 1,331억 원이었습니다."
+},
+{
+"start": 1035.1,
+"end": 1051.7,
+"text": "모바일 맞춤형 검색 UI를 개선하고 정보성 강화에 따른 클릭수 증가와 쇼핑 검색 광고 호조세가 지속되어 전년 동기 대비 16.1%, 전분기 대비 3%에 성장한 5,927억 원을 기록했습니다."
+},
+{
+"start": 1051.9,
+"end": 1075.6,
+"text": "Under operating revenue, driven by mobile product improvements and successful response to PyeongChang Winter Olympics, ads recovered its two-digit growth rate, rising 18.6% YOY. But due to slow seasonality, it was down 11.5% Q on Q, recording ads revenue at 133.1 billion won."
+},
+{
+"start": 1075.8,
+"end": 1104.5,
+"text": "IT 플랫폼은 네이버 페이 이용자와 가맹점 증가로 안정적인 성장세가 지속되어 전년 동기 대비"
+},
+{
+"start": 1104.5,
+"end": 1133.2,
+"text": "16.9% 전분기 대비 9.1% 증가한 725억원이었고 컨텐츠 서비스는 웹툰 VLIVE의 꾸준한 성장으로 전년 동기 대비 19.8% 전분기 대비 7.1% 증가한 296억원을 기록했습니다. 라인 및 기타 플랫폼은 전년 동기 대비 22.9% 전분기 대비 7.9% 증가한"
+},
+{
+"start": 1133.2,
+"end": 1161.3,
+"text": "4,812억 원을 기록했습니다."
+},
+{
+"start": 1161.3,
+"end": 1191.2,
+"text": "라인과 다른 플랫폼이 22.9% 요이, 7.9% Q1Q에 480, 1.2밀년 원."
+},
+{
+"start": 1191.2,
+"end": 1216.6,
+"text": "중간에 증가될 것으로 예상하고 있습니다. 대행 파트너비는 광고 및 쇼핑 관련 매출의 꾸준한 증가로 전년 동기 대비 27.4% 증가했으나 VLIVE 등 일부 서비스 관련 컨텐츠 소득료의 감소로 전동기 대비로는 3.3% 감소한 2,404억 원을 기록했습니다."
+},
+{
+"start": 1216.6,
+"end": 1236.2,
+"text": "platform development operational expense was up 23.7% YOY and 24.9% Q&Q to 183.2 billion won on technological talent acquisition and R&D investments. We are expecting around more than 20% increase on an yearly basis for this year."
+},
+{
+"start": 1236.3,
+"end": 1265.0,
+"text": "agency and partner expense was up 27.4% YOY on the back of sustained growth from ads and shopping-related sales, but due to lower content fees for some of the services like the VLive, it declined 3.3% QonQ, reporting 240.4 billion won."
+},
+{
+"start": 1265.0,
+"end": 1293.5,
+"text": "2.2% 감소한 603억 원이었으며 마케팅비는 페이 거래액 성장에 따른 포인트 적립과 AI 스피커 마케팅의 확대 웹천의 글로벌 광고 영향으로 전년 동기 대비 50.5% 전분기 대비 5.9% 증가한 710억 원을 라인미 기타 플랫폼은 전년 동기 대비 39.1% 전분기 대비 10.3% 증가한 4,972억 원을 겪었습니다."
+},
+{
+"start": 1294.5,
+"end": 1323.7,
+"text": "지난해에는 라이엇과 캐펙스에서의 영향을 받았고, 인프라 비용은 20.5% YOY에서 2.2% QonQ에서 60.3밀리언 원으로 낮아졌습니다. 마케팅 비용도 50.5%, 5.9% QoQ에서 71밀리언만 원으로 높아졌고, on the back of higher point accumulations from growth in labor-paced GMV, AI-stakehold marketing, as well as Webtoon global advertisement.",
+"repaired": true
+},
+{
+"start": 1323.7,
+"end": 1353.8,
+"text": "일분기 연결 영업이익은 전년 동기 대비 11.2%, 전분기 대비 11.7% 남소한 2,570억 원, 영업이익률은 19.6%를 기록했으며, 단기 순이익은 전년 동기 대비 27.1%, 전분기 대비 11.7% 남소한 2,570억 원, 영업이익률은 19.6%를 기록했으며, 단기 순이익은 전년 동기 대비 27.1%, 전분기 대비 12.7%를 기록했으며,"
+},
+{
+"start": 1353.8,
+"end": 1374.5,
+"text": "Q1, Consolidated Operating Profit, was down 11.6% year-over-year and 11.7% Q1Q to 257 billion won, with operating profit margin reporting 19.6%."
+},
+{
+"start": 1374.6,
+"end": 1402.9,
+"text": "1분기 연구개발비는 작년 중기 대비 19.1%, 전분기 대리 15.8% 증가한 3,296억 원을 기록했습니다. 1분기 영업수익 대비 연구개발기 지출 비중은 25.2%로",
+"repaired": true
+},
+{
+"start": 1402.9,
+"end": 1431.6,
+"text": "이는 국내외 최고 수준이며 계속되는 인력 확보와 기술 투자에 따라 올해 연구개발 비는 연간 15%에서 20% 정도 증가할 것으로 내다보고 있습니다. CAPEX는 전년 동기 대비 58.5% 증가했으나 전분기 대비로는 가끔 감소한 1,188억 원을 기록했습니다. 1분기에는 동영상, 스노우, 웹툰 등 신규 사업 부분 위주로 컨텐츠를 확보하고"
+},
+{
+"start": 1431.6,
+"end": 1451.2,
+"text": "해외 진출을 위한 투자 등 총 1,107억 원의 투자를 집행했으며 연간으로도 전년도 이상의 투자가 있을 예정입니다."
+},
+{
+"start": 1451.2,
+"end": 1479.0,
+"text": "R&D spend against Q1 operating revenue was at 25.2%, which is the top level by both domestic and global standards, and we expect the share to grow in the range of 15% to 20% per annum this year as we continue to acquire talent and make technology investments. CapEx was up 58.5% YOY, but was down Q1Q, reporting 118.8 billion won."
+},
+{
+"start": 1479.2,
+"end": 1509.2,
+"text": "Q1, there was a total of 110.7 billion won of investment, including investments for content sourcing for new businesses, i.e. videos, snow, webtoon, among others, as well as investments into funds for global expansion. Investments will continue at sizes at least equal or greater to last year's investment."
+},
+{
+"start": 1509.2,
+"end": 1526.5,
+"text": "위협적인 경영 환경이라고 생각합니다. 따라서 지속 가능한 성장을 위해서 적극적인 우수 개발 인재를 확보하고 투자를 계속해 나갈 것입니다. 이상으로 재무성과 및 전망에 대한 설명을 마치고 지금부터 투자자 여러분들의 질문을 받도록 하겠습니다."
+},
+{
+"start": 1527.3,
+"end": 1555.9,
+"text": "지금부터 질의응답을 시작하겠습니다."
+},
+{
+"start": 1555.9,
+"end": 1584.7,
+"text": "질문을 하실 분은 전하기 버튼의 별표와 1번을 눌러주십시오. 질문을 취소하시려면 별표와 2번을 눌러주시면 됩니다. 원활한 회의 진행을 위하여 질문은 한 분당 두 가지 이내로 부탁드리겠습니다."
+},
+{
+"start": 1584.7,
+"end": 1614.8,
+"text": "처음으로 질문해주실 분은 신영증권의 장원열 님입니다. The first question will be provided by 장원열 from 신영 Securities. Please go ahead with your question. 네, 질문 기회 감사드립니다."
+},
+{
+"start": 1614.8,
+"end": 1644.2,
+"text": "두 가지 질문이 있는데요. 최근에 댓글이랑 뉴스아웃 링크 관련해서 많은 보도들이 나오고 있고 시장에서도 이에 대한 관심 및 우려가 좀 많은 것 같습니다. 민감한 상황이지만 혹시 관련해서 코멘트해 주실 수 있는 부분이 있다면 좀 부탁드리겠습니다. 두 번째 질문은 광고 매출 관련 질문인데요. 이번 분기 평창올림픽의 영향이 있었다고 해도 증가율 전년 대비해서 좀 높게 나온 것 같은데"
+},
+{
+"start": 1644.2,
+"end": 1671.6,
+"text": "이 분기에도 혹은 하반기에도 이런 성장이 가능할지 좀 전망 부탁드립니다. 감사합니다."
+},
+{
+"start": 1671.6,
+"end": 1700.7,
+"text": "네, 첫 번째로 질문해주신 댓글이나 아웃링크 관련된"
+},
+{
+"start": 1700.7,
+"end": 1731.1,
+"text": "저희의 코네트를 요청을 하셨는데요. 어제 저희가 댓글 서비스를 위해 적용하기로 한 원칙들을 발표한 바가 있습니다. 일단 그거를 아마 아실 거라고 생각이 되는데요. 뉴스 댓글은 저희가 뉴스 정보에 대해서 2차 소통 참고로 보고 있고 댓글은 누구나 자유롭게 의견을 남길 수 있는 공간으로 보고 있습니다. 그래서 뉴스 댓글 서비스가 운영되어 온 지난 14년 동안"
+},
+{
+"start": 1731.1,
+"end": 1752.1,
+"text": "다양한 사회적 실험과 시도가 있었다고 생각을 하고 있습니다."
+},
+{
+"start": 1752.1,
+"end": 1779.9,
+"text": "네이버는 이런 연장선상에서"
+},
+{
+"start": 1779.9,
+"end": 1809.6,
+"text": "무스 댓글 서비스의 운영 원칙과 정책에 대해서 사용자들과 함께 근본적인 문제부터 검토하고 개선해 나가보자 지난 3월 댓글 정책 이용자 패널을 발족한 바 있습니다. 여기서는 댓글 서비스의 가치와 지향점, 댓글 어규 중의 범위나 차단 방안 등에 대해서 다양한 고민과 의견을 받았고요. 그리고 나은 댓글 서비스를 위해 적용 가능한 방안 중에서 1차로 우선 4가지를"
+},
+{
+"start": 1809.6,
+"end": 1835.9,
+"text": "라이브 적용하겠다고 발표드린 바가 있습니다."
+},
+{
+"start": 1835.9,
+"end": 1864.1,
+"text": "어제 발표드린 네 가지를 간략히 요약을 드리면"
+},
+{
+"start": 1864.1,
+"end": 1891.8,
+"text": "공감과 비공감의 하루 참여 횟수를 50개로 제안하는 부분이 있었고요. 연속 댓글을 6초 이내에 제안하는 내용이 있었고 연속 비공감, 공감 클릭 간격을 조정하는 부분과 동일 기사에 대한 참여 횟수를 계정별로 3개로 제안하는 내용이 있었습니다."
+},
+{
+"start": 1891.8,
+"end": 1918.8,
+"text": "저희는 이런 댓글 서비스 중에 대해서"
+},
+{
+"start": 1918.8,
+"end": 1937.8,
+"text": "외부 의견을 잘 듣고 지속적으로 개선하는 부분이 굉장히 중요하다고 생각을 하고요. 이런 사용자들의 다양한 생각과 목소리가 공존하는 공간으로 끝나기 위해서 아까 말씀드린 댓글 정책 이용자 패널과 함께 공감대를 찾아가기 위해서 노력을 지속할 예정입니다."
+},
+{
+"start": 1939.3,
+"end": 1969.5,
+"text": "We believe that with respect to such comment services, it's very important for us to listen closely to the views and opinions of the outside people, and it's important that we continuously endeavor to make improvements. We want to create this as a forum where views and feedbacks of users are shared, and through the work with this user panel on news comment services, we will continuously try to find a common ground."
+},
+{
+"start": 1969.5,
+"end": 1986.5,
+"text": "아웃링크에 대해서는 일부 언론사들에서 제기하는 뉴스의 아웃링크 전환도 열린 자세로 타당성을 살펴보고 있고요. 당장 답변드리기는 어렵지만 언론사나 유관기관들 외부 의견을 잘 듣고 협의해서 다각적으로 고민해볼 예정입니다."
+},
+{
+"start": 1987.3,
+"end": 2019.0,
+"text": "두 번째 광고 매출에 대해서 말씀드리도록 하겠습니다."
+},
+{
+"start": 2019.0,
+"end": 2046.5,
+"text": "저희 1분기 광고 매출은 비수김에도 불구하고 작년부터 이어져 왔던 적극적인 모바일 상품 개선과 평창올림픽 이벤트의 성공적 대응으로 전년동기 대비 18.6%를 기록하면서 두 자리 성장률을 회복했는데요. 2분기부터는 작년 개선 기저효과가 낮아지게 되고"
+},
+{
+"start": 2046.5,
+"end": 2061.1,
+"text": "따라서 1분기 성장률보다 낮을 전망입니다. 그래서 하반기에는 성장률이 다소 둔화될 것으로 전망되나 저희가 성성 개선을 지속적으로 해서 연간 두 자릿수 성장을 목표로 하고 있습니다."
+},
+{
+"start": 2062.0,
+"end": 2079.8,
+"text": "이제는 아래에 대한 수준의 기간을 통해서, 그리고 또한 수준의 기간을 통해서, 그리고 또한 수준의 기간을 통해서, 그리고 또한 수준의 기간을 통해서, 그리고 또한 수준의 기간을 통해서,"
+},
+{
+"start": 2079.8,
+"end": 2100.4,
+"text": "우리의 성장률은 18.6%로 2개월간 회복되었습니다 2주 후에는 피스의 효과와 큰 블록버스터 게임 타이틀은 없기 때문에 Q2는 1주 후보다 더 빠르게 진행될 것이라고 생각합니다",
+"repaired": true
+},
+{
+"start": 2100.4,
+"end": 2129.3,
+"text": "다음으로 질문해주실 분은 한국투자증권의 김성은님입니다. 다음 질문은 김성은의 김성은입니다."
+},
+{
+"start": 2129.3,
+"end": 2158.5,
+"text": "저희 주의 질문인데요. 먼저 첫 번째는 저희 매출 성장 계속 나오고 있는데 비용 증가하면서 마진이 하락하고 있는 것 같습니다. 앞으로 어떻게 이런 추이가 지속될 것으로 보시는지 궁금하고요. 또 올해 투자 관련 및 마케팅 가이던스 있다면 좀 부탁드립니다. 두 번째는 저희 비즈니스 플랫폼 쪽 관련 질문인데요. 계속해서 매출이 목표케 성장을 지속하고 있습니다. 지금 저희가 보고 있는 것 중에 가장 중요한 섹터는"
+},
+{
+"start": 2158.5,
+"end": 2183.5,
+"text": "쇼핑 검사 광고 쪽으로 보이고 있는데 현황매 향후 상품 확장 계획 등이 좀 궁금합니다. 감사합니다."
+},
+{
+"start": 2183.5,
+"end": 2212.8,
+"text": "첫 번째 질문하신 매출은 성장하고 있는데"
+},
+{
+"start": 2213.2,
+"end": 2243.8,
+"text": "일단 그 부분은 아까 모두에서 말씀드린 바와 같이 저희가 미래를 위해서 투자를 지속해오고 있습니다. 특히 연구개발과 관련해서는 아까 말씀드렸듯이 작년부터 올해 1분기까지 우수 개발 인재를 했었습니다. 그렇기 때문에 연구개발비 비중도 매출업수익 대비 비중이 높아지고 있습니다. 25%가 넘는 수준이고요. 이런 것들은 계속 지속이 될 예정이기 때문에"
+},
+{
+"start": 2243.8,
+"end": 2251.7,
+"text": "무배발빈의 양은 아까 말씀드렸던 것 없이 연간 15-20% 정도 더 증가할 것으로 예상합니다."
+},
+{
+"start": 2252.6,
+"end": 2276.4,
+"text": "네, you asked about the fact that although the top line is growing, expenses are also going up, and hence the margin is being compressed. As I said previously in my opening, we are making investments to prepare for future, especially in R&D. Starting last year up to the first quarter, we have been investing into acquiring developers and top talent."
+},
+{
+"start": 2276.4,
+"end": 2306.6,
+"text": "그리고 중약의 큰 비용 차지에는 마케팅 비용은 일단 1분기에는 작년 마찬가지로 페이거래 성장했다는 포인트 적립 비용하고"
+},
+{
+"start": 2306.6,
+"end": 2331.5,
+"text": "글로벌 광고나 AI 스피커 마케팅 등의 영향이 있어서 그 정도는 한 것보다 정말 했는데요. 올해 연간 마케팅 비용은 전년 대비 증가할 것으로 예상이 되지만 이 가운데 대부분은 페이 거래에게 연동되는 포인트 적립 영향 부분이 있고요. 또 올해까지 저희가 추진하고 있는 저희가 AI 스피커 이랜턴이 확인되어 있습니다."
+},
+{
+"start": 2332.9,
+"end": 2362.5,
+"text": "Q1에 대한 점이 많습니다. Q1에 대한 점이 많습니다. Q1에 대한 점이 많습니다. Q1에 대한 점이 많습니다. Q1에 대한 점이 많습니다. Q1에 대한 점이 많습니다. Q1에 대한 점이 많습니다. Q1에 대한 점이 많습니다. Q1에 대한 점이 많습니다. Q1에 대한 점이 많습니다. Q1에 대한 점이 많습니다. Q1에 대한 점이 많습니다. Q1에 대한 점이 많습니다. Q1에 대한 점이 많습니다. Q1에 대한 점이 많습니다. Q1에 대한 점이 많습니다. Q1에 대한 점이 많습니다. Q1에 대한 점이 많습니다. Q1에 대한 점이 많습니다. Q1에 대한 점이 많습니다. Q1에 대한 점이 많습니다. Q1에 대한 점이 많습니다. Q1에 대한 점이 많습니다. Q1에 대한 점이 많습니다. Q1에 대한 점이 많습니다"
+},
+{
+"start": 2362.5,
+"end": 2391.3,
+"text": "저희가 마케팅 비용은 네이버 플랫폼의 영업 수익 대비 일정 비율로 비율을 하는 부분도 잘 지켜보고 있고요. 라인과 기타 플랫폼을 제외한 네이버 플랫폼의 2018년도 영업 수익은 일단 저희는 10% 중반의 성장률을"
+},
+{
+"start": 2391.3,
+"end": 2419.7,
+"text": "그리고 영업이익은 말씀드린 적극적인 투자와 개발 인재 등의 채용에 다른 비용 증가의 영향이 있기 때문에 작년보다는 좀 낮은 30% 초간 수준의 이익률을 조심스럽게 전망하고 있습니다."
+},
+{
+"start": 2419.7,
+"end": 2450.1,
+"text": "네, 네이버 비즈니스 플랫폼은 성장은 현재"
+},
+{
+"start": 2450.1,
+"end": 2479.7,
+"text": "PPC 성장보다는 사용자 트래픽의 증가로 인한 성장이 주를 이루고 있는데요. 저희가 올해 1분기도 모바일 조회수와 클릭수가 전전동기 대비 17% 성장하면서 전체 실적을 견인하고 있습니다. 그중에서 쇼핑 검색 광고는 저희가 2016년 11월 오픈 이후에 광고주 수가 꾸준히 증가하고 있고 3월 말 기준",
+"repaired": true
+},
+{
+"start": 2479.7,
+"end": 2508.3,
+"text": "약 2만 3천명의 광고주가 쇼핑 검색 광고를 이용하고 있습니다. 현재 계획은 쇼핑 검색 광고가 쇼핑 검색의 중요한 서비스 영역이기 때문에 검색 품질과 상품 개선에 계속 집중을 하고 있고 아직 완전히 카테고리 확장을 하진 않았지만 연말이나 내년 초까지 카테고리 확장을 하면서 이용자의 니즈를 만족시켜 나갈 계획입니다."
+},
+{
+"start": 2510.1,
+"end": 2539.7,
+"text": "Q1은 17% 예-over-year growth in terms of the mobile platform's number of clicks as well as number of queries which actually drove that business result. And if you look at 2016, since we have launched the Shopping SA search ad, we've seen continuous increase in the number of advertisers and as of end of March, the number stood at 23,000."
+},
+{
+"start": 2539.7,
+"end": 2569.5,
+"text": "Shopping Search Ad is an important area of our Shopping Search services, so we are continuously focusing on improving and enhancing the quality and product offering. We have not yet fully expanded the category, so we will continue to further give momentum to that category expansion so that we may better meet our customer needs."
+},
+{
+"start": 2574.4,
+"end": 2603.6,
+"text": "다음으로 질문해주실 분은 JP모건의 스탠리 양님입니다. The next question will be provided by 스탠리 양 from JP모건. Please go ahead with your question."
+},
+{
+"start": 2603.6,
+"end": 2632.6,
+"text": "성장이 가속화되면서 기존 검색 상품인 파워링크 검색 같은 경우는 매출이 증가율이 좀 둔화될 것 같은데요. 두 개가 카니발라이징 하는 문제는 아직 일어나고 있지 않은지 그런 것에 대해서 말씀해주셔서 감사하겠고요. 두 번째 질문은 플랫폼 개발 운영비, 인건비로 저희는 이해를 하는데 24% 증가했거든요. 이 중에서 이제"
+},
+{
+"start": 2632.6,
+"end": 2662.9,
+"text": "AI 등 신규 비즈니스가 차지하는 비중이 어느 정도 되고 그쪽에서 대부분의 인건비 증가가 그쪽에서 일어나는 건지 아니면 기존 비즈니스의 레이블 코스트도 상당폭 증가하는 건지에 대해서 말씀해 주시면 감사하겠습니다."
+},
+{
+"start": 2662.9,
+"end": 2675.7,
+"text": "Q&A의 점점은? Q&A의 점점은? Q&A의 점점은? Q&A의 점점은? Q&A의 점점은? Q&A의 점점은? Q&A의 점점은? Q&A의 점점은? Q&A의 점점은? Q&A의 점점은? Q&A의 점점은? Q&A의 점점은? Q&A의 점점은? Q&A의 점점은? Q&A의 점점은? Q&A의 점점은? Q&A의 점점은? Q&A의 점점은? Q&A의 점점은? Q&A의 점점은? Q&A의 점점은? Q&A의 점점은? Q&A의 점점은? Q&A의 점점은? Q&A의 점점은? Q&A의 점점은? Q&A의 점점은? Q&A의 점점은?"
+},
+{
+"start": 2675.7,
+"end": 2696.8,
+"text": "다음 질문은,"
+},
+{
+"start": 2697.0,
+"end": 2725.4,
+"text": "네, 첫 번째 네이버 쇼핑, 페이, 그다음에 광고에 대해서 질문 주셨는데요."
+},
+{
+"start": 2725.4,
+"end": 2756.2,
+"text": "그 그래픽은 이용자 수와 입전물이 꾸준하게 증가하고 견고하게 성장 중입니다. 저희가 쇼핑 관련된 지표는 구체적인 것들은 저희 IR팀에 문의를 해주시면 좋겠고 그 다음에 계속 성장 중이라는 정도를 말씀드릴 수 있을 것 같고 저희 페이 같은 경우는 저희가 1분기에도 롯데아이몰 같은 온라인 쇼핑몰이랑 도미노 피자, 버거킹, 외식 프랜차이즈"
+},
+{
+"start": 2756.2,
+"end": 2786.6,
+"text": "유니세프와 같은 NGO 단체들도 네이버 페이를 채택하는 등 해서 신규 가맹점은 계속적으로 성장하고 있고 1분기 말 현재 20만 개의 가맹점을 보유 중에 있습니다. 거래 규모도 계속 증가하고 있는데 2018년 네이버 페이 거래액은 규모가 커짐에 따라서 성장률은 다소 둔화될 것으로 예상을 하고 있습니다."
+},
+{
+"start": 2786.6,
+"end": 2815.8,
+"text": "Q&A and advertisement. First of all, if we look at Naver shopping, the GMB has been growing with the increase in the number of users as well as the number of shops that actually come on our platform. So we have seen a quite robust growth in terms of Naver shopping. And also, if you want to know about the specific measures and indicators relating to Naver shopping, please do contact our IR team. What I can say for certain is that we have seen a sustained growth."
+},
+{
+"start": 2815.8,
+"end": 2829.7,
+"text": "Q1에 더 많은 판매가 adopted the Neighbor Pay platform,"
+},
+{
+"start": 2829.7,
+"end": 2858.8,
+"text": "Domino Pizza and Burger King, these merchants have adopted NeighborPay, so we have seen growth in the number of new merchant base. So as of end of Q1, the merchant number is standard 200,000. GMB is continuously growing, so in 2018, we believe that the size of the GMB, the transaction volume, is going to increase, but with the bigger size, the growth rate may be a little slower."
+},
+{
+"start": 2858.8,
+"end": 2887.1,
+"text": "쇼핑 검색 광고 관련된 카니발 말씀을 주셨는데 저희가 파워잉크는 어떤 주제의 사이트를 찾는 니즈에 대한 광고 대응이고 쇼핑 검색 광고는 구체적 상품을 브라우징하면서 찾는 니즈라서 이 니즈가 일부 카니발이 있지만 그 카니발은 크지는 않고 각각 각각 사용자 니즈에 따라서 광고가"
+},
+{
+"start": 2887.1,
+"end": 2903.8,
+"text": "Now you asked about potential cannibalization between powerlink and shopping search ads."
+},
+{
+"start": 2903.8,
+"end": 2932.3,
+"text": "PowerLink는 이 제품을 확인할 수 있습니다."
+},
+{
+"start": 2932.3,
+"end": 2966.3,
+"text": "플랫폼 개발 운영기의 반대 AI 등 신규 사업 부분에 대한 내용과 기존 사업을 위한 설명을 부탁하셨는데요. 아까 말씀드린 바와 같이 플랫폼 개발 운영기의 반대는"
+},
+{
+"start": 2966.3,
+"end": 2994.4,
+"text": "동기대비 한 24% 정도 증가했고요. 여기에 관련된 다음에 대한 관련 비용들은 대부분이 저희의 신규업이라고 부르면 될 수 있습니다. 가장 큰 부분은 저희 서치앤클로바 조직의 AI를 연구를 하고 차세대 검색을 준비하는 서치앤클로바에 많이 늘었고요. 또한 저희 LAPS에서 또 여러 가지 자료기행이라든가 지도라든가"
+},
+{
+"start": 2994.4,
+"end": 3002.2,
+"text": "경외자 연구를 하고 있는데 관련 문이 많이 되었습니다. 그래서 그 비용이 가장 많은 부분을 차지하고 있다고 볼 수 있을 것 같습니다."
+},
+{
+"start": 3004.2,
+"end": 3033.8,
+"text": "Q&A의 질문은 Q&A의 질문에 대한 질문을 드리겠습니다. Q&A의 질문에 대한 질문을 드리겠습니다. Q&A의 질문에 대한 질문을 드리겠습니다. Q&A의 질문에 대한 질문을 드리겠습니다. Q&A의 질문에 대한 질문을 드리겠습니다. Q&A의 질문에 대한 질문을 드리겠습니다. Q&A의 질문에 대한 질문을 드리겠습니다. Q&A의 질문에 대한 질문을 드리겠습니다. Q&A의 질문에 대한 질문을 드리겠습니다. Q&A의 질문에 대한 질문을 드리겠습니다. Q&A의 질문에 대한 질문을 드리겠습니다. Q&A의 질문에 대한 질문을 드리겠습니다. Q&A의 질문에 대한 질문을 드리겠습니다. Q&A의 질문에 대한 질문을 드리겠습니다. Q&A의 질문에 대한 질문을 드리겠습니다. Q&A의 질문에 대한 질문을 드리겠습니다. Q&A의 질문에 대한 질문을 드리겠습니다. Q&A의 질문에 대한 질문을 드리겠습니다. Q&"
+},
+{
+"start": 3033.8,
+"end": 3062.0,
+"text": "아까 서두에서 말씀드린 저희가 지난 1년여 기간 동안 1500명이 넘는 개발 인력을 뽑았다고 말씀드렸는데요. 이 인원의 대부분은 아까 말씀드린 서치앤 클로바와 엑스 인력 그리고 라인의 신규"
+},
+{
+"start": 3062.0,
+"end": 3103.9,
+"text": "다음으로 질문해주실 분은"
+},
+{
+"start": 3103.9,
+"end": 3130.0,
+"text": "네 질문께 감사합니다. 저기 두 가지 질문인데요. 하나는 광고 시장 성장성과 트렌드에 관련된 부분인데요. 그리고 그 속에서 네이버의 시장 점유율 동향을 어떻게 보시는지 말씀을 좀 감사하겠습니다."
+},
+{
+"start": 3130.0,
+"end": 3158.1,
+"text": "여쭤보는 이유는 일부 경쟁 업체들이나 광고 대행사 쪽에서는 상대적으로 강하지 않을 수 있다고 일본 기가 라고 언급한 부분들도 있는 것 같아서 내부가 시행 전문을 가져가는 건지 아니면 일시적인 효과들이 있었는데 전반적으로 회원님께 말씀해주시면 감사하겠고요. 두 번째는 미래에셋과 제휴하시기 시작한 지 거의 1년 다 돼가는 것 같은데"
+},
+{
+"start": 3158.1,
+"end": 3188.9,
+"text": "좀 더 방향성, 핀테크가 되는 건지 아니면 금융 서비스가 되는 건지 조금 더 생각의 발전이 어떻게 되고 계신지 말씀해주시면 감사하겠습니다. 전략의 발전이 어떻게 되고 계신지 말씀해주시면 감사하겠습니다."
+},
+{
+"start": 3188.9,
+"end": 3218.6,
+"text": "I ask this question because your peer group and other ad agencies have not really been too bullish on this market. I would like to understand Neighbors' view. Second, it's been around one year since you have partnered up with Mira Asset. I would like to understand your financial services related strategic direction. Are you envisioning to go towards the FinTech route or more of a full-fledged financial services? How has your strategic thinking evolved?"
+},
+{
+"start": 3222.8,
+"end": 3248.7,
+"text": "첫 번째 광고의 시장 성장과 네이버의 현 상황에 대해서 말씀을 드리면 온라인 광고협회에 따르면 2017년 온라인 광고 시장의 4.4종 규모로 방송 광고 시장 규모를 넘어섰고 2018년도는 온라인 광고 시장의 4.9조 원으로"
+},
+{
+"start": 3248.7,
+"end": 3275.9,
+"text": "광고시장 내 점유율이 40% 정도에 입박할 것으로 예상하고 있습니다. 그래서 전통 매체 광고에서 디지털 광고로 이동은 계속될 전망이고요. 특히 모바일 광고시장은 작년에는 26% 성장했지만 올해에는 다소 둔화된 15% 수준으로 전망하고 있는데 그 중에서 국내에서 페이스북, 인스타그램, 유튜브 등 다양한 해외 매체들이"
+},
+{
+"start": 3275.9,
+"end": 3305.5,
+"text": "국내 시장에서 입지를 다지고 경쟁을 치열하게 하고 있고 모바일과 동영상 사용자 또는 이런 걸로 매출이 상당할 것으로 추정됩니다. 그래서 저희 네이버는 이런 해외 매체들과 함께 국내 시장에서 치열하게 경쟁하고 있는데요. 저희가 가진 강력한 검색 기능과 광고 상품과 플랫폼을 기반으로 해서 저희가 시장에서의 성장률을 꾸준히"
+},
+{
+"start": 3305.5,
+"end": 3326.2,
+"text": "유지할 수 있는 수준으로 저희가 발산하려고 노력하고 있습니다."
+},
+{
+"start": 3326.2,
+"end": 3355.5,
+"text": "4.4 trillion in size, so it actually surpassed the size of the broadcast-based advertisement and commercial market. In 2018, the online portion is expected to be 4.9 trillion, accounting for 40% of the entire advertising market. Therefore, the continuous migration from a more traditional advertisement approach to a more digital one will continue. Last year, the mobile ad market had actually grown."
+},
+{
+"start": 3355.5,
+"end": 3382.1,
+"text": "26% 이 시각 세계는 이 시각 세계가 조금 더 줄어들어는 15% 이 시각 세계가 있습니다. 미국, 유튜�, 유튜�, 이를 기본적으로 바이러스의 비율이 높은 점점 더 높은 점점 더 높은 점점 더 높은 점점 더 높은 점점 더 높은 점점 더 높은 점점 더 높은 점점 더 높은 점점 더 높은 점점 더 높은 점점 더 높은 점점 더 높은 점점 더 높은 점점 더 높은 점점 더 높은 점점 더 높은 점점 더 높은 점점 더 높은 점점 더 높은 점점 더 높은 점점 더 높은 점점 더 높은 점점 더 높은 점점 더 높은 점점 더 높은 점점 더 높은 점점 더 높은 점점 더 높은 점점 더 높은 점점 더 높은 점점 더 높은 점점 더 높은 점점 더 높은 점점 더 높은 점점 더 높은 점"
+},
+{
+"start": 3382.1,
+"end": 3415.0,
+"text": "두 번째로 질문하신 GDS 대우와의 제휴에 대해서 말씀드리면요. 작년 하반기에 GDS 대우의 CMA 계좌를"
+},
+{
+"start": 3415.0,
+"end": 3443.7,
+"text": "네이버 페이 간편 결제 제휴사로 추가하면서 연동은 이미 되어 있고요. 조만간 미래에셋과 제휴 통장 서비스를 준비 중에 있습니다. 이 제휴 통장은 제휴카드처럼 새로운 사용자층을 이끌어내는 수단이고 또 고객 혜택을 위한 툴이 될 것으로 저희는 생각을 하고 있습니다. 향후 네이버의 기술과 미래에셋 대우의 금융 컨텐츠 내외 네트워크로 활용한"
+},
+{
+"start": 3443.7,
+"end": 3459.7,
+"text": "국내외에서의 다양한 사업 가능성에 대해서는 현재 적극적으로 검토를 하고 있고요. 상세 계획이나 입점이 정해지면 이런 부분에 대해서 공유해드릴 예정입니다."
+},
+{
+"start": 3459.7,
+"end": 3480.4,
+"text": "올해 2년간 미래아셋세우세큐리티와 협력했고, 네이버페이는 미래 아셋의 CMA 계약을 미래애세트의 Simple Payment Affinity 파트너를 통해 접속했습니다. 이 연결이 이미 진행되고 있습니다. We are basically",
+"repaired": true
+},
+{
+"start": 3480.4,
+"end": 3495.4,
+"text": "저희는 압뉴스러스에서 사용하는 압뉴스러스입니다. 압뉴스러스에서 사용하는 압뉴스러스입니다. 압뉴스러스에서 사용하는 압뉴스러스에서 사용하는 압뉴스러스입니다."
+},
+{
+"start": 3495.4,
+"end": 3532.5,
+"text": "다음으로 질문해 주실 분은 모건 스탠리의 세연 박님입니다."
+},
+{
+"start": 3532.6,
+"end": 3561.6,
+"text": "다음 질문은 모르던 스탠리의 질문입니다. 질문을 주셔서 고맙습니다. 두 가지 질문이 있는데요. 일단은 주가가 지금 자본기 실적이 나온 이후로 상당히 많이 빠졌는데 그 배경에 여러 가지 이유가 있겠지만 하나는 마진과 계속되는 투자에 대한 걱정이 하나인 것 같고요."
+},
+{
+"start": 3561.6,
+"end": 3590.1,
+"text": "최근에 있었던 아웃링크에 대한 약간 우려 같은 것들도 작용을 한 것 같은데요. 이와 관련해서 일단 투자자 입장에서는 작년소부터 시작된 성장을 위한 비용 증가와 투자의 기간을 우리가 언제까지 잡아야 되는지가 일단 궁금합니다. 올해는 작년보다 오히려 더 증가하는 것 같은 뉘앙스를 저희는 받았는데"
+},
+{
+"start": 3590.1,
+"end": 3618.9,
+"text": "그러면 올해가 끝나면 내년에는 어느 정도 소화기 시기를 기대할 수 있는지가 궁금하고요. 두 번째는 투자자분들의 리스크 관리 차원에서 만약에 아웃링크 방식을 도입을 하게 된다면 이로 인한 광고 수익의 리스크가 어느 정도가 노출되어 있는 거고 그게 결국에는 파트너십 방식으로 갈 거라고 예상할 수 있는데"
+},
+{
+"start": 3618.9,
+"end": 3650.8,
+"text": "그렇게 되면 어느 정도 광고 매출 하락을 방어할 수 있는지 답변 좀 부탁드립니다."
+},
+{
+"start": 3650.8,
+"end": 3674.1,
+"text": "이 시각 세계였습니다."
+},
+{
+"start": 3674.1,
+"end": 3705.2,
+"text": "최근에 주가가 좀 약세인 부분의 배경에 대해서 두 가지 말씀하셨고요."
+},
+{
+"start": 3705.2,
+"end": 3733.3,
+"text": "먼저 투자지속에 따른 마진 하락에 대한 영향이 어느 정도이고 언제까지 지속될 거냐에 대해서 질문을 하셨는데요. 이 부분은 저희가 지난 실적 발표부터 계속 얘기하고 있던 부분이고요. 사실 2016년 말부터 저희가 클로바 프로젝트를 시작을 하고 새로운 어떤 기술과 AI 시대에 대비하기 위해서"
+},
+{
+"start": 3733.3,
+"end": 3750.9,
+"text": "채용과 투자를 대기 확대해왔습니다. 서비스적으로도 기존의 플랫폼들이 빅데이터와 AI 기반으로 모두 전환하면서 하드웨어에 대한 투자도 많이 증가를 하게 됐고요. 이런 것들이 작년에 이어서 올해도 이어질 것 예상을 합니다."
+},
+{
+"start": 3752.8,
+"end": 3782.3,
+"text": "당신의 질문은 우리의 금리 가격이 줄어들고, 그의 첫 번째 주인공은 계속적인 투자에 의해 낮은 시장입니다. 그리고 우리는 이 트렌드가 계속될 것이라고 생각합니다. 당신의 question was your question. As you know, since the end of 2016, we have embarked on our Clova project and also was making investments to prepare for the next generation technologies like the AI. Hence, we haven't expanded the hiring as well as investment into technology.",
+"repaired": true
+},
+{
+"start": 3782.3,
+"end": 3812.4,
+"text": "이러한 투자는 저희만이 아니라 새로운 기술이 등장하고 플랫폼이 이런 기술들에 대비를 하고 이 속에서 다양한 기회가 펼쳐지는 이런 상황들은"
+},
+{
+"start": 3812.4,
+"end": 3839.2,
+"text": "네이버뿐만 아니라 다른 IT 기업들도 투자를 할 수밖에 없는 상황이라고 생각을 하고요. 저희 또한 지금이 적극적인 투자의 시기라고 판단을 하고 있습니다. 그래서 이러한 투자의 성과가 조만간 가시적으로 나타날 수 있기를 기대하고요. 하지만 적어도 올해까지는 이런 투자의 기준은 지속이 되어야 했다고 생각을 하고 있습니다."
+},
+{
+"start": 3839.2,
+"end": 3868.5,
+"text": "저희는 우리의 플랫폼을 위해 새로운 기술을 위해 새로운 기술을 위해 새로운 기술을 위해 새로운 기술을 위해 새로운 기술을 위해 새로운 기술을 위해 새로운 기술을 위해 새로운 기술을 위해 새로운 기술을 위해 새로운 기술을 위해 새로운 기술을 위해 새로운 기술을 위해 새로운 기술을 위해 새로운 기술을 위해 새로운 기술을 위해 새로운 기술을 위해 새로운 기술을 위해 새로운 기술을 위해 새로운 기술을 위해 새로운 기술을 위해 새로운 기술을 위해 새로운 기술을 위해 새로운 기술을 위해 새로운 기술을 위해 새로운 기술을 위해 새로운 기술을 위해 새로운 기술을 위해 새로운 기술을 위해 새로운 기술을 위해 새로운 기술을 위해 새로운 기술을 위해 새로운 기술을 위해 새로운 기술을 위해 새로운 기술을 위해 새로운 기술을 위해 새로운 기술을 위해 새로운 기술을 위해 새로운 기술을 위해 새로운 기술을 위해 새로운 기술을 위해 새로운 기술을 위해 새로운 기술을 위해 새로운 기술"
+},
+{
+"start": 3868.5,
+"end": 3899.6,
+"text": "두 번째 뉴스 아웃링크 방식에 대한 광고 영향도에 대해서 질문 주셨는데요. 일부 언론에서 제기하는 아웃링크 전환에 대해서는 저희가 열린 자세로 타당성을 살펴보고 논의할 예정인데 현재 각기의 언론사와 상자 등의 관계들마다"
+},
+{
+"start": 3899.6,
+"end": 3929.3,
+"text": "그리고 또 특히 사용자들의 사용성에 대한 불편에 대한 우려들이 많은 상황입니다. 그래서 Outlink 논의는 여러 조건으로 검토 시간이 필요하고 추후 이런 것들이 확정되면 저희가 역량도에 대해서는 따로 말씀드릴 수 있는 시간이 있을 거라고 생각하고 당장은 얘에 대해서 말씀드리는 것은 타당하지 않을 것 같습니다."
+},
+{
+"start": 3929.5,
+"end": 3947.1,
+"text": "다시 한번 더 말씀드리겠습니다."
+},
+{
+"start": 3947.1,
+"end": 3970.2,
+"text": "이 새로운 시스템을 통해 이 새로운 시스템을 통해 이 시스템을 통해 이 시스템을 통해 이 시스템을 통해 이 시스템을 통해 이 시스템을 통해 이 시스템을 통해 이 시스템을 통해 이 시스템을 통해 이 시스템을 통해 이 시스템을 통해 이 시스템을 통해 이 시스템을 통해 이 시스템을 통해 이 시스템을 통해 이 시스템을 통해 이 시스템을 통해 이 시스템을 통해 이 시스템을 통해 이 시스템을 통해 이 시스템을 통해 이 시스템을 통해 이 시스템을 통해 이 시스템을 통해 이 시스템을 통해 이 시스템을 통해 이 시스템을"
+},
+{
+"start": 3970.2,
+"end": 3999.9,
+"text": "네, 그럼 시간 관계상 앞으로 한 분의 질문을 받도록 하겠습니다. 시간 관계상은 저희 IR팀으로 연락주시기 바랍니다."
+},
+{
+"start": 3999.9,
+"end": 4027.8,
+"text": "마지막으로 질문해 주실 분은 하나금융투자의 황승택님입니다. 마진 관련해서 질문 한 가지만 드리겠는데요. 올해 타겟 마진 30% 초반 수준 말씀하신 것 같은데 일단 컨펌 좀 부탁드리고요. 만약에 그렇다면"
+},
+{
+"start": 4027.8,
+"end": 4051.5,
+"text": "1분기 비용을 감안했을 때 30% 비용이 달성 가능한 부분인가에 대해서 질문이 있는데 1분기 비용을 늘리지 않고 4분기까지 간다고 가정을 하고 탑라인을 20% 증가한다고 가정을 해도 마진이 20% 수준밖에 안 나오는데 30%에 대한 달성 가능한 부분에 대해서 말씀 부탁드립니다."
+},
+{
+"start": 4051.8,
+"end": 4080.8,
+"text": "마진에 대한 질문을 드리고 싶습니다. 다시 한번 확인해 볼까요? 만약 마진의 수익률이 30% 아래에 있는 것을 확인해 보셨다면, 만약 그 상황이 있다면, 만약 Q1의 수입률은 Q4까지 좌우되지 않으면, 20%의 상승률에 따르면, 마진 수익은 20% 정도 될 것입니다. 그래서 제 질문은, 이 30% 수익이 가능한가요?",
+"repaired": true
+},
+{
+"start": 4081.9,
+"end": 4111.3,
+"text": "저희 연결 실적 발표 기준의 영업이익률은 작년에 25% 정도 전후였었고요. 1분기에는 19.6%라고 말씀드렸습니다. 아까 제가 마지막에 말씀드린 30% 초반이라는 수치는 라인 및 기타 플랫폼을 제외한 네이버 플랫폼 중심의 마진을 말씀드린 것이고요. 이 수치가 작년에는 30% 중반 정도였었는데 올해는 이게 확보 하락을 해서"
+},
+{
+"start": 4111.3,
+"end": 4125.1,
+"text": "30백도 초반이 될 것이라는 것이 지금 너무 좋습니다."
+},
+{
+"start": 4125.1,
+"end": 4146.7,
+"text": "earlier when I said the margin would be around, you know, lower 30%, that was excluding Line and other platforms, so solely on Naver platform alone. So if you just look at Naver platform, actually it was around mid 30%, so our target is slightly lower than that at low 30%."
+},
+{
+"start": 4147.7,
+"end": 4168.0,
+"text": "네, 그럼 이상으로 2018년 1분기 시작 발표를 마치겠습니다. 오늘 참석해 주신 투자가 여러분들께 다시 한번 감사드리고 앞으로도 많은 관심을 사랑합니다."
+}
+]
