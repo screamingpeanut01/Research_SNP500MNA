@@ -1,0 +1,65 @@
+{
+ "deal_id": "N037",
+ "ciq_id": "IQTR537795048",
+ "checks": [
+  {
+   "field": "acq_mktcap",
+   "class": "미완",
+   "retry": "채움",
+   "reason": "이번에 연 출처: ① Wayback CDX로 LINE(3938) 시세 페이지 스냅샷 목록을 조회(nikkei.com/nkd/company/?scode=3938, nikkei.com/nkd/company/history/dprice/?scode=3938, stocks.finance.yahoo.co.jp/stocks/detail·history, kabutan.jp, minkabu.jp, jp.investing.com, bloomberg.co.jp, k-db.com/stocks/3938-T*, kabuoji3.com). ② k-db.com 일별 시계열 Wayback 스냅샷 'LINE 日足 時系列データ (2016年)'(20170929225901)·'(2017年)'(20170930095237, 2017-09-29까지 수록). ③ IRBANK 'A HD（3938）の株価チャート'(https://irbank.net/3938/chart?y=날짜, 옛 LINE 일별 시가·고가·저가·종가·時価総額 표, 2차 자료) 현재 페이지. ④ 발행주식수: 닛케이 회사정보 Wayback 스냅샷의 '普通株式数', Yahoo!ファイナンス 상세 스냅샷의 '発行済株式数', jp.investing.com·minkabu 스냅샷. kabuoji3.com은 403, kabutan·minkabu 현재 페이지에는 옛 시세가 없음. 결과: 2017-08-24 종가 3,855円을 네 곳에서 같은 값으로 확인(Yahoo!ファイナンス '2017年8月24日 3,840 3,875 3,840 3,855 235,900', k-db, 닛케이 8/25 '現在値 3,835円 前日比 －20', IRBANK). 주식수는 닛케이 2017-08-25 스냅샷 220,442,310주.",
+   "after": "계산: NAVER 25,414,225,509,000원 (발표[이사회] 직전 거래일 2017-08-24 종가 771,000원[Yahoo Finance 035420.KS 분할조정 종가 154,200원 × 5; 2018-10 5:1 액면분할 전] × 발행주식 32,962,679주[NAVER 2017 사업보고서 '주식의 총수', 2017년 중 변동 없음]). 100% 모회사 LINE(TSE:3938) 계산: 849,805,105,050円 (2017-08-24 東証 종가 3,855円[Yahoo!ファイナンス 株価時系列 Wayback 2017-09-04 스냅샷, k-db.com 2017년 일별 표, 닛케이 2017-08-25 스냅샷의 8/25 현재값 3,835円·前日比 -20円, IRBANK 일치] × 普通株式数 220,442,310주[닛케이 회사정보 2017-08-25 스냅샷]); IRBANK 2017-08-24 時価総額 8,498億510万円(2차 자료)과 일치"
+  }
+ ],
+ "corrections": {
+  "acq_mktcap": "계산: NAVER 25,414,225,509,000원 (발표[이사회] 직전 거래일 2017-08-24 종가 771,000원[Yahoo Finance 035420.KS 분할조정 종가 154,200원 × 5; 2018-10 5:1 액면분할 전] × 발행주식 32,962,679주[NAVER 2017 사업보고서 '주식의 총수', 2017년 중 변동 없음]). 100% 모회사 LINE(TSE:3938) 계산: 849,805,105,050円 (2017-08-24 東証 종가 3,855円[Yahoo!ファイナンス 株価時系列 Wayback 2017-09-04 스냅샷, k-db.com 2017년 일별 표, 닛케이 2017-08-25 스냅샷의 8/25 현재값 3,835円·前日比 -20円, IRBANK 일치] × 普通株式数 220,442,310주[닛케이 회사정보 2017-08-25 스냅샷]); IRBANK 2017-08-24 時価総額 8,498億510万円(2차 자료)과 일치"
+ },
+ "impairment_class_after": null,
+ "evidence_add": [
+  {
+   "field": "acq_mktcap",
+   "phase": "발표",
+   "event_date": "2017-08-24",
+   "event_type": "기타",
+   "content": "Yahoo!ファイナンス LINE(3938) 株価時系列: '2017年8月24日 3,840 3,875 3,840 3,855 235,900 3,855'.",
+   "url": "http://web.archive.org/web/20170904034120/https://stocks.finance.yahoo.co.jp/stocks/history/?code=3938",
+   "doc_type": "기타",
+   "doc_date": "2017-09-04",
+   "doc_id": ""
+  },
+  {
+   "field": "acq_mktcap",
+   "phase": "발표",
+   "event_date": "2017-08-24",
+   "event_type": "기타",
+   "content": "k-db.com 'LINE 日足 時系列データ (2017年)': 2017-08-24 終値 3855.00.",
+   "url": "http://web.archive.org/web/20170930095237/http://k-db.com/stocks/3938-T/1d/2017",
+   "doc_type": "기타",
+   "doc_date": "2017-09-30",
+   "doc_id": ""
+  },
+  {
+   "field": "acq_mktcap",
+   "phase": "발표",
+   "event_date": "2017-08-24",
+   "event_type": "기타",
+   "content": "IRBANK 'A HD（3938）の株価チャート' 일별 표(옛 LINE 시세): 2017-08-24 종가 3,855円, 時価総額 8498億510万円 (2차 자료).",
+   "url": "https://irbank.net/3938/chart?y=2017-08-24",
+   "doc_type": "기타",
+   "doc_date": "2026-11-01",
+   "doc_id": ""
+  },
+  {
+   "field": "acq_mktcap",
+   "phase": "발표",
+   "event_date": "2017-08-25",
+   "event_type": "기타",
+   "content": "닛케이 회사정보 LINE(3938) 스냅샷: '現在値(15:00)： 3,835 円 前日比： －20' / '普通株式数 220,442,310 株 時価総額 845,396 百万円'.",
+   "url": "http://web.archive.org/web/20170825092211/https://www.nikkei.com/nkd/company/?scode=3938",
+   "doc_type": "기타",
+   "doc_date": "2017-08-25",
+   "doc_id": ""
+  }
+ ],
+ "other_issues": "",
+ "summary": "모회사 LINE의 2017-08-24 종가 3,855円을 네 출처에서 확인해 LINE 시가총액 약 8,498억円을 채움."
+}

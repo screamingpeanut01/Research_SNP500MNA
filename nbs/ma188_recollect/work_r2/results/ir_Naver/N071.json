@@ -1,0 +1,20 @@
+{
+ "deal_id": "N071",
+ "ciq_id": "IQTR1773567190",
+ "checks": [
+  {
+   "field": "earnings_call_note",
+   "class": "공개 자료 없음",
+   "retry": "못 찾음",
+   "reason": "NAVER IR 실적발표 목록(https://www.navercorp.com/investment/earnings?page=1~5; 목록의 각 분기 '실적발표' PDF를 /api/article/read/ 경로로 받음)에서 거래 연도와 다음 연도의 분기 실적발표 자료 8건을 모두 받아 텍스트로 검색했다: 1Q22(20220421, 1Q22 Naver_Earnings_Kor_Final.pdf), 2Q22(20220805, 2Q22 Naver_Earnings_Kor_Final.pdf), 3Q22(20221107, 3Q22 Naver_Earnings_Kor_final.pdf), 4Q22(20230203, 4Q22 Naver_Earnings_Kor.pdf), 1Q23(20230508, 1Q23_Naver_Earnings_Kor_FINAL..pdf), 2Q23(20230804, 2Q23_Naver_Earnings_Kor_vF.pdf), 3Q23(20231103, 3Q23_Naver_Earnings_Kor_vF.pdf), 4Q23(20240202, 4Q23_Naver_Earnings_Kor_vF.pdf). NAVER는 어닝콜 녹취록을 공개하지 않는다. 어닝콜 음성(irsvc.teletogether.com)은 이메일 인증 등록을 거쳐야 들을 수 있어 열지 않았고, 영문 녹취록은 GuruFocus에만 있으나 봇 차단·회원 전용이라 열지 않았다(접근 제한 자료로 메모만 남김). 그래서 어닝콜 발언은 기사 검색으로 대신했다. 검색어: 'Watong|와통|동만|咚漫|중국|China' (PDF 텍스트), 웹 검색 '네이버 컨퍼런스콜 2022 웹툰 중국 사업 철수 OR 축소 김남선 동만 와통'. 결과: 8건 모두 '중국'·Watong·동만 언급이 없다. 기사 검색에서도 2020년 인적분할로 중국 사업을 떼어 둔 보도와 더벨의 중국법인 유상감자 기사 제목만 나오고 어닝콜 발언은 없다.",
+   "after": "공개 자료 없음: NAVER 2022~2023년 분기 실적발표 자료 8건(1Q22~4Q23)에 Watong 또는 중국 웹툰(咚漫) 사업 언급 없음('중국' 단어 자체가 없음). NAVER는 어닝콜 녹취록을 공개하지 않고, 한국어·영어·중국어 기사 검색에서도 어닝콜 언급을 찾지 못함"
+  }
+ ],
+ "corrections": {
+  "earnings_call_note": "공개 자료 없음: NAVER 2022~2023년 분기 실적발표 자료 8건(1Q22~4Q23)에 Watong 또는 중국 웹툰(咚漫) 사업 언급 없음('중국' 단어 자체가 없음). NAVER는 어닝콜 녹취록을 공개하지 않고, 한국어·영어·중국어 기사 검색에서도 어닝콜 언급을 찾지 못함"
+ },
+ "impairment_class_after": null,
+ "evidence_add": [],
+ "other_issues": "",
+ "summary": "NAVER 2022~2023 분기 실적발표 자료를 모두 열었으나 Watong·중국 웹툰 언급이 없어 공개 자료 없음으로 판정했다."
+}

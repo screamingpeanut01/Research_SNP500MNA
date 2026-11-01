@@ -1,0 +1,13 @@
+[
+ {
+  "deal_id": "C014",
+  "field": "acq_mktcap",
+  "date": "2015-10-30",
+  "close_krw": 83600,
+  "shares": 38732089,
+  "mktcap_krw": 3238002640400,
+  "url": "https://api.stock.naver.com/chart/domestic/item/130960/day?startDateTime=201510300000&endDateTime=201510300000",
+  "raw": "{\"localDate\":\"20151030\",\"closePrice\":83600.0,\"openPrice\":85000.0,\"highPrice\":85800.0,\"lowPrice\":82700.0}",
+  "via": "네이버 증권 차트 API(상장폐지 종목도 일별 시세 제공, part4 에이전트가 행남사로 실제 종가임을 확인)"
+ }
+]

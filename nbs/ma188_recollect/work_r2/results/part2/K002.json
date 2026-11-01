@@ -1,0 +1,32 @@
+{
+ "deal_id": "K002",
+ "ciq_id": "IQTR53185363",
+ "checks": [
+  {
+   "field": "acq_mktcap",
+   "class": "미완",
+   "retry": "일부 채움",
+   "reason": "이번에 연 출처: ① Yahoo Finance 차트 API(RNWK, 2008-10-24~11-03) — 'No data found, symbol may be delisted' ② Nasdaq API 과거 시세 — 'Symbol not exists' ③ MarketWatch 다운로드 CSV — HTTP 401 ④ stooq — 자바스크립트 봇 검증 페이지라 열지 않음 ⑤ Wayback CDX: finance.yahoo.com/q?s=RNWK는 2008-10-29 04:05 UTC(=10-28 종가, 1차 재수집에서 사용)와 2008-12-18 스냅샷뿐; finance.yahoo.com/q/hp?s=RNWK는 2008-02·2008-06·2010-01 이후 스냅샷뿐(2008-10-30 행이 들어 있을 기간 아님); Google Finance·CNN Money·MarketWatch·WSJ·Reuters·Yahoo ks/pr 시세 페이지는 2008-10-30~11-04 스냅샷 없음 ⑥ companiesmarketcap.com RealNetworks 시가총액·주가 이력(월말 값만: 2008-10-31 시가총액 5,781, 주가 17.120001) ⑦ digrin.com RNWK 월별 주가(2008-10 $17.12, 월 단위만) ⑧ 웹 검색 'RealNetworks shares closed October 30 2008', 'RealNetworks stock third-quarter 2008 results shares fell rose', '\"RealNetworks\" shares October 30, 2008 outlook cut' 및 extended 검색 — 3분기 실적 발표(2008-10-29) 기사와 SEC 문서뿐이고 10-30 주가를 적은 기사 없음 ⑨ 주식병합 확인: RealNetworks 8-K(2011, 0001299933-11-002305)·10-K 2011 검색 결과 '1:4 reverse split effective at the close of business on August 30, 2011'. 무료 일별 시세원이 상장폐지 종목이라 비어 있거나 차단돼 10-30 종가는 끝내 찾지 못했다. 다만 이사회 결의일 당일(10-31) 종가와 시가총액을 2차 자료 두 곳으로 교차 확인해 추가했다. CRSP·Bloomberg 같은 유료 시세원만 남아 있어 미완으로 둔다.",
+   "after": "참고값: USD 약 567.3M (계산: 2008-10-28 종가 USD 4.20 × 발행주식 135,061,961주(2008-10-31, RealNetworks 10-Q 2008년 3분기 표지)). 같은 날 Yahoo Finance 시세 페이지에 표시된 시가총액은 USD 599.04M(이전 발행주식수 기준으로 보임). 이사회 결의일(2008-10-31)의 직전 거래일인 2008-10-30 종가는 미확인. 이전 추정 범위: 약 3.9억~6.9억 달러 (2008년 4분기 주가 범위 $2.93~$5.12 × 발행주식 134,358,494주(2009-01-31), 10-K 2008) / 추가 참고(재수집 2차): 이사회 결의일 당일 2008-10-31(금) 종가 USD 4.28, 시가총액 USD 578.1M (2차 자료: companiesmarketcap.com 월말 시가총액 5,781(10만 달러 단위)·월말 주가 17.12, digrin.com 2008-10 월말 주가 $17.12. 두 사이트 주가는 2011-08-30 1:4 주식병합을 소급 반영한 값이라 4로 나눠 당시 종가 4.28로 환산(병합 비율은 RealNetworks 8-K 2011 확인); 578.1M ÷ 4.28 ≈ 135.07백만주로 10-Q 표지 발행주식 135,061,961주와 맞음). 계산: 2008-10-31 종가 4.28 × 135,061,961주 = 약 USD 578.1M. 직전 거래일 2008-10-30 종가는 여전히 미확인"
+  }
+ ],
+ "corrections": {
+  "acq_mktcap": "참고값: USD 약 567.3M (계산: 2008-10-28 종가 USD 4.20 × 발행주식 135,061,961주(2008-10-31, RealNetworks 10-Q 2008년 3분기 표지)). 같은 날 Yahoo Finance 시세 페이지에 표시된 시가총액은 USD 599.04M(이전 발행주식수 기준으로 보임). 이사회 결의일(2008-10-31)의 직전 거래일인 2008-10-30 종가는 미확인. 이전 추정 범위: 약 3.9억~6.9억 달러 (2008년 4분기 주가 범위 $2.93~$5.12 × 발행주식 134,358,494주(2009-01-31), 10-K 2008) / 추가 참고(재수집 2차): 이사회 결의일 당일 2008-10-31(금) 종가 USD 4.28, 시가총액 USD 578.1M (2차 자료: companiesmarketcap.com 월말 시가총액 5,781(10만 달러 단위)·월말 주가 17.12, digrin.com 2008-10 월말 주가 $17.12. 두 사이트 주가는 2011-08-30 1:4 주식병합을 소급 반영한 값이라 4로 나눠 당시 종가 4.28로 환산(병합 비율은 RealNetworks 8-K 2011 확인); 578.1M ÷ 4.28 ≈ 135.07백만주로 10-Q 표지 발행주식 135,061,961주와 맞음). 계산: 2008-10-31 종가 4.28 × 135,061,961주 = 약 USD 578.1M. 직전 거래일 2008-10-30 종가는 여전히 미확인"
+ },
+ "impairment_class_after": null,
+ "evidence_add": [
+  {
+   "field": "acq_mktcap",
+   "phase": "발표",
+   "event_date": "2008-10-31",
+   "event_type": "기타",
+   "content": "companiesmarketcap.com RealNetworks 월말 시가총액 2008-10-31: 5,781(=USD 578.1M), 같은 날 주가 17.120001(1:4 병합 소급 조정치, 당시 4.28); digrin.com RNWK October 2008 $17.12",
+   "url": "https://companiesmarketcap.com/realnetworks/marketcap/",
+   "doc_type": "기타",
+   "doc_date": "2026-11-01",
+   "doc_id": ""
+  }
+ ],
+ "other_issues": "",
+ "summary": "발표 직전 거래일(2008-10-30) 종가는 무료 시세원이 모두 비어 있거나 차단돼 찾지 못했고, 이사회 결의일 당일(10-31) 종가 4.28달러와 시가총액 약 5.78억 달러를 2차 자료 두 곳으로 추가했다."
+}

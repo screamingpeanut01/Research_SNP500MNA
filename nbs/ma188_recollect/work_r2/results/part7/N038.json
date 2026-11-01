@@ -1,0 +1,79 @@
+{
+ "deal_id": "N038",
+ "ciq_id": "IQTR539813827",
+ "checks": [
+  {
+   "field": "acq_mktcap",
+   "class": "미완",
+   "retry": "채움",
+   "reason": "이번에 연 출처: ① Wayback CDX로 LINE(3938) 시세 페이지 스냅샷 목록을 조회(nikkei.com/nkd/company/?scode=3938, nikkei.com/nkd/company/history/dprice/?scode=3938, stocks.finance.yahoo.co.jp/stocks/detail·history, kabutan.jp, minkabu.jp, jp.investing.com, bloomberg.co.jp, k-db.com/stocks/3938-T*, kabuoji3.com). ② k-db.com 일별 시계열 Wayback 스냅샷 'LINE 日足 時系列データ (2016年)'(20170929225901)·'(2017年)'(20170930095237, 2017-09-29까지 수록). ③ IRBANK 'A HD（3938）の株価チャート'(https://irbank.net/3938/chart?y=날짜, 옛 LINE 일별 시가·고가·저가·종가·時価総額 표, 2차 자료) 현재 페이지. ④ 발행주식수: 닛케이 회사정보 Wayback 스냅샷의 '普通株式数', Yahoo!ファイナンス 상세 스냅샷의 '発行済株式数', jp.investing.com·minkabu 스냅샷. kabuoji3.com은 403, kabutan·minkabu 현재 페이지에는 옛 시세가 없음. 결과: 2017-09-28 종가 4,050円을 세 곳(닛케이 '9/28（木） 4,020 4,070 4,010 4,050 466,100', k-db, IRBANK)에서 확인. 주식수는 닛케이 2017-10-06 스냅샷 220,803,810주(IRBANK 시가총액에서 역산한 주식수와 같음).",
+   "after": "계산: NAVER 24,161,643,707,000원 (발표 직전 거래일 2017-09-28 종가 733,000원[Yahoo Finance 035420.KS 분할조정 종가 146,600원 × 5; 2018-10 5:1 액면분할 전] × 발행주식 32,962,679주[NAVER 2017 사업보고서, 2017년 중 변동 없음]). 100% 모회사 LINE(TSE:3938) 계산: 894,255,430,500円 (2017-09-28 東証 종가 4,050円[닛케이 일별 시세 Wayback 2017-10-26 스냅샷, k-db.com 2017년 일별 표, IRBANK 일치] × 普通株式数 220,803,810주[닛케이 회사정보 Wayback 2017-10-06 스냅샷]); IRBANK 2017-09-28 時価総額 8,942億5,543万円(2차 자료)과 일치"
+  },
+  {
+   "field": "target_rev_pre",
+   "class": "미완",
+   "retry": "못 찾음",
+   "reason": "이번에 추가로 연 출처: 起業LOG(kigyolog.com) 검색 'ステアーズ'(결과 없음); 웹 검색 '株式会社ステアーズ 決算公告 第3期 OR 第2期 千代田区 ゲーム', '\"STAIRS Corporation\" OR \"株式会社ステアーズ\" NextFloor デスティニーチャイルド 会社概要', 'ステアーズ LINE GAMES 日本法人 丸の内 申權浩' — 재무 수치 보도·결산공고 전재 사이트 없음. LINE Games 회사 연혁(line.games/company, 검색 요약)에서 '2015년 8월 일본 현지법인 STAIRS 설립'만 확인. 1차에서 연 출처(catr.jp 官報決算データベース 2017~2023년분, 넥스트플로어 2016 감사보고서 20170330000780, 라인게임즈 연결감사보고서 요약재무)는 다시 열지 않음. 남은 출처: 2016·2017년 게재 官報 결산공고 원문(官報情報検索サービス 유료라 열지 못함). STAIRS는 별도 홈페이지 電子公告 페이지를 찾지 못했고, 일본 상장 지배회사가 없어 有価証券報告書·臨時報告書 우회 경로도 없음. 미완 유지.",
+   "after": "미확인 (2015·2016 회계연도: STAIRS는 일본 비상장 법인으로 재무 공시 없음, 넥스트플로어 감사보고서는 별도 기준이라 STAIRS 실적을 싣지 않음). 참고 인수 연도 2017: 10,596,542천원"
+  },
+  {
+   "field": "target_op_pre",
+   "class": "미완",
+   "retry": "못 찾음",
+   "reason": "이번에 추가로 연 출처: 起業LOG(kigyolog.com) 검색 'ステアーズ'(결과 없음); 웹 검색 '株式会社ステアーズ 決算公告 第3期 OR 第2期 千代田区 ゲーム', '\"STAIRS Corporation\" OR \"株式会社ステアーズ\" NextFloor デスティニーチャイルド 会社概要', 'ステアーズ LINE GAMES 日本法人 丸の内 申權浩' — 재무 수치 보도·결산공고 전재 사이트 없음. LINE Games 회사 연혁(line.games/company, 검색 요약)에서 '2015년 8월 일본 현지법인 STAIRS 설립'만 확인. 1차에서 연 출처(catr.jp 官報決算データベース 2017~2023년분, 넥스트플로어 2016 감사보고서 20170330000780, 라인게임즈 연결감사보고서 요약재무)는 다시 열지 않음. 남은 출처: 2016·2017년 게재 官報 결산공고 원문(官報情報検索サービス 유료라 열지 못함). STAIRS는 별도 홈페이지 電子公告 페이지를 찾지 못했고, 일본 상장 지배회사가 없어 有価証券報告書·臨時報告書 우회 경로도 없음. 미완 유지.",
+   "after": "미확인 (영업이익 공시 없음). 참고 2017 당기순손실 -7,561,272천원"
+  }
+ ],
+ "corrections": {
+  "acq_mktcap": "계산: NAVER 24,161,643,707,000원 (발표 직전 거래일 2017-09-28 종가 733,000원[Yahoo Finance 035420.KS 분할조정 종가 146,600원 × 5; 2018-10 5:1 액면분할 전] × 발행주식 32,962,679주[NAVER 2017 사업보고서, 2017년 중 변동 없음]). 100% 모회사 LINE(TSE:3938) 계산: 894,255,430,500円 (2017-09-28 東証 종가 4,050円[닛케이 일별 시세 Wayback 2017-10-26 스냅샷, k-db.com 2017년 일별 표, IRBANK 일치] × 普通株式数 220,803,810주[닛케이 회사정보 Wayback 2017-10-06 스냅샷]); IRBANK 2017-09-28 時価総額 8,942億5,543万円(2차 자료)과 일치"
+ },
+ "impairment_class_after": null,
+ "evidence_add": [
+  {
+   "field": "acq_mktcap",
+   "phase": "발표",
+   "event_date": "2017-09-28",
+   "event_type": "기타",
+   "content": "닛케이 LINE(3938) 株価時系列(日次): '9/28（木） 4,020 4,070 4,010 4,050 466,100 4,050.0'.",
+   "url": "http://web.archive.org/web/20171026024934/https://www.nikkei.com/nkd/company/history/dprice/?scode=3938",
+   "doc_type": "기타",
+   "doc_date": "2017-10-26",
+   "doc_id": ""
+  },
+  {
+   "field": "acq_mktcap",
+   "phase": "발표",
+   "event_date": "2017-09-28",
+   "event_type": "기타",
+   "content": "k-db.com 'LINE 日足 時系列データ (2017年)': 2017-09-28 終値 4050.00.",
+   "url": "http://web.archive.org/web/20170930095237/http://k-db.com/stocks/3938-T/1d/2017",
+   "doc_type": "기타",
+   "doc_date": "2017-09-30",
+   "doc_id": ""
+  },
+  {
+   "field": "acq_mktcap",
+   "phase": "발표",
+   "event_date": "2017-09-28",
+   "event_type": "기타",
+   "content": "IRBANK 'A HD（3938）の株価チャート' 일별 표(옛 LINE 시세): 2017-09-28 종가 4,050円, 時価総額 8942億5543万円 (2차 자료).",
+   "url": "https://irbank.net/3938/chart?y=2017-09-28",
+   "doc_type": "기타",
+   "doc_date": "2026-11-01",
+   "doc_id": ""
+  },
+  {
+   "field": "acq_mktcap",
+   "phase": "발표",
+   "event_date": "2017-10-06",
+   "event_type": "기타",
+   "content": "닛케이 회사정보 LINE(3938) 스냅샷: '普通株式数 220,803,810 株'.",
+   "url": "http://web.archive.org/web/20171006051316/https://www.nikkei.com/nkd/company/?scode=3938",
+   "doc_type": "기타",
+   "doc_date": "2017-10-06",
+   "doc_id": ""
+  }
+ ],
+ "other_issues": "STAIRS 설립 시점: LINE Games 연혁은 2015-08 설립이라고 하는데, catr.jp의 2017년 12월기 결산공고는 '第4期'로 표시돼 기수가 맞지 않는다(2015-08 설립·12월 결산이면 2017년은 第3期). 2015 회계연도가 설립 첫 해(부분 연도)였을 가능성이 있으나 확인하지 못함.",
+ "summary": "LINE 2017-09-28 종가 4,050円으로 시가총액 약 8,943억円을 채움. STAIRS 2015·2016 실적은 2016·2017년 게재 官報(유료)를 열지 못해 미완으로 남김."
+}

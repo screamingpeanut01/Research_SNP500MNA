@@ -1,0 +1,43 @@
+{
+ "deal_id": "N077",
+ "ciq_id": "IQTR1793258477",
+ "checks": [
+  {
+   "field": "earnings_call_note",
+   "class": "미완",
+   "retry": "채움",
+   "reason": "콘텐트리중앙 홈페이지 IR 자료실(https://www.contentreej.com/ir/record; 목록 API /api/ir/record/list?year=2022·2023, 파일 API /api/file/doc)에서 거래 연도와 다음 연도의 분기 실적발표 자료 8건(1Q22~4Q23)과 'IR Pack_방송/SLL' 8건을 받아 '써브라임|서브라임|Sublime|SAA|HLL|매니지먼트|아티스트'로 검색했다. 2022Q3·2023Q3·2023Q4 실적발표 PDF는 이미지라 텍스트가 나오지 않아 페이지를 그림으로 바꿔 직접 읽었다(2022Q3 p.5 손익표 주석 확인; 2023Q3·Q4는 목차가 SLL·Plus M·Megabox·Playtime뿐이고 HLL 절이 없음). 결과: 2Q22 자료(2022-08-09 컨퍼런스콜, DART 기업설명회 안내공시 20220726800450) p.24에 써브라임 인수, 3Q22 자료(DART 잠정실적 20221103800293 무렵) p.5 주석에 SAA 매출 45억원이 있다. 4Q22·1Q23·2Q23 자료는 'HLL(연결)'만 적었다. IR 자료실의 '컨퍼런스 콜' 항목은 2022·2023년에 등록된 파일이 없어(목록 API에 해당 코드 없음) 녹취는 확인하지 못했다. DART에서 2022~2024 기업설명회(IR)개최 안내공시 목록을 확인했다(콘텐트리중앙 고유번호 00203315).",
+   "after": "2022-08-09 콘텐트리중앙 2022년 2분기 실적발표 자료 p.24 'HLL(House of Luxury & Lifestyle) Overview': \"지주사인 콘텐트리중앙은 540억원을 출자하여 100% 자회사 HLL을 설립하고, '허스트중앙' 영업양수, 'RXC' 2대 주주 지위를 확보하였으며, 연예기획 및 디지털마케팅社 '써브라임' 인수\"(p.25 '송강호/정지훈 등 국내 유명 아티스트 다수 보유 및 종합 광고 마케팅 경험 보유'); 2022-11 3분기 실적발표 자료 p.5 손익표 주석: \"기타에는 당기부터 신규 편입된 HLL(별도) 매출 45억원과 SAA(Sublime Artist Agency) 매출 45억원, 콘텐트리중앙 임대 및 IT매출 포함\"; 4Q22~2Q23 자료에는 '기타에는 HLL(연결)...포함'만 있고 써브라임 개별 언급 없음(컨퍼런스콜 녹취는 비공개)"
+  }
+ ],
+ "corrections": {
+  "earnings_call_note": "2022-08-09 콘텐트리중앙 2022년 2분기 실적발표 자료 p.24 'HLL(House of Luxury & Lifestyle) Overview': \"지주사인 콘텐트리중앙은 540억원을 출자하여 100% 자회사 HLL을 설립하고, '허스트중앙' 영업양수, 'RXC' 2대 주주 지위를 확보하였으며, 연예기획 및 디지털마케팅社 '써브라임' 인수\"(p.25 '송강호/정지훈 등 국내 유명 아티스트 다수 보유 및 종합 광고 마케팅 경험 보유'); 2022-11 3분기 실적발표 자료 p.5 손익표 주석: \"기타에는 당기부터 신규 편입된 HLL(별도) 매출 45억원과 SAA(Sublime Artist Agency) 매출 45억원, 콘텐트리중앙 임대 및 IT매출 포함\"; 4Q22~2Q23 자료에는 '기타에는 HLL(연결)...포함'만 있고 써브라임 개별 언급 없음(컨퍼런스콜 녹취는 비공개)"
+ },
+ "impairment_class_after": null,
+ "evidence_add": [
+  {
+   "field": "earnings_call_note",
+   "phase": "인수 후",
+   "event_date": "2022-08-09",
+   "event_type": "어닝콜",
+   "content": "콘텐트리중앙 2Q22 실적발표 자료 p.24: HLL 설립·허스트중앙 영업양수·RXC 2대 주주와 함께 \"연예기획 및 디지털마케팅社 '써브라임' 인수\"",
+   "url": "https://contentreej.com/data/03b8f9ae-1a9c-429e-bff4-aa34144ba9f2.pdf",
+   "doc_type": "IR 자료",
+   "doc_date": "2022-08-09",
+   "doc_id": "contentreej docFileId 122"
+  },
+  {
+   "field": "earnings_call_note",
+   "phase": "인수 후",
+   "event_date": "2022-11",
+   "event_type": "실적",
+   "content": "콘텐트리중앙 3Q22 실적발표 자료 p.5 주석: \"기타에는 당기부터 신규 편입된 HLL(별도) 매출 45억원과 SAA(Sublime Artist Agency) 매출 45억원 ... 포함\"",
+   "url": "https://contentreej.com/data/02046f34-3029-49d0-a373-55fdcab4c73d.pdf",
+   "doc_type": "IR 자료",
+   "doc_date": "2022-11",
+   "doc_id": "contentreej docFileId 125"
+  }
+ ],
+ "other_issues": "인수 주체 HLL중앙은 중앙그룹 계열로 NAVER 그룹 밖이다(입력 메모와 같음). 이 칸은 상장 지배회사 콘텐트리중앙의 IR로 채웠다.",
+ "summary": "콘텐트리중앙 IR 자료실의 2022~2023 분기 실적발표 자료에서 2Q22 써브라임 인수 소개와 3Q22 SAA 매출 45억원 주석을 찾아 채웠다. 컨퍼런스콜 녹취는 공개돼 있지 않다."
+}

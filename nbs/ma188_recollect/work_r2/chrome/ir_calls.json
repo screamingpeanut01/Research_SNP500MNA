@@ -1,0 +1,131 @@
+[
+ {
+  "ciq_id": "IQTR713999941",
+  "field": "earnings_call_note",
+  "kind": "filled",
+  "after": "카카오 1Q21 어닝콜(2021-05-06): \"We acquired My Valet, which is a smart parking management system, and Deal Car as a broker of rental vehicles, and Pet Me Up ... looking at ways to maximize synergies within the Kakao T platform\" (StockAnalysis 녹취, 출처 Quartr; 통역 영어문)",
+  "url": "https://stockanalysis.com/quote/krx/035720/transcripts/303926-q1-2021/",
+  "date": "2021-05-06"
+ },
+ {
+  "ciq_id": "IQTR1759287016",
+  "field": "earnings_call_note",
+  "kind": "filled",
+  "after": "카카오 1Q21 어닝콜(2021-05-06): \"We acquired My Valet ..., and Deal Car as a broker of rental vehicles, ... looking at ways to maximize synergies within the Kakao T platform\" (StockAnalysis 녹취, 출처 Quartr; 통역 영어문)",
+  "url": "https://stockanalysis.com/quote/krx/035720/transcripts/303926-q1-2021/",
+  "date": "2021-05-06"
+ },
+ {
+  "ciq_id": "IQTR1761125886",
+  "field": "earnings_call_note",
+  "kind": "filled",
+  "after": "카카오 2Q22 어닝콜(2022-08-04): \"Parking is a new business area for us, and after acquiring a parking management company, we also bought a specialized operator called GS Park24 last June, gaining a meaningful basis for growth and becoming a car owner's platform\" (StockAnalysis 녹취, 출처 Quartr; 통역 영어문)",
+  "url": "https://stockanalysis.com/quote/krx/035720/transcripts/303914-q2-2022/",
+  "date": "2022-08-04"
+ },
+ {
+  "ciq_id": "IQTR1842188710",
+  "field": "earnings_call_note",
+  "kind": "no_mention",
+  "checked": "카카오 1Q21·3Q21·4Q21·1Q22~4Q22",
+  "note": "Claude in Chrome(2026-11-01)으로 StockAnalysis 어닝콜 녹취(Quartr)를 열어 대상회사 한글·영문명을 검색했으나 언급 없음. 카카오 녹취는 한국어 원문이 '[Non-English content]'로 빠지고 통역 영어문만 있음. StockAnalysis는 카카오 2Q21 이전, NAVER 2021 이전, 카카오게임즈 2022 이전 녹취가 없음."
+ },
+ {
+  "ciq_id": "IQTR1842233550",
+  "field": "earnings_call_note",
+  "kind": "no_mention",
+  "checked": "카카오 1Q21·3Q21·4Q21·1Q22~4Q22",
+  "note": "Claude in Chrome(2026-11-01)으로 StockAnalysis 어닝콜 녹취(Quartr)를 열어 대상회사 한글·영문명을 검색했으나 언급 없음. 카카오 녹취는 한국어 원문이 '[Non-English content]'로 빠지고 통역 영어문만 있음. StockAnalysis는 카카오 2Q21 이전, NAVER 2021 이전, 카카오게임즈 2022 이전 녹취가 없음."
+ },
+ {
+  "ciq_id": "IQTR1842237873",
+  "field": "earnings_call_note",
+  "kind": "no_mention",
+  "checked": "카카오 1Q21·3Q21·4Q21·1Q22~4Q22",
+  "note": "Claude in Chrome(2026-11-01)으로 StockAnalysis 어닝콜 녹취(Quartr)를 열어 대상회사 한글·영문명을 검색했으나 언급 없음. 카카오 녹취는 한국어 원문이 '[Non-English content]'로 빠지고 통역 영어문만 있음. StockAnalysis는 카카오 2Q21 이전, NAVER 2021 이전, 카카오게임즈 2022 이전 녹취가 없음."
+ },
+ {
+  "ciq_id": "IQTR1842790607",
+  "field": "earnings_call_note",
+  "kind": "no_mention",
+  "checked": "카카오 1Q23~4Q24",
+  "note": "Claude in Chrome(2026-11-01)으로 StockAnalysis 어닝콜 녹취(Quartr)를 열어 대상회사 한글·영문명을 검색했으나 언급 없음. 카카오 녹취는 한국어 원문이 '[Non-English content]'로 빠지고 통역 영어문만 있음. StockAnalysis는 카카오 2Q21 이전, NAVER 2021 이전, 카카오게임즈 2022 이전 녹취가 없음."
+ },
+ {
+  "ciq_id": "IQTR684468092",
+  "field": "earnings_call_note",
+  "kind": "no_mention",
+  "checked": "카카오 1Q21·3Q21·4Q21",
+  "note": "Claude in Chrome(2026-11-01)으로 StockAnalysis 어닝콜 녹취(Quartr)를 열어 대상회사 한글·영문명을 검색했으나 언급 없음. 카카오 녹취는 한국어 원문이 '[Non-English content]'로 빠지고 통역 영어문만 있음. StockAnalysis는 카카오 2Q21 이전, NAVER 2021 이전, 카카오게임즈 2022 이전 녹취가 없음."
+ },
+ {
+  "ciq_id": "IQTR1828673157",
+  "field": "earnings_call_note",
+  "kind": "no_mention",
+  "checked": "카카오게임즈 1Q23~4Q24, 카카오 1Q23~4Q24",
+  "note": "Claude in Chrome(2026-11-01)으로 StockAnalysis 어닝콜 녹취(Quartr)를 열어 대상회사 한글·영문명을 검색했으나 언급 없음. 카카오 녹취는 한국어 원문이 '[Non-English content]'로 빠지고 통역 영어문만 있음. StockAnalysis는 카카오 2Q21 이전, NAVER 2021 이전, 카카오게임즈 2022 이전 녹취가 없음."
+ },
+ {
+  "ciq_id": "IQTR1686241228",
+  "field": "earnings_call_note",
+  "kind": "no_mention",
+  "checked": "카카오 1Q21·3Q21·4Q21·1Q22~4Q22",
+  "note": "Claude in Chrome(2026-11-01)으로 StockAnalysis 어닝콜 녹취(Quartr)를 열어 대상회사 한글·영문명을 검색했으나 언급 없음. 카카오 녹취는 한국어 원문이 '[Non-English content]'로 빠지고 통역 영어문만 있음. StockAnalysis는 카카오 2Q21 이전, NAVER 2021 이전, 카카오게임즈 2022 이전 녹취가 없음."
+ },
+ {
+  "ciq_id": "IQTR1841718222",
+  "field": "earnings_call_note",
+  "kind": "no_mention",
+  "checked": "카카오 1Q21·3Q21·4Q21·1Q22~4Q22",
+  "note": "Claude in Chrome(2026-11-01)으로 StockAnalysis 어닝콜 녹취(Quartr)를 열어 대상회사 한글·영문명을 검색했으나 언급 없음. 카카오 녹취는 한국어 원문이 '[Non-English content]'로 빠지고 통역 영어문만 있음. StockAnalysis는 카카오 2Q21 이전, NAVER 2021 이전, 카카오게임즈 2022 이전 녹취가 없음."
+ },
+ {
+  "ciq_id": "IQTR662030976",
+  "field": "earnings_call_note",
+  "kind": "no_mention",
+  "checked": "카카오 1Q21·3Q21·4Q21",
+  "note": "Claude in Chrome(2026-11-01)으로 StockAnalysis 어닝콜 녹취(Quartr)를 열어 대상회사 한글·영문명을 검색했으나 언급 없음. 카카오 녹취는 한국어 원문이 '[Non-English content]'로 빠지고 통역 영어문만 있음. StockAnalysis는 카카오 2Q21 이전, NAVER 2021 이전, 카카오게임즈 2022 이전 녹취가 없음."
+ },
+ {
+  "ciq_id": "IQTR711278967",
+  "field": "earnings_call_note",
+  "kind": "no_mention",
+  "checked": "카카오 1Q21·3Q21·4Q21·1Q22~4Q22",
+  "note": "Claude in Chrome(2026-11-01)으로 StockAnalysis 어닝콜 녹취(Quartr)를 열어 대상회사 한글·영문명을 검색했으나 언급 없음. 카카오 녹취는 한국어 원문이 '[Non-English content]'로 빠지고 통역 영어문만 있음. StockAnalysis는 카카오 2Q21 이전, NAVER 2021 이전, 카카오게임즈 2022 이전 녹취가 없음."
+ },
+ {
+  "ciq_id": "IQTR715320702",
+  "field": "earnings_call_note",
+  "kind": "no_mention",
+  "checked": "카카오 1Q21·3Q21·4Q21·1Q22~4Q22",
+  "note": "Claude in Chrome(2026-11-01)으로 StockAnalysis 어닝콜 녹취(Quartr)를 열어 대상회사 한글·영문명을 검색했으나 언급 없음. 카카오 녹취는 한국어 원문이 '[Non-English content]'로 빠지고 통역 영어문만 있음. StockAnalysis는 카카오 2Q21 이전, NAVER 2021 이전, 카카오게임즈 2022 이전 녹취가 없음."
+ },
+ {
+  "ciq_id": "IQTR1780389443",
+  "field": "earnings_call_note",
+  "kind": "no_mention",
+  "checked": "카카오 1Q22~4Q23",
+  "note": "Claude in Chrome(2026-11-01)으로 StockAnalysis 어닝콜 녹취(Quartr)를 열어 대상회사 한글·영문명을 검색했으나 언급 없음. 카카오 녹취는 한국어 원문이 '[Non-English content]'로 빠지고 통역 영어문만 있음. StockAnalysis는 카카오 2Q21 이전, NAVER 2021 이전, 카카오게임즈 2022 이전 녹취가 없음."
+ },
+ {
+  "ciq_id": "IQTR1764063074",
+  "field": "earnings_call_note",
+  "kind": "no_mention",
+  "checked": "NAVER 1Q22~4Q22",
+  "note": "Claude in Chrome(2026-11-01)으로 StockAnalysis 어닝콜 녹취(Quartr)를 열어 대상회사 한글·영문명을 검색했으나 언급 없음. 카카오 녹취는 한국어 원문이 '[Non-English content]'로 빠지고 통역 영어문만 있음. StockAnalysis는 카카오 2Q21 이전, NAVER 2021 이전, 카카오게임즈 2022 이전 녹취가 없음."
+ },
+ {
+  "ciq_id": "IQTR1773567190",
+  "field": "earnings_call_note",
+  "kind": "no_mention",
+  "checked": "NAVER 1Q22~4Q23",
+  "note": "Claude in Chrome(2026-11-01)으로 StockAnalysis 어닝콜 녹취(Quartr)를 열어 대상회사 한글·영문명을 검색했으나 언급 없음. 카카오 녹취는 한국어 원문이 '[Non-English content]'로 빠지고 통역 영어문만 있음. StockAnalysis는 카카오 2Q21 이전, NAVER 2021 이전, 카카오게임즈 2022 이전 녹취가 없음."
+ },
+ {
+  "ciq_id": "IQTR707786341",
+  "field": "earnings_call_note",
+  "kind": "no_mention",
+  "checked": "NAVER 1Q22~4Q22(KREAM은 사업 실적 언급뿐, 지분 거래 언급 없음)",
+  "note": "Claude in Chrome(2026-11-01)으로 StockAnalysis 어닝콜 녹취(Quartr)를 열어 대상회사 한글·영문명을 검색했으나 언급 없음. 카카오 녹취는 한국어 원문이 '[Non-English content]'로 빠지고 통역 영어문만 있음. StockAnalysis는 카카오 2Q21 이전, NAVER 2021 이전, 카카오게임즈 2022 이전 녹취가 없음."
+ }
+]

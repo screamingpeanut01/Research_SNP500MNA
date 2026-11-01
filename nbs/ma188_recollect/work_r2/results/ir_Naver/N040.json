@@ -1,0 +1,32 @@
+{
+ "deal_id": "N040",
+ "ciq_id": "IQTR545617876",
+ "checks": [
+  {
+   "field": "earnings_call_note",
+   "class": "미완",
+   "retry": "채움",
+   "reason": "LINE 2017~2018년 분기 決算説明会 자료 8건 전부(LY Corporation 'LINE IRアーカイブ' https://www.lycorp.co.jp/ja/ir/library/lineirairchive/linelibrary.html 에서 받음): 17Q1PresentationJP.pdf(2017-04-26), Q2_presentation_JP.pdf(2017-07-26), 17Q3EarningReleases_JP_1.pdf(2017-10-25), Q4_earningreleases_JP.pdf(2018-01-31; 영문판 17Q4_Earning_Releases_EN.pdf도 Wayback에서 확인), FY18Q1_Presentation.pdf(2018-04-25), FY18Q2_Presentation_0809JP.pdf(2018-07-25), FY18Q3_Presentation.pdf(2018-10-24), Q4_earning_releases_JP.pdf(2019-01-31). 참고로 거래 직전 Q4-0223-JP-1.pdf(2016년 4Q, 2017-01-25)도 열었다. 決算短信(minkabu 미러): 2017 1Q 140120170331432253, 2Q 140120170726439336, 3Q 140120171025498357, 2018 1Q 140120180425419725, 2Q 140120180725484738, 3Q 140120181024421969, 2018 통기 140120190131466699(2017 통기 140120180131460550은 1차에서 확인). 설명회 녹취: SBI証券 로그미 PDF market_report_kessanlogme_1710263938(2017-10-26, 3Q)만 존재. 같은 URL 패턴으로 2017-01~2019-02의 다른 설명회 날짜 33개를 조회했으나 모두 없음. LY 아카이브의 earning_releases_script는 FY19Q4부터만 있다. 모회사 NAVER의 2017~2018 분기 실적발표 PDF 8건(navercorp.com/investment/earnings, 1Q17~4Q18)도 열었다. EDGAR 전문검색(LINE CIK 0001611820, 2017~2019)으로 6-K 실적 보도자료도 확인했다. 검색어: 'ファイブ|FIVE|Five|動画広告|video ad|M&A|買収'. 결과: FY18Q3_Presentation.pdf(2018-10-24) p.8 광고 플랫폼 로드맵에 'FIVE 連携'이 있다. 2017 통기 자료(Q4_earningreleases_JP.pdf, 17Q4_Earning_Releases_EN.pdf), FY18Q1·FY18Q2·FY18Q4 자료에는 FIVE 언급이 없고, FY18Q4 자료에는 '動画広告フォーマット拡充'만 있다. 2017 통기·2018 통기 決算短信에도 FIVE 언급이 없다. 설명회 녹취는 2017-10(인수 전)분만 공개돼 있다. 1차의 ITmedia 기사와 보도자료 인용은 그대로 둔다.",
+   "after": "2018-10-24 LINE 2018년 12월기 3Q 決算説明会資料 p.8 'コア事業 | 広告プラットフォームのロードマップ': 디스플레이 광고의 시스템·기능 항목으로 \"FIVE 連携\"을 FY2018~FY2019 로드맵에 표시; 2018-01-31 LINE 2017년 통기 실적 발표 보도(ITmedia): \"17年12月4日には、動画広告制作・配信のファイブ（東京都渋谷区）を買収。\" \"動画広告の外部配信も強化していく方針だ。\" (기사 인용, 어닝콜 원문 미확인; 같은 날 決算説明会資料 Q4_earningreleases_JP.pdf와 영문판에는 FIVE 언급 없음); 2017-12-04 LINE 보도자료: \"LINE will be evaluating bringing the business to the global market, including Thailand, Taiwan, and Indonesia\""
+  }
+ ],
+ "corrections": {
+  "earnings_call_note": "2018-10-24 LINE 2018년 12월기 3Q 決算説明会資料 p.8 'コア事業 | 広告プラットフォームのロードマップ': 디스플레이 광고의 시스템·기능 항목으로 \"FIVE 連携\"을 FY2018~FY2019 로드맵에 표시; 2018-01-31 LINE 2017년 통기 실적 발표 보도(ITmedia): \"17年12月4日には、動画広告制作・配信のファイブ（東京都渋谷区）を買収。\" \"動画広告の外部配信も強化していく方針だ。\" (기사 인용, 어닝콜 원문 미확인; 같은 날 決算説明会資料 Q4_earningreleases_JP.pdf와 영문판에는 FIVE 언급 없음); 2017-12-04 LINE 보도자료: \"LINE will be evaluating bringing the business to the global market, including Thailand, Taiwan, and Indonesia\""
+ },
+ "impairment_class_after": null,
+ "evidence_add": [
+  {
+   "field": "earnings_call_note",
+   "phase": "인수 후",
+   "event_date": "2018-10-24",
+   "event_type": "어닝콜",
+   "content": "LINE 2018년 12월기 3Q 決算説明会資料 p.8 'コア事業 | 広告プラットフォームのロードマップ'의 디스플레이 광고 시스템·기능 항목에 \"FIVE 連携\" 표시",
+   "url": "https://www.lycorp.co.jp/ja/ir/library/lineirairchive/linelibrary/main/01/teaserItems2/0/linkList/05/link/FY18Q3_Presentation.pdf",
+   "doc_type": "IR 자료",
+   "doc_date": "2018-10-24",
+   "doc_id": "FY18Q3_Presentation.pdf"
+  }
+ ],
+ "other_issues": "",
+ "summary": "LY Corporation의 LINE IR 아카이브에서 2017~2018 분기 설명회 자료를 모두 열어, 2018-10-24 3분기 자료의 광고 플랫폼 로드맵에 'FIVE 連携'이 있음을 1차 출처로 확인해 추가했다."
+}

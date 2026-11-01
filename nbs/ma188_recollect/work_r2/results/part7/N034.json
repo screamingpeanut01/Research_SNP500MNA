@@ -1,0 +1,133 @@
+{
+ "deal_id": "N034",
+ "ciq_id": "IQTR421564126",
+ "checks": [
+  {
+   "field": "acq_mktcap",
+   "class": "미완",
+   "retry": "채움",
+   "reason": "이번에 연 출처: ① Wayback CDX로 LINE(3938) 시세 페이지 스냅샷 목록을 조회(nikkei.com/nkd/company/?scode=3938, nikkei.com/nkd/company/history/dprice/?scode=3938, stocks.finance.yahoo.co.jp/stocks/detail·history, kabutan.jp, minkabu.jp, jp.investing.com, bloomberg.co.jp, k-db.com/stocks/3938-T*, kabuoji3.com). ② k-db.com 일별 시계열 Wayback 스냅샷 'LINE 日足 時系列データ (2016年)'(20170929225901)·'(2017年)'(20170930095237, 2017-09-29까지 수록). ③ IRBANK 'A HD（3938）の株価チャート'(https://irbank.net/3938/chart?y=날짜, 옛 LINE 일별 시가·고가·저가·종가·時価総額 표, 2차 자료) 현재 페이지. ④ 발행주식수: 닛케이 회사정보 Wayback 스냅샷의 '普通株式数', Yahoo!ファイナンス 상세 스냅샷의 '発行済株式数', jp.investing.com·minkabu 스냅샷. kabuoji3.com은 403, kabutan·minkabu 현재 페이지에는 옛 시세가 없음. 결과: 2017-02-22 종가 3,525円(k-db: 始値 3515·高値 3535·安値 3490·終値 3525·出来高 502400; IRBANK 같은 값, 時価総額 7,684億770万). 주식수는 Yahoo!ファイナンス 2017-02-26 스냅샷 '217,988,000 株 （02/24）'(같은 스냅샷의 2/23 종가 3,590円도 k-db와 일치). 20-F 월간 고저가 범위 추정을 실제 종가 계산으로 대체.",
+   "after": "계산: NAVER 26,271,255,163,000원 (발표 직전 거래일 2017-02-22 종가 797,000원[Yahoo Finance 035420.KS 분할조정 종가 159,400원 × 5; 2018-10 5:1 액면분할 전] × 발행주식 32,962,679주[NAVER 2016 사업보고서 '주식의 총수']). LINE(TSE:3938) 계산: 768,407,700,000円 (2017-02-22 東証 종가 3,525円[k-db.com 2017년 일별 표, IRBANK 일치] × 発行済株式数 217,988,000주[Yahoo!ファイナンス 상세 Wayback 2017-02-26 스냅샷, 2017-02-24 기준]); IRBANK 2017-02-22 時価総額 7,684億770万円(2차 자료)과 일치"
+  },
+  {
+   "field": "post_events_summary",
+   "class": "미완",
+   "retry": "채움",
+   "reason": "이번에 연 출처: NAVER 2017 사업보고서(20180402004149, 캐시 work/U059/naver_ar2017.txt: 'LINE Vietnam | 2012-01-20 | 2516-2, 25F, Keangnam Hanoi Landmark Tower', 자산 6,673백만원), NAVER 2018 사업보고서(20190401004489, 'LINE TECHNOLOGY VIETNAM Corp. | 2012-01-20 | 같은 주소', 자산 3,323백만원), NAVER 2019 사업보고서(20200330004603, 4,756백만원), NAVER 2020 사업보고서(20210316001214, 4,936백만원) — 캐시 cache/*_3.txt; DART 라인플러스(01026731) 감사보고서 목록 2017~2026 검색, 연결감사보고서 2021.03(20210712000235)·2022.03(20220713000195)·2023.03(20230711000217)·2026.03(20260706000496) — 2021.03부터 LINE TECHNOLOGY VIETNAM은 종속기업 목록에 없고 특수관계자 거래 상대로 기재, 2026.03 보고서 '기타 특수관계자' 목록에 당기·전기 모두 있음; 2022.03 보고서는 Green Highland Service Company Limited 신규 취득(2022-03-24), 2023.03 보고서는 그 회사의 사명 변경(→ LINE VIETNAM Company Limited)을 적음. 사명 변경 시점(2018년 중)은 NAVER 공시에 '(구, …)' 표기가 없어 같은 설립일·주소로 판단함.",
+   "after": "2017-03: LINE Plus가 제3자로부터 LINE Vietnam 잔여 5% 취득해 100% 자회사화(LINE 6-K 2017-05-12); 2017-04-01: 사업양도 완료(Adways 연혁 2017-04); 2017-12-31: LINE Vietnam 자산총액 6,673백만원(2016년 말 358백만원에서 증가, NAVER 2017 사업보고서); 2018-12-31: NAVER 연결 종속기업 목록에 LINE Vietnam 계속 기재(NAVER 2018 사업보고서); 2021-03: LINE–Z Holdings 경영통합으로 LINE 계열이 NAVER 지분법 합작 계열(A Holdings)로 바뀜 — 추정: LINE Vietnam도 LINE Plus를 통해 LY Corporation 계열로 남음(근거: LINE Plus가 LY 자회사라는 linecorp.com 회사정보, LINE Vietnam 자체 확인은 못 함); 2018-12-31: NAVER 2018 사업보고서 종속회사 목록에 같은 설립일(2012-01-20)·같은 주소(Keangnam Hanoi Landmark Tower 25F)의 'LINE TECHNOLOGY VIETNAM Corp.'(LINE Plus 100%, 자산총액 3,323백만원)로 기재 — 사명 변경으로 판단; 2019-12-31: 자산총액 4,756백만원; 2020-12-31: 4,936백만원(NAVER 2019·2020 사업보고서); 2021-03-31 이후: LINE Plus 연결감사보고서(2021.03~)의 종속기업 목록에는 없고 특수관계자 거래 상대로만 기재; 2025-04~2026-03: LINE Plus 2026.03 연결감사보고서 특수관계자 주석에 'LINE TECHNOLOGY VIETNAM CO.,LTD'가 '기타 특수관계자'(LY Corporation 계열)로 당기·전기 모두 기재돼 존속 확인. 참고: LINE Plus가 2022-03-24 취득해 사명을 바꾼 현재의 'LINE Vietnam Company Limited'(구 Green Highland Service Company Limited)는 다른 법인임"
+  },
+  {
+   "field": "target_rev_pre",
+   "class": "공개 자료 없음",
+   "retry": "못 찾음",
+   "reason": "이번에 연 출처: ① Adways 有価証券報告書 第17期(2016-04-01~2017-03-31, EDINET S100ALDM, https://disclosure2dl.edinet-fsa.go.jp/searchdocument/pdf/S100ALDM.pdf) — ADWAYS TECHNOLOGY VIETNAM JSC는 '主要な非連結子会社'로 이름만 있고 '非連結子会社は、小規模であり、総資産、売上高、当期純損益…は、いずれも連結財務諸表に重要な影響を及ぼしていない'고 적어 개별 실적을 싣지 않음. 'LINE'·'事業譲渡'로 검색해도 양도 관련 주석 없음. ② LINE 20-F FY2017(캐시 work/NV-L1/dl/20f_2017.txt) — 'Adways'·'LINE Vietnam' 검색 결과 지분 변동 주석뿐, 양수 사업 실적 없음. ③ Adways 연혁(adways.net/en/company/history) — ATV는 2011-06 설립, 2017-04 소프트웨어 개발 사업을 LINE Vietnam에 양도. ④ 웹 검색 '\"Adways Technology Vietnam\" OR \"Adways Technology\" Vietnam JSC 2015 売上 OR doanh thu' — 2015 재무 수치 없음. 1차에서 연 Adways 적시공시(TDnet 140120170222405033, 2016년 매출만)는 다시 열지 않음. 베트남 비상장 JSC의 재무제표는 공개 열람 경로가 없고(베트남 국가기업등록포털은 재무를 싣지 않음), 매도자 Adways는 비연결 자회사라 개별 실적을 공시하지 않았음을 원문으로 확인함.",
+   "after": "2015: 공개 자료 없음 (ATV는 Adways 비연결 자회사로 개별 실적 미공시); 2016: 43,598백만 VND (약 223백만엔, 양도 대상 소프트웨어 개발 사업 매출)"
+  },
+  {
+   "field": "target_op_pre",
+   "class": "공개 자료 없음",
+   "retry": "못 찾음",
+   "reason": "이번에 연 출처: ① Adways 有価証券報告書 第17期(2016-04-01~2017-03-31, EDINET S100ALDM, https://disclosure2dl.edinet-fsa.go.jp/searchdocument/pdf/S100ALDM.pdf) — ADWAYS TECHNOLOGY VIETNAM JSC는 '主要な非連結子会社'로 이름만 있고 '非連結子会社は、小規模であり、総資産、売上高、当期純損益…は、いずれも連結財務諸表に重要な影響を及ぼしていない'고 적어 개별 실적을 싣지 않음. 'LINE'·'事業譲渡'로 검색해도 양도 관련 주석 없음. ② LINE 20-F FY2017(캐시 work/NV-L1/dl/20f_2017.txt) — 'Adways'·'LINE Vietnam' 검색 결과 지분 변동 주석뿐, 양수 사업 실적 없음. ③ Adways 연혁(adways.net/en/company/history) — ATV는 2011-06 설립, 2017-04 소프트웨어 개발 사업을 LINE Vietnam에 양도. ④ 웹 검색 '\"Adways Technology Vietnam\" OR \"Adways Technology\" Vietnam JSC 2015 売上 OR doanh thu' — 2015 재무 수치 없음. 1차에서 연 Adways 적시공시(TDnet 140120170222405033, 2016년 매출만)는 다시 열지 않음. 베트남 비상장 JSC의 재무제표는 공개 열람 경로가 없고(베트남 국가기업등록포털은 재무를 싣지 않음), 매도자 Adways는 비연결 자회사라 개별 실적을 공시하지 않았음을 원문으로 확인함.",
+   "after": "공개 자료 없음 (Adways 적시공시는 2016년 매출만 기재, Adways 유가증권보고서는 ATV를 비연결 자회사로 개별 실적을 싣지 않음)"
+  }
+ ],
+ "corrections": {
+  "acq_mktcap": "계산: NAVER 26,271,255,163,000원 (발표 직전 거래일 2017-02-22 종가 797,000원[Yahoo Finance 035420.KS 분할조정 종가 159,400원 × 5; 2018-10 5:1 액면분할 전] × 발행주식 32,962,679주[NAVER 2016 사업보고서 '주식의 총수']). LINE(TSE:3938) 계산: 768,407,700,000円 (2017-02-22 東証 종가 3,525円[k-db.com 2017년 일별 표, IRBANK 일치] × 発行済株式数 217,988,000주[Yahoo!ファイナンス 상세 Wayback 2017-02-26 스냅샷, 2017-02-24 기준]); IRBANK 2017-02-22 時価総額 7,684億770万円(2차 자료)과 일치",
+  "post_events_summary": "2017-03: LINE Plus가 제3자로부터 LINE Vietnam 잔여 5% 취득해 100% 자회사화(LINE 6-K 2017-05-12); 2017-04-01: 사업양도 완료(Adways 연혁 2017-04); 2017-12-31: LINE Vietnam 자산총액 6,673백만원(2016년 말 358백만원에서 증가, NAVER 2017 사업보고서); 2018-12-31: NAVER 연결 종속기업 목록에 LINE Vietnam 계속 기재(NAVER 2018 사업보고서); 2021-03: LINE–Z Holdings 경영통합으로 LINE 계열이 NAVER 지분법 합작 계열(A Holdings)로 바뀜 — 추정: LINE Vietnam도 LINE Plus를 통해 LY Corporation 계열로 남음(근거: LINE Plus가 LY 자회사라는 linecorp.com 회사정보, LINE Vietnam 자체 확인은 못 함); 2018-12-31: NAVER 2018 사업보고서 종속회사 목록에 같은 설립일(2012-01-20)·같은 주소(Keangnam Hanoi Landmark Tower 25F)의 'LINE TECHNOLOGY VIETNAM Corp.'(LINE Plus 100%, 자산총액 3,323백만원)로 기재 — 사명 변경으로 판단; 2019-12-31: 자산총액 4,756백만원; 2020-12-31: 4,936백만원(NAVER 2019·2020 사업보고서); 2021-03-31 이후: LINE Plus 연결감사보고서(2021.03~)의 종속기업 목록에는 없고 특수관계자 거래 상대로만 기재; 2025-04~2026-03: LINE Plus 2026.03 연결감사보고서 특수관계자 주석에 'LINE TECHNOLOGY VIETNAM CO.,LTD'가 '기타 특수관계자'(LY Corporation 계열)로 당기·전기 모두 기재돼 존속 확인. 참고: LINE Plus가 2022-03-24 취득해 사명을 바꾼 현재의 'LINE Vietnam Company Limited'(구 Green Highland Service Company Limited)는 다른 법인임",
+  "target_rev_pre": "2015: 공개 자료 없음 (ATV는 Adways 비연결 자회사로 개별 실적 미공시); 2016: 43,598백만 VND (약 223백만엔, 양도 대상 소프트웨어 개발 사업 매출)",
+  "target_op_pre": "공개 자료 없음 (Adways 적시공시는 2016년 매출만 기재, Adways 유가증권보고서는 ATV를 비연결 자회사로 개별 실적을 싣지 않음)"
+ },
+ "impairment_class_after": null,
+ "evidence_add": [
+  {
+   "field": "acq_mktcap",
+   "phase": "발표",
+   "event_date": "2017-02-22",
+   "event_type": "기타",
+   "content": "k-db.com 'LINE 日足 時系列データ (2017年)': 2017-02-22 始値 3515.00 高値 3535.00 安値 3490.00 終値 3525.00 出来高 502400.",
+   "url": "http://web.archive.org/web/20170930095237/http://k-db.com/stocks/3938-T/1d/2017",
+   "doc_type": "기타",
+   "doc_date": "2017-09-30",
+   "doc_id": ""
+  },
+  {
+   "field": "acq_mktcap",
+   "phase": "발표",
+   "event_date": "2017-02-22",
+   "event_type": "기타",
+   "content": "IRBANK 'A HD（3938）の株価チャート' 일별 표(옛 LINE 시세): 2017-02-22 종가 3,525円, 時価総額 7684億770万円 (2차 자료).",
+   "url": "https://irbank.net/3938/chart?y=2017-02-22",
+   "doc_type": "기타",
+   "doc_date": "2026-11-01",
+   "doc_id": ""
+  },
+  {
+   "field": "acq_mktcap",
+   "phase": "발표",
+   "event_date": "2017-02-24",
+   "event_type": "기타",
+   "content": "Yahoo!ファイナンス LINE(3938.T) 상세: '時価総額 849,063 百万円 （02/24）', '217,988,000 株 （02/24） 発行済株式数', 前日終値 3,590 （02/23）.",
+   "url": "http://web.archive.org/web/20170226213644/http://stocks.finance.yahoo.co.jp/stocks/detail/?code=3938.T",
+   "doc_type": "기타",
+   "doc_date": "2017-02-26",
+   "doc_id": ""
+  },
+  {
+   "field": "post_events_summary",
+   "phase": "인수 후",
+   "event_date": "2018-12-31",
+   "event_type": "사명변경",
+   "content": "NAVER 2018 사업보고서 종속회사 현황: 'LINE TECHNOLOGY VIETNAM Corp. | 2012-01-20 | 20 2516-2, 25F, Keangnam Hanoi Landmark Tower, Me Tri, Tu Liem, Hanoi, Vietnam | 모바일 서비스 운영 | 3,323'(백만원). 2017 사업보고서의 'LINE Vietnam | 2012-01-20 | 같은 주소'와 같은 법인으로 판단.",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20190401004489",
+   "doc_type": "DART 사업보고서",
+   "doc_date": "2019-04-01",
+   "doc_id": "20190401004489"
+  },
+  {
+   "field": "post_events_summary",
+   "phase": "인수 후",
+   "event_date": "2020-12-31",
+   "event_type": "기타",
+   "content": "NAVER 2020 사업보고서: 'LINE TECHNOLOGY VIETNAM | 2012-01-20 | … | 모바일 서비스 (베트남) | 4,936'(백만원). 2019 사업보고서(20200330004603)는 4,756.",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20210316001214",
+   "doc_type": "DART 사업보고서",
+   "doc_date": "2021-03-16",
+   "doc_id": "20210316001214"
+  },
+  {
+   "field": "post_events_summary",
+   "phase": "인수 후",
+   "event_date": "2026-03-31",
+   "event_type": "기타",
+   "content": "라인플러스 연결감사보고서(2026.03) 특수관계자 주석 '기타 특수관계자' 목록에 'LINE TECHNOLOGY VIETNAM CO.,LTD'가 당기·전기 모두 기재(지배기업 Z Intermediate Global, 최상위 SoftBank Group).",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260706000496",
+   "doc_type": "DART 감사보고서",
+   "doc_date": "2026-07-06",
+   "doc_id": "20260706000496"
+  },
+  {
+   "field": "post_events_summary",
+   "phase": "인수 후",
+   "event_date": "2022-03-24",
+   "event_type": "기타",
+   "content": "라인플러스 연결감사보고서(2023.03): '(*5) 회사는 전기 3월 24일 자로 Green Highland Service Company Limited을 신규취득', '(*6) 당기중 사명을 … LINE VIETNAM Company Limited로 변경' — 이 거래의 매수자와는 다른 법인.",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20230711000217",
+   "doc_type": "DART 감사보고서",
+   "doc_date": "2023-07-11",
+   "doc_id": "20230711000217"
+  },
+  {
+   "field": "target_rev_pre,target_op_pre",
+   "phase": "인수 전",
+   "event_date": "2017-03-31",
+   "event_type": "기타",
+   "content": "Adways 有価証券報告書 第17期: 주요 비연결 자회사에 'ADWAYS TECHNOLOGY VIETNAM JSC' — '非連結子会社は、小規模であり、総資産、売上高、当期純損益…は、いずれも連結財務諸表に重要な影響を及ぼしていない'.",
+   "url": "https://disclosure2dl.edinet-fsa.go.jp/searchdocument/pdf/S100ALDM.pdf",
+   "doc_type": "EDINET",
+   "doc_date": "2017-06-26",
+   "doc_id": "S100ALDM"
+  }
+ ],
+ "other_issues": "Adways의 회계연도는 3월 결산(第17期 2016-04~2017-03)이다. 인수 대상 ATV는 12월 결산. 현재 LINE Plus 산하의 'LINE Vietnam Company Limited'(2022-03 취득, 구 Green Highland)는 이 거래의 매수자 LINE Vietnam Co., Ltd(2012 설립, 2018년 무렵 LINE TECHNOLOGY VIETNAM으로 사명 변경으로 보임)와 다른 법인이므로 이후 자료를 볼 때 혼동하지 않아야 한다.",
+ "summary": "LINE 2017-02-22 종가 3,525円으로 시가총액 약 7,684억円을 채우고, 매수자 LINE Vietnam이 LINE TECHNOLOGY VIETNAM으로 바뀌어 2026년 3월기까지 LY 계열로 존속함을 확인. ATV 2015 매출·영업이익은 Adways 유가증권보고서 원문으로 비공시를 확인해 공개 자료 없음."
+}

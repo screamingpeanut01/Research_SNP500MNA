@@ -1,0 +1,97 @@
+[
+ {
+  "ciq_id": "IQTR1806039808",
+  "field": "earnings_call_note",
+  "class": "공개 자료 없음",
+  "retry": "못 찾음",
+  "after": "개별 언급 없음 (CJ ENM 2022·2023 어닝콜 8회 녹취 확인). 관련 언급은 일반론뿐: 1Q22(2022-05-11) '한국의 신규 스튜디오 CJ ENM Studios 설립도 마무리하였습니다'; 3Q22(2022-11-08) 'Fifth Season 및 CJ ENM Studios 설립을 통해 국내외 시장에서 콘텐츠 경쟁 영향력을 확대'; 1Q23(2023-05-04) 'multi-studio system'으로 공동 기획·제작 강화 (StockAnalysis 녹취, 출처 Quartr)",
+  "reason": "Claude in Chrome(2026-11-01)으로 StockAnalysis에 실린 CJ ENM 어닝콜 녹취(Quartr 제공, 한국어·영어 병기) 8회를 모두 열어 블라드·본팩토리·제이케이필름·투니버스·용필름(영문명 포함)과 'CJ ENM Studios'·'멀티 스튜디오'를 검색함: https://stockanalysis.com/quote/kosdaq/035760/transcripts/355972-q1-2022/, https://stockanalysis.com/quote/kosdaq/035760/transcripts/355971-q2-2022/, https://stockanalysis.com/quote/kosdaq/035760/transcripts/355970-q3-2022/, https://stockanalysis.com/quote/kosdaq/035760/transcripts/355969-q4-2022/, https://stockanalysis.com/quote/kosdaq/035760/transcripts/355968-q1-2023/, https://stockanalysis.com/quote/kosdaq/035760/transcripts/355967-q2-2023/, https://stockanalysis.com/quote/kosdaq/035760/transcripts/355966-q3-2023/, https://stockanalysis.com/quote/kosdaq/035760/transcripts/355965-q4-2023/. 다섯 회사의 이름은 한 번도 나오지 않음. 관련 언급은 멀티 스튜디오 체계에 관한 일반론뿐임(1Q22·3Q22·1Q23). gurufocus는 curl로 403이었으나 같은 녹취를 이 경로로 확인함.",
+  "evidence": {
+   "field": "earnings_call_note",
+   "phase": "인수 후",
+   "event_date": "2022-11-08",
+   "event_type": "어닝콜",
+   "content": "CJ ENM 3Q22 어닝콜: 'Fifth Season 및 CJ ENM Studios 설립을 통해 국내외 시장에서 콘텐츠 경쟁 영향력을 확대'. 대상 제작사 개별 언급 없음(2022·2023 8회 녹취 확인)",
+   "url": "https://stockanalysis.com/quote/kosdaq/035760/transcripts/355970-q3-2022/",
+   "doc_type": "어닝콜",
+   "doc_date": "2022-11-08",
+   "doc_id": ""
+  }
+ },
+ {
+  "ciq_id": "IQTR1806052511",
+  "field": "earnings_call_note",
+  "class": "공개 자료 없음",
+  "retry": "못 찾음",
+  "after": "개별 언급 없음 (CJ ENM 2022·2023 어닝콜 8회 녹취 확인). 관련 언급은 일반론뿐: 1Q22(2022-05-11) '한국의 신규 스튜디오 CJ ENM Studios 설립도 마무리하였습니다'; 3Q22(2022-11-08) 'Fifth Season 및 CJ ENM Studios 설립을 통해 국내외 시장에서 콘텐츠 경쟁 영향력을 확대'; 1Q23(2023-05-04) 'multi-studio system'으로 공동 기획·제작 강화 (StockAnalysis 녹취, 출처 Quartr)",
+  "reason": "Claude in Chrome(2026-11-01)으로 StockAnalysis에 실린 CJ ENM 어닝콜 녹취(Quartr 제공, 한국어·영어 병기) 8회를 모두 열어 블라드·본팩토리·제이케이필름·투니버스·용필름(영문명 포함)과 'CJ ENM Studios'·'멀티 스튜디오'를 검색함: https://stockanalysis.com/quote/kosdaq/035760/transcripts/355972-q1-2022/, https://stockanalysis.com/quote/kosdaq/035760/transcripts/355971-q2-2022/, https://stockanalysis.com/quote/kosdaq/035760/transcripts/355970-q3-2022/, https://stockanalysis.com/quote/kosdaq/035760/transcripts/355969-q4-2022/, https://stockanalysis.com/quote/kosdaq/035760/transcripts/355968-q1-2023/, https://stockanalysis.com/quote/kosdaq/035760/transcripts/355967-q2-2023/, https://stockanalysis.com/quote/kosdaq/035760/transcripts/355966-q3-2023/, https://stockanalysis.com/quote/kosdaq/035760/transcripts/355965-q4-2023/. 다섯 회사의 이름은 한 번도 나오지 않음. 관련 언급은 멀티 스튜디오 체계에 관한 일반론뿐임(1Q22·3Q22·1Q23). gurufocus는 curl로 403이었으나 같은 녹취를 이 경로로 확인함.",
+  "evidence": {
+   "field": "earnings_call_note",
+   "phase": "인수 후",
+   "event_date": "2022-11-08",
+   "event_type": "어닝콜",
+   "content": "CJ ENM 3Q22 어닝콜: 'Fifth Season 및 CJ ENM Studios 설립을 통해 국내외 시장에서 콘텐츠 경쟁 영향력을 확대'. 대상 제작사 개별 언급 없음(2022·2023 8회 녹취 확인)",
+   "url": "https://stockanalysis.com/quote/kosdaq/035760/transcripts/355970-q3-2022/",
+   "doc_type": "어닝콜",
+   "doc_date": "2022-11-08",
+   "doc_id": ""
+  }
+ },
+ {
+  "ciq_id": "IQTR1806172952",
+  "field": "earnings_call_note",
+  "class": "공개 자료 없음",
+  "retry": "못 찾음",
+  "after": "개별 언급 없음 (CJ ENM 2022·2023 어닝콜 8회 녹취 확인). 관련 언급은 일반론뿐: 1Q22(2022-05-11) '한국의 신규 스튜디오 CJ ENM Studios 설립도 마무리하였습니다'; 3Q22(2022-11-08) 'Fifth Season 및 CJ ENM Studios 설립을 통해 국내외 시장에서 콘텐츠 경쟁 영향력을 확대'; 1Q23(2023-05-04) 'multi-studio system'으로 공동 기획·제작 강화 (StockAnalysis 녹취, 출처 Quartr)",
+  "reason": "Claude in Chrome(2026-11-01)으로 StockAnalysis에 실린 CJ ENM 어닝콜 녹취(Quartr 제공, 한국어·영어 병기) 8회를 모두 열어 블라드·본팩토리·제이케이필름·투니버스·용필름(영문명 포함)과 'CJ ENM Studios'·'멀티 스튜디오'를 검색함: https://stockanalysis.com/quote/kosdaq/035760/transcripts/355972-q1-2022/, https://stockanalysis.com/quote/kosdaq/035760/transcripts/355971-q2-2022/, https://stockanalysis.com/quote/kosdaq/035760/transcripts/355970-q3-2022/, https://stockanalysis.com/quote/kosdaq/035760/transcripts/355969-q4-2022/, https://stockanalysis.com/quote/kosdaq/035760/transcripts/355968-q1-2023/, https://stockanalysis.com/quote/kosdaq/035760/transcripts/355967-q2-2023/, https://stockanalysis.com/quote/kosdaq/035760/transcripts/355966-q3-2023/, https://stockanalysis.com/quote/kosdaq/035760/transcripts/355965-q4-2023/. 다섯 회사의 이름은 한 번도 나오지 않음. 관련 언급은 멀티 스튜디오 체계에 관한 일반론뿐임(1Q22·3Q22·1Q23). gurufocus는 curl로 403이었으나 같은 녹취를 이 경로로 확인함.",
+  "evidence": {
+   "field": "earnings_call_note",
+   "phase": "인수 후",
+   "event_date": "2022-11-08",
+   "event_type": "어닝콜",
+   "content": "CJ ENM 3Q22 어닝콜: 'Fifth Season 및 CJ ENM Studios 설립을 통해 국내외 시장에서 콘텐츠 경쟁 영향력을 확대'. 대상 제작사 개별 언급 없음(2022·2023 8회 녹취 확인)",
+   "url": "https://stockanalysis.com/quote/kosdaq/035760/transcripts/355970-q3-2022/",
+   "doc_type": "어닝콜",
+   "doc_date": "2022-11-08",
+   "doc_id": ""
+  }
+ },
+ {
+  "ciq_id": "IQTR1806060686",
+  "field": "earnings_call_note",
+  "class": "공개 자료 없음",
+  "retry": "못 찾음",
+  "after": "개별 언급 없음 (CJ ENM 2022·2023 어닝콜 8회 녹취 확인). 관련 언급은 일반론뿐: 1Q22(2022-05-11) '한국의 신규 스튜디오 CJ ENM Studios 설립도 마무리하였습니다'; 3Q22(2022-11-08) 'Fifth Season 및 CJ ENM Studios 설립을 통해 국내외 시장에서 콘텐츠 경쟁 영향력을 확대'; 1Q23(2023-05-04) 'multi-studio system'으로 공동 기획·제작 강화 (StockAnalysis 녹취, 출처 Quartr)",
+  "reason": "Claude in Chrome(2026-11-01)으로 StockAnalysis에 실린 CJ ENM 어닝콜 녹취(Quartr 제공, 한국어·영어 병기) 8회를 모두 열어 블라드·본팩토리·제이케이필름·투니버스·용필름(영문명 포함)과 'CJ ENM Studios'·'멀티 스튜디오'를 검색함: https://stockanalysis.com/quote/kosdaq/035760/transcripts/355972-q1-2022/, https://stockanalysis.com/quote/kosdaq/035760/transcripts/355971-q2-2022/, https://stockanalysis.com/quote/kosdaq/035760/transcripts/355970-q3-2022/, https://stockanalysis.com/quote/kosdaq/035760/transcripts/355969-q4-2022/, https://stockanalysis.com/quote/kosdaq/035760/transcripts/355968-q1-2023/, https://stockanalysis.com/quote/kosdaq/035760/transcripts/355967-q2-2023/, https://stockanalysis.com/quote/kosdaq/035760/transcripts/355966-q3-2023/, https://stockanalysis.com/quote/kosdaq/035760/transcripts/355965-q4-2023/. 다섯 회사의 이름은 한 번도 나오지 않음. 관련 언급은 멀티 스튜디오 체계에 관한 일반론뿐임(1Q22·3Q22·1Q23). gurufocus는 curl로 403이었으나 같은 녹취를 이 경로로 확인함.",
+  "evidence": {
+   "field": "earnings_call_note",
+   "phase": "인수 후",
+   "event_date": "2022-11-08",
+   "event_type": "어닝콜",
+   "content": "CJ ENM 3Q22 어닝콜: 'Fifth Season 및 CJ ENM Studios 설립을 통해 국내외 시장에서 콘텐츠 경쟁 영향력을 확대'. 대상 제작사 개별 언급 없음(2022·2023 8회 녹취 확인)",
+   "url": "https://stockanalysis.com/quote/kosdaq/035760/transcripts/355970-q3-2022/",
+   "doc_type": "어닝콜",
+   "doc_date": "2022-11-08",
+   "doc_id": ""
+  }
+ },
+ {
+  "ciq_id": "IQTR1806046608",
+  "field": "earnings_call_note",
+  "class": "공개 자료 없음",
+  "retry": "못 찾음",
+  "after": "개별 언급 없음 (CJ ENM 2022·2023 어닝콜 8회 녹취 확인). 관련 언급은 일반론뿐: 1Q22(2022-05-11) '한국의 신규 스튜디오 CJ ENM Studios 설립도 마무리하였습니다'; 3Q22(2022-11-08) 'Fifth Season 및 CJ ENM Studios 설립을 통해 국내외 시장에서 콘텐츠 경쟁 영향력을 확대'; 1Q23(2023-05-04) 'multi-studio system'으로 공동 기획·제작 강화 (StockAnalysis 녹취, 출처 Quartr)",
+  "reason": "Claude in Chrome(2026-11-01)으로 StockAnalysis에 실린 CJ ENM 어닝콜 녹취(Quartr 제공, 한국어·영어 병기) 8회를 모두 열어 블라드·본팩토리·제이케이필름·투니버스·용필름(영문명 포함)과 'CJ ENM Studios'·'멀티 스튜디오'를 검색함: https://stockanalysis.com/quote/kosdaq/035760/transcripts/355972-q1-2022/, https://stockanalysis.com/quote/kosdaq/035760/transcripts/355971-q2-2022/, https://stockanalysis.com/quote/kosdaq/035760/transcripts/355970-q3-2022/, https://stockanalysis.com/quote/kosdaq/035760/transcripts/355969-q4-2022/, https://stockanalysis.com/quote/kosdaq/035760/transcripts/355968-q1-2023/, https://stockanalysis.com/quote/kosdaq/035760/transcripts/355967-q2-2023/, https://stockanalysis.com/quote/kosdaq/035760/transcripts/355966-q3-2023/, https://stockanalysis.com/quote/kosdaq/035760/transcripts/355965-q4-2023/. 다섯 회사의 이름은 한 번도 나오지 않음. 관련 언급은 멀티 스튜디오 체계에 관한 일반론뿐임(1Q22·3Q22·1Q23). gurufocus는 curl로 403이었으나 같은 녹취를 이 경로로 확인함.",
+  "evidence": {
+   "field": "earnings_call_note",
+   "phase": "인수 후",
+   "event_date": "2022-11-08",
+   "event_type": "어닝콜",
+   "content": "CJ ENM 3Q22 어닝콜: 'Fifth Season 및 CJ ENM Studios 설립을 통해 국내외 시장에서 콘텐츠 경쟁 영향력을 확대'. 대상 제작사 개별 언급 없음(2022·2023 8회 녹취 확인)",
+   "url": "https://stockanalysis.com/quote/kosdaq/035760/transcripts/355970-q3-2022/",
+   "doc_type": "어닝콜",
+   "doc_date": "2022-11-08",
+   "doc_id": ""
+  }
+ }
+]

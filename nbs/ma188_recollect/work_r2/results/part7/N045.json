@@ -1,0 +1,93 @@
+{
+ "deal_id": "N045",
+ "ciq_id": "IQTR594672156",
+ "checks": [
+  {
+   "field": "status_chk",
+   "class": "미완",
+   "retry": "일부 채움",
+   "reason": "이번에 연 출처: 미래에셋대우(현 미래에셋증권, 00111722) 2018년 3분기보고서(20181114001821, 해외 계열회사 목록에 MIRAE ASSET-NAVER ASIA GROWTH INVESTMENT PTE. LTD.는 있으나 LOGISVALLEY 없음), 2018 사업보고서(20190401004649, 2018-12-31 기준 해외 계열회사 목록과 계열회사간 상호 지분관계 표에 'LOGISVALLEY BACNINH COMPANY LIMITED' 기재), 2019 사업보고서(20200330004390, 미래에셋네이버아시아그로쓰사모투자합자회사 지분 83.17%를 관계기업으로 처리, 장부 254,114백만원; LogisValley 재무 없음); 미래에셋캐피탈(00251738) 2019 사업보고서(20200330004021) 본문과 첨부 연결감사보고서(dcmNo 7203547) — 이 PEF 지분 0.17%만 보유, 연결 종속기업은 베트남 여신회사 1곳뿐이라 LogisValley 재무 없음; 웹 검색 4건(위 target 칸 reason과 같음) — 잔금일을 적은 문서 없음. 1차에서 연 VIR·Viet Nam News·세종 사례는 다시 열지 않음. 미래에셋 측 계열회사 목록으로 완료 시점을 2018년 4분기로 좁혔고, 정확한 잔금일은 여전히 찾지 못함.",
+   "after": "완료 (2018-11-09 인수 보도 기준. 미래에셋대우 2018 사업보고서[20190401004649]의 2018-12-31 기준 해외 계열회사 목록에 물류센터 보유 법인으로 보이는 'LOGISVALLEY BACNINH COMPANY LIMITED'가 처음 기재되고, 2018-09-30 기준 3분기보고서[20181114001821]에는 없어 2018년 4분기 중 완료로 확인; 정확한 잔금일은 공개 자료 없음)"
+  },
+  {
+   "field": "first_filing_date",
+   "class": "미완",
+   "retry": "못 찾음",
+   "reason": "이번에 연 출처: 웹 검색 '미래에셋 네이버 베트남 물류센터 인수 옌퐁 530억', '\"미래에셋\" \"네이버\" 베트남 물류센터 2곳 인수 2018년 11월 아시아그로스펀드'(국내 매체 결과 없음), 'The Investor Mirae Asset Naver fund buys two logistics centers Vietnam November 2018', 'theinvestor.co.kr Mirae Naver logistics Vietnam Yen Phong 53 billion won'(VIR·Viet Nam News·DealStreetAsia만 나오고 The Investor 원문 URL은 검색되지 않음); 미래에셋대우 2018 3분기·연간 보고서에도 이 거래 공시 없음. 국내 원 보도(2018-11-09, The Investor 추정) 원문을 열지 못해 미완.",
+   "after": "2018-11-09: 국내 언론의 업계 관계자 인용 보도(원문 미확인; VIR·Viet Nam News 2018-11-12가 'said industry sources on Friday'로 재인용, 사진 출처 THE INVESTOR). DealStreetAsia 2018-11-12 'Mirae-Naver fund in $47m logistics deal'. NAVER의 DART 공시는 없음(2018-01~2019-04 공시 목록 확인)."
+  },
+  {
+   "field": "target_rev_pre",
+   "class": "공개 자료 없음",
+   "retry": "못 찾음",
+   "reason": "이번에 연 출처: 미래에셋대우(현 미래에셋증권, 00111722) 2018년 3분기보고서(20181114001821, 해외 계열회사 목록에 MIRAE ASSET-NAVER ASIA GROWTH INVESTMENT PTE. LTD.는 있으나 LOGISVALLEY 없음), 2018 사업보고서(20190401004649, 2018-12-31 기준 해외 계열회사 목록과 계열회사간 상호 지분관계 표에 'LOGISVALLEY BACNINH COMPANY LIMITED' 기재), 2019 사업보고서(20200330004390, 미래에셋네이버아시아그로쓰사모투자합자회사 지분 83.17%를 관계기업으로 처리, 장부 254,114백만원; LogisValley 재무 없음); 미래에셋캐피탈(00251738) 2019 사업보고서(20200330004021) 본문과 첨부 연결감사보고서(dcmNo 7203547) — 이 PEF 지분 0.17%만 보유, 연결 종속기업은 베트남 여신회사 1곳뿐이라 LogisValley 재무 없음; 웹 검색 '미래에셋 네이버 베트남 물류센터 인수 옌퐁 530억', '\"미래에셋\" \"네이버\" 베트남 물류센터 2곳 인수 2018년 11월 아시아그로스펀드', 'The Investor Mirae Asset Naver fund buys two logistics centers Vietnam November 2018', 'theinvestor.co.kr Mirae Naver logistics Vietnam Yen Phong 53 billion won' — VIR·Viet Nam News 2018-11-12, KED Global 2018-12-27, 법무법인 세종 사례(2020 LogisValley Vina 건) 등만 나오고 물류센터·보유 법인의 매출·영업이익은 없음. 1차에서 연 NAVER FY2018~2025 사업보고서 연결주석(싱가포르 투자법인 단위 지분법 손익만)은 다시 열지 않음. 매수 측 한국 PEF를 보유한 미래에셋대우·미래에셋캐피탈·NAVER가 모두 관계기업으로 처리해 하위 베트남 법인 실적을 싣지 않고, 베트남 비상장 법인은 공개 재무 공시 경로가 없으며, 싱가포르 등기(ACRA)와 EMIS는 유료라 쓰지 않음. 공개 자료에는 값이 없다고 판단.",
+   "after": "공개 자료 없음 (베트남 비상장 법인 보유 물류센터; NAVER·미래에셋대우·미래에셋캐피탈 모두 상위 펀드를 관계기업으로 처리해 하위 법인 실적 미공시)"
+  },
+  {
+   "field": "target_rev_post",
+   "class": "공개 자료 없음",
+   "retry": "못 찾음",
+   "reason": "이번에 연 출처: 미래에셋대우(현 미래에셋증권, 00111722) 2018년 3분기보고서(20181114001821, 해외 계열회사 목록에 MIRAE ASSET-NAVER ASIA GROWTH INVESTMENT PTE. LTD.는 있으나 LOGISVALLEY 없음), 2018 사업보고서(20190401004649, 2018-12-31 기준 해외 계열회사 목록과 계열회사간 상호 지분관계 표에 'LOGISVALLEY BACNINH COMPANY LIMITED' 기재), 2019 사업보고서(20200330004390, 미래에셋네이버아시아그로쓰사모투자합자회사 지분 83.17%를 관계기업으로 처리, 장부 254,114백만원; LogisValley 재무 없음); 미래에셋캐피탈(00251738) 2019 사업보고서(20200330004021) 본문과 첨부 연결감사보고서(dcmNo 7203547) — 이 PEF 지분 0.17%만 보유, 연결 종속기업은 베트남 여신회사 1곳뿐이라 LogisValley 재무 없음; 웹 검색 '미래에셋 네이버 베트남 물류센터 인수 옌퐁 530억', '\"미래에셋\" \"네이버\" 베트남 물류센터 2곳 인수 2018년 11월 아시아그로스펀드', 'The Investor Mirae Asset Naver fund buys two logistics centers Vietnam November 2018', 'theinvestor.co.kr Mirae Naver logistics Vietnam Yen Phong 53 billion won' — VIR·Viet Nam News 2018-11-12, KED Global 2018-12-27, 법무법인 세종 사례(2020 LogisValley Vina 건) 등만 나오고 물류센터·보유 법인의 매출·영업이익은 없음. 1차에서 연 NAVER FY2018~2025 사업보고서 연결주석(싱가포르 투자법인 단위 지분법 손익만)은 다시 열지 않음. 매수 측 한국 PEF를 보유한 미래에셋대우·미래에셋캐피탈·NAVER가 모두 관계기업으로 처리해 하위 베트남 법인 실적을 싣지 않고, 베트남 비상장 법인은 공개 재무 공시 경로가 없으며, 싱가포르 등기(ACRA)와 EMIS는 유료라 쓰지 않음. 공개 자료에는 값이 없다고 판단.",
+   "after": "공개 자료 없음 (베트남 비상장 법인 보유 물류센터; NAVER·미래에셋대우·미래에셋캐피탈 모두 상위 펀드를 관계기업으로 처리해 하위 법인 실적 미공시)"
+  },
+  {
+   "field": "target_op_pre",
+   "class": "공개 자료 없음",
+   "retry": "못 찾음",
+   "reason": "이번에 연 출처: 미래에셋대우(현 미래에셋증권, 00111722) 2018년 3분기보고서(20181114001821, 해외 계열회사 목록에 MIRAE ASSET-NAVER ASIA GROWTH INVESTMENT PTE. LTD.는 있으나 LOGISVALLEY 없음), 2018 사업보고서(20190401004649, 2018-12-31 기준 해외 계열회사 목록과 계열회사간 상호 지분관계 표에 'LOGISVALLEY BACNINH COMPANY LIMITED' 기재), 2019 사업보고서(20200330004390, 미래에셋네이버아시아그로쓰사모투자합자회사 지분 83.17%를 관계기업으로 처리, 장부 254,114백만원; LogisValley 재무 없음); 미래에셋캐피탈(00251738) 2019 사업보고서(20200330004021) 본문과 첨부 연결감사보고서(dcmNo 7203547) — 이 PEF 지분 0.17%만 보유, 연결 종속기업은 베트남 여신회사 1곳뿐이라 LogisValley 재무 없음; 웹 검색 '미래에셋 네이버 베트남 물류센터 인수 옌퐁 530억', '\"미래에셋\" \"네이버\" 베트남 물류센터 2곳 인수 2018년 11월 아시아그로스펀드', 'The Investor Mirae Asset Naver fund buys two logistics centers Vietnam November 2018', 'theinvestor.co.kr Mirae Naver logistics Vietnam Yen Phong 53 billion won' — VIR·Viet Nam News 2018-11-12, KED Global 2018-12-27, 법무법인 세종 사례(2020 LogisValley Vina 건) 등만 나오고 물류센터·보유 법인의 매출·영업이익은 없음. 1차에서 연 NAVER FY2018~2025 사업보고서 연결주석(싱가포르 투자법인 단위 지분법 손익만)은 다시 열지 않음. 매수 측 한국 PEF를 보유한 미래에셋대우·미래에셋캐피탈·NAVER가 모두 관계기업으로 처리해 하위 베트남 법인 실적을 싣지 않고, 베트남 비상장 법인은 공개 재무 공시 경로가 없으며, 싱가포르 등기(ACRA)와 EMIS는 유료라 쓰지 않음. 공개 자료에는 값이 없다고 판단.",
+   "after": "공개 자료 없음 (베트남 비상장 법인 보유 물류센터; NAVER·미래에셋대우·미래에셋캐피탈 모두 상위 펀드를 관계기업으로 처리해 하위 법인 실적 미공시)"
+  },
+  {
+   "field": "target_op_post",
+   "class": "공개 자료 없음",
+   "retry": "못 찾음",
+   "reason": "이번에 연 출처: 미래에셋대우(현 미래에셋증권, 00111722) 2018년 3분기보고서(20181114001821, 해외 계열회사 목록에 MIRAE ASSET-NAVER ASIA GROWTH INVESTMENT PTE. LTD.는 있으나 LOGISVALLEY 없음), 2018 사업보고서(20190401004649, 2018-12-31 기준 해외 계열회사 목록과 계열회사간 상호 지분관계 표에 'LOGISVALLEY BACNINH COMPANY LIMITED' 기재), 2019 사업보고서(20200330004390, 미래에셋네이버아시아그로쓰사모투자합자회사 지분 83.17%를 관계기업으로 처리, 장부 254,114백만원; LogisValley 재무 없음); 미래에셋캐피탈(00251738) 2019 사업보고서(20200330004021) 본문과 첨부 연결감사보고서(dcmNo 7203547) — 이 PEF 지분 0.17%만 보유, 연결 종속기업은 베트남 여신회사 1곳뿐이라 LogisValley 재무 없음; 웹 검색 '미래에셋 네이버 베트남 물류센터 인수 옌퐁 530억', '\"미래에셋\" \"네이버\" 베트남 물류센터 2곳 인수 2018년 11월 아시아그로스펀드', 'The Investor Mirae Asset Naver fund buys two logistics centers Vietnam November 2018', 'theinvestor.co.kr Mirae Naver logistics Vietnam Yen Phong 53 billion won' — VIR·Viet Nam News 2018-11-12, KED Global 2018-12-27, 법무법인 세종 사례(2020 LogisValley Vina 건) 등만 나오고 물류센터·보유 법인의 매출·영업이익은 없음. 1차에서 연 NAVER FY2018~2025 사업보고서 연결주석(싱가포르 투자법인 단위 지분법 손익만)은 다시 열지 않음. 매수 측 한국 PEF를 보유한 미래에셋대우·미래에셋캐피탈·NAVER가 모두 관계기업으로 처리해 하위 베트남 법인 실적을 싣지 않고, 베트남 비상장 법인은 공개 재무 공시 경로가 없으며, 싱가포르 등기(ACRA)와 EMIS는 유료라 쓰지 않음. 공개 자료에는 값이 없다고 판단.",
+   "after": "공개 자료 없음 (베트남 비상장 법인 보유 물류센터; NAVER·미래에셋대우·미래에셋캐피탈 모두 상위 펀드를 관계기업으로 처리해 하위 법인 실적 미공시)"
+  }
+ ],
+ "corrections": {
+  "status_chk": "완료 (2018-11-09 인수 보도 기준. 미래에셋대우 2018 사업보고서[20190401004649]의 2018-12-31 기준 해외 계열회사 목록에 물류센터 보유 법인으로 보이는 'LOGISVALLEY BACNINH COMPANY LIMITED'가 처음 기재되고, 2018-09-30 기준 3분기보고서[20181114001821]에는 없어 2018년 4분기 중 완료로 확인; 정확한 잔금일은 공개 자료 없음)",
+  "target_rev_pre": "공개 자료 없음 (베트남 비상장 법인 보유 물류센터; NAVER·미래에셋대우·미래에셋캐피탈 모두 상위 펀드를 관계기업으로 처리해 하위 법인 실적 미공시)",
+  "target_rev_post": "공개 자료 없음 (베트남 비상장 법인 보유 물류센터; NAVER·미래에셋대우·미래에셋캐피탈 모두 상위 펀드를 관계기업으로 처리해 하위 법인 실적 미공시)",
+  "target_op_pre": "공개 자료 없음 (베트남 비상장 법인 보유 물류센터; NAVER·미래에셋대우·미래에셋캐피탈 모두 상위 펀드를 관계기업으로 처리해 하위 법인 실적 미공시)",
+  "target_op_post": "공개 자료 없음 (베트남 비상장 법인 보유 물류센터; NAVER·미래에셋대우·미래에셋캐피탈 모두 상위 펀드를 관계기업으로 처리해 하위 법인 실적 미공시)"
+ },
+ "impairment_class_after": null,
+ "evidence_add": [
+  {
+   "field": "status_chk,acquirer_entity",
+   "phase": "인수 후",
+   "event_date": "2018-12-31",
+   "event_type": "완료",
+   "content": "미래에셋대우 2018 사업보고서 계열회사 현황(2018-12-31): 해외 계열회사에 'MIRAE ASSET-NAVER ASIA GROWTH INVESTMENT PTE. LTD.'와 'LOGISVALLEY BACNINH COMPANY LIMITED'가 함께 기재.",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20190401004649",
+   "doc_type": "DART 사업보고서",
+   "doc_date": "2019-04-01",
+   "doc_id": "20190401004649"
+  },
+  {
+   "field": "status_chk",
+   "phase": "발표",
+   "event_date": "2018-09-30",
+   "event_type": "기타",
+   "content": "미래에셋대우 2018년 3분기보고서 계열회사 현황: 해외 계열회사에 MIRAE ASSET-NAVER ASIA GROWTH INVESTMENT PTE. LTD.는 있고 LOGISVALLEY BACNINH COMPANY LIMITED는 없음.",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20181114001821",
+   "doc_type": "DART 기타공시",
+   "doc_date": "2018-11-14",
+   "doc_id": "20181114001821"
+  },
+  {
+   "field": "target_rev_pre,target_rev_post,target_op_pre,target_op_post",
+   "phase": "인수 후",
+   "event_date": "2019-12-31",
+   "event_type": "기타",
+   "content": "미래에셋대우 2019 사업보고서: '미래에셋네이버아시아그로쓰사모투자합자회사(*3) | 투자업 | 한국 | 12월 | 83.17 | 254,191 | 254,114' — 관계기업으로 처리, 하위 LogisValley 법인 재무 없음.",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20200330004390",
+   "doc_type": "DART 사업보고서",
+   "doc_date": "2020-03-30",
+   "doc_id": "20200330004390"
+  }
+ ],
+ "other_issues": "미래에셋대우가 한국 PEF(미래에셋네이버아시아그로쓰사모투자합자회사) 지분 83.17%를 보유하고도 관계기업으로 처리한다(약정상 공동지배·유의적 영향력으로 보임). 이 거래를 '50:50 JV'로 적은 보도와 출자 비율이 다르므로 notes·acquirer_entity를 볼 때 참고할 것.",
+ "summary": "미래에셋대우 2018 3분기·연간 계열회사 목록으로 물류센터 보유 법인 LOGISVALLEY BACNINH의 편입이 2018년 4분기임을 확인해 status_chk를 보강. 대상 실적 4칸은 매수 측 세 회사 모두 관계기업 처리로 하위 법인 실적을 싣지 않아 공개 자료 없음, 국내 원 보도는 여전히 못 찾음."
+}

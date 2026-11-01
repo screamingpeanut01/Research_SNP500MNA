@@ -1,0 +1,20 @@
+{
+ "deal_id": "K061",
+ "ciq_id": "IQTR1679852179",
+ "checks": [
+  {
+   "field": "earnings_call_note",
+   "class": "미완",
+   "retry": "못 찾음",
+   "reason": "① GS리테일 IR 자료실(gsretail.com 투자정보): 사이트가 자바스크립트 앱이라 목록을 정적으로 받을 수 없었음. 앱 번들에서 찾은 API(/api/homepage/investors/selectIrData·getIrData)는 404였고, 실적 페이지의 지연 로딩 청크(8067·4243·6678 등)에서도 호출 파라미터를 찾지 못함. Wayback CDX(gsretail.com PDF, 2021~2023)는 'Archive: Offline' 장애로 열지 못함. ② KIND 기업설명회 일정(repIsuSrtCd=A007070, 2021-01-01~2023-03-31): 16건 모두 '투자자 미팅을 통한 이해 증진', 'GS홈쇼핑과의 합병 시너지', '경영현황 이해 제고' 행사이고 분기 실적 컨퍼런스콜 기록은 없음. 상세 보기(searchIRScheduleDetail)는 '페이지 오류'가 나서 첨부 자료를 확인하지 못함. ③ 네이버 뉴스 'GS리테일 컨퍼런스콜 GS파크24'·'GS리테일 실적 GS파크24 처분'·'GS리테일 컨퍼런스콜 주차'(2021-08-01~2022-12-31): GS리테일 실적이나 컨콜에서 GS파크24를 다룬 기사가 없음(결과는 카카오모빌리티 인수 뒤 사명 변경 보도와 더벨 2022-07-21 합병 1년 점검 기사). 열지 못한 출처: GS리테일 분기 실적 IR 자료 PDF(2021년 3분기~2022년 4분기).",
+   "after": "미확인 (GS리테일 IR 실적발표 자료 PDF는 IR 사이트가 자바스크립트 앱이고 Wayback이 장애여서 받지 못함. KIND IR 일정(2021~2022)에는 분기 실적 컨퍼런스콜 기록이 없고 투자자 미팅·합병 설명회만 있음. 2021-08~2022-12 GS리테일 실적·컨콜 기사에서 GS파크24 언급을 찾지 못함. 회사가 인수 목적을 공개하지 않았다는 보도만 확인: 전자신문 2021-10-04)"
+  }
+ ],
+ "corrections": {
+  "earnings_call_note": "미확인 (GS리테일 IR 실적발표 자료 PDF는 IR 사이트가 자바스크립트 앱이고 Wayback이 장애여서 받지 못함. KIND IR 일정(2021~2022)에는 분기 실적 컨퍼런스콜 기록이 없고 투자자 미팅·합병 설명회만 있음. 2021-08~2022-12 GS리테일 실적·컨콜 기사에서 GS파크24 언급을 찾지 못함. 회사가 인수 목적을 공개하지 않았다는 보도만 확인: 전자신문 2021-10-04)"
+ },
+ "impairment_class_after": null,
+ "evidence_add": [],
+ "other_issues": "GS리테일 IR PDF는 Wayback이 복구된 뒤 web.archive.org/cdx/search/cdx?url=gsretail.com*&filter=original:.*pdf.* 로 다시 시도할 수 있음.",
+ "summary": "GS리테일 IR PDF를 받지 못해 미완으로 둠. KIND IR 일정과 기사에는 언급이 없음."
+}

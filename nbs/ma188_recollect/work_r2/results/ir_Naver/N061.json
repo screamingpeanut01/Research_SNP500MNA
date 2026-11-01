@@ -1,0 +1,65 @@
+{
+ "deal_id": "N061",
+ "ciq_id": "IQTR707786341",
+ "checks": [
+  {
+   "field": "earnings_call_note",
+   "class": "미완",
+   "retry": "채움",
+   "reason": "NAVER IR 실적발표 목록(https://www.navercorp.com/investment/earnings?page=1~5; 목록의 각 분기 '실적발표' PDF를 /api/article/read/ 경로로 받음)에서 거래 연도와 다음 연도의 분기 실적발표 자료 8건을 모두 받아 텍스트로 검색했다: 1Q21(20210429, 1Q21 Naver_Earnings_Kor_final.pdf), 2Q21(20210722, 2Q21 Naver_Earnings_Kor_final.pdf), 3Q21(20211102, 3Q21 Naver_Earnings_Kor_Final.pdf), 4Q21(20220127, 4Q21 Naver_Earnings_Kor_Final.pdf), 1Q22(20220421, 1Q22 Naver_Earnings_Kor_Final.pdf), 2Q22(20220805, 2Q22 Naver_Earnings_Kor_Final.pdf), 3Q22(20221107, 3Q22 Naver_Earnings_Kor_final.pdf), 4Q22(20230203, 4Q22 Naver_Earnings_Kor.pdf). NAVER는 어닝콜 녹취록을 공개하지 않는다. 어닝콜 음성(irsvc.teletogether.com)은 이메일 인증 등록을 거쳐야 들을 수 있어 열지 않았고, 영문 녹취록은 GuruFocus에만 있으나 봇 차단·회원 전용이라 열지 않았다(접근 제한 자료로 메모만 남김). 그래서 어닝콜 발언은 기사 검색으로 대신했다. 검색어: '크림|KREAM|리셀|C2C' (PDF 텍스트), 웹 검색 '네이버 컨퍼런스콜 크림 리셀 2021년 3분기 한성숙', '네이버 실적 컨퍼런스콜 크림 거래액 2022 1분기 최수연'. 결과: 2021년 자료 4건에는 크림 언급이 없다. 2022년 자료 4건에는 1Q22(커머스로 재분류, 합산 거래액·매출), 2Q22(거래액 2.4배), 3Q22(GMV 2.7배), 4Q22(GMV 86% 성장) 언급이 있다. 기사 검색에서는 컨퍼런스콜의 크림 발언을 직접 인용한 기사를 찾지 못했다. 이 거래(스노우의 크림 지분 10% 매각)를 다룬 언급은 없다.",
+   "after": "NAVER 2021년 분기 실적발표 자료(1Q21~4Q21)에는 크림 언급 없음(당시 콘텐츠(스노우) 부문에 포함); 2022-04-21 NAVER 1Q22 실적발표 자료 p.5: \"크림, 어뮤즈 등도 흥행하며 전체 성장 견인\", \"당분기부터 크림(C2C 플랫폼) 및 어뮤즈(뷰티)는 콘텐츠(스노우)에서 커머스로 재분류. 크림/어뮤즈 합산 거래액 3,714억, 매출 93억\"; 2022-08-05 2Q22 자료 p.5: \"크림 거래액은 브랜드 및 카테고리가 확대되며 YoY 약 2.4배 증가한 3.5천억원 기록\"(p.12 커머스 손익은 '크림/어뮤즈 제외'로 따로 표시); 2022-11-07 3Q22 자료 p.5: \"KREAM 서비스 GMV YoY 약 2.7배 성장\"; 2023-02-03 4Q22 자료 p.5: \"KREAM 서비스 GMV YoY 86% 성장\". 모두 크림 사업 성과 언급이며, 스노우의 크림 지분 10% 매각 자체를 다룬 언급은 없음(어닝콜 녹취록은 비공개)"
+  }
+ ],
+ "corrections": {
+  "earnings_call_note": "NAVER 2021년 분기 실적발표 자료(1Q21~4Q21)에는 크림 언급 없음(당시 콘텐츠(스노우) 부문에 포함); 2022-04-21 NAVER 1Q22 실적발표 자료 p.5: \"크림, 어뮤즈 등도 흥행하며 전체 성장 견인\", \"당분기부터 크림(C2C 플랫폼) 및 어뮤즈(뷰티)는 콘텐츠(스노우)에서 커머스로 재분류. 크림/어뮤즈 합산 거래액 3,714억, 매출 93억\"; 2022-08-05 2Q22 자료 p.5: \"크림 거래액은 브랜드 및 카테고리가 확대되며 YoY 약 2.4배 증가한 3.5천억원 기록\"(p.12 커머스 손익은 '크림/어뮤즈 제외'로 따로 표시); 2022-11-07 3Q22 자료 p.5: \"KREAM 서비스 GMV YoY 약 2.7배 성장\"; 2023-02-03 4Q22 자료 p.5: \"KREAM 서비스 GMV YoY 86% 성장\". 모두 크림 사업 성과 언급이며, 스노우의 크림 지분 10% 매각 자체를 다룬 언급은 없음(어닝콜 녹취록은 비공개)"
+ },
+ "impairment_class_after": null,
+ "evidence_add": [
+  {
+   "field": "earnings_call_note",
+   "phase": "인수 후",
+   "event_date": "2022-04-21",
+   "event_type": "어닝콜",
+   "content": "NAVER 1Q22 실적발표 자료 p.5: \"크림, 어뮤즈 등도 흥행하며 전체 성장 견인\"; 크림·어뮤즈를 콘텐츠(스노우)에서 커머스로 재분류, 합산 거래액 3,714억·매출 93억",
+   "url": "https://www.navercorp.com/api/article/read/62646973-b330-40c4-8c1b-77f3f90a3dcd/1Q22%20Naver_Earnings_Kor_Final.pdf",
+   "doc_type": "IR 자료",
+   "doc_date": "2022-04-21",
+   "doc_id": "1Q22 Naver_Earnings_Kor_Final.pdf"
+  },
+  {
+   "field": "earnings_call_note",
+   "phase": "인수 후",
+   "event_date": "2022-08-05",
+   "event_type": "어닝콜",
+   "content": "NAVER 2Q22 실적발표 자료 p.5: \"크림 거래액은 브랜드 및 카테고리가 확대되며 YoY 약 2.4배 증가한 3.5천억원 기록\"",
+   "url": "https://www.navercorp.com/api/article/read/93051bca-34e1-47df-ac2d-caf81069db86/2Q22%20Naver_Earnings_Kor_Final.pdf",
+   "doc_type": "IR 자료",
+   "doc_date": "2022-08-05",
+   "doc_id": "2Q22 Naver_Earnings_Kor_Final.pdf"
+  },
+  {
+   "field": "earnings_call_note",
+   "phase": "인수 후",
+   "event_date": "2022-11-07",
+   "event_type": "어닝콜",
+   "content": "NAVER 3Q22 실적발표 자료 p.5: \"KREAM 서비스 GMV YoY 약 2.7배 성장\"",
+   "url": "https://www.navercorp.com/api/article/read/c7117f27-69a2-4af9-af1d-a086ad5c6f8e/3Q22%20Naver_Earnings_Kor_final.pdf",
+   "doc_type": "IR 자료",
+   "doc_date": "2022-11-07",
+   "doc_id": "3Q22 Naver_Earnings_Kor_final.pdf"
+  },
+  {
+   "field": "earnings_call_note",
+   "phase": "인수 후",
+   "event_date": "2023-02-03",
+   "event_type": "어닝콜",
+   "content": "NAVER 4Q22 실적발표 자료 p.5: \"KREAM 서비스 GMV YoY 86% 성장\"",
+   "url": "https://www.navercorp.com/api/article/read/a56df8ac-3fd8-4ba5-ab86-b8817752d5ba/4Q22%20Naver_Earnings_Kor.pdf",
+   "doc_type": "IR 자료",
+   "doc_date": "2023-02-03",
+   "doc_id": "4Q22 Naver_Earnings_Kor.pdf"
+  }
+ ],
+ "other_issues": "",
+ "summary": "NAVER 2022년 분기 실적발표 자료 4건에서 크림 사업 성과 언급을 찾아 채웠다. 다만 모두 크림 사업 자체에 대한 언급이고 이 10% 지분 매각을 다룬 언급은 아니다."
+}

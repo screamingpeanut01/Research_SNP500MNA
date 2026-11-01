@@ -1,0 +1,65 @@
+{
+ "deal_id": "N033",
+ "ciq_id": "IQTR404659267",
+ "checks": [
+  {
+   "field": "acq_mktcap",
+   "class": "미완",
+   "retry": "채움",
+   "reason": "이번에 연 출처: ① Wayback CDX로 LINE(3938) 시세 페이지 스냅샷 목록을 조회(nikkei.com/nkd/company/?scode=3938, nikkei.com/nkd/company/history/dprice/?scode=3938, stocks.finance.yahoo.co.jp/stocks/detail·history, kabutan.jp, minkabu.jp, jp.investing.com, bloomberg.co.jp, k-db.com/stocks/3938-T*, kabuoji3.com). ② k-db.com 일별 시계열 Wayback 스냅샷 'LINE 日足 時系列データ (2016年)'(20170929225901)·'(2017年)'(20170930095237, 2017-09-29까지 수록). ③ IRBANK 'A HD（3938）の株価チャート'(https://irbank.net/3938/chart?y=날짜, 옛 LINE 일별 시가·고가·저가·종가·時価総額 표, 2차 자료) 현재 페이지. ④ 발행주식수: 닛케이 회사정보 Wayback 스냅샷의 '普通株式数', Yahoo!ファイナンス 상세 스냅샷의 '発行済株式数', jp.investing.com·minkabu 스냅샷. kabuoji3.com은 403, kabutan·minkabu 현재 페이지에는 옛 시세가 없음. 결과: 2016-10-12 종가 4,905円(k-db 2016년 표: 시가 4,910·고가 4,935·저가 4,890·종가 4,905·출래고 516,800; IRBANK 같은 값, 前日比 -1.8%, 時価総額 1兆642億). 주식수는 9/30 공식치 217,147,000주를 쓰고, 데이터 제공처 주식수 기준 값도 함께 적음. 월간 고저가 범위 추정은 실제 종가 계산으로 대체.",
+   "after": "계산: LINE 1,065,106,035,000円 (발표[2016-10-13] 직전 東証 거래일 2016-10-12 종가 4,905円[k-db.com 일별 시계열 Wayback 스냅샷, IRBANK 일별 표 일치] × 2016-09-30 발행주식 217,147,000주[LINE 분기 공시치, minkabu 2016-10-27 스냅샷 '発行済株数 217,147千株'과 일치]). 교차 확인: IRBANK 2016-10-12 時価総額 1兆642億円(2차 자료, 주식수 약 216,979,500주 기준 — jp.investing.com 2016-10-10·10-17 스냅샷 '発行済株式 216,979,500'과 같음, 이 주식수로는 1,064,284,447,500円). 참고: 상장 지배회사 NAVER 계산: 28,479,754,656,000원 (2016-10-12 종가 864,000원(Yahoo Finance 분할조정치 172,800원 × 2018-10 1:5 분할 역조정) × 발행주식 32,962,679주)"
+  }
+ ],
+ "corrections": {
+  "acq_mktcap": "계산: LINE 1,065,106,035,000円 (발표[2016-10-13] 직전 東証 거래일 2016-10-12 종가 4,905円[k-db.com 일별 시계열 Wayback 스냅샷, IRBANK 일별 표 일치] × 2016-09-30 발행주식 217,147,000주[LINE 분기 공시치, minkabu 2016-10-27 스냅샷 '発行済株数 217,147千株'과 일치]). 교차 확인: IRBANK 2016-10-12 時価総額 1兆642億円(2차 자료, 주식수 약 216,979,500주 기준 — jp.investing.com 2016-10-10·10-17 스냅샷 '発行済株式 216,979,500'과 같음, 이 주식수로는 1,064,284,447,500円). 참고: 상장 지배회사 NAVER 계산: 28,479,754,656,000원 (2016-10-12 종가 864,000원(Yahoo Finance 분할조정치 172,800원 × 2018-10 1:5 분할 역조정) × 발행주식 32,962,679주)"
+ },
+ "impairment_class_after": null,
+ "evidence_add": [
+  {
+   "field": "acq_mktcap",
+   "phase": "발표",
+   "event_date": "2016-10-12",
+   "event_type": "기타",
+   "content": "k-db.com 'LINE 日足 時系列データ (2016年)': 2016-10-12 始値 4910.00 高値 4935.00 安値 4890.00 終値 4905.00 出来高 516800.",
+   "url": "http://web.archive.org/web/20170929225901/http://k-db.com/stocks/3938-T/1d/2016",
+   "doc_type": "기타",
+   "doc_date": "2017-09-29",
+   "doc_id": ""
+  },
+  {
+   "field": "acq_mktcap",
+   "phase": "발표",
+   "event_date": "2016-10-12",
+   "event_type": "기타",
+   "content": "IRBANK 'A HD（3938）の株価チャート' 일별 표(옛 LINE 시세): 2016-10-12 종가 4,905円, 時価総額 1兆642億円 (2차 자료).",
+   "url": "https://irbank.net/3938/chart?y=2016-10-12",
+   "doc_type": "기타",
+   "doc_date": "2026-11-01",
+   "doc_id": ""
+  },
+  {
+   "field": "acq_mktcap",
+   "phase": "발표",
+   "event_date": "2016-10-27",
+   "event_type": "기타",
+   "content": "minkabu LINE(3938) 스냅샷: '時価総額 976,075百万円 … 発行済株数 217,147千株'.",
+   "url": "http://web.archive.org/web/20161027093411/http://minkabu.jp:80/stock/3938?",
+   "doc_type": "기타",
+   "doc_date": "2016-10-27",
+   "doc_id": ""
+  },
+  {
+   "field": "acq_mktcap",
+   "phase": "발표",
+   "event_date": "2016-10-10",
+   "event_type": "기타",
+   "content": "jp.investing.com LINE 스냅샷: '発行済株式 216,979,500'.",
+   "url": "http://web.archive.org/web/20161010214311/http://jp.investing.com/equities/line-corp",
+   "doc_type": "기타",
+   "doc_date": "2016-10-10",
+   "doc_id": ""
+  }
+ ],
+ "other_issues": "",
+ "summary": "LINE(TSE:3938)의 발표 직전 거래일 2016-10-12 종가 4,905円을 k-db·IRBANK에서 확인해 시가총액 약 1조 651억円으로 계산함(이전의 월간 고저가 범위 추정을 대체)."
+}

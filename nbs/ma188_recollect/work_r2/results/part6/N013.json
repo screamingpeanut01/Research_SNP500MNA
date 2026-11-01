@@ -1,0 +1,18 @@
+{
+ "deal_id": "N013",
+ "ciq_id": "IQTR54336300",
+ "checks": [
+  {
+   "field": "acq_mktcap",
+   "class": "미완",
+   "retry": "못 찾음",
+   "reason": "매수자 CCC(4756)의 2009-03-25 종가를 다시 찾음. 이번에 연 출처: (1) 株探 日々株価(kabutan.jp/stock/kabuka?code=4756): 상장폐지 종목이라 시계열 표가 비어 있음. (2) IRBANK 時価総額チャート(irbank.net/4756/cap): 2009년 데이터 없음. (3) みんかぶ 時系列(minkabu.jp/stock/4756/daily_bar): 데이터 없음. (4) CCC IR MonthlyReport(ccc.co.jp/news/IR-MonthlyReport_20100407.pdf): 파일이 삭제되어 HTML 오류 페이지만 돌아옴(2009년분 경로도 없음). (5) 웹 검색 2회('カルチュア・コンビニエンス・クラブ 4756 株価 2009年3月 終値 時系列', '\"ＣＣＣ\" 夢の街創造委員会 ヤフー 株式取得 2009年3月26日 株価 終値 円'): 당시 종가를 적은 기사·공시 없음(CCC·Yahoo 2010 제휴, CCC의 2009-05 カカクコム 지분 취득 기사만 나옴). 열지 못한 출처: CCC 有価証券報告書 FY2009/3의 월별 최고·최저 주가 표(EDINET 옛 서류는 공개 기간 경과, CCC IR 사이트에서 삭제), Yahoo!ファイナンス 4756.T의 Wayback 스냅샷(Wayback이 curl을 봇으로 차단하고 WebFetch도 web.archive.org를 열지 못함). 따라서 미완",
+   "after": "매수자 CCC: 미확인 (2011년 MBO 상장폐지로 Yahoo Finance 시세 없음; 2008-12-31 발행주식 192,979,560주). 매도자(그룹) Yahoo — 계산: 1,624,055,377,100円 (2009-03-25 종가 27,950円 × 자기주식 제외 58,105,738주; 2009-03-18 취득한 자기주식 1,185,010주는 3-31 소각 예정. 발행주식 59,290,748주 기준 1,657,176,406,600円). 종가는 Yahoo Finance 4689.T 분할조정치 279.5円 × 100"
+  }
+ ],
+ "corrections": {},
+ "impairment_class_after": null,
+ "evidence_add": [],
+ "other_issues": "",
+ "summary": "CCC의 2009-03-25 종가는 株探·IRBANK·みんかぶ·CCC IR·웹 검색에 없었다. 有報 옛 서류와 Wayback을 열지 못해 미완이다."
+}

@@ -1,0 +1,436 @@
+[
+ {
+  "deal_id": "N010",
+  "ciq_id": "IQTR41385429",
+  "context": {
+   "firm": "Naver",
+   "date": "2008-02-20",
+   "target": "Brainer",
+   "status": "Closed",
+   "value": "6.34",
+   "buyers": "LY Corporation (TSE:4689)",
+   "sellers": "-",
+   "comment": "Yahoo Japan Corp. (TSE: 4689) agreed to acquire the remaining 58.3% stake in Brainer for ¥685 million on February 20, 2008. Yahoo Japan will offer ¥230 per share of Brainer. For the year ended December 31, 2007, Brainer had total assets of ¥159 million. The deal has been approved by the Board of Directors of Yahoo Japan. The deal is expected to complete by April 1, 2008.",
+   "subtype_chk": "MA② 기존 지분 확대",
+   "pre_incorp_chk": "편입 전 (2008 거래 당시 매수자 ヤフー㈱(Yahoo Japan)는 SoftBank 41.1%·Yahoo! Inc. 33.4% 보유 회사로 NAVER와 자본관계가 없었다(2008-02-20 보도자료 대주주란). Yahoo Japan 계열의 2021-03 이전 거래)",
+   "acquirer_entity": "ヤフー㈱(Yahoo Japan Corporation, 당시 TSE 1부·JASDAQ 상장; 현 LY Corporation의 전신. 거래 당시 NAVER와 무관)",
+   "perf_basis": "Brainer는 비상장·소규모 회사로(2007-12-31 단체 총자산 159백만円, 순자산 135백만円, 결산기 2월) 매출·영업이익 공개 자료를 찾지 못했다. 확인한 문서: 2008-02-20 합병 보도자료(요약 재무는 순자산·총자산만), Yahoo 2008年3月期 決算短信(연결 개시 시 자산·부채 내역만), 2009年3月期 決算短信, 2010年3月期 有価証券報告書. 2008-04 흡수합병 뒤 사업은 Yahoo 広告事業 세그먼트로 들어가 별도 실적이 공시되지 않는다. 참고로 Yahoo 広告事業 매출은 2007年3月期 89,197백만円에서 2008年3月期 131,041백만円으로 늘었지만(Overture 연결 효과 포함, 2008年3月期 決算短信) Brainer 기여분은 구분되지 않는다. EDINET API는 키가 필요해 쓰지 않았다.",
+   "impairment": "있음 (2010年3月期(2009-04-01~2010-03-31) 연결, のれん 감손 797백만円: Brainer 흡수합병 때 계상한 のれん으로, '当初計画した事業計画において想定した収益が見込めない'고 평가해 감손. 같은 해 연결 감손손실 합계 1,470백만円(事業用資産 672백만円 포함)의 일부. 前連結会計年度(2009年3月期)의 감손손실은 '－'(없음). 출처: Yahoo 第15期(2009-04-01~2010-03-31) 有価証券報告書(2010-06-23 제출) 연결 주석 ※5 減損損失, 연결손익계산서·CF 減損損失 1,470)",
+   "impairment_class_basis": "수집·검토 기록에 인수 뒤 손상이 적혀 있음",
+   "notes": "IQTR37372758(2007-08 41.7% 취득·연결 편입)의 2단계다. 합병대가는 Brainer가 비상장이어서 제3자 기관의 DCF 산정 결과를 바탕으로 정했다. 간이합병(会社法 796조 3항)이어서 Yahoo는 주주총회를 열지 않았고, Brainer 주주총회는 2008-03-14였다. 합병 뒤 Brainer 법인은 소멸했고 사업은 Yahoo 広告事業으로 들어갔다. 합병 때 계상한 のれん 797백만円은 약 2년 뒤 2010年3月期(2009-04~2010-03)에 감손됐다(第15期 有価証券報告書). 이 금액이 1단계 のれん 436백만円보다 큰 것은 소수주주분 대가가 더해졌기 때문으로 보인다(추정). IQTR37372758의 주당 취득가·주식수를 확인하지 못해 1주당 230円과 비교하지 못했다. 대상회사 실적은 공개 자료가 없다. / 재수집(2026-11-01): 못 찾음 target_rev_pre, target_rev_post, target_op_pre, target_op_post; 공개 자료 없음 target_rev_post, target_op_post.",
+   "review_note": "확인한 것: (1) 2008-02-20 합병 보도자료(ja20080220_B.pdf)를 직접 받아 확인했다: 현금교부형 흡수합병, 1주당 230円·총 685백만円, 신주예약권 1개당 200円·총 17백만円 취득·소각, 효력일 2008-04-01, 간이합병(会社法 796조 3항), Brainer 주총 2008-03-14, DCF 산정, 대주주(Yahoo 41.7%·本田謙 39.8%·松山太河 10.3%; Yahoo의 대주주 SoftBank 41.1%·Yahoo! Inc. 33.4%), Yahoo 연결 총자산 337,010·순자산 233,700백만円, Brainer 단체 총자산 159·순자산 135백만円, 발행주식 60,495,099.12주. 合併の目的 문장과 purpose_quote가 원문과 같다. (2) 2008年3月期 決算短信 주석 '平成20年４月１日付で、当社は株式会社アルプス社および株式会社ブレイナーを吸収合併' 확인(status_chk 근거). (3) JPY=X 2008-02-20 종가 108.05 재조회, 685÷108.05=6.34 일치. deal_to_assets 0.215%(2007-12-31 기준 0.203%)·deal_to_equity 0.359%(0.293%) 재계산 일치. 4689.T 2008-02-19 조정 종가 498.5, 2008-02-20 474.5 재확인, 49,850×60,495,099.12=3,015,681백만円 일치. (4) 분류: 이미 연결자회사(보도자료 '当社連結子会社である株式会社ブレイナー')였던 회사의 잔여 58.3% 취득이므로 MA② 유지. 5,116,821주×58.3%×230円≈686백만円으로 685백만円과 맞는다. pre_incorp_chk(편입 전)·status_chk(완료 2008-04-01) 유지. / 고친 것: impairment·post_events_summary·earnings_call_note·perf_basis·notes. 근거 문서 'yuho2009-vsreport.pdf'의 표지는 第15期(2009-04-01~2010-03-31), 2010-06-23 제출 有価証券報告書다. のれん 797백만円 감손은 当連結会計年度(2009-04~2010-03) 열에 있고, 前連結会計年度(2009年3月期) 열과 연결손익계산서 前期 減損損失은 '－'다. 따라서 감손은 '1년 뒤 2009年3月期'가 아니라 합병 약 2년 뒤인 2010年3月期다. 기존 근거 행(url yuho2009-vsreport.pdf, event_date 2009-03-31, doc_date 2009-06)은 evidence_drop으로 지우고, 같은 URL에 날짜를 고친 행을 evidence_add로 다시 넣었다(drop을 먼저 적용하고 add를 붙이는 순서를 전제로 함). / 남은 의문: target 실적 4개 열은 미확인 유지(비상장·합병 소멸). 원자료 value 6.34는 합병대가 685백만円만 반영하고 신주예약권 17백만円은 빠져 있다(수집 기록 chk_note에 이미 기재). 2011년 有価証券報告書 근거 행(yuho2011-vsreport, doc_date 2011-06)도 파일명 관행상 2012-06 제출본일 수 있으나 열어 보지 않았다. / 재수집(2026-11-01): 빈 칸 4개는 모두 대상회사 실적이다. Brainer가 비상장이고 2008-04 흡수합병으로 소멸해 공개 자료가 없다고 분류했다(IQTR37372758와 같은 근거). 2차 확인: 인수 전 2칸은 官報 미열람이라 미완, 인수 후 2칸은 2008-04 합병 소멸과 승계 회사 공시를 확인해 공개 자료 없음 확정. 재수집 중 발견한 다른 문제: IQTR37372758와 같음: yuho200706-vsreport.pdf가 第13期, yuho2008-vsreport.pdf가 第14期임."
+  },
+  "targets": [
+   {
+    "field": "target_rev_pre",
+    "value_now": "미확인",
+    "tried_r1": "2차 확인: ①대상회사 자체 공시: EDINET 제출자 코드 목록(disclosure2dl.edinet-fsa.go.jp/searchdocument/codelist/Edinetcode.zip, 2026-11-01 내려받음, 11,434건)에서 ブレイナー 검색 결과 없음(단, 이 목록은 현재 등록된 코드만 담아 과거 제출 여부를 완전히 보여 주지는 못함); 비상장이라 TDnet 자체 공시 없음; 官報 決算公告(ブレイナー 2007/2期·2008/2期): 무료 官報는 최근 90일분만 공개되고 그 이전은 유료 官報情報検索サービス로만 열람할 수 있어 열지 못함. ②인수 주체 공시: ヤフー 有価証券報告書 第13期(FY2008/3, s.yimg.jp/images/docs/ir/archives/vsreport/yuho200706-vsreport.pdf를 이번에 받아 pypdf로 추출, recollect/vwork3/y13b.txt)에서 ブレイナー 16건을 확인함. 연혁(平成19年8月 41.7% 취득)·관계회사(자본금 85百万円, 広告事業)·연결범위·연결CF 취득 내역(流動資産153·固定資産1·のれん436百万円, 취득액 491百万円)·스톡옵션뿐이고, 기업결합 주석 자체가 없으며 매출·영업이익도 없음. 半期報告書 第13期中(yuho200710-vsreport.pdf)에도 관계회사·연결범위만 있음. 2008年3月期 決算短信(work/U107/t2008.txt)은 기업결합 주석을 '開示の必要性が大きくない'는 이유로 생략함. ③공정위 기업집단현황공시: 대상이 일본 회사이고 NAVER 국내 계열회사가 아니므로 출처 목록상 해당 없음. ④보도: ヤフー 2007-08-31 보도자료(ja20070831_A), 2008-02-20 합병 보도자료(요약 재무는 순자산·총자산만), Brainer 자체 보도자료(atpress 2007-06-26, 매출 없음); 웹 검색 'ブレイナー 株式会社 印西市 売上高 決算 2007 ヤフー 子会社' 결과에 해당 보도 없음. 결론: 官報 결산공고를 열지 못했으므로 미완"
+   },
+   {
+    "field": "target_op_pre",
+    "value_now": "미확인",
+    "tried_r1": "2차 확인: ①대상회사 자체 공시: EDINET 제출자 코드 목록(disclosure2dl.edinet-fsa.go.jp/searchdocument/codelist/Edinetcode.zip, 2026-11-01 내려받음, 11,434건)에서 ブレイナー 검색 결과 없음(단, 이 목록은 현재 등록된 코드만 담아 과거 제출 여부를 완전히 보여 주지는 못함); 비상장이라 TDnet 자체 공시 없음; 官報 決算公告(ブレイナー 2007/2期·2008/2期): 무료 官報는 최근 90일분만 공개되고 그 이전은 유료 官報情報検索サービス로만 열람할 수 있어 열지 못함. ②인수 주체 공시: ヤフー 有価証券報告書 第13期(FY2008/3, s.yimg.jp/images/docs/ir/archives/vsreport/yuho200706-vsreport.pdf를 이번에 받아 pypdf로 추출, recollect/vwork3/y13b.txt)에서 ブレイナー 16건을 확인함. 연혁(平成19年8月 41.7% 취득)·관계회사(자본금 85百万円, 広告事業)·연결범위·연결CF 취득 내역(流動資産153·固定資産1·のれん436百万円, 취득액 491百万円)·스톡옵션뿐이고, 기업결합 주석 자체가 없으며 매출·영업이익도 없음. 半期報告書 第13期中(yuho200710-vsreport.pdf)에도 관계회사·연결범위만 있음. 2008年3月期 決算短信(work/U107/t2008.txt)은 기업결합 주석을 '開示の必要性が大きくない'는 이유로 생략함. ③공정위 기업집단현황공시: 대상이 일본 회사이고 NAVER 국내 계열회사가 아니므로 출처 목록상 해당 없음. ④보도: ヤフー 2007-08-31 보도자료(ja20070831_A), 2008-02-20 합병 보도자료(요약 재무는 순자산·총자산만), Brainer 자체 보도자료(atpress 2007-06-26, 매출 없음); 웹 검색 'ブレイナー 株式会社 印西市 売上高 決算 2007 ヤフー 子会社' 결과에 해당 보도 없음. 결론: 官報 결산공고를 열지 못했으므로 미완"
+   }
+  ]
+ },
+ {
+  "deal_id": "N014",
+  "ciq_id": "IQTR54671192",
+  "context": {
+   "firm": "Naver",
+   "date": "2009-04-07",
+   "target": "GyaO, K.K.",
+   "status": "Closed",
+   "value": "5.27",
+   "buyers": "LY Corporation (TSE:4689)",
+   "sellers": "USEN Corporation",
+   "comment": "Yahoo Japan Corp. (TSE: 4689) agreed to acquire a 51% stake in GyaO from USEN Corporation (OSE: 4842) for approximately ¥530 million in cash on April 7, 2009. Yahoo Japan will acquire 4,998 shares of GyaO from USEN for ¥106000 per share. Under the agreement, Yahoo will merge its Doga contents streaming portal with GyaO. GyaO recorded sales of ¥5.4 billion and operating income of ¥2.7 billion for the year ended August 31, 2008. The deal is expected to be completed by April 30, 2009.",
+   "subtype_chk": "MA① 경영권 인수",
+   "pre_incorp_chk": "편입 전 (매수자 Yahoo Japan은 2021-03 LINE–Z Holdings 경영통합 전이며 당시 NAVER와 무관. 대상 GyaO는 이후 LY Corporation의 완전자회사였다가 2024-01-01 흡수합병)",
+   "acquirer_entity": "ヤフー株式会社(Yahoo Japan Corporation, 당시 상장사 TSE:4689, 소프트뱅크·미국 Yahoo 관계회사; NAVER 그룹 밖)",
+   "perf_basis": "인수 전: M&A Online 2009-04-07 기사(보도자료 기반 수치로 보이며 USEN 쪽 GyaO 사업 실적, 결산월 8월). 최근: LINE야후 2023-10-25 TDnet 공시의 GYAO 2023-03기 단체 일본 기준 실적. 인수 후 첫 2년 법인 실적은 공시 자료가 없어 미확인. 2007년(2007-08 결산) GyaO 사업 실적은 USEN이 GyaO를 映像・コンテンツ 세그먼트(放送・業務店·映像・コンテンツ·人材関連·ISP의 4개 세그먼트)에 포함해 공시했으므로 별도 수치가 없다(USEN 2008年8月期 決算説明資料). ㈜GyaO 법인은 2008-10 신설이어서 법인 실적도 없다. FY2009(2010-03)·FY2010(2011-03)은 Yahoo Japan 감사 연결재무제표가 GyaO 취득을 'not material'로만 적고, 보도는 2009-12 월간 흑자만 전한다.",
+   "impairment": "확인 안 됨 (Yahoo Japan FY2010(2010-03) 연결재무제표 SEC 첨부본은 GyaO 인수를 'not material'로 기재. 같은 해 손상차손 ¥1,470백만(영업권 ¥798백만 포함)이 있으나 영업권 손상은 'Goodwill originally recognized at the merger of Brainer'로 Brainer 관련이며 GyaO 관련 손상 기재는 없음. FY2011 이후 연도는 보지 않았다)",
+   "impairment_class_basis": "Yahoo Japan 감사 연결재무제표(Yahoo! Inc. 10-K/A Exhibit 99.1) FY2010~FY2016 확인: FY2010 손상 1,470백만円은 Brainer 영업권(797)·사업용 자산, FY2012 영업권 일괄상각 324백만円은 'in relation to the goodwill of Cirius', FY2014 829백만円은 Community Factory 관련이며, FY2011·FY2012 문서의 GyaO 언급은 연결 편입 사실뿐이다. EDGAR 전문검색('GyaO' impairment)에서 FY2013·FY2014 문서는 걸리지 않아 GyaO 언급 자체가 없다. FY2015·FY2016(IFRS) 문서의 '중요한 영업권' CGU 표에도 GyaO가 없다. 다만 FY2017 이후, 특히 GYAO! 종료(2023-03)와 GYAO 순자산 △3,214백만円(2023-03) 시점의 연결·단체 처리는 확인하지 못했다 (재수집(2026-11-01))",
+   "notes": "편입 전 거래(Yahoo Japan 계열의 2021-03 이전 거래). 대상회사 GyaO(2008-10-22 설립)는 USEN의 GyaO 사업을 2009-04-01자로 분사해 넘겨받은 신설 완전자회사였고, 인수 직후 Yahoo!動画와 통합됐다(2009-09 새 사이트). 2010-03 TV아사히·덴쓰·TBS HD·TV도쿄·하쿠호도DY미디어파트너스가 지분 참여해 USEN 지분은 49%→7%로 줄고 Yahoo는 51% 유지(Internet Watch 2010-03-25). Yahoo가 100%를 확보한 시점은 확인하지 못했다(2023-10-01 시점 LINE야후 100%는 TDnet 공시로 확인). 같은 묶음의 IQTR37372758·IQTR41385429(Brainer)과 직접 관계없음. 인수 전 2개 회계연도 실적과 인수 후 첫 2개 회계연도 법인 실적은 GyaO가 비상장·비공시 회사여서 찾지 못했다(Yahoo Japan SEC 첨부 재무제표는 'not material'로만 기재, 관보 결산공고는 유료·로그인 자료라 보지 않음). / 재수집(2026-11-01): 채움 pre_events_summary, target_rev_pre, target_op_pre; 일부 채움 perf_basis; 못 찾음 impairment_class, target_rev_post, target_op_post.",
+   "review_note": "확인한 것: (1) Yahoo Japan·USEN 공동 보도자료 2009-04-07(Wayback 사본)을 다시 열어 발표일 2009-04-07, 取得時期 2009年4月30日, 取得株式数 4,998株, 取得価格 529,788,000円, 取得後の出資比率 51%, 매도자 USEN의 100% 자회사, purpose_quote 원문이 기록과 같음을 확인했다. (2) M&A Online 2009-04-07 기사에서 GyaO 売上高53億9000万円·営業利益△27億1000万円·取得価額5億2900万円을 확인했다(원자료 설명란의 영업이익 +27억 엔은 부호 오류라는 chk_note 유지). (3) LINE야후 2023-10-25 TDnet 공시 PDF에서 GYAO 2023년 3월기(단체, 일본 기준) 매출 3,945백만 엔, 영업이익 537백만 엔, 순자산 △3,214백만 엔, 설립 2008-10-22, LINE야후 100%를 확인했다. (4) Yahoo Japan 2009-03-31 연결재무제표(SEC Exhibit 99.1, 0001193125-09-199964)에서 TOTAL ASSETS ¥311,552백만, Total equity ¥236,470백만, 발행주식 58,107,980주를 확인했다. deal_to_assets_pct 0.17%, deal_to_equity_pct 0.22% 계산이 맞다. (5) FY2010(2010-03) 연결재무제표(SEC Exhibit 99.1, 0001193125-10-221089)에서 GyaO 과반 취득·연결 편입과 'not material' 문구를 확인했다. 분류(MA① 경영권 인수), 편입 전, 완료 판정은 정의에 맞아 그대로 둔다. / 고친 것: impairment — 같은 FY2010 재무제표 주석에 손상차손 ¥1,470백만(영업권 ¥798백만 포함)이 있으나 그 영업권은 'Goodwill originally recognized at the merger of Brainer'로 Brainer(같은 묶음 IQTR37372758·IQTR41385429) 관련이며 GyaO 관련 손상은 기재가 없음을 명시했다. value_chk_usdmm — 추정 환율 대신 같은 SEC 재무제표가 쓴 편의 환율(¥311,552백만 = $3,171,653천, 약 ¥98.23/$, 2009-03-31 기준)로 환산한 값으로 바꿨다(약 5.39백만 달러, 원자료 5.27과 ±10% 이내). / 남은 의문: 인수 후 첫 2개 회계연도 GyaO 법인 실적과 2007년 실적은 여전히 미확인(light 검토라 추가 검색하지 않음). FY2011 이후 Yahoo Japan의 GyaO 관련 손상 여부도 보지 않았다. Yahoo의 GyaO 지분 100% 확보 시점 미확인. / 재수집(2026-11-01): pre_events_summary의 2005-04 항목을 Internet Watch 원문으로 확인해 고쳤고, perf_basis에 2007년이 빈 이유(USEN 세그먼트 공시)를 덧붙였다. 2007년 실적은 공개 자료 없음으로 분류했다. 인수 후 2개년 실적은 찾지 못했다. 손상 분류는 FY2016까지 GyaO 손상이 없음을 확인했으나 FY2017 이후를 보지 못해 미확인으로 둔다. 2차 확인: 東洋経済 2009-04-10 기사로 2007/8期 매출 약 47억엔·영업손실 약 20억엔을 새로 채움(언론 1개 매체). 재수집 중 발견한 다른 문제: (1) pre_events_summary의 항목 순서가 2008-10 다음에 2008-08로 되어 있어 시간순이 아니다(값은 바꾸지 않음). (2) notes는 'Yahoo는 51% 유지'·'100% 확보 시점 미확인'이라고 적는데, Yahoo Japan FY2015 IFRS 연결재무제표(0001193125-15-327472) 종속회사 표에 GYAO Corporation 지분이 66.7(2015-03)·58.0(전기)으로, FY2016 문서에는 66.7·66.7로 나온다. 2010-03 이후 Yahoo 지분이 늘었다는 뜻이므로 post_events_summary에 반영할지 검토가 필요하다."
+  },
+  "targets": [
+   {
+    "field": "impairment_class",
+    "value_now": "미확인",
+    "tried_r1": "수집 기록이 FY2010만 보고 FY2011 이후를 보지 않았다. 이번에 Yahoo! Inc. 10-K/A에 첨부된 Yahoo Japan 감사 연결재무제표를 더 확인했으나 FY2017 이후는 보지 못해 판정을 바꾸지 않았다"
+   },
+   {
+    "field": "target_rev_post",
+    "value_now": "FY2009(2010-03): 미확인; FY2010(2011-03): 미확인; FY2022(2023-03, 단체, 일본 기준): JPY 3,945백만",
+    "tried_r1": "수집 메모에 '공시 자료가 없어 미확인'이라고만 적혀 있어 미완으로 보았다. 이번에 웹 검색 3회(GyaO 2010年3月期 실적, USEN의 2010-03 GyaO 지분 양도 공시, 5개 방송·광고사 출자 보도)를 했으나, 보도는 2009-12 월간 흑자만 전하고 연간 매출·영업이익은 없었다. 官報 決算公告는 열지 않았다(비상장 소규모 회사의 공고는 대차대조표 위주라 매출은 나오지 않을 가능성이 크다)"
+   },
+   {
+    "field": "target_op_post",
+    "value_now": "FY2009(2010-03): 미확인(2009-12 월간 흑자 달성 보도); FY2010(2011-03): 미확인; FY2022(2023-03, 단체, 일본 기준): JPY 537백만 (같은 해 순자산 JPY -3,214백만)",
+    "tried_r1": "수집 메모에 '공시 자료가 없어 미확인'이라고만 적혀 있어 미완으로 보았다. 이번에 웹 검색 3회(GyaO 2010年3月期 실적, USEN의 2010-03 GyaO 지분 양도 공시, 5개 방송·광고사 출자 보도)를 했으나, 보도는 2009-12 월간 흑자만 전하고 연간 매출·영업이익은 없었다. 官報 決算公告는 열지 않았다(비상장 소규모 회사의 공고는 대차대조표 위주라 매출은 나오지 않을 가능성이 크다)"
+   },
+   {
+    "field": "perf_basis",
+    "value_now": "인수 전: M&A Online 2009-04-07 기사(보도자료 기반 수치로 보이며 USEN 쪽 GyaO 사업 실적, 결산월 8월). 최근: LINE야후 2023-10-25 TDnet 공시의 GYAO 2023-03기 단체 일본 기준 실적. 인수 후 첫 2년 법인 실적은 공시 자료가 없어 미확인. 2007년(2007-08 결산) GyaO 사업 실적은 USEN이 GyaO를 映像・コンテンツ 세그먼트(放送・業務店·映像・コンテンツ·人材関連·ISP의 4개 세그먼트)에 포함해 공시했으므로 별도 수치가 없다(USEN 2008年8月期 決算説明資料). ㈜GyaO 법인은 2008-10 신설이어서 법인 실적도 없다. FY2009(2010-03)·FY2010(2011-03)은 Yahoo Japan 감사 연결재무제표가 GyaO 취득을 'not material'로만 적고, 보도는 2009-12 월간 흑자만 전한다.",
+    "tried_r1": "값 안에 '미확인'이 있다. 2007년이 비어 있는 이유(USEN 세그먼트 공시 구조)를 확인해 덧붙였고, 인수 후 2개년은 여전히 찾지 못했다"
+   }
+  ]
+ },
+ {
+  "deal_id": "N017",
+  "ciq_id": "IQTR182646019",
+  "context": {
+   "firm": "Naver",
+   "date": "2012-03-15",
+   "target": "Venture Republic Inc.",
+   "status": "Closed",
+   "value": "21.47",
+   "buyers": "-",
+   "sellers": "Mitsubishi Corporation (TSE:8058); Osaka Securities Finance Co., Ltd.; Lawson, Inc. (TSE:2651); Nikkei Business Publications, Inc.; Taiyo Life Insurance Company; T&D Asset Management Co. Ltd.; Senshu Ikeda Capital Co., Ltd.; Osenikku,ESOP",
+   "comment": "Kei Shibata, President and Representative Director of Venture Republic, made a proposal to acquire the remaining 89.9% stake in Venture Republic Inc. (JASDAQ:2177) from Taiyo Life Insurance Company, Nikkei Business Publications, Inc., Osaka Securities Finance Co., Ltd. (OSE:8512), Lawson Inc. (TSE:2651), Venture Republic Inc., ESOP, Kenichi Shibata, Hiroyuki Nishimura, Taira Ohnishi, Ryosuke Ito and others for ¥1.8 billion on January 5, 2012. Shibata will acquire the common shares and the warrants of Venture. The shares can be tendered for 30 business days for ¥1,100 each from March 16, 2012 to April 27, 2012. \r\n\r\nShibata concluded tender offer subscription contract with Lawson on March 15, 2012. Announcement of tender offer launch date is March 16, 2012. In case the program is executed, LAWSON Inc. will tender all shareholdings in Venture. Kenichi Shibata and Hiroyuki Nishimura have agreed to tender their shares. The transaction is subject to minimum number of shares (1.57 million shares) to be tendered. The Board of Directors of Venture Republic resolved and recommended shareholders to participate in the tender offer on March 15, 2012. If all the shares are tendered, Venture will be delisted from the Osaka Securities Exchange JASDAQ Market Growth. The transaction is expected to complete by the end of August 2012. The settlement will start from May 9, 2012. Mitsubishi UFJ Morgan Stanley Securities Co., Ltd. will handle the settlement. es Networks Co., Ltd. determined the tender offer value for Shibata. Plutus Consulting acted as financial advisor and Bingham McCutchen LLP Sakai, Mimura, Aizawa Law Office acted as legal advisor for the Board of Directors of Venture Republic. Mitsubishi UFJ Morgan Stanley Securities Co., Ltd. acted as financial advisor for Venture Republic Inc.",
+   "subtype_chk": "MA⑥ 외부자 간 거래",
+   "pre_incorp_chk": "편입 전 (2012 MBO 당시 매수자 Kアソシエイツ(柴田啓 사장 100% 보유)와 매도자 로손 등은 모두 Yahoo Japan·LINE·NAVER 계보 밖. 이 회사(당시 사명 ベンチャーリパブリック, 이후 オセニック)는 2013-08 Yahoo Japan의 완전자회사가 됐고 2014-12-01 Yahoo Japan에 흡수합병됐다. 여행 사업을 하는 현 ㈱ベンチャーリパブリック에는 2018-08 LINE이 34% 출자했다)",
+   "acquirer_entity": "Kアソシエイツ(ベンチャーリパブリック 대표이사 사장 柴田啓이 설립하고 전 주식을 보유한 공개매수 목적 회사, 비상장; 그룹 밖)",
+   "perf_basis": "인수 전: IRBANK의 EDINET 기반 실적표(E21327, 12월 결산, 유가증권보고서 기준). IRBANK 기업 페이지가 '2008/12（個）～2011/12（個）'로 표기하므로 단체(個別) 수치다. 인수 후: 비상장화로 2012~2013 실적 미공시. 가장 최근은 Yahoo Japan 2014-10-01 합병 공시에 나온 オセニック(2012 MBO 대상 법인의 후신, 가격비교 사업)의 2014-03기 단체 실적(결산기 변경으로 2014-01~03 3개월분)이다. 여행 사업 쪽 현 ベンチャーリパブリック의 실적은 공시되지 않았다.",
+   "impairment": "확인 안 됨 (매수자 SPV와 MBO 후 대상회사는 재무 미공시. Yahoo Japan의 オセニック 인수 관련 손상은 보지 않았다)",
+   "impairment_class_basis": "매수자가 그룹 계보 밖(MA⑥)이라 그룹의 손상을 따지지 않음",
+   "notes": "편입 전 거래이며 그룹 밖 MBO다. 같은 회사가 2013-08 Yahoo Japan에 100% 인수됐다(당시 사명 オセニック, 가격비교 사이트 coneco.net 운영). 그 인수 거래는 이 묶음에서 보지 못했다. 법인 계보: thebridge 2013-08-05 기사는 회사가 둘로 나뉘어 기존 회사가 オセニック로 사명을 바꿔 coneco.net을 계속했고, 柴田啓가 여행 미디어를 맡는 새 ベンチャーリパブリック을 만들었다고 적는다. Yahoo 2014 합병 공시의 オセニック(설립 2001-01-04, 대표 柴田健一, 1주당 순자산 83,928엔으로 MBO 후 주식 병합을 거친 것으로 보임)가 2012 MBO 대상 법인의 후신이고, Capital IQ가 이 거래를 LY 대상회사 계보로 잡은 것도 이 법인이 Yahoo Japan에 합병됐기 때문으로 본다(추정, 언론 한 곳 기준). 현 ㈱ベンチャーリパブリック(2018 LINE 34% 출자, 2025 エアトリ 자회사화)은 사업은 이어받았지만 법인으로는 별개다. 공개매수 결과 보고서와 공개매수 신고서(EDINET)는 API 키가 없어 보지 못했다. 매수자 SPV의 재무와 MBO 이후 대상회사 실적은 비공개다. / 재수집(2026-11-01): 못 찾음 status_chk, value_chk_local, acq_total_assets, target_rev_post, target_op_post.",
+   "review_note": "확인한 것: M&A Online 2012-03-15(TOB 조건·목적 문장 원문 일치), M&A Capital Partners 2012-03-15(Kアソシエイツ 100% 보유, 63.13% 응모 계약, 로손 출자, MUFG 22억 엔), IRBANK E21327 실적표(2008~2011 매출·영업이익·총자산·순자산 수치 일치, 단체 기준), Yahoo Japan 2014-10-01 TDnet 합병 공시 PDF(オセニック 설립일·대표·2014-03기 3개월 실적 일치), thebridge 2013-08-05, 넷숍담당자포럼(인용 일치, 기사일 2015-10-05), 트래블보이스 2018-07-11, エアトリ 2025-11-28 공시 PDF(2001 창업·2008 헤라클레스 상장 문구 일치)를 직접 열었다. 분류(MA⑥·편입 전)는 정의대로 맞다. / 고친 것: status_chk('추정' 제거, kabutore 2012 상장폐지 목록에서 2012-08-06 폐지·원인 Kアソシエイツ TOB 확인), value_chk_usdmm(추정 환율 83 → Yahoo Finance 2012-03-15 종가 83.84, 원자료 21.47 = ¥1.8bn 환산값임을 확인), deal_to_assets_pct·deal_to_equity_pct·perf_basis(IRBANK 수치는 연결이 아니라 단체(個)), acq_mktcap(참고 시가총액 추정 추가), pre_events_summary(2011-01 로손의 三菱商事 지분 35.37% 인수 추가), post_events_summary(상장폐지 2012-07 → 2012-08-06, 2013 회사 분할 서술 추가, LINE트래블 개시일은 본문에 없어 '이 무렵'으로), notes(법인 계보를 thebridge 기사로 정리). / 남은 의문: 공개매수 결과(응모 주식 수, 실제 지급액)를 TDnet·irbank·웹 검색(일본어 3회, 영어 1회)·Wayback(회사 IR 사이트)으로 찾았으나 원문을 찾지 못했다. ¥1.8bn의 산정 근거와 2013년 회사 분할의 방식·날짜는 확인하지 못했다(분할은 언론 한 곳만 확인). 매수자 SPV 재무와 2012~2013 대상회사 실적은 비공개. / 재수집(2026-11-01): 공개매수 결과와 실제 지급액, 2012~2013 대상회사 실적은 추가 검색에도 원문을 찾지 못했다. 매수자 SPV 총자산은 공개 자료 없음으로 분류했다. 2차 확인: Kアソシエイツ(EDINET E26505)의 공개매수신고서와 VR 적시공시 원문을 열지 못해 미완."
+  },
+  "targets": [
+   {
+    "field": "status_chk",
+    "value_now": "완료 (공개매수 기간 2012-03-16~04-27, 결제 개시 2012-05-09 예정; 2012-08-06 상장폐지, 폐지 원인은 Kアソシエイツ의 TOB(kabutore 2012년 상장폐지 목록). 2013-08 Yahoo Japan이 이 법인(オセニック로 사명 변경)의 전 주식을 취득했다. 공개매수 결과 공시 원문과 응모 주식 수는 미확인)",
+    "tried_r1": "값 안에 '공개매수 결과 공시 원문과 응모 주식 수는 미확인'이 있다. 이번에 일본어 웹 검색 1회(공개매수 결과·응모 주식)를 더 했으나 발표 시점(2012-03-15) 기사만 나왔다"
+   },
+   {
+    "field": "value_chk_local",
+    "value_now": "공개매수 최대 대금 약 JPY 21억1200만 (보통주 1,919,704주 × 1,100엔, 신주예약권 별도). 실제 응모 주식 수와 지급액은 미확인",
+    "tried_r1": "실제 응모 주식 수와 지급액이 미확인이다. 위와 같은 검색에서 공개매수 결과 공시를 찾지 못했다"
+   },
+   {
+    "field": "acq_total_assets",
+    "value_now": "미확인 (Kアソシエイツ는 비상장 SPV이며 재무 미공시. 공개매수 신고서 미열람)",
+    "tried_r1": "2차 확인: ①인수 주체 공시: Kアソシエイツ의 EDINET 코드는 E26505임(M&A Online TOB DB maonline.jp/db/tob/2012/341에서 확인). EDINET 제출자 코드 목록(disclosure2dl.edinet-fsa.go.jp/searchdocument/codelist/Edinetcode.zip, 2026-11-01 내려받음, 11,434건)에서 Kアソシエイツ·E26505 검색 결과 없음(단, 이 목록은 현재 등록된 코드만 담아 과거 제출 여부를 완전히 보여 주지는 못함). 재무가 실렸을 공개매수신고서(2012-03-16 제출)는 EDINET 공개 기간이 지나 화면으로 조회할 경로가 없고, API는 키가 필요해 열지 못함. ベンチャーリパブリック 2012-03-15 적시공시(賛同 意見表明)는 IRBANK(irbank.net/2177/ir?y=2012-03-15)에 'データは見つかりませんでした'로 나와 없고, M&A Online 기사 PDF(maonline-production.herokuapp.com/articles/pdf/20120315b.pdf)는 404임. M&A Online 기사(maonline.jp/news/20120315b)에는 '柴田啓氏が設立したＫアソシエイツ（東京都港区）'와 三菱東京UFJ銀行의 22億円 買収ローン만 있고 총자산은 없음. ②지배회사 연결주석: 지배회사 없음(대표 개인이 소유한 SPV). ③공정위 공시: 해당 없음. ④주가 자료: 비상장이라 해당 없음. 결론: 공개매수신고서와 대상회사 적시공시 원문을 열지 못했으므로 미완"
+   },
+   {
+    "field": "target_rev_post",
+    "value_now": "2012: 미확인; 2013: 미확인; 최근: 2014-1~3월(결산기 변경 3개월, オセニック 단체) 426백만 엔",
+    "tried_r1": "2012·2013년이 미확인이다. Yahoo 2014-10-01 オセニック 합병 공시 PDF를 받아 보니 '開示事項・内容を一部省略'한 간이합병 공시여서 직전 사업연도(2014-01~03)만 있다. Yahoo의 2013-08 オセニック 취득 발표문은 웹 검색 2회로 찾지 못했다. 官報 決算公告는 열지 않았다"
+   },
+   {
+    "field": "target_op_post",
+    "value_now": "2012: 미확인; 2013: 미확인; 최근: 2014-1~3월(3개월, オセニック 단체) 160백만 엔",
+    "tried_r1": "target_rev_post와 같다"
+   }
+  ]
+ },
+ {
+  "deal_id": "N018",
+  "ciq_id": "IQTR216926801",
+  "context": {
+   "firm": "Naver",
+   "date": "2012-09-11",
+   "target": "Community Factory, Inc.",
+   "status": "Closed",
+   "value": "12.8",
+   "buyers": "LY Corporation (TSE:4689)",
+   "sellers": "Mizuho Capital Co., Ltd.; Nissay Capital Co., Ltd.; Mitsubishi UFJ Capital Co., Ltd.; MIXI, Inc. (TSE:2121)",
+   "comment": "Yahoo Japan Corporation (TSE:4689) acquired Community Factory, Inc. from Mixi, Inc. (TSE:2121), Mizuho Capital Co. Ltd., Nissay Capital Co.,Ltd and Mitsubishi UFJ Capital Co. Ltd. for $12.8 million on September 11, 2012. Board of Directors of Mixi, Inc. has resolved the deal.",
+   "subtype_chk": "MA① 경영권 인수",
+   "pre_incorp_chk": "편입 전 (매수자 Yahoo Japan(ヤフー株式会社)은 2012년 당시 NAVER와 무관. 2021-03 LINE–Z Holdings 경영통합 전 Yahoo Japan 계열 거래이며, 대상회사는 2015-01-05 Yahoo Japan에 흡수합병돼 소멸)",
+   "acquirer_entity": "ヤフー株式会社 (Yahoo Japan Corporation, 당시 東証1部·JASDAQ 상장 4689; 현 LY Corporation의 전신, 계열 정점 회사 자신)",
+   "perf_basis": "FY2014/3(3월 결산) 단체, 일본 GAAP: Yahoo Japan 2014-11-20 TDnet 합병 공시의 '直前事業年度の財政状態および経営成績'(총자산 168, 순자산 99백만 엔 포함). 비상장 소규모 회사여서 인수 전 실적과 FY2013/3 실적은 공개 출처를 찾지 못함.",
+   "impairment": "있음 (FY2014/3(2014-03-31 종료 회계연도), Yahoo Japan 연결 일본 GAAP: Community Factory 인수 영업권의 미상각 잔액 829백만 엔을 'Loss on write-down of the unamortized balance of goodwill'로 일괄 상각해 영업외 손실로 인식. Yahoo! Inc. 10-K/A 2014-09-19 Exhibit 99.1(SEC 0001193125-14-347093)의 Yahoo Japan 감사 재무제표 주석 2.c와 손익계산서. FY2013/3 같은 문서 계열(0001193125-13-369190)에는 Community Factory 개별 손상 기재 없음)",
+   "impairment_class_basis": "수집·검토 기록에 인수 뒤 손상이 적혀 있음",
+   "notes": "매도자: mixi(Mixi Fund를 통해 약 40% 보유, The Next Web·Asiajin 보도)와 VC(みずほキャピタル·ニッセイキャピタル·三菱UFJキャピタル, 원자료 기재). mixi는 이 주식 양도로 특별이익 약 3억1,200만 엔을 계상할 전망이라고 보도됐다(GameBusiness.jp 2012-09-11). 거래 금액 약 10억 엔은 TechCrunch Japan 보도를 Asiajin·The Next Web이 재인용한 추정치다. Yahoo Japan FY2013/3 연결 주석에는 Crocos·Community Factory·Carview·CyberAgent FX 네 회사를 합친 취득원가 23,234백만 엔만 있고 Community Factory 개별 취득가는 공시되지 않았다. 인수 1년 반 뒤인 FY2014/3에 영업권 미상각 잔액 829백만 엔을 일괄 상각했고, 2015-01 흡수합병으로 법인이 소멸했다. mixi의 TDnet 적시공시 원문은 irbank 목록에서 2012년분을 찾지 못해 열어 보지 못했다. 같은 묶음(NV-D2)의 IQTR37372758·IQTR41385429(Brainer), IQTR54671192(GyaO), IQTR182646019(Venture Republic)과는 대상회사가 달라 직접 관계가 없고, 모두 Yahoo Japan의 편입 전 거래다. 부분 수집 사유: 대상회사의 인수 전 2개 연도와 FY2013/3 실적(비상장 소규모 회사로 공개 자료 없음), 어닝콜 언급, mixi 1차 공시를 확인하지 못함. / 재수집(2026-11-01): 못 찾음 status_chk, target_rev_pre, target_rev_post, target_op_pre, target_op_post, earnings_call_note.",
+   "review_note": "확인한 것: (1) Yahoo Japan 2012-09-11 보도자료 PDF(lycorp.co.jp ja20120911_A)를 직접 받아 '全株式を取得', 목적 인용문, 설립 2006년 2월, 자본금 41,560만 엔을 원문과 대조했다. purpose_quote 첫 인용은 원문과 같다. (2) 2014-11-20 TDnet 합병 공시 PDF(minkabu 미러)를 받아 '2012年9月にコミュニティファクトリーを完全子会社', FY2014/3 단체 매출 200·영업이익 1·순이익 193·총자산 168·순자산 99백만 엔, 효력발생 2015-01-05(予定), 업적 영향 '軽微'를 확인했다. 두 번째 purpose_quote도 원문과 같다. (3) SEC 0001193125-12-406831(Yahoo! Inc. 10-K/A, Yahoo Japan 2012-03-31 감사 재무제표)에서 TOTAL ASSETS 562,022, Total equity 468,301백만 엔, 발행주식 58,184,240주, 자기주식 180,601주, 영업권 591백만 엔을 확인했다. (4) Yahoo Finance 4689.T 2012-09-10 조정 종가 289.5엔을 다시 받아 확인했고, ×100 환원과 시가총액 계산(28,950×58,184,240=1조 6,844억 엔), 총자산·자본 대비 비율(0.18%, 0.21%)을 다시 계산해 일치함을 확인했다. (5) The Next Web('$12.8 million (1 billion yen)', Mixi Fund 40%)과 GameBusiness.jp(mixi 특별이익 약 3억1,200만 엔 '見込み', 가격 기재 없음)를 열어 확인했다. 금액 출처를 확인하려고 Asiajin 원문을 열었고, 'TechCrunch Japan is reporting that the price stands at around 1 billion yen'이라고 적혀 있어 수집 기록의 금액 출처 서술(TechCrunch Japan→Asiajin→TNW)이 맞다. (6) 2009-04 mixi 대상 2,000만 엔 증자는 수집 단계에서 원문을 열지 않았다고 했으나, 이번에 atpress 릴리스(2009-04-23, 'mixiファンド投資第一弾', '総額2,000万円の第三者割当増資')를 열어 확인했다. / 고친 것: (a) impairment: '확인 안 됨'→'있음'. SEC EDGAR 전문 검색으로 찾은 Yahoo! Inc. 10-K/A(2014-09-19, Exhibit 99.1, Yahoo Japan 2014-03-31 연결 재무제표)에 'The Company recognized ¥829 million ... as a loss on write-down of the unamortized balance of goodwill for the year ended March 31, 2014, in relation to the goodwill of Community Factory Inc.'라고 적혀 있다. 손익계산서 영업외 항목 'Loss on write-down of unamortized balance of goodwill (829)'와 세그먼트 표 합계 829도 같다. 인수 1년 반 만에 남은 영업권을 전액 상각한 것이므로 '승자의 저주' 판단에 중요한 사실이다. (b) post_events_summary: FY2014/3 영업권 일괄상각 사건을 넣고, 2015-01-05 '예정'을 LINEヤフー 유가증권보고서 연혁('2012年９月 ㈱コミュニティファクトリーの株式を取得し、子会社とする(2015年１月に吸収合併)')에 근거해 '2015-01 흡수합병 완료'로 바꿨다. (c) pre_events_summary: 2009-04 항목을 원문 확인 내용으로 바꿨다. (d) notes: 손상 미확인 서술을 지우고, Yahoo Japan FY2013/3 연결 주석에 Crocos·Community Factory·Carview·CyberAgent FX 네 회사를 묶은 신규 연결 취득원가 23,234백만 엔만 있고 Community Factory 개별 취득가는 공시되지 않았다는 점을 적었다. / 남은 의문: 거래 금액(약 10억 엔)은 여전히 언론 추정치이며 1차 출처로 확정하지 못했다. mixi의 2012-09-11 TDnet 적시공시는 irbank 목록이 2012년까지 거슬러 열리지 않아(연도 지정 페이지에 목록 없음) 이번에도 열지 못했다. 인수 전 2개 연도와 FY2013/3 대상회사 실적은 웹 검색(결산공고·회사 자료)으로 두 번 더 찾았으나 공개 자료가 없어 미확인으로 둔다. earnings_call_note는 Yahoo Japan 2012년 결산설명회 관련 검색을 한 번 더 했으나 DECOPIC·コミュニティファクトリー 언급을 찾지 못해 미확인을 유지한다. 분류(MA① 경영권 인수, 편입 전, 완료 2012-09, 인접)는 정의대로 다시 판정해 유지했다. 같은 묶음의 IQTR37372758·IQTR41385429·IQTR54671192·IQTR182646019과는 대상회사가 달라 일관성 문제는 없다. / 재수집(2026-11-01): 완료일, 인수 전 실적, 어닝콜 언급은 추가 확인(보도자료 전문, SEC 재무제표, 검색 2회)에도 찾지 못했다. 인수 전 실적은 mixi 공시를 열지 못해 미완으로 남겼다. FY2013/3 실적은 공개 자료 없음으로 분류했다. 2차 확인: FY2013/3 부분은 官報 결산공고를 열지 못해 미완."
+  },
+  "targets": [
+   {
+    "field": "status_chk",
+    "value_now": "완료 (2012-09, 정확한 완료일 미확인; Yahoo Japan 2014-11-20 합병 공시에 '2012年9月にコミュニティファクトリーを完全子会社といたしました')",
+    "tried_r1": "정확한 완료일이 미확인이다. Yahoo 2012-09-11 보도자료 PDF를 받아 전문을 읽었으나 소재지·대표자·자본금 41,560만円·사업 내용·설립 2006-02만 있고 일정·금액·실적은 없다. Yahoo Japan FY2013/3 감사 연결재무제표(SEC 0001193125-13-369190)도 'During the fiscal year ended March 31, 2013 ... acquired the majority interest in ... Community Factory'로만 적는다"
+   },
+   {
+    "field": "target_rev_pre",
+    "value_now": "미확인",
+    "tried_r1": "비상장 소규모 회사다. Yahoo 2012-09-11 보도자료 PDF를 받아 전문을 읽었으나 소재지·대표자·자본금 41,560만円·사업 내용·설립 2006-02만 있고 일정·금액·실적은 없다. 그러나 매도자 mixi(약 40% 보유)의 2012-09-11 적시공시(특별이익 약 3억1,200만円)는 이번 검색(일본어 1회)에서도 원문이 나오지 않아 열지 못했으므로, 공개 자료가 없다고 단정하지 않는다"
+   },
+   {
+    "field": "target_rev_post",
+    "value_now": "FY2013/3: 미확인; FY2014/3: 200백만 엔 (단체); 최근: 2015-01 합병으로 소멸, 이후 Yahoo Japan 안의 사업 실적은 공개되지 않음",
+    "tried_r1": "2차 확인: FY2013/3 부분만 다시 확인함. ①대상회사 자체 공시: EDINET 제출자 코드 목록(disclosure2dl.edinet-fsa.go.jp/searchdocument/codelist/Edinetcode.zip, 2026-11-01 내려받음, 11,434건)에서 コミュニティファクトリー 검색 결과 없음(단, 이 목록은 현재 등록된 코드만 담아 과거 제출 여부를 완전히 보여 주지는 못함); 비상장이라 TDnet 자체 공시 없음; 官報 決算公告(コミュニティファクトリー FY2013/3, 2013년 게재분): 무료 官報는 최근 90일분만 공개되고 그 이전은 유료 官報情報検索サービス로만 열람할 수 있어 열지 못함. ②인수 주체 연결 주석: ヤフー 有報 FY2013/3(work/NV-C/dl/yj/yuho2012-vsreport.txt)의 기업결합 주석은 Crocos·Community Factory·カービュー·CyberAgent FX 네 회사를 합산함(검토 기록); 2014-11-20 합병 TDnet 공시는 FY2014/3만 실음. ③공정위 기업집단현황공시: 대상이 일본 회사이고 NAVER 국내 계열회사가 아니므로 출처 목록상 해당 없음. ④보도: 수집·검토 기록의 웹 검색에 FY2013/3 수치 없음. 결론: 官報 결산공고를 열지 못했으므로 미완"
+   },
+   {
+    "field": "target_op_pre",
+    "value_now": "미확인",
+    "tried_r1": "target_rev_pre와 같다"
+   },
+   {
+    "field": "target_op_post",
+    "value_now": "FY2013/3: 미확인; FY2014/3: 1백만 엔 (단체; 당기순이익 193백만 엔); 최근: 2015-01 합병으로 소멸, 이후 공개되지 않음",
+    "tried_r1": "2차 확인: FY2013/3 부분만 다시 확인함. ①대상회사 자체 공시: EDINET 제출자 코드 목록(disclosure2dl.edinet-fsa.go.jp/searchdocument/codelist/Edinetcode.zip, 2026-11-01 내려받음, 11,434건)에서 コミュニティファクトリー 검색 결과 없음(단, 이 목록은 현재 등록된 코드만 담아 과거 제출 여부를 완전히 보여 주지는 못함); 비상장이라 TDnet 자체 공시 없음; 官報 決算公告(コミュニティファクトリー FY2013/3, 2013년 게재분): 무료 官報는 최근 90일분만 공개되고 그 이전은 유료 官報情報検索サービス로만 열람할 수 있어 열지 못함. ②인수 주체 연결 주석: ヤフー 有報 FY2013/3(work/NV-C/dl/yj/yuho2012-vsreport.txt)의 기업결합 주석은 Crocos·Community Factory·カービュー·CyberAgent FX 네 회사를 합산함(검토 기록); 2014-11-20 합병 TDnet 공시는 FY2014/3만 실음. ③공정위 기업집단현황공시: 대상이 일본 회사이고 NAVER 국내 계열회사가 아니므로 출처 목록상 해당 없음. ④보도: 수집·검토 기록의 웹 검색에 FY2013/3 수치 없음. 결론: 官報 결산공고를 열지 못했으므로 미완"
+   }
+  ]
+ },
+ {
+  "deal_id": "N013",
+  "ciq_id": "IQTR54336300",
+  "context": {
+   "firm": "Naver",
+   "date": "2009-03-26",
+   "target": "Demae-Can Co.,Ltd (TSE:2484)",
+   "status": "Closed",
+   "value": "13.11",
+   "buyers": "Culture Convenience Club Co., Ltd.",
+   "sellers": "LY Corporation (TSE:4689)",
+   "comment": "Culture Convenience Club Co., Ltd. (TSE: 4756) agreed to acquire 30.21% stake in Yume no Machi Souzou Iinkai Co., Ltd (OSE: 2484) from Yahoo Japan Corp. (TSE: 4689) for ¥1.3 billion on March 26, 2009. Culture Convenience Club Co., Ltd. will acquire 0.02 million shares for ¥78181.82 per share. The transaction is expected to close by March 31, 2009.",
+   "subtype_chk": "MA⑤ 그룹의 지분 매각",
+   "pre_incorp_chk": "편입 전 (매도자 ヤフー㈱(Yahoo Japan, 현 LINEヤフー)의 2009년 거래로, 당시 Yahoo는 ソフトバンク㈱의 연결자회사이고 NAVER와 자본관계가 없었다. 대상회사 夢の街(현 出前館)의 NAVER 연결 편입은 2020-04-24~2021-03뿐)",
+   "acquirer_entity": "カルチュア・コンビニエンス・クラブ株式会社(CCC; 東証1部 4756, TSUTAYA·T포인트 지주회사 — NAVER·Yahoo 그룹 밖). 매도자: ヤフー株式会社(Yahoo Japan; 東証1部·JASDAQ 4689, ソフトバンク㈱의 연결자회사, 그룹 계보)",
+   "perf_basis": "夢の街 별도(일본 기준, 8월 결산): FY2007/8·FY2008/8은 CCC 2009-03-26 공시의 '最近事業年度における業績の動向'(千円), FY2009/8·FY2010/8은 夢の街 決算短信(非連結, 백만円). 최근 연도는 出前館 2026年8月期 決算短信(연결, 백만円). 夢の街는 FY2012/8부터 연결 작성.",
+   "impairment": "확인 안 됨 (Yahoo 2009年3月期 決算短信: 연결 특별손익에 夢の街 개별 항목 없음; 単体 投資有価証券売却損 2,665백만円은 夢の街·TVバンク·テレウェイヴ 등 매각분 합계로 개별 금액 미공시. 대상회사 지분의 손상차손 개별 기재는 찾지 못함)",
+   "impairment_class_basis": "그룹의 지분 매각(MA⑤)이라 매수자 쪽 손상을 따지지 않음",
+   "notes": "같은 대상회사 계보: IQTR32756624(2007 Yahoo가 공개매수로 41.84%까지 확대)의 후속 매각. 매각 단가 78,200円은 2007 공개매수가 401,190円을 2007-09-01 1:3 분할로 환산한 133,730円의 약 58%이고, 발표 전일 2009-03-25 夢の街 종가(Yahoo Finance 2484.T 조정치 94.0 × 800(2013 1:100·2014 1:2·2017 1:4 분할 역조정) = 75,200円) 대비 약 4.0% 높다. Yahoo 잔여 지분은 2011-08-31 5,100주(9.88%) → 2012-08-31 1,700주(3.27%) → 2013-08-31 상위 10대 주주 명단에서 사라짐(전량 처분 시점 미확인). 이후 2016-10 LINE이 20%(IQTR404659267), 2021-03 경영통합으로 LINE 지분이 Z Holdings(Yahoo 계보) 산하로, 2021-09 Z Holdings가 제3자배정 19,158,900주 인수 — Yahoo 계보가 出前館에 다시 들어와 2025-08 현재 LINEヤフー 35.3%(지분법). 편입 전 거래. 조사 한계: Yahoo의 매각손익(개별)과 Yahoo 측 공식 매각 목적은 공시되지 않음(Yahoo IR 릴리스 목록에 해당 공시 없음). collect_status '부분' 사유: 매수자 CCC의 발표 직전 시가총액(acq_mktcap)은 2011 상장폐지로 일별 시세를 확보하지 못해 미확인(검토 때 Yahoo Finance 4756.T(데이터 없음), kabutore 상장폐지 종목 페이지(HTTP 500), Wayback의 Yahoo!ファイナンス 4756.T 페이지(가장 가까운 스냅샷 2009-02-10), 웹 검색을 더 시도했으나 2009-03-25 종가를 찾지 못함). / 재수집(2026-11-01): 못 찾음 acq_mktcap.",
+   "review_note": "확인한 것: evidence 18행의 URL을 FRED를 빼고 모두 다시 받아 대조함 — CCC 적시공시·보도자료(2009-03-26), 夢の街 '資本業務提携および主要株主である筆頭株主の異動'(2009-03-26), Yahoo 2009年3月期 決算短信·第3四半期決算短信, CCC 2009年3月期 第3四半期決算短信, Yahoo 자기주식 소각 공시(2009-03-24), Yahoo Finance 4689.T·2484.T, 夢の街 제9기 사업보고(2008-11), 平成21年·22年8月期 決算短信, 제12기·제13기 사업보고(2011-11·2012-11), 2013-07-16 주요주주 이동 공시, CCC·夢の街 T포인트 보도자료(2009-05-29), 有報 FY2013/8(S1000ML9)·FY2022/8(S100PPM7), 出前館 FY2026/8 決算短信. 공시 원문과 일치: 16,500주·取得価額 1,290,300,000円(1주 78,200円), 취득 후 CCC 30.3%·Yahoo 5,100주 9.4%, 일정(3/26 결의·계약, 3/31 취득 예정), '事業シナジーの追求による利益の最大化…顧客基盤の強化が可能となること'(CCC)·'T会員様に対して「出前館」…シナジー創出が期待できる'(夢の街) 인용, 夢の街 공시 '今回の株式異動によって、当社はヤフーの持分法適用会社でなくなります', Yahoo 2009年3月期 決算短信 '株式売却による減少 … 夢の街創造委員会㈱'·単体 投資有価証券売却損 2,665백만円(특별손실, 개별 내역 없음), 夢の街 平成21年8月期 단신 'ヤフー株式会社は、平成21年３月26日にその他の関係会社及び主要株主ではなくなっております', FY2007/8~FY2010/8 실적, 대주주 추이(2011-08 CCC 31.98%·Yahoo 9.88%, 2012-08 Yahoo 1,700주 3.27%), 2013-07 CCC 1,650,000주 중 1,390,400주 매각(→259,600주 5.46%). 계산 재현: 1,290.3÷98.47=13.10(FRB H.10 원표 26-MAR-09 98.47), CCC 총자산 대비 1.10%·자기자본 대비 3.45%, Yahoo 0.39%·0.53%, 시가총액 27,950×58,105,738=1,624,055,377,100円. Yahoo의 2009-03-26 IR 릴리스는 i.yimg.jp 경로에 없음(404)을 확인. 분류 재판정: MA⑤ 유지가 옳다(그룹 계보 Yahoo가 매도자, CCC는 그룹 밖, 매각 후 Yahoo 9.4%로 지분법 제외). pre_incorp_chk '편입 전'도 규칙에 맞다. / 고친 것: ① post_events_summary — '2010-10: 東証 JASDAQ로 지정 변경'은 틀림. 2010-10-12에는 大証 안에서 ヘラクレス가 새 JASDAQ로 통합됐고(2011-11 사업보고에도 '大阪証券取引所' 기재), 東証 JASDAQ는 2013-07-16 현물시장 통합 뒤다(IQTR242237528 기록의 서술과도 맞춤). ② notes — 매각가 78,200円이 발표 전일 시장가 75,200円(분할 역조정) 대비 약 4.0% 프리미엄이라는 점과 CCC 시가총액 추가 탐색 경로를 보탬. / 남은 의문: CCC의 2009-03-25 종가(acq_mktcap)는 여전히 미확인 → collect_status '부분' 유지. Yahoo의 이 매각 개별 손익과 매각 목적은 공시되지 않음. '자본제휴 해소'(2013-07)는 CCC가 その他の関係会社에서 빠졌다는 공시에 근거한 해석이며, 업무제휴(T포인트 등)의 종료 여부는 공시에서 확인하지 못함. / 재수집(2026-11-01): 매수자 CCC의 발표 직전 시가총액은 상장폐지 종목이라 무료 시세 출처를 찾지 못해 미확인으로 남았다."
+  },
+  "targets": [
+   {
+    "field": "acq_mktcap",
+    "value_now": "매수자 CCC: 미확인 (2011년 MBO 상장폐지로 Yahoo Finance 시세 없음; 2008-12-31 발행주식 192,979,560주). 매도자(그룹) Yahoo — 계산: 1,624,055,377,100円 (2009-03-25 종가 27,950円 × 자기주식 제외 58,105,738주; 2009-03-18 취득한 자기주식 1,185,010주는 3-31 소각 예정. 발행주식 59,290,748주 기준 1,657,176,406,600円). 종가는 Yahoo Finance 4689.T 분할조정치 279.5円 × 100",
+    "tried_r1": "매수자 CCC의 시가총액이 미확인이다. 이번에 웹 검색 1회(CCC 2009-03 주가·시가총액)와 상장폐지 종목 시세 사이트(kabuoji3, HTTP 436 차단)를 시도했으나 2009-03-25 종가를 얻지 못했다"
+   }
+  ]
+ },
+ {
+  "deal_id": "N019",
+  "ciq_id": "IQTR225024559",
+  "context": {
+   "firm": "Naver",
+   "date": "2012-12-07",
+   "target": "Carview Corporation",
+   "status": "Closed",
+   "value": "36.41",
+   "buyers": "LY Corporation (TSE:4689)",
+   "sellers": "SoftBank Group Corp. (TSE:9984)",
+   "comment": "Yahoo Japan Corporation (TSE:4689) agreed to acquire 52.17% stake in Carview Corporation (TSE:2155) from SOFTBANK CORP. (TSE:9984) for ¥3 billion On December 7, 2012. Yahoo Japan Corporation will acquire 0.03 million shares of Carview Corporation. Board of Directors of Carview decided to promote Masayoshi Ohnishi as President and Representative Director from Vice President, Director of Personnel Division, Director of Administrative Division, Director of Financial and Accounting Division and Director of Foreign Business Development Division of Carview and Shoichi Kaneko will become Director of Carview from earlier position of President and Representative Director.\r\n\r\nThe transaction was resolved by the Board of Directors of Yahoo Japan Corporation. The transaction was approved by the Board of Directors of SOFTBANK CORP. The impact of the consolidation of Carview on SOFTBANK CORP's consolidated and non-consolidated performances in the current fiscal year is expected to be minor. The share purchase agreement will be signed on December 10, 2012 and the deal is expected to close on December 17, 2012. As of January 18, 2013, Carview Corporation decided to have Yutaka Hyodo as President and Representative Director, Hiroyasu Otsuka as Director, and Masayuki Takata as Director on February 8, 2013. Ken Miyauchi, Director of Carview, will resign at the conclusion of the February 8, 2013 Extraordinary Shareholders' meeting. Shingo Yoshii will be recruited as auditor and Takashi Okubo will resign as auditor at the conclusion of the February 8, 2013 Extraordinary Shareholders' meeting. Tokyo Kyodo Accounting Office acted as accountant for Yahoo Japan Corporation. Katsumi Aya and Shunsuke Uruga of Tokiwa Law Office acted as legal advisor for Yahoo Japan Corporation.",
+   "subtype_chk": "MA① 경영권 인수",
+   "pre_incorp_chk": "편입 전 (2012-12 거래 당시 매수자 ヤフー㈱(Yahoo Japan, 현 LINEヤフー)는 ソフトバンク㈱가 의결권 42.2%를 실질 소유한 연결자회사로 NAVER와 자본관계가 없었다. Yahoo Japan 계열의 NAVER 연결고리는 2021-03-01 LINE–Z Holdings 경영통합(A Holdings 50:50) 이후의 지분법 합작 관계뿐)",
+   "acquirer_entity": "ヤフー株式会社(Yahoo Japan Corporation; 東証1部·JASDAQ 4689, ソフトバンク㈱의 연결자회사. 현 LINEヤフー㈱)",
+   "perf_basis": "カービュー 연결(일본 기준, 3월 결산): FY2011/3·FY2012/3 매출은 FY2014/3 有価証券報告書 주요 경영지표, 영업이익은 Yahoo 2012-12-07 공시(백만円); FY2013/3·FY2014/3은 FY2014/3 有価証券報告書(千円). FY2015/3 상반기는 Yahoo 2014-10-22 공개매수 공시에 인용된 カービュー 決算短信. 상장폐지 후는 官報 決算公告(별도, 순이익·총자산만)를 catr.jp가 집계한 값. 인수(2012-12-17 인도)가 FY2013/3 중이므로 FY2013/3은 인수 연도(Yahoo 연결 편입 연도)이고 인수 후 첫 완결 연도는 FY2014/3다. FY2015/3 연간 실적은 상장폐지(2015-03-20)로 공시되지 않았다.",
+   "impairment": "확인 안 됨 (Yahoo 2015年3月期 有価証券報告書(IFRS)까지 확인: カービュー 관련 영업권·무형자산 손상 기재 없음. 같은 보고서의 '重要なのれん'은 決済金融事業(16,391백만円)과 マーケティングソリューション事業(10,905백만円)뿐이고 カービュー가 속한 コンシューマ事業은 없음. 추정: 2012 취득가 2,998백만円이 カービュー 연결 순자산(2012-03-31 5,518백만円)×52.2%≈2,880백만円에 가까워 이 거래로 생긴 영업권 자체가 소액. FY2016/3 이후 Yahoo·Z Holdings 有価証券報告書는 확인하지 못함)",
+   "impairment_class_basis": "Yahoo Japan 감사 연결재무제표(SEC Ex.99.1) 확인 범위: FY2013/3은 Carview를 신규 연결 4개사 합산으로만 적고 손상 기재 없음. FY2015/3·FY2016/3(IFRS)의 '중요한 영업권' CGU 표는 決済金融·マーケティングソリューション(FY2016에 Shopping·Ikyu·Others 251백만円 추가)뿐이고, Carview는 종속회사 표(지분 100.0, 의결권 53.8→100.0)에만 나온다. Carview 영업권이 Consumer 'Others' 251백만円에 들어 있는지는 알 수 없다. FY2017 이후와 2022-07 흡수합병 시점은 확인하지 못했다 (재수집(2026-11-01))",
+   "notes": "같은 대상회사의 2단계 인수: 이 거래(2012, 과반)와 IQTR275097615(2014 공개매수·전부취득으로 완전자회사화). 편입 전 거래(Yahoo Japan의 2021-03 이전 거래). 기원: 1999-03-24 Microsoft·SoftBank·Yahoo Japan이 CarPoint 일본판 합작(SoftBank 50%·Microsoft 40%·Yahoo Japan 10%)을 발표했고, Yahoo는 2012 거래 직전 0주였다(초기 10%의 처분 시점은 미확인). 2013-10-01 1:200 분할로 Yahoo 보유 6,590,800주. 이후 2018-12-04 중고차 수출 사이트 tradecarview 사업을 신설분할해 ㈱じげん에 매각, 2022-07-01 ヤフー㈱(2019-10 분할로 생긴 사업회사, 현 LINEヤフー)에 흡수합병되어 소멸(㈱ファブリカコミュニケーションズ 2022-06-13 공시). carview!·みんカラ 서비스는 LINEヤフー가 계속 운영. 조사 한계: 2015 상장폐지 후 カービュー 매출·영업이익은 공시되지 않고 官報 決算公告(당기순이익·총자산)만 2차 집계 사이트로 확인. 검토 추가: Yahoo 초기 10%(1999)의 처분 시점은 일본어 위키백과, IPO 정보 사이트 2곳(ipokabu·minkabu, 403 차단), SoftBank 보도자료 아카이브로 더 찾았으나 확인하지 못함. 2018-08 자회사 ㈱KENKEY 설립·2019 「マイカーページ」「pitte」 출시는 일본어 위키백과에만 있어 반영하지 않음. / 재수집(2026-11-01): 못 찾음 post_events_summary, impairment_class, target_rev_post, target_op_post; 공개 자료 없음 target_rev_post, target_op_post.",
+   "review_note": "확인한 것: Yahoo 2012-12-07 적시공시 PDF(32,954주·52.2%, 0주→52.2%, 2,998백만円+자문 8백만円, 계약 12-10·인도 12-17, 취득 이유 문장 원문 일치, カービュー FY2010/3~FY2012/3 연결 매출·영업이익, SoftBank 의결권 42.2% 친회사·'企業グループ内での異動', 업적 영향 '軽微', 2012-11-30 東京共同会計事務所 의견), Yahoo 2013年3月期 2Q 決算短信(총자산 591,763·자기자본 497,824백만円, 주식수 58,196,528·자기 180,601, 세그먼트 매출 1,047·508·45억円), Yahoo Finance 4689.T(2012-12-06 278.2) 재조회, FRED DEXJPUS(2012-12-07 82.37), 시가총액·비율 재계산(0.51%, 0.60%, 1,614,003,089,140円) 일치, カービュー FY2014/3 有価証券報告書(S10020WN: 5개년 매출, FY2013/3·FY2014/3 영업이익, 沿革, 2010-04-01 1:2·2013-10-01 1:200 분할, Yahoo 6,590,800주 52.0%), Yahoo 2014-10-22 공개매수 공시(2012-12-17 취득·1주 91,000円, 연계효과 인용 원문 일치, FY2015/3 상반기 매출 2,035·영업이익 477백만円), Yahoo FY2015/3 有価証券報告書(53.8%→100.0%, 沿革 2012年12月), Microsoft 1999-03-24 보도자료(50/40/10), SoftBank 2012-12-07 보도자료, じげん 2018-10-31·ファブリカ 2022-06-13 TDnet, catr.jp 決算公告 집계. 분류(MA①·편입 전·완료)와 is_core(핵심) 재판정 결과 유지. / 고친 것: pre_events_summary(Northern Trust 21.5%=Microsoft 보유분은 공시상 직접 근거가 없어 '추정' 표시), post_events_summary(대표 교체 2018 三浦由佳·2022 小谷圭太, ファブリカ 17.15% 보유, FY2021/3 이익잉여금 감소(분배 추정), carview! 통합 시 73% 설명 추가; 전부취득조항 방식은 예고 방식일 뿐 실행 공시가 없어 표현 완화, 상장폐지 원인 TOB 근거 추가), impairment(FY2015/3 有報의 '重要なのれん' 범위와 영업권 소액 추정 근거 보강), perf_basis(FY2013/3이 인수 연도임을 명시), earnings_call_note(Impress Watch 2013-06-06 추가), notes(추가 탐색 경로 기록). / 남은 의문: 상장폐지 후 매출·영업이익 미공시(최근 연도 미확인 유지), Yahoo 초기 10% 처분 시점, 전부취득 효력일·교부액, FY2016/3 이후 손상 여부, 2012 공시의 'SoftBank에 보유 주식 매각'(FY2012/3) 대상은 확인하지 못함. / 재수집(2026-11-01): 최근 연도 매출·영업이익은 비상장 완전자회사의 官報 공고가 대차대조표만 담아 공개 자료 없음으로 분류했다. 잔여주식 취득 실행 공시와 FY2017 이후 손상 여부는 찾지 못했다. 2차 확인: 최근 연도 부분은 EDINET 코드 목록, ZHD 有報 第21~28期, catr.jp 官報 집계, ファブリカ 공시를 확인해 공개 자료 없음 확정. 재수집 중 발견한 다른 문제: 官報 결산공고는 원문이 아니라 catr.jp 2차 집계로 확인함."
+  },
+  "targets": [
+   {
+    "field": "post_events_summary",
+    "value_now": "2012-12-17: 32,954주(52.2%) 인도, Yahoo 연결자회사; 2013-02: 경영진 교체(兵頭裕 대표); 2013-06-06: 「Yahoo!自動車」와 carview.co.jp를 「carview!」로 통합(Yahoo 도메인; Yahoo는 2013-03 주요 6개 자동차 사이트 이용자의 73%가 두 사이트 중 하나를 이용했다고 설명 — Impress Watch); 2013-10-01: 1:200 분할; 2014-03: 연결 매출 3,858,664천円(査定仲介 집객 억제), 영업이익 671,927천円 최고치; 2014-10-22: Yahoo 공개매수 발표(IQTR275097615); 2014-12-15: 결제, 96.65%; 2015-03-20: 東証マザーズ 상장폐지(kabutore: 원인 TOB, 최종 종가 859円); 2015-03-31: Yahoo 100%(잔여주식은 공개매수 공시에 예고된 전부취득조항 방식으로 취득한 것으로 보이나 실행 공시는 미확인); 2018-03: 자본금 100백만円, 총자산 8,130백만円; 2018-10 현재: 대표 三浦由佳, 소재지 千代田区紀尾井町1-3(ヤフー㈱와 같은 주소); 2018-12-04: tradecarview 사업 신설분할·じげん에 매각(취득가 비공개, FY2018/3 해당 사업 매출 758백만円); FY2021/3: 이익잉여금 4,136,739→1,452,349천円(당기순이익과 같음; 추정: 이월 이익잉여금 약 41억円을 친회사에 배당 등으로 분배 — 官報 決算公告 2차 집계); 2022-03-31 현재: ㈱ファブリカコミュニケーションズ(TSE:4193) 筆頭株主(866,000주, 17.15%), 대표 小谷圭太; 2022-07-01: ヤフー㈱에 흡수합병·소멸(보유 ファブリカ 주식은 ヤフー㈱가 승계); 2023-10-01: 존속회사가 LINEヤフー로 통합, carview! 계속 운영",
+    "tried_r1": "잔여주식 취득(전부취득조항 방식) 실행 공시가 미확인이다. 이번에 일본어 웹 검색 1회(2015년 임시주주총회·전부취득조항·상장폐지)를 했으나 2014-10 공개매수 발표 기사만 나왔다"
+   },
+   {
+    "field": "impairment_class",
+    "value_now": "미확인",
+    "tried_r1": "FY2016/3 이후를 보지 않았다는 메모가 있어 미완이다. 이번에 FY2015·FY2016 IFRS 연결재무제표를 더 확인했으나 FY2017 이후는 보지 못했다"
+   }
+  ]
+ },
+ {
+  "deal_id": "N023",
+  "ciq_id": "IQTR252099150",
+  "context": {
+   "firm": "Naver",
+   "date": "2013-11-26",
+   "target": "ZEN Co. Ltd.",
+   "status": "Closed",
+   "value": "0.326",
+   "buyers": "Demae-Can Co.,Ltd (TSE:2484)",
+   "sellers": "-",
+   "comment": "Yume no Machi Souzou Iinkai Co., Ltd. (JASDAQ:2484) signed a basic agreement to acquire ZEN Co. Ltd. from Akira Shibata and 2 other individuals for on November 26, 2013. Yume no Machi Souzou Iinkai Co., Ltd. is acquiring 200 shares of ZEN Co. Ltd. Akira Shibata is selling 151 shares representing 75.5% stake. The transaction has been resolved by Board of Directors of Yume no Machi Souzou Iinkai Co., Ltd. Signing of the share transfer agreement and expected closing of the transaction is due in late December 2013.",
+   "subtype_chk": "MA① 경영권 인수",
+   "pre_incorp_chk": "편입 전 (2013-11-26 기본합의·2013-12-27 인도 당시 매수자 夢の街創造委員会(현 ㈱出前館)는 NAVER·LINE과 자본관계가 없는 JASDAQ 상장사였다. LINE 지분 취득은 2016-10(IQTR404659267, 지분법), NAVER 연결 편입은 2020-04-24~2021-03뿐이며, 그 전인 2017-09-01 ZEN은 이미 夢の街에 흡수합병됐다.)",
+   "acquirer_entity": "夢の街創造委員会株式会社(현 ㈱出前館; 당시 東証 JASDAQ 상장 독립회사. NAVER·Yahoo Japan 그룹 밖)",
+   "perf_basis": "ZEN 자체 실적은 공시되지 않음. 참고치는 夢の街/出前館 연결 有価証券報告書의 出前館事業 세그먼트(일본 기준, 8월 결산, 千円)와 出前館 FY2026/8 決算短信(연결, 百万円)로, ZEN 기여분은 구분할 수 없다.",
+   "impairment": "있음 (FY2015/8(2014-09~2015-08), ZEN 주식 취득으로 생긴 のれん 18,388천円을 회수가능가액까지 감액(特別損失) — 夢の街 FY2015/8 有価証券報告書 減損損失 주석)",
+   "impairment_class_basis": "수집·검토 기록에 인수 뒤 손상이 적혀 있음",
+   "notes": "같은 묶음 IQTR242237528(薩摩恵比寿堂, 2013-05)와 함께 夢の街의 2013년 다각화 인수. 소액(취득가 33백만円)이라 夢の街 有価証券報告書는 기업결합 주석을 '重要性が乏しい'로 생략했고 ZEN의 재무는 공시되지 않았다. ZEN은 2017-09-01 夢の街에 흡수합병(FY2017/8 有報 関係会社 주석·FY2018/8 有報; 단 FY2017/8 有報 沿革에는 '平成29年１月'로 적혀 있어 출처 간 불일치 — 다른 두 기재를 따라 2017-09-01 채택). 편입 전 거래이며, 추출 시점(2024-05) 出前館은 LINEヤフー·NAVER의 지분법 관계(연결 아님)여서 Capital IQ의 '자회사' 기준과 어긋날 수 있다(IQTR242237528 notes 참조). 조사 한계: ZEN의 인수 전후 매출·영업이익은 어떤 공시에도 없어 미확인. / 재수집(2026-11-01): 못 찾음 target_rev_pre, target_rev_post, target_op_pre, target_op_post.",
+   "review_note": "확인한 것: (1) 분류. 2013-12-26 夢の街 적시공시(work/NV-E/dl/yume/20131226_2.pdf.txt) 원문에서 이동 전 보유 0주(0.0%)에서 200주(의결권 100.0%)로 바뀌었고, ZEN과 '記載すべき資本関係はありません'이라는 문장을 확인했다. 그래서 subtype_chk 'MA① 경영권 인수'가 맞다. 매수자 夢の街는 2013년 당시 NAVER·LINE과 자본관계가 없었고, ZEN은 2017-09-01 흡수합병으로 소멸했으므로 pre_incorp_chk '편입 전'도 맞다. 같은 공시에서 이사회 결의·계약일 2013-12-26과 인도일 2013-12-27을 확인했으므로 status_chk '완료 (2013-12-27)'도 맞다. (2) 금액·날짜. 같은 공시의 취득가액 표(보통주 30百万円, アドバイザリー費用 3百万円, 합계 33百万円)를 확인했다. 2013-11-26 적시공시(20131126.pdf.txt 5·21행)에서 '平成25年11月26日開催の取締役会' 기본합의 결의를 확인했고, purpose_quote 문장도 원문(42~45행)과 같았다. 33÷101.38=0.326으로 원자료와 일치한다. (3) 규모. FY2013/8 有報(S1000ML9) 총자산 2,962,301천円, 순자산 1,986,773천円, 신주예약권 1,089천円, 영업이익 278,439천円을 확인했다. 30,000÷2,962,301=1.01%, 30,000÷1,985,684=1.51%로 재계산값도 같았다. (4) 손상. FY2015/8 有報(S1006GOP) 減損損失 주석에서 のれん 18,388천円과 'ZENの株式の取得により発生したのれん…当初想定していた収益を見込めなくなった' 문장을 확인했다. (5) 실적. 出前館事業 세그먼트 값 FY2014/8 매출 1,722,541·이익 527,947천円(S1003KWX), FY2015/8 매출 1,968,084·이익 638,809천円(S10096NN), 出前館 FY2026/8 決算短信의 매출 39,057백만円·영업손실 △8,288백만円을 확인했다. ZEN 별도 실적은 공시되지 않았으므로 미확인으로 둔 것이 타당하다. (6) 합병일. FY2017/8 有報(S100BUW7) 353행의 '平成29年9月１日付…吸収合併'과 170행 沿革의 '平成29年１月' 사이의 불일치, FY2018/8 有報(S100ENXR)의 '2017年９月１日付'를 확인했다. 수집 기록의 2017-09-01 채택은 타당하다. / 고친 것: 없음. / 남은 의문: ZEN의 인수 전후 별도 매출·영업이익은 공시되지 않아 미확인이다. post_events_summary가 채워져 있어 light 검토 규칙에 따라 추가 검색은 하지 않았다. 'NAVER 연결 편입 2020-04~2021-03' 서술은 이 거래 판정과 무관해 대조하지 않았다. / 재수집(2026-11-01): 빈 칸 4개는 모두 대상회사 실적이다. 공시 문서에서 중요성이 낮다는 이유로 생략된 것을 확인한 기록이 있어 공개 자료 없음으로 분류했다. 2차 확인: 4칸 모두 ZEN의 官報 결산공고를 열지 못해 미완."
+  },
+  "targets": [
+   {
+    "field": "target_rev_pre",
+    "value_now": "미확인 (ZEN 재무는 2013-11-26·12-26 적시공시와 夢の街 有価証券報告書 어디에도 공시되지 않음 — 기업결합 주석은 '重要性が乏しい'로 생략)",
+    "tried_r1": "2차 확인: ①대상회사 자체 공시: EDINET 제출자 코드 목록(disclosure2dl.edinet-fsa.go.jp/searchdocument/codelist/Edinetcode.zip, 2026-11-01 내려받음, 11,434건)에서 ZEN(ＺＥＮ) 검색 결과 없음(단, 이 목록은 현재 등록된 코드만 담아 과거 제출 여부를 완전히 보여 주지는 못함); 비상장이라 TDnet 자체 공시 없음; 官報 決算公告(㈱ZEN 인수 직전 2개 사업연도): 무료 官報는 최근 90일분만 공개되고 그 이전은 유료 官報情報検索サービス로만 열람할 수 있어 열지 못함. ②인수 주체 공시: 夢の街創造委員会 2013-11-26·2013-12-26 적시공시와 有報(FY2014/8~)의 기업결합 주석은 '重要性が乏しい'로 생략되었고, 이후 出前館事業 세그먼트에 포함됨(수집 기록에서 문서를 특정해 확인). ③공정위 공시: 일본 회사라 해당 없음. ④보도: M&A Online 2013-11-26 기사(maonline.jp/news/20131126a)와 日本M&Aセンター 뉴스(nihon-ma.co.jp/news/2013/11/26)에는 취득가액 비공표와 사업 내용만 있음; 웹 검색 '夢の街創造委員会 ZEN 株式取得 子会社化 2013 売上高'에 ZEN 실적 없음. 결론: 官報 결산공고를 열지 못했으므로 미완"
+   },
+   {
+    "field": "target_rev_post",
+    "value_now": "미확인 (ZEN 별도 실적 미공시; 出前館事業 세그먼트에 포함 후 2017-09 흡수합병. 참고: ZEN을 포함한 出前館事業 세그먼트 매출 FY2014/8 1,722,541천円, FY2015/8 1,968,084천円; 승계회사 出前館 연결 매출 최근 FY2026/8 39,057백만円)",
+    "tried_r1": "2차 확인: ①대상회사 자체 공시: EDINET 제출자 코드 목록(disclosure2dl.edinet-fsa.go.jp/searchdocument/codelist/Edinetcode.zip, 2026-11-01 내려받음, 11,434건)에서 ZEN(ＺＥＮ) 검색 결과 없음(단, 이 목록은 현재 등록된 코드만 담아 과거 제출 여부를 완전히 보여 주지는 못함); 비상장이라 TDnet 자체 공시 없음; 官報 決算公告(㈱ZEN 인수 후 2개 사업연도(2017-09 흡수합병 전)): 무료 官報는 최근 90일분만 공개되고 그 이전은 유료 官報情報検索サービス로만 열람할 수 있어 열지 못함. ②인수 주체 공시: 夢の街創造委員会 2013-11-26·2013-12-26 적시공시와 有報(FY2014/8~)의 기업결합 주석은 '重要性が乏しい'로 생략되었고, 이후 出前館事業 세그먼트에 포함됨(수집 기록에서 문서를 특정해 확인). ③공정위 공시: 일본 회사라 해당 없음. ④보도: M&A Online 2013-11-26 기사(maonline.jp/news/20131126a)와 日本M&Aセンター 뉴스(nihon-ma.co.jp/news/2013/11/26)에는 취득가액 비공표와 사업 내용만 있음; 웹 검색 '夢の街創造委員会 ZEN 株式取得 子会社化 2013 売上高'에 ZEN 실적 없음. 결론: 官報 결산공고를 열지 못했으므로 미완"
+   },
+   {
+    "field": "target_op_pre",
+    "value_now": "미확인 (target_rev_pre와 같은 이유)",
+    "tried_r1": "2차 확인: ①대상회사 자체 공시: EDINET 제출자 코드 목록(disclosure2dl.edinet-fsa.go.jp/searchdocument/codelist/Edinetcode.zip, 2026-11-01 내려받음, 11,434건)에서 ZEN(ＺＥＮ) 검색 결과 없음(단, 이 목록은 현재 등록된 코드만 담아 과거 제출 여부를 완전히 보여 주지는 못함); 비상장이라 TDnet 자체 공시 없음; 官報 決算公告(㈱ZEN 인수 직전 2개 사업연도): 무료 官報는 최근 90일분만 공개되고 그 이전은 유료 官報情報検索サービス로만 열람할 수 있어 열지 못함. ②인수 주체 공시: 夢の街創造委員会 2013-11-26·2013-12-26 적시공시와 有報(FY2014/8~)의 기업결합 주석은 '重要性が乏しい'로 생략되었고, 이후 出前館事業 세그먼트에 포함됨(수집 기록에서 문서를 특정해 확인). ③공정위 공시: 일본 회사라 해당 없음. ④보도: M&A Online 2013-11-26 기사(maonline.jp/news/20131126a)와 日本M&Aセンター 뉴스(nihon-ma.co.jp/news/2013/11/26)에는 취득가액 비공표와 사업 내용만 있음; 웹 검색 '夢の街創造委員会 ZEN 株式取得 子会社化 2013 売上高'에 ZEN 실적 없음. 결론: 官報 결산공고를 열지 못했으므로 미완"
+   },
+   {
+    "field": "target_op_post",
+    "value_now": "미확인 (ZEN 별도 실적 미공시. 참고: 出前館事業 세그먼트 이익 FY2014/8 527,947천円, FY2015/8 638,809천円; 出前館 연결 영업손실 FY2026/8 △8,288백만円)",
+    "tried_r1": "2차 확인: ①대상회사 자체 공시: EDINET 제출자 코드 목록(disclosure2dl.edinet-fsa.go.jp/searchdocument/codelist/Edinetcode.zip, 2026-11-01 내려받음, 11,434건)에서 ZEN(ＺＥＮ) 검색 결과 없음(단, 이 목록은 현재 등록된 코드만 담아 과거 제출 여부를 완전히 보여 주지는 못함); 비상장이라 TDnet 자체 공시 없음; 官報 決算公告(㈱ZEN 인수 후 2개 사업연도(2017-09 흡수합병 전)): 무료 官報는 최근 90일분만 공개되고 그 이전은 유료 官報情報検索サービス로만 열람할 수 있어 열지 못함. ②인수 주체 공시: 夢の街創造委員会 2013-11-26·2013-12-26 적시공시와 有報(FY2014/8~)의 기업결합 주석은 '重要性が乏しい'로 생략되었고, 이후 出前館事業 세그먼트에 포함됨(수집 기록에서 문서를 특정해 확인). ③공정위 공시: 일본 회사라 해당 없음. ④보도: M&A Online 2013-11-26 기사(maonline.jp/news/20131126a)와 日本M&Aセンター 뉴스(nihon-ma.co.jp/news/2013/11/26)에는 취득가액 비공표와 사업 내용만 있음; 웹 검색 '夢の街創造委員会 ZEN 株式取得 子会社化 2013 売上高'에 ZEN 실적 없음. 결론: 官報 결산공고를 열지 못했으므로 미완"
+   }
+  ]
+ },
+ {
+  "deal_id": "N027",
+  "ciq_id": "IQTR275097615",
+  "context": {
+   "firm": "Naver",
+   "date": "2014-10-22",
+   "target": "Carview Corporation",
+   "status": "Closed",
+   "value": "39.05",
+   "buyers": "LY Corporation (TSE:4689)",
+   "sellers": "Microsoft Corporation (NasdaqGS:MSFT); Japan Securities Finance Co., Ltd. (TSE:8511)",
+   "comment": "Yahoo Japan Corporation (TSE:4689) made an offer to acquire remaining 46.81% stake in Carview Corporation (TSE:2155) from Japan Securities Finance Co. Ltd. (TSE:8511), Microsoft Corporation, Saburo Kikuchi, Motoi Matsumotofor, Shoichi Kaneko and others for ¥5 billion on October 22, 2014. The consideration includes acquisition of 5.7 million shares and 2,740 options. Yahoo Japan Corporation will acquire shares at ¥863 per share for approximately 5.66 million ordinary shares. Minimum number of shares scheduled to be purchased are 2.06 million shares. If Yahoo is unable to acquire all of the common shares, then two step purchases will be made and will make Carview, a wholly owned subsidiary. Yahoo received an approval from Microsoft Corporation to the effect that it has intention to subscribe to the tender offer for the shares held directly and indirectly by the same.\r\n\r\nOn October 22, 2014, Board of Directors Carview Corporation unanimously approved the offer. The offering period is from October 23, 2014 to December 8, 2014. Carview established a 3rd party committee comprising of independent members. Settlement starts on December 15, 2014. Nomura Securities Co., Ltd. acted as financial advisor and Nagashima Ohno & Tsunematsu acted as legal advisor for Yahoo Japan. A.G.S. Consulting Co., Ltd. acted as financial advisor and City-Yuwa Partners acted as legal advisor for Carview. The purchase commission fee of Nomura Securities is ¥70 million and other fee of Nomura Securities is ¥4 million. Masahisa Ikeda of Shearman & Sterling LLP acted as legal advisor to Yahoo Japan Corporation.",
+   "subtype_chk": "MA② 기존 지분 확대",
+   "pre_incorp_chk": "편입 전 (2014-10 거래 당시 매수자 ヤフー㈱(Yahoo Japan, 현 LINEヤフー)는 ソフトバンク㈱의 연결자회사로 NAVER와 자본관계가 없었다. NAVER와의 연결고리는 2021-03-01 LINE–Z Holdings 경영통합 이후의 지분법 합작 관계뿐이며, 그 전인 2022-07-01 カービュー는 ヤフー㈱에 흡수합병됐다)",
+   "acquirer_entity": "ヤフー株式会社(Yahoo Japan Corporation; 東証1部 4689, ソフトバンク㈱의 연결자회사. 현 LINEヤフー㈱)",
+   "perf_basis": "인수 전: カービュー 연결(일본 기준, 3월 결산) FY2014/3 有価証券報告書(千円). 인수 후: 상장폐지로 연결 실적 미공시 — FY2015/3 상반기는 Yahoo 2014-10-22 공시에 인용된 カービュー 決算短信(백만円), 이후는 官報 決算公告(별도, 순이익·총자산만)를 catr.jp가 집계한 값.",
+   "impairment": "확인 안 됨 (Yahoo 2015年3月期 有価証券報告書(IFRS)까지 확인: カービュー 관련 손상 기재 없음. 이 거래는 지배를 유지한 채 비지배지분을 산 IFRS상 자본거래라 영업권이 새로 생기지 않으며, 같은 보고서는 '資本剰余金は、主に子会社株式を追加取得した際、取得した非支配持分の連結簿価よりも投資額が上回ったことにより…減少'라고 적는다(カービュー 포함 여러 자회사 합산, 개별 금액 미기재). '重要なのれん'은 決済金融·マーケティングソリューション事業뿐. FY2016/3 이후 Yahoo·Z Holdings 有価証券報告書는 확인하지 못함)",
+   "impairment_class_basis": "지배 유지 중 비지배지분 취득(자본거래)이라 새 영업권이 생기지 않음",
+   "notes": "같은 대상회사의 2단계 인수 중 2단계: IQTR225024559(2012, SoftBank로부터 52.2%) → 이 거래(2014, 공개매수+전부취득으로 100%). 편입 전 거래. 공개매수가 863円은 발표 전일 종가 662円 대비 30.4% 프리미엄. 이후 2018-12-04 중고차 수출 사이트 사업(tradecarview)을 신설분할해 ㈱じげん에 매각(취득가 비공개, 해당 사업 FY2018/3 매출 758백만円·영업이익 47백만円), 2022-07-01 ヤフー㈱(현 LINEヤフー)에 흡수합병되어 소멸. 조사 한계: 상장폐지 후 매출·영업이익은 공시되지 않아 인수 후 실적은 官報 決算公告의 순이익(2차 집계)만 확인. 전부취득 효력일·교부금액, 2015년 이후 Yahoo·Z Holdings의 カービュー 관련 손상 여부는 미확인. 검토 추가: 전부취득 효력일·교부금액은 웹 검색 2회(일본어 키워드 변경)와 kabutore 상장폐지 목록으로 더 찾았으나 확인하지 못함(상장폐지 원인은 'TOB'로만 기재). 공개매수 결과 공시상 매수 전 특별관계자 보유 2.16%(의결권 2,750개)가 있었고 매수 후 0이 됐다. / 재수집(2026-11-01): 못 찾음 status_chk, post_events_summary, target_rev_post, target_op_post.",
+   "review_note": "확인한 것: Yahoo 2014-10-22 공개매수 개시 공시 PDF(보유 6,590,800주·53.82%, 매수 예정 6,149,360주·하한 2,067,400주, 863円·신주예약권 57,600円, 매수대금 5,022백만円, Microsoft 2,718,400주(22.20%) 응모 의향, 전일 종가 662円·30.4% 프리미엄, 2014-09 하순 제안·2014-09-22 제3자위원회, 목적 인용 2개 원문 일치, 대상회사 보도자료 제목, 대주주 표), Yahoo 2014-12-09 결과 공시(응모 5,228,700주+잠재 494,000주 전부 매입, 51.73%→96.65%, 결제 12-15), 실제 매입액 4,654,640,100円·잔여 426,660주 재계산 일치, FRED(2014-10-22 107.32, 2014-12-09 118.87)로 39.16백만달러(원자료 39.05와 일치), Yahoo 2015年3月期 2Q 決算短信(資産合計 884,683·持分 658,998백만円, 주식수), Yahoo Finance 4689.T(2014-10-21 405) 재조회, 비율·시가총액 재계산 일치, カービュー FY2014/3 有価証券報告書, Yahoo FY2015/3 有価証券報告書(53.8%→100.0%), じげん·ファブリカ TDnet, catr.jp. 분류(MA② 기존 지분 확대 — 2012 IQTR225024559로 이미 52.2% 지배, 단계적 경영권 인수 아님)·편입 전·완료·is_core(핵심) 유지. / 고친 것: chk_note(일본증권금융은 공시 대주주 표에 0.6%로 있음 — '확인하지 못함'을 정정), status_chk·post_events_summary(전부취득조항은 예고 방식이며 실행 공시 미확인으로 표현 완화, 상장폐지 원인 TOB 근거, 대표 교체·ファブリカ 17.15% 보유·FY2021/3 이익잉여금 감소 추가), impairment(IFRS 자본거래라 영업권 미발생 근거 보강), earnings_call_note(25.5%는 광고사업 매출, 239.0%는 연결 영업이익임을 구분, Impress Watch 추가), notes(추가 탐색 기록). / 남은 의문: 인수 후(FY2016/3 이후) 매출·영업이익 미공시로 미확인 유지, 전부취득 효력일·교부액, FY2016/3 이후 손상 여부. / 재수집(2026-11-01): 인수 후 실적은 비상장 완전자회사라 공개 자료 없음으로 분류했다. 잔여주식 취득 실행 공시는 추가 검색에도 찾지 못했다(IQTR225024559와 같은 검색). 2차 확인: 최근 연도는 값이 없음을 확인했으나 FY2015/3·2016/3 官報 결산공고를 열지 못해 미완."
+  },
+  "targets": [
+   {
+    "field": "status_chk",
+    "value_now": "완료 (공개매수 2014-10-23~12-08 성립, 결제 개시 2014-12-15, 96.65%; 이후 잔여주식 취득으로 2015-03-31 현재 Yahoo 100%(공개매수 공시에 예고된 전부취득조항 방식, 실행 공시는 미확인), 2015-03-20 東証マザーズ 상장폐지)",
+    "tried_r1": "잔여주식 취득(전부취득조항 방식) 실행 공시가 미확인이다. 이번에 일본어 웹 검색 1회(2015년 임시주주총회·전부취득조항·상장폐지)를 했으나 2014-10 공개매수 발표 기사만 나왔다"
+   },
+   {
+    "field": "post_events_summary",
+    "value_now": "2014-10-23~12-08: 공개매수(응모 5,722,700주), 2014-12-09 결과 공표, 2014-12-15 결제, Yahoo 96.65%; 2015-03-20: 東証マザーズ 상장폐지(kabutore: 원인 TOB, 최종 종가 859円); 2015-03-31: Yahoo 100%(공개매수 공시에 예고된 전부취득조항 방식, 실행 공시는 미확인); 2018-03: 자본금 100백만円, 총자산 8,130백만円; 2018-10 현재: 대표 三浦由佳, 소재지 千代田区紀尾井町1-3(ヤフー㈱와 같은 주소); 2018-12-04: tradecarview 사업 신설분할·じげん 매각(취득가 비공개); FY2021/3: 이익잉여금 4,136,739→1,452,349천円(당기순이익과 같음; 추정: 이월 이익잉여금 약 41억円을 친회사에 배당 등으로 분배 — 官報 決算公告 2차 집계); 2022-03-31 현재: ㈱ファブリカコミュニケーションズ(TSE:4193) 筆頭株主(866,000주, 17.15%), 대표 小谷圭太; 2022-07-01: ヤフー㈱에 흡수합병·소멸; 2023-10-01: 존속회사가 LINEヤフー로 통합, carview!·みんカラ 계속 운영",
+    "tried_r1": "잔여주식 취득(전부취득조항 방식) 실행 공시가 미확인이다. 이번에 일본어 웹 검색 1회(2015년 임시주주총회·전부취득조항·상장폐지)를 했으나 2014-10 공개매수 발표 기사만 나왔다"
+   },
+   {
+    "field": "target_rev_post",
+    "value_now": "미확인 (2015-03 상장폐지 후 매출 미공시. 참고: 마지막 공시 FY2015/3 상반기 2,035백만円; 분할 매각된 tradecarview 사업 FY2018/3 758백만円)",
+    "tried_r1": "2차 확인: ①대상회사 자체 공시: EDINET 제출자 코드 목록(Edinetcode.zip, 2026-11-01)에 株式会社カービュー(E05693)가 '有価証券報告書等の提出義務者以外'로 등재되어 있어 상장폐지(2015-03) 뒤에는 有報를 내지 않음; 상장폐지 뒤라 TDnet 해당 없음; 官報 決算公告는 catr.jp 官報決算データベース(2차 집계)로 확인함. FY2018/3·FY2021/3·FY2022/3 공고에는 대차대조표 요지와 당기순이익만 있음(수집 기록; 官報 원문은 유료 DB라 열지 않음). ②지배회사 연결 주석: ヤフー/Zホールディングス 有報 第21期~第28期(work/NV-B/dl/yuho y2015~y2022)를 grep함. カービュー는 연혁과 주요 관계회사(자본금 100百万円, コンシューマ事業) 목록에만 나오고(第27·28期는 0건) 요약재무·손익은 없음. ③공정위 기업집단현황공시: 대상이 일본 회사이고 NAVER 국내 계열회사가 아니므로 출처 목록상 해당 없음. ④보도·관련 공시: ファブリカコミュニケーションズ 2022-06-13 TDnet(140120220613577917, 主要株主 異動)에는 カービュー 자본금 100百万円(2022-03-31)과 2022-07-01 ヤフー 흡수합병 사실만 있음; 웹 검색 'カービュー ヤフー株式会社 吸収合併 2022年 お知らせ Zホールディングス'에 Z Holdings 쪽 합병 공시나 매출 보도가 없음. 인수 후 첫 2개 회계연도(FY2015/3·FY2016/3)는 catr.jp 집계에 공고가 없고, 官報 決算公告(カービュー FY2015/3·FY2016/3): 무료 官報는 최근 90일분만 공개되고 그 이전은 유료 官報情報検索サービス로만 열람할 수 있어 열지 못함(Z Holdings 有報 第21·22期에도 수치 없음). 결론: 최근 연도는 값이 없음을 확인했으나 첫 2개년의 官報 결산공고를 열지 못했으므로 미완"
+   },
+   {
+    "field": "target_op_post",
+    "value_now": "미확인 (영업이익 미공시. 참고: FY2015/3 상반기 영업이익 477백만円; 官報 決算公告 당기순이익 FY2018/3 764,120천円, FY2021/3 1,452,349천円, FY2022/3 241,404천円 — 2차 집계 사이트)",
+    "tried_r1": "2차 확인: ①대상회사 자체 공시: EDINET 제출자 코드 목록(Edinetcode.zip, 2026-11-01)에 株式会社カービュー(E05693)가 '有価証券報告書等の提出義務者以外'로 등재되어 있어 상장폐지(2015-03) 뒤에는 有報를 내지 않음; 상장폐지 뒤라 TDnet 해당 없음; 官報 決算公告는 catr.jp 官報決算データベース(2차 집계)로 확인함. FY2018/3·FY2021/3·FY2022/3 공고에는 대차대조표 요지와 당기순이익만 있음(수집 기록; 官報 원문은 유료 DB라 열지 않음). ②지배회사 연결 주석: ヤフー/Zホールディングス 有報 第21期~第28期(work/NV-B/dl/yuho y2015~y2022)를 grep함. カービュー는 연혁과 주요 관계회사(자본금 100百万円, コンシューマ事業) 목록에만 나오고(第27·28期는 0건) 요약재무·손익은 없음. ③공정위 기업집단현황공시: 대상이 일본 회사이고 NAVER 국내 계열회사가 아니므로 출처 목록상 해당 없음. ④보도·관련 공시: ファブリカコミュニケーションズ 2022-06-13 TDnet(140120220613577917, 主要株主 異動)에는 カービュー 자본금 100百万円(2022-03-31)과 2022-07-01 ヤフー 흡수합병 사실만 있음; 웹 검색 'カービュー ヤフー株式会社 吸収合併 2022年 お知らせ Zホールディングス'에 Z Holdings 쪽 합병 공시나 매출 보도가 없음. 인수 후 첫 2개 회계연도(FY2015/3·FY2016/3)는 catr.jp 집계에 공고가 없고, 官報 決算公告(カービュー FY2015/3·FY2016/3): 무료 官報는 최근 90일분만 공개되고 그 이전은 유료 官報情報検索サービス로만 열람할 수 있어 열지 못함(Z Holdings 有報 第21·22期에도 수치 없음). 결론: 최근 연도는 값이 없음을 확인했으나 첫 2개년의 官報 결산공고를 열지 못했으므로 미완"
+   }
+  ]
+ },
+ {
+  "deal_id": "N058",
+  "ciq_id": "IQTR701684579",
+  "context": {
+   "firm": "Naver",
+   "date": "2021-01-19",
+   "target": "Wattpad Corp.",
+   "status": "Closed",
+   "value": "600.0",
+   "buyers": "WEBTOON Entertainment Inc.",
+   "sellers": "August Capital Master Management Company, LLC; BDC Capital Inc.; Union Square Ventures, LLC; The Peterson Group, Inc.; Khosla Ventures, LLC; Canso Investment Counsel Ltd.; Version One Ventures; Northleaf Capital Partners Ltd.; Raine Ventures LLC; Tencent Holdings Ltd., Investment Arm; Golden Venture Partners, Inc.; OMERS Ventures Management, Inc.; Kickstart Ventures; AME Cloud Ventures, LLC",
+   "comment": "WEBTOON Entertainment Inc. entered into a definitive agreement to acquire Wattpad Corp. from a group of sellers in a transaction valued at approximately $600 million on January 19, 2021. Under the terms of transaction, WEBTOON is expected to acquire Wattpad in a cash and stock of NAVER Corporation (KOSE:A035420), parent of WEBTOON, in transaction valued at more than an estimated $600 million, subject to customary adjustments and other terms. The transaction will align Wattpad and WEBTOON, two leading comics, entertainment, and storytelling companies, with a combined global monthly audience of 160 million people. Wattpad will continue under the leadership of founders Allen Lau and Ivan Yuen. Wattpad will remain headquartered in Canada. The transaction is subject to regulatory approvals and other customary closing conditions. The transaction has been unanimously approved by Board of Wattpad. The transaction is expected to close in second quarter of 2021. The Raine Group LLC acted as financial advisor to Wattpad. Edward Lee, Lukas David Richards, Seth Traxler, Rohit Nafday, Ian John, Marin Boney, Ivan Schlager, David Grenker and Adam Kool of Kirkland & Ellis LLP and Stikeman Elliott LLP acted as legal advisors to NAVER Corporation. Richard Cherney, Brian Kujavsky, Fotini Gagaoudakis, Elisa Kearney and Marie-Emmanuelle Vaillancourt of Davies Ward Phillips & Vineberg LLP and Wilson Sonsini Goodrich & Rosati, P.C. acted as legal advisors to Wattpad. Troy Pocaluyko of Wildeboer Dellelce LLP acted as legal advisor to certain of the selling shareholders including August Capital, BDC IT Ventures, Khosla Ventures and Union Square Ventures in connection with the transaction.",
+   "subtype_chk": "MA① 경영권 인수",
+   "pre_incorp_chk": "편입 후 (인수 주체가 그룹 지배회사 NAVER㈜ 자신. 원자료 매수자 WEBTOON Entertainment Inc.는 2023-06-01 NAVER로부터 Wattpad 지분을 현물출자받은 후속 보유자로, 2021년 인수 당시 매수자가 아님 — NAVER 2021-01-20·2021-05-10 거래소 공시, 2023-05-03 처분·취득결정 공시)",
+   "acquirer_entity": "NAVER㈜(그룹 지배회사, KOSPI 상장). 지분 78.43%는 직접, 21.57%는 캐나다 지주회사 2436247 Ontario Inc.·2436251 Ontario Inc. 지분 100% 인수로 간접 취득. 2023-06-01 WEBTOON Entertainment Inc.(NAVER 미국 자회사, 2024-06-27 Nasdaq 상장)로 현물출자 이전",
+   "perf_basis": "Wattpad Corp. 연결(캐나다 비상장, 12월 결산, 감사보고서 비공개; 외부감사인 KPMG로 공시). 인수 전: NAVER 2021-01-20 거래소 공시 '발행회사의 요약 재무상황'(백만원, 1,097.90원/USD 환산, 2020은 가결산). 인수 후: NAVER 2023-05-03 처분결정 공시 요약재무(원, 1,339.10원/USD 환산) 및 NAVER 2021 사업보고서 사업결합 주석(취득일 이후 영업수익·순손실). 두 공시의 환산 환율이 달라 원화 수치를 연도 간 직접 비교하려면 USD 환산치(2019 22.5, 2020 35.1, 2021 58.0, 2022 67.9 USD백만)를 쓸 것. 2023년 이후는 WEBTOON 연결 안에 섞여 단독 실적 없음.",
+   "impairment": "있음 — WEBTOON Entertainment(US GAAP): Wattpad 보고단위 영업권 손상 2024년 USD 46.7백만(10-K 2024, 잔액 USD 437.2백만), 2025년 USD 257.2백만(10-K 2025, 잔액 USD 179.9백만), 2023년 없음(424B4); 분리된 스튜디오 사업(Wattpad WEBTOON Studios) 보고단위도 2023 USD 6.1백만·2024 USD 2.7백만·2025 USD 2.9백만(잔액 0). NAVER(K-IFRS): Wattpad CGU 영업권 2021말 588,227,134천원 → 2022말 628,815,054 → 2023말 639,780,739 → 2024말 632,996,169 → 2025말 269,754,700천원; 2025년 감소분 363,241,469천원(환율 효과 포함)이며 이데일리(2026-03-11)·뉴스토마토(2026-03-16)는 왓패드 손상을 약 3,632억원으로 보도(NAVER 2025 전체 영업권 손상 411,965백만원). 2024년 NAVER 전체 영업권 손상 137,561백만원 중 Wattpad 몫은 CGU별 내역 미공시로 미확인. 2026년 상반기 WEBTOON 영업권 손상 없음(10-Q 2026-06-30)",
+   "impairment_class_basis": "수집·검토 기록에 인수 뒤 손상이 적혀 있음",
+   "notes": "같은 묶음의 IQTR1685432502·IQTR1790096022·IQTR1819687433(문피아 계열)와 직접 지분 관계는 없으나 모두 NAVER 웹툰 계열의 웹소설 플랫폼 확장 거래다. 후속 그룹 내부 거래 두 건은 원자료 188행에 따로 없다(list188 기준): (1) 2022-12-01 Wattpad의 스튜디오 사업(Wattpad Studios Inc. 등)을 WEBTOON 자회사 Wattpad WEBTOON Studios Inc.가 USD 15.4백만에 인수(424B4), (2) 2023-05-03 NAVER 이사회 결의, 2023-06-01 NAVER가 Wattpad 주식 100주 전부를 WEBTOON Entertainment Inc. 유상증자에 현물출자(USD 6.3억 = 838,894,867,826원, 1,339.10원/USD; WEBTOON 주식 413,782주 취득, 지분율 71.20%) — 둘 다 MA④ 그룹 내부 재편. 금액 출처 간 차이: 종결 공시 684,841백만원, K-IFRS 이전대가 698,169백만원(종결 후 가격조정·환율 차이로 추정), 언론 6,533억~6,600억원(최초 공시·발표 시 환산), MTN 2022 보도 약 6,980억원(K-IFRS 이전대가와 같은 수준). WEBTOON 424B4 내부 불일치: Wattpad 이전 대가 주식 수가 재무제표 주석 413,482주, 증권발행 내역 413,781.93주(주당 USD 1,513.99)로 다르게 기재됨(DART 413,782주). Wattpad는 캐나다 비상장사로 감사보고서가 공개되지 않아 영업이익을 확인하지 못했다(매출·순손익은 NAVER 공시의 요약재무만). 2023년 이후 Wattpad 단독 매출·손익은 WEBTOON가 공시하지 않음. NAVER 영업권 손상의 CGU별 금액은 사업보고서에 없어 2025년 Wattpad 손상 약 3,632억원은 언론 산정치(장부가 감소분)다. 어닝콜 원문 녹취(Seeking Alpha·Insider Monkey 등)는 로그인 필요로 쓰지 않았고, 콜 발언은 언론 보도로 확인했다(아시아경제 영문 기사는 AI 번역 표기). Business Wire 원문은 직접 접속이 차단돼 Wayback Machine 스냅샷(2021-01-20)으로 읽었다. [검토 추가] NAVER 사업보고서 XII.3 타법인출자 현황(별도 기준 표)의 Wattpad '최근사업연도 재무현황'은 2021 사업보고서 총자산 41,519·당기순손익 -14,052백만원, 2022 사업보고서 51,827·-9,315백만원(MTN 2023-10-24 보도 '순손실 93억1500만원'과 같은 값), 2023 사업보고서 44,322·-9,835백만원이다. 2023-05 처분공시 요약재무(2021 -19,854, 2022 -9,765백만원, 1,339.10원/USD)와 환율·기준이 달라 어긋나며, 2023 사업보고서 표는 각주가 '2022년 재무현황 반영'이라고 적어 연도 기준이 불명확해 채택하지 않았다. Comics Beat 원문은 봇 차단이라 Wayback(2022-01 스냅샷), Publishing Perspectives 원문은 403이라 Wayback으로 확인했다. / 재수집(2026-11-01): 못 찾음 target_op_pre, target_op_post.",
+   "review_note": "확인한 것: DART 원문을 직접 받아 대조 — 20210120800001(최초 공시: 248,543,779주·653,250,500,000원·자기자본대비 10.04%·자산총액 12,299,527,120,786원·5.31%·취득목적·이사회 2021-01-19·사외이사 4명·직접 78.43%+Ontario 지주회사 2곳 21.57%·1,097.90원/USD·요약재무 2018~2020), 20210510800485(정정: 248,510,131주·684,840,987,605원 = 현금 507,910,953,605 + 자기주식 176,930,034,000·10.53%·5.57%·취득예정일 2021-05-10·1,094.31원/USD), 20210510000723(자기주식처분결정 488,757주×362,000원, 시간외대량매매 2021-05-11)과 20210512000790(처분결과보고서, 488,757주 처분 '일치'), NAVER 2021 사업보고서 20220304000687(주석 사업결합: 이전대가 698,168,630천원·순자산 145,225,999·영업권 552,942,631·취득일 이후 영업수익 42,303·순손실 3,184백만원; 서비스별 영업수익 2020 비중; 영업권 표 WATTPAD 588,227,133천원), NAVER 2020 사업보고서 20210316001214(연결 자산 17,014,239/12,299,527백만원, 자본 6,503,926백만원(2019), 발행주식 164,263,395주·자기주식 16,804,360주), 2022·2023·2024·2025 사업보고서의 Wattpad CGU 영업권(628,815,054·639,780,739·632,996,169·269,754,700천원)과 영업권 손상 총액(2024 137,561·2025 411,965백만원)·손상평가 가정, 20230503800769·20230503800759(현물출자 USD 6.3억·838,894,867,826원·1,339.10원/USD·요약재무 2020~2022·외부감사인 KPMG·WEBTOON 413,782주·71.20%). 종가는 Yahoo 차트 API와 네이버 siseJson으로 2021-01-19 308,000원 재확인(시총 계산 50,593,125,660,000원 일치). SEC 원문: 424B4('acquired by NAVER on May 10, 2021', 2022-12-01 스튜디오 사업 USD 15.4백만, 2023-06-01 Wattpad Transfer 413,482주 vs 증권발행 내역 413,781.93주, 2020-07 개인정보 약 2억7천만 건·ICO GBP 985,000 통지 후 2023-12 철회, 2023 Wattpad 손상 없음), 10-K 2024(USD 46.7백만·잔액 437.2백만·인용 원문 일치), 10-K 2025(USD 257.2백만·잔액 179.9백만·인용 원문 일치, 원인 국가는 Russia and Turkey), 10-Q 2Q26(Wattpad 구조조정 비용·손상 없음). 보도자료·기사: Business Wire 2021-01-19 원문(Wayback; 18:12 EST 게재, 인용 일치), TechCrunch 2021-01-19, NAVER 보도자료 seq=30341·30437(인용 일치), 아시아경제 영문(한성숙·박상진 발언 귀속 일치, AI 번역 표기), 아주경제(1Q21 콜 인용 일치), MTN 2022-03-07(인용 일치), BetaKit 2022-05-09·2023-03-08·2026-04-17, TechCrunch 2024-01-30, 이데일리(다음) 2026-03-11 — 모두 기록과 일치. Comics Beat·Publishing Perspectives 원 URL은 차단돼 Wayback 사본으로 내용 확인. 분류 재판정: 매수자는 NAVER 본체(원자료 buyers 오기 정정 타당), 100% 취득으로 경영권 최초 획득 → MA① 유지, 편입 후, 완료(2021-05-10, 424B4로도 확인), is_core 인접 타당. / 고친 것: (1) post_events_summary — Wattpad WEBTOON Studios 출범일 2021-06-23 → 2021-06-24(Business Wire 게재 시각 2021-06-24 00:05 EDT; 06-23은 문서번호 날짜), 2026-04-17 → 2026-04-13(WEBTOON 8-K 보도자료가 1차 발표, BetaKit은 4일 뒤 보도), 2025년 트래픽 감소 원인을 10-Q 1Q25·10-K 2025 원문대로 구체화(보안 업그레이드의 검색 색인 영향, 러시아·튀르키예 차단). (2) pre_events_summary — 빠진 인수 전 투자 유치 추가: 2012-06-05 Series B USD 17.3백만(Khosla 등), 2014-04-08 Series C USD 46백만(OMERS Ventures 주도). (3) earnings_call_note — WEBTOON 10-Q 1Q25의 Wattpad MAU 감소 설명 추가, 2026 인용 출처를 BetaKit에서 WEBTOON 보도자료 원문으로 교체. (4) first_filing_date — Business Wire 게재 시각(2021-01-19 18:12 EST = 2021-01-20 08:12 KST, KRX 개장 전)을 넣어 이벤트일 2021-01-20 판단 근거를 보강. (5) notes — NAVER 타법인출자 현황의 Wattpad 순손익 값과 출처 간 차이, 차단 URL의 대체 경로 기록. impairment에 언급만 있던 뉴스토마토 2026-03-16 근거 행 추가. / 남은 의문: target_op_pre·target_op_post는 미확인 유지 — (a) NAVER 공시 요약재무(2021-01·2023-05)는 매출·순이익만, (b) NAVER 사업보고서 사업결합 주석·타법인출자 현황도 영업수익·순손익만, (c) WEBTOON 424B4·10-K는 Wattpad를 부문으로 나누지 않음, (d) 국내 기사(MTN 2022·2023, 이데일리, 뉴스토마토)도 순손실만 보도. Wattpad는 캐나다 비상장이라 감사보고서가 공개되지 않는다. K-IFRS 이전대가(698,169백만원)와 종결 공시액(684,841백만원)의 차이 원인(종결 후 가격조정 추정)은 공시로 확인 못 함. NAVER 2024 영업권 손상 137,561백만원 중 Wattpad 몫은 CGU별 내역 미공시로 미확인. 2021 연간 순손실은 처분공시(-19,854백만원, 1,339.10원)와 타법인출자 현황(-14,052백만원)이 USD 환산 뒤에도 약 USD 2.5백만 어긋나 기준 차이(연결/별도 등)를 확인하지 못했다. / 재수집(2026-11-01): 영업이익 두 칸은 NAVER 연결주석 종속기업 요약재무 표에 영업이익 열이 없음을 확인해 공개 자료 없음으로 분류했다. 값은 바꾸지 않았다. 2차 확인: EDGAR(Wattpad 명의 0건), NAVER 공시·주석, WEBTOON 424B4 전문 대조, 보도에는 Wattpad 단독 영업이익이 없다. 다만 캐나다 SEDAR+를 접속 차단으로 열지 못해 2칸 모두 미완으로 바꿨다. 재수집 중 발견한 다른 문제: MTN 2023-10-24는 Wattpad 2022년 순손실을 93억1,500만원으로 보도했는데, 기록의 2022년 순손실 -9,764,813,133원(NAVER 2023-05-03 공시, 1,339.10원/USD 환산)과 약 4.5억원 차이가 있다. 환산 환율 차이로 보이나(추정) 원문 대조는 하지 않았다."
+  },
+  "targets": [
+   {
+    "field": "target_op_pre",
+    "value_now": "미확인 (영업이익 미공시. 참고 당기순손익: 2019 -7,101백만원, 2020 -2,475백만원(가결산), 1,097.90원/USD 환산)",
+    "tried_r1": "2차 확인: 2019·2020 영업이익을 담은 자료가 없다. ① 대상회사 자체 공시: Wattpad Corp.는 캐나다 비상장사로 감사보고서를 공개하지 않음. SEC EDGAR 전문검색('\"Wattpad Corp\"', 2015-01~2026-10) 26건은 모두 WEBTOON Entertainment(CIK 0001997859) 제출 문서이고 Wattpad 명의 제출은 0건. ② 인수 주체·지배회사 주석: NAVER 2021-01-20 취득결정 공시 요약재무(매출·순손익만), NAVER 2021 사업보고서(20220304000687) 사업결합 주석(취득일 이후 영업수익·순손실)과 '주요 종속기업의 요약 재무정보'(자산·부채·자본·영업수익·당기순이익·총포괄손익 열만), NAVER 2023-05-03 현물출자 공시 요약재무(매출·순손익만)(수집·1차 재수집 확인). WEBTOON Entertainment 424B4(2024-06-27, 0001193125-24-169730)를 이번에 받아 'Wattpad' 116곳을 대조했으나 Wattpad 단독 영업손익은 없고 광고매출 감소·영업권 손상(Wattpad WEBTOON Studios)·구조조정 비용만 있음; EDGAR 전문검색('\"Wattpad\" \"operating loss\"')에서 걸린 WEBTOON 10-K 2024(wbtn-20241231)·10-K 2025(wbtn-20251231)는 수집 때 열었고 Wattpad 손상 금액만 있음. ③ 공정위: Wattpad는 국외 계열회사라 '회사 손익현황' 대상이 아님. ④ 보도: Business Wire·TechCrunch 2021-01-19, NAVER 보도자료(수집 기록), 이번 웹 검색('왓패드 영업손실 2021 2022 네이버 Wattpad 적자 규모') 결과 중 MTN 2022-03-07·2023-10-24 단독 기사는 순손실(2021-05~12 31억8,400만원, 2022년 93억1,500만원)만 전하고 영업손실 금액이 없음. 미완 사유: 캐나다 대상회사 자체 공시 목록인 SEDAR+(sedarplus.ca 발행회사 검색)를 열려 했으나 접속 차단(HTTP 403)으로 확인하지 못했다. Wattpad는 비상장사라 SEDAR+에 재무제표가 없을 가능성이 높지만, 이는 추론이라 공개 자료 없음으로 확정하지 않는다."
+   },
+   {
+    "field": "target_op_post",
+    "value_now": "미확인 (영업이익 미공시. 참고 당기순손익: 2021 -19,853,938,088원(연간), NAVER 연결 반영분 2021-05~12 -3,184백만원; 2022 -9,764,813,133원; 1,339.10원/USD 환산)",
+    "tried_r1": "2차 확인: 인수 후 영업이익을 담은 자료가 없다. ① 대상회사 자체 공시: Wattpad Corp.는 캐나다 비상장사로 감사보고서를 공개하지 않음. SEC EDGAR 전문검색('\"Wattpad Corp\"', 2015-01~2026-10) 26건은 모두 WEBTOON Entertainment(CIK 0001997859) 제출 문서이고 Wattpad 명의 제출은 0건. ② 인수 주체·지배회사 주석: NAVER 2021-01-20 취득결정 공시 요약재무(매출·순손익만), NAVER 2021 사업보고서(20220304000687) 사업결합 주석(취득일 이후 영업수익·순손실)과 '주요 종속기업의 요약 재무정보'(자산·부채·자본·영업수익·당기순이익·총포괄손익 열만), NAVER 2023-05-03 현물출자 공시 요약재무(매출·순손익만)(수집·1차 재수집 확인). WEBTOON Entertainment 424B4(2024-06-27, 0001193125-24-169730)를 이번에 받아 'Wattpad' 116곳을 대조했으나 Wattpad 단독 영업손익은 없고 광고매출 감소·영업권 손상(Wattpad WEBTOON Studios)·구조조정 비용만 있음; EDGAR 전문검색('\"Wattpad\" \"operating loss\"')에서 걸린 WEBTOON 10-K 2024(wbtn-20241231)·10-K 2025(wbtn-20251231)는 수집 때 열었고 Wattpad 손상 금액만 있음. ③ 공정위: Wattpad는 국외 계열회사라 '회사 손익현황' 대상이 아님. ④ 보도: Business Wire·TechCrunch 2021-01-19, NAVER 보도자료(수집 기록), 이번 웹 검색('왓패드 영업손실 2021 2022 네이버 Wattpad 적자 규모') 결과 중 MTN 2022-03-07·2023-10-24 단독 기사는 순손실(2021-05~12 31억8,400만원, 2022년 93억1,500만원)만 전하고 영업손실 금액이 없음. 미완 사유: 캐나다 대상회사 자체 공시 목록인 SEDAR+(sedarplus.ca 발행회사 검색)를 열려 했으나 접속 차단(HTTP 403)으로 확인하지 못했다. Wattpad는 비상장사라 SEDAR+에 재무제표가 없을 가능성이 높지만, 이는 추론이라 공개 자료 없음으로 확정하지 않는다."
+   }
+  ]
+ },
+ {
+  "deal_id": "N053",
+  "ciq_id": "IQTR665961713",
+  "context": {
+   "firm": "Naver",
+   "date": "2020-04-29",
+   "target": "YLAB Corporation (KOSDAQ:A432430)",
+   "status": "Announced",
+   "value": "4.37",
+   "buyers": "NAVER WEBTOON Corp.",
+   "sellers": "-",
+   "comment": "NAVER WEBTOON CORP agreed to acquire 13.7% stake in Ylab Corporation for KRW 5.3 billion on April 28, 2020. As per the terms, consideration will be payable in cash and NAVER WEBTOON will acquire 1.4 million shares. As of December 31, 2019, Ylab Corporation reported total assets of KRW 9.5 billion and net loss of KRW 1.2 billion. The transaction is expected to be completed on May 12, 2020.",
+   "subtype_chk": "MA③ 소수지분 매입",
+   "pre_incorp_chk": "편입 후 (매수자 네이버웹툰㈜는 2017-05-01 설립된 NAVER 연결 종속회사 — NAVER 2019 사업보고서 연결대상 종속회사 현황 '의결권의 과반수를 소유', 접수번호 20200330004603)",
+   "acquirer_entity": "네이버웹툰㈜ (당시 사명; NAVER 연결 종속회사, 비상장. 지분은 이후 네이버웹툰 유한회사가 승계)",
+   "perf_basis": "와이랩 K-IFRS 연결, 12월 결산. 2020~2022는 와이랩 증권신고서(2023-06-09, 접수번호 20230609000543) 손익현황 — 2020년은 K-GAAP로 감사받았으나 신고서에는 감사받지 않은 K-IFRS 수치 기재. 2023·2024 최초 보고치는 2025 사업보고서의 '공모 시 예측치 대비 실적' 표의 실적치, 재작성치와 2025는 2025 사업보고서(접수번호 20260323000281) 연결포괄손익계산서(2025년 와이랩아카데미 중단영업 분류로 재작성). 참고: 딜사이트 2021-07-23은 2020년 매출을 약 45억원으로 보도(기준 미기재). 2018·2019는 감사보고서가 DART에 없어 미확인",
+   "impairment": "확인 안 됨 — 소수지분으로 금융자산(공정가치 측정) 처리된 것으로 추정되어 손상 인식 대상이 아님. 네이버웹툰 유한회사 2020 감사보고서(접수번호 20210329000917)의 종속·관계기업 손상 목록(리코·스튜디오엔·비닷두·YLAB Japan)에 와이랩 없음. 같은 보고서의 당기손익-공정가치 전환상환우선주 3,245,658천원이 와이랩 RCPS일 가능성이 있으나 회사명 미기재. 2021년 이후 네이버웹툰(유) 감사보고서는 보지 않음",
+   "impairment_class_basis": "공정가치 측정 금융자산이라 손상 대신 공정가치 변동을 인식(추정)",
+   "notes": "와이랩(YLAB, 웹툰 제작 스튜디오)은 거래 당시 비상장, 2023-07-20 코스닥 기술성장특례 상장(432430). 원자료 대상명의 'KOSDAQ:A432430'은 상장 후 코드. 거래 구조: 신주 RCPS 30억원(1차 출처 확인) + 구주 약 23억원(추정, 매도자 미확인). 네이버웹툰 보유주식은 상장 직전 1,531,221주(12.02%)로 2020년 취득분 1,428,221주보다 103,000주 많아 이후 추가 매입이 있었던 것으로 보이나 시기·상대방 미확인. 관련 거래: 2020-06 네이버웹툰이 와이랩의 일본 자회사 YLAB Japan 지분을 25.21%→100%로 인수(이전대가 약 32억원, 아이뉴스24 2020-08-19) — 이 묶음(NV-H)에는 없는 별도 거래. 묶음 안 IQTR700605158·IQTR1764063074(V.DO), IQTR1771487598(Locus), IQTR1773567190(Watong)과는 대상회사가 달라 직접 관계 없음. CJ ENM도 2021-08-13 와이랩 RCPS 491,803주(1주 6,100원, 약 30억원)를 인수해 상장 시 네이버웹툰과 같은 9.67%를 보유 — 두 연구 대상 그룹이 같은 CP에 소수 투자한 사례(CJ 묶음에 해당 행이 있으면 교차 확인 필요). 인수 주체 네이버웹툰㈜의 사업·지분은 2020년 네이버웹툰 유한회사(구 웹툰엔터테인먼트코리아㈜, 2020-05-29 설립)로 합병 이전·승계됨(와이랩 증권신고서 '네이버웹툰㈜ (現 네이버웹툰(유))', 네이버웹툰(유) 2020 감사보고서). 조사 한계: 와이랩 2018~2020 감사보고서는 DART 미등재(첫 등재는 2021 회계연도), 옛 네이버웹툰㈜의 DART 고유번호를 찾지 못해 그 감사보고서 미열람, 인수 측 목적 문장·공시 없음(비상장 자회사의 소액 투자) / 재수집(2026-11-01): 채움 deal_to_equity_pct; 못 찾음 value_chk_local, purpose_quote, first_filing_date, target_rev_pre, target_op_pre, perf_basis, earnings_call_note; 공개 자료 없음 target_rev_pre, target_op_pre, perf_basis.",
+   "review_note": "확인한 것(light): 와이랩 증권신고서(20230609000543)를 fulldoc으로 받아 grep — 자본금 변동표 '2020.05.13 | 유상증자 | 전환상환우선주 | 744,417 | 500 | 4,030', 공모 전 자금조달 '2020.05.13 | 운영자금 및 사업확장 | 3,000,000'(천원), 연혁 '2020.05 | 우선주식 발행, 네이버웹툰, 발행금액 3,000,000,510원', 성장성 지표 표(K-IFRS, 백만원) 매출 2020 5,371 / 2021 21,656 / 2022 29,781, 영업이익 (3,380)/(1,074)/(435), 2020 매출액성장률 -25.0%, 주2 '2020년의 경우 K-GAAP 기준으로 외부감사를 수감하였으나 ... K-IFRS(감사받지 않은 재무제표) 기준으로 기재', 상장 직전 네이버웹툰 유한회사 1,531,221주(12.02%)·상장 후 9.67%·보호예수 6개월. 와이랩 2021 감사보고서(20220411003276) 전환상환우선주 발행조건 '1주당 4,030원 ... 2020년 05월 12일'. 2025 사업보고서(20260323000281) 연결포괄손익 매출 37,069,228,892 / 23,979,462,480 / 18,647,928,922원, 영업손실 (8,738,323,305)/(9,506,594,816)/(5,249,268,024)원, 공모 시 예측 대비 실적 표 2023 매출 19,418·영업 -5,514, 2024 매출 24,966·영업 -10,039(백만원), 주주 현황 네이버웹툰 유한회사 1,531,221주 9.28%. 모두 기록 값과 일치. 분류 재판정: 거래 후 지분 약 12.6~13.8%로 50% 미만, 매수자 네이버웹툰㈜는 NAVER 연결 종속회사 → MA③ 소수지분 매입, 편입 후 유지. 상태 완료(2020-05-12 발행일, 등기상 2020-05-13) 유지. deal_to_assets_pct 계산(5,305.12백만원 ÷ 290,286백만원 = 1.83%)과 acq_mktcap 계산(197,500원 × 164,263,395주 = 32,442,020,512,500원) 산술 확인. post_events_summary가 채워져 있어 추가 검색은 하지 않음. / 고친 것: 없음. 추정 값(구주 약 23억원, 2019 매출 약 71.6억원)은 모두 '추정:'으로 표시돼 있고 산출 근거가 적혀 있어 그대로 둠. / 남은 의문: (1) 총액 53억원 중 구주 약 23억원 부분의 매도자·계약일은 1차 출처가 없고 딜사이트·아이뉴스24 보도와 원자료에만 근거함. (2) 2019 매출 역산치는 2020 K-IFRS(미감사) 수치와 2019 수치(회계기준 미상, K-GAAP일 가능성)의 성장률로 계산한 것이라 기준이 섞였을 수 있음. (3) 네이버웹툰 보유주식이 2020 취득분 1,428,221주에서 상장 전 1,531,221주로 103,000주 늘어난 경위 미확인. (4) 2018·2019 영업이익, deal_to_equity_pct는 미확인 그대로. / 재수집(2026-11-01): deal_to_equity_pct를 NAVER 2019 사업보고서의 네이버웹툰㈜ 2019말 자본으로 계산해 채웠다. 2018·2019 대상 실적은 감사보고서·증권신고서에 없어 공개 자료 없음으로 두었고, 구주 대금·목적 문장·첫 보도일·어닝콜은 찾지 못했다. 2차 확인: 와이랩 DART 목록(2021 회계연도분부터), 증권신고서, NAVER 2019·2020 연결 주석, 네이버웹툰(유) 2022 감사보고서, 보도를 확인했으나 2018·2019 실적이 없어 3칸 모두 공개 자료 없음으로 확정했다."
+  },
+  "targets": [
+   {
+    "field": "value_chk_local",
+    "value_now": "5,305,120,000원 (네이버웹툰 취득 총액, 1,428,221주·지분 12.6% — 딜사이트 2021-07-23 보도). 이 중 1차 출처로 확인된 부분은 신주 전환상환우선주 744,417주 × 4,030원 = 3,000,000,510원(와이랩 증권신고서 2023 자본금 변동표·연혁). 나머지 약 2,305,119,490원은 추정: 구주 683,804주 매입(1주당 약 3,371원) — 매도자·계약일은 1차 출처 미확인",
+    "tried_r1": "구주 약 23억원 부분의 매도자·계약일을 1차 출처로 확인하지 못했다고 메모에 적혀 있다. (와이랩 증권신고서 20230609000543 본문 전체에서 '683,804'·'1,428,221'·구주·양수도를 검색했으나 2020년 네이버웹툰의 구주 매입 기록 없음. 네이버웹툰 지분은 상장 전 1,531,221주 9.67%로만 기재)"
+   },
+   {
+    "field": "purpose_quote",
+    "value_now": "\"운영자금 및 사업확장\" (와이랩 증권신고서 2023, 2020-05-13 우선주 유상증자 자금 사용목적 — 발행회사 측 문장) / 인수 주체 측 목적 문장은 미확인. 같은 달 '네이버웹툰과 협업협약서 체결'(와이랩 연혁)",
+    "tried_r1": "인수 주체 측 목적 문장을 찾지 못했다고만 적혀 있고 어디를 봤는지가 없다. (한국어 웹 검색 2회: 아이뉴스24 2020-08-19 등은 와이랩 지분 취득 사실만 보도하고, 목적 설명('라인망가 오리지널 라인업 역량 강화')은 별도 거래인 YLAB Japan 인수에 대한 것이다)"
+   },
+   {
+    "field": "first_filing_date",
+    "value_now": "미확인 (사전 보도·공시 없음). 확인된 가장 이른 공개 보도는 2020-08-19 아이뉴스24('지난 5월 와이랩 지분 12.6%를 약 53억원에 취득')",
+    "tried_r1": "사전 보도·공시가 없다고 적었으나 어디까지 찾았는지 근거가 약하다. (한국어 웹 검색 2회에서 2020-08-19 아이뉴스24보다 이른 보도를 찾지 못함)"
+   }
+  ]
+ },
+ {
+  "deal_id": "N070",
+  "ciq_id": "IQTR1771487598",
+  "context": {
+   "firm": "Naver",
+   "date": "2022-01-27",
+   "target": "Locus Co. Ltd",
+   "status": "Closed",
+   "value": "19.52",
+   "buyers": "Naver Webtoon Ltd.",
+   "sellers": "-",
+   "comment": "Naver Webtoon Ltd. agreed to acquire 52.19% stake in Locus Co., Ltd. for KRW 23.48 billion on December 21, 2021. The deal is subject to approval from Naver Webtoon Ltd. board. As of December 21, 2021 Naver Webtoon Ltd. board approved the deal.",
+   "subtype_chk": "MA① 경영권 인수",
+   "pre_incorp_chk": "편입 후 (매수자 네이버웹툰(유)는 NAVER의 100% 간접 연결 종속회사; 로커스는 2022년 1분기 '신규취득에 따른 지배력 획득'으로 NAVER 연결 편입 — NAVER 2022 1분기보고서 20220513001543)",
+   "acquirer_entity": "네이버웹툰 유한회사(NAVER의 100% 간접 자회사이자 WEBTOON Entertainment Inc.의 한국 자회사, 비상장)",
+   "perf_basis": "㈜로커스 별도 감사보고서(12월 결산, 영업수익·영업이익). 2020·2021: 2021 감사보고서(일반기업회계기준, 20220411002163). 2022부터 K-IFRS 최초 채택(전환일 2021-01-01, 2022 감사보고서 20230403001300). 2023: 20240409003513, 2024: 20250331000379, 2025: 20260413002928(기업회계기준서 제1118호 적용으로 2024 비교정보 재작성). 연결감사보고서(2019·2023·2024)도 있으나 별도 기준으로 통일. 순이익: 2022 -7,431백만원, 2023 2,001백만원, 2025 -788백만원.",
+   "impairment": "있음 (2022, 네이버웹툰(유) 별도 종속기업투자주식 손상차손 2,476백만원 — YLAB Japan·로커스·바이프로스트·에이투지-아이피 투자조합 합계, 로커스 개별 금액 미공시, 2022 감사보고서 20230329000963; 2023 지배력 상실 후 관계기업 장부 10,267,071천원으로 축소, 2023 감사보고서 20240402003693; 딜사이트 2025-11-12 '손상차손으로 처리한 상태'). 2023 네이버웹툰(유) 감사보고서의 종속·관계기업투자 손상 대상 목록(문피아·작가컴퍼니 등, 합계 41,985,091천원)에 로커스는 없음 — 2023 장부 감소는 처분분 감액. NAVER 연결 영업권 손상은 확인 안 함",
+   "impairment_class_basis": "수집·검토 기록에 인수 뒤 손상이 적혀 있음",
+   "notes": "같은 묶음 IQTR665961713·IQTR700605158·IQTR1764063074·IQTR1773567190과 같은 네이버웹툰(유)의 2020~2022 콘텐츠·기술 회사 인수 흐름의 일부. 언론 보도 금액은 234억원(딜사이트 2021-12-22)·약 235억원(딜사이트 2025-11-12)으로 공시 23,484,776,020원과 반올림 차이. 인수 후 지분 축소: 2023년 네이버웹툰(유)이 구주 일부를 처분해 지배력 상실(19.68%, 관계기업), 2023-11 240억원 RCPS 프리IPO로 희석 — 이 처분은 원자료에 별도 행이 있는지 확인 필요(그룹 지분 매각 MA⑤ 성격). 처분 상대·대가는 미확인. 로커스는 2022년부터 K-IFRS 최초 채택(전환일 2021-01-01)해 2021 실적이 두 기준으로 존재. 부분 사유: 정확한 거래종결일, 로커스 개별 손상차손 금액, 어닝콜 언급 미확인. [검토 추가] 2023 처분 53,457주의 매수자는 네이버웹툰(유)·로커스 감사보고서에 없음. 추정: 2023말 로커스 주주명부에 새로 보통주 주주로 나타난 위지윅스튜디오(19,654주, 9.33%)·이지윤(12,655주)·케이넷-크릿 콘텐츠 투자조합(11,792주) 등이 구주를 인수한 것으로 보임. 인수 후 네이버웹툰(유)은 지분 대가 234.8억원 외에 175억원 대여금을 추가로 투입했음(2022). / 재수집(2026-11-01): 못 찾음 status_chk, value_chk_local.",
+   "review_note": "확인한 것: 공정위 취득결정 공시(20211222000025: 92,318주·23,484,776,020원·자기자본대비 12.33%·취득후 52.19%·구주인수·취득목적 '사업제휴'·이사회 2021-12-21·로커스 2018~2020 요약재무)와 [기재정정](20220127000368, 취득예정일 2022-01-31→2022-03-31) 원문 대조 일치. NAVER 2022 1분기보고서(20220513001543) 신규 연결 '신규취득에 따른 지배력 획득'·지분 52.19%(전기말 -), NAVER 2022 사업보고서(20230314001049) 53.64% 확인. 로커스 감사보고서 2021·2022·2023·2024·2025(20220411002163, 20230403001300, 20240409003513, 20250331000379, 20260413002928)의 영업수익·영업이익·순이익·주주내역이 기록과 모두 일치(K-IFRS 재작성값 포함). 네이버웹툰(유) 2022 감사보고서의 손상차손 2,476백만원 문장, 2023 감사보고서의 지배력 상실 문장·관계기업 장부 10,267,071천원 확인. 딜사이트 81735(인용문 원문 일치)·85618 재확인. 금액 환산 19.72(원자료 19.52, ±10% 이내), 총자산대비 7.39%·시가총액(375,000원×164,049,085주, 2021 사업보고서 발행주식수 확인) 재계산 일치. 분류: 2021말 로커스 주주명부와 NAVER 1분기보고서 전기말 '-'로 사전 지분 없음 → MA① 유지, 편입 후·인접 유지. 고친 것: (1) post_events_summary에 빠진 사건 추가 — 2022 네이버웹툰(유)의 로커스 대여금 175억원(인수대가와 별도 자금 투입), 제3자로부터 로커스 전환사채 취득과 2023 만기 상환, 싸이더스스튜디오엑스→로커스엑스 사명 변경, 2023 처분 주식수(53,457주)와 장부 감액 방식, NAVER IR상 손익 연결 시점(2022-04), 2026-10 85억원 프리IPO(딜사이트 169886). (2) impairment: 2023 네이버웹툰(유) 손상 대상 목록에 로커스가 없다는 점 추가. (3) earnings_call_note: 미확인 → NAVER 3Q22 실적발표 자료의 로커스 편입 시점 언급(성과·시너지 언급은 없음). (4) status_chk에 손익 연결 시점 근거 보강. (5) notes에 처분 상대 추정과 대여금 투입 추가. (6) 딜사이트 85618 기사 작성일은 2022-04-12 08:23(기존 근거 행의 2022-04-11과 하루 차이)이라 날짜를 바로 적은 근거 행을 추가함(같은 URL이라 기존 행은 삭제 목록에 넣지 않음). 남은 의문: 정확한 거래종결일(공시·주석에 없음), 2022 손상차손 2,476백만원 중 로커스 몫, 2023 구주 처분 상대와 대가, NAVER 연결 영업권(로커스 CGU) 손상 여부는 확인하지 못함. NAVER 3Q22 IR PDF의 원 다운로드 주소는 재확인하지 못하고 로컬 사본으로 읽음. 2023 그룹 지분 처분(MA⑤ 성격)은 원자료에 별도 행이 없음. / 재수집(2026-11-01): 종결일과 추가 2,571주 대가를 두 감사보고서에서 찾았으나 기재가 없어 못 찾음으로 남겼다. 2022말 로커스 장부금액 23,514,000천원을 근거로 추가했다."
+  },
+  "targets": [
+   {
+    "field": "status_chk",
+    "value_now": "완료 (2022년 1분기 말 무렵 거래종결, 정확한 일자 미확인; NAVER 2022 1분기보고서상 2022-03-31 기준 연결 종속회사(지분 52.19%), NAVER 3Q22 실적발표 자료상 손익 연결 편입은 2022-04부터. 취득예정일은 2022-01-31→2022-03-31로 정정)",
+    "tried_r1": "정확한 거래종결일을 확인하지 못했다고 적혀 있다(덜 찾음). (로커스 2022 감사보고서 20230403001300과 네이버웹툰(유) 2022 감사보고서 20230329000963 본문을 검색했으나 로커스 주식 취득일 기재 없음. NAVER 2022 사업보고서 연결주석은 '신규취득에 따른 지배력 획득'만 적음)"
+   },
+   {
+    "field": "value_chk_local",
+    "value_now": "23,484,776,020원 (구주 92,318주, 52.19%, 주당 254,390원; 공정위 공시). 2022말 최종 보유 94,889주(53.6%) — 추가 2,571주 대가는 미확인",
+    "tried_r1": "추가 2,571주의 대가를 확인하지 못했다고 적혀 있다(덜 찾음). (네이버웹툰(유) 2022 감사보고서 종속기업투자 표에 로커스 지분율 53.6%·장부금액 23,514,000천원만 있고 변동표는 회사별 취득액을 나누지 않음. 장부금액과 최초 대가 23,484,777천원의 차이 29,224천원이 추가 취득분인지는 같은 해 손상 2,476백만원의 배분이 공시되지 않아 판단할 수 없음)"
+   }
+  ]
+ }
+]

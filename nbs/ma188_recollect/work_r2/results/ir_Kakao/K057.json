@@ -1,0 +1,20 @@
+{
+ "deal_id": "K057",
+ "ciq_id": "IQTR1841718222",
+ "checks": [
+  {
+   "field": "earnings_call_note",
+   "class": "공개 자료 없음",
+   "retry": "못 찾음",
+   "reason": "① 카카오 IR 실적발표 자료: kakaocorp.com/ir/referenceRoom/earningsAnnouncement?selectedYear=<연도> 목록에서 분기마다 실적보고서 PT와 실적보고서(재무표·연결대상 각주) 두 PDF를 받음(2016~2018년 3분기 파일은 t1.kakaocdn.net/kakaocorp/operating/ir/results-announcement/<번호>.pdf, 그 뒤는 .../admin/ir/results-announcement/<번호>.pdf). 1Q21(5112·5102.pdf), 2Q21(5120·5121.pdf), 3Q21(5212·5168.pdf), 4Q21(5261·5218.pdf), 1Q22(5324·5331.pdf), 2Q22(5363·5338.pdf), 3Q22(5365·5366.pdf), 4Q22(5418·5413.pdf). 텍스트를 추출해(3Q18 PT 3730.pdf는 글꼴이 깨져 Windows 한국어 OCR로 읽음) 정규식 「아이앤아이|INISOFT|I&I|OTT|셋톱」로 검색. ② 어닝콜 전문 기사: 1Q21(테크월드뉴스 idxno=207470), 2Q21(테크월드뉴스 idxno=213424), 3Q21(테크월드뉴스 idxno=216401), 4Q21(테크월드뉴스 idxno=219816), 1Q22(테크월드뉴스 idxno=222837). ③ 전문이 없는 분기는 어닝콜 당일·다음날 네이버 뉴스 '카카오 컨퍼런스콜'·'카카오 실적 컨콜' 검색 결과 기사 본문을 받아 같은 정규식으로 검색: 2Q22(11건), 3Q22(11건), 4Q22(12건). 결과: 'OTT' 언급은 모두 카카오엔터 영상 콘텐츠가 국내외 OTT에서 인기를 끈다는 서술(1Q21·2Q21·3Q21·1Q22 전문)이고, 아이앤아이소프트 인수나 자체 OTT 플랫폼 개발 언급은 아님. 네이버 '카카오 컨퍼런스콜 아이앤아이소프트'(2021-05-01~2022-12-31) 결과에도 관련 기사가 없음.",
+   "after": "공개 자료 없음 (카카오 2021~2022년 8개 분기 실적발표 PT·실적보고서, 어닝콜 전문(1Q21~1Q22), 2Q22~4Q22 어닝콜 기사 전수 검색: 아이앤아이소프트 언급 없음; OTT 언급은 콘텐츠 유통과 관련된 것뿐. 보도상 업계 분석만 확인: KED Global 2021-05-27 'the first step in developing its own OTT platform', 뉴데일리 2021-06-04 '본격적으로 OTT 사업에 진출하겠다는 의지를 드러냈다')"
+  }
+ ],
+ "corrections": {
+  "earnings_call_note": "공개 자료 없음 (카카오 2021~2022년 8개 분기 실적발표 PT·실적보고서, 어닝콜 전문(1Q21~1Q22), 2Q22~4Q22 어닝콜 기사 전수 검색: 아이앤아이소프트 언급 없음; OTT 언급은 콘텐츠 유통과 관련된 것뿐. 보도상 업계 분석만 확인: KED Global 2021-05-27 'the first step in developing its own OTT platform', 뉴데일리 2021-06-04 '본격적으로 OTT 사업에 진출하겠다는 의지를 드러냈다')"
+ },
+ "impairment_class_after": null,
+ "evidence_add": [],
+ "other_issues": "",
+ "summary": "카카오 2021~2022 IR 원문·어닝콜에서 언급이 없음."
+}

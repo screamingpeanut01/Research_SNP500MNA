@@ -1,0 +1,20 @@
+{
+ "deal_id": "N069",
+ "ciq_id": "IQTR1764063074",
+ "checks": [
+  {
+   "field": "earnings_call_note",
+   "class": "공개 자료 없음",
+   "retry": "못 찾음",
+   "reason": "NAVER IR 실적발표 목록(https://www.navercorp.com/investment/earnings?page=1~5; 목록의 각 분기 '실적발표' PDF를 /api/article/read/ 경로로 받음)에서 거래 연도와 다음 연도의 분기 실적발표 자료 8건을 모두 받아 텍스트로 검색했다: 1Q21(20210429, 1Q21 Naver_Earnings_Kor_final.pdf), 2Q21(20210722, 2Q21 Naver_Earnings_Kor_final.pdf), 3Q21(20211102, 3Q21 Naver_Earnings_Kor_Final.pdf), 4Q21(20220127, 4Q21 Naver_Earnings_Kor_Final.pdf), 1Q22(20220421, 1Q22 Naver_Earnings_Kor_Final.pdf), 2Q22(20220805, 2Q22 Naver_Earnings_Kor_Final.pdf), 3Q22(20221107, 3Q22 Naver_Earnings_Kor_final.pdf), 4Q22(20230203, 4Q22 Naver_Earnings_Kor.pdf). NAVER는 어닝콜 녹취록을 공개하지 않는다. 어닝콜 음성(irsvc.teletogether.com)은 이메일 인증 등록을 거쳐야 들을 수 있어 열지 않았고, 영문 녹취록은 GuruFocus에만 있으나 봇 차단·회원 전용이라 열지 않았다(접근 제한 자료로 메모만 남김). 그래서 어닝콜 발언은 기사 검색으로 대신했다. 검색어: '비닷두|V\\.DO|VDO|AI 스타트업|인공지능' (PDF 텍스트). 결과: 비닷두 언급 없음. 웹툰 부문 설명은 글로벌 거래액·회계처리 변경·왓패드 편입 중심이다. 1차의 한국어 웹 검색('비닷두 네이버 실적발표·컨퍼런스콜')에서도 어닝콜 언급은 없었다.",
+   "after": "공개 자료 없음: NAVER 2021~2022년 분기 실적발표 자료 8건(1Q21~4Q22)에 비닷두(V.DO) 언급 없음. NAVER는 어닝콜 녹취록을 공개하지 않고, 어닝콜 보도에서도 언급을 찾지 못함(검색 결과는 비닷두가 네이버웹툰 AI 조직의 기반이라는 기사뿐)"
+  }
+ ],
+ "corrections": {
+  "earnings_call_note": "공개 자료 없음: NAVER 2021~2022년 분기 실적발표 자료 8건(1Q21~4Q22)에 비닷두(V.DO) 언급 없음. NAVER는 어닝콜 녹취록을 공개하지 않고, 어닝콜 보도에서도 언급을 찾지 못함(검색 결과는 비닷두가 네이버웹툰 AI 조직의 기반이라는 기사뿐)"
+ },
+ "impairment_class_after": null,
+ "evidence_add": [],
+ "other_issues": "",
+ "summary": "NAVER 2021~2022 분기 실적발표 자료를 모두 열었으나 비닷두 언급이 없어 공개 자료 없음으로 판정했다."
+}

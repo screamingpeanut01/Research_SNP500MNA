@@ -1,0 +1,40 @@
+{
+ "deal_id": "N070",
+ "ciq_id": "IQTR1771487598",
+ "checks": [
+  {
+   "field": "status_chk",
+   "class": "미완",
+   "retry": "채움",
+   "reason": "이번에 연 출처: (1) WEBTOON Entertainment Inc. 424B4(2024-06-27, SEC 0001193125-24-169730) 로컬 사본(SP/work/NV-G/txt/wbtn_424b4.txt) 주석 17 'Business Combinations and Disposition'의 LOCUS 절: 'On March 31, 2022, the Company acquired 53.6% of LOCUS and its subsidiaries', 'The fair value of the purchase consideration was $23.2 million paid in cash at closing', 표 'Purchase consideration $23,226 / Non-controlling interests 12,158 / Goodwill 32,578'(천 USD), 'LOCUS is included in the Company’s consolidated results beginning March 31, 2022', 2022-03-31~12-31 매출 USD 18.2백만·순손실 3.6백만. 같은 주석의 2023 처분 절: 2023-06-27 14.4%를 USD 5.0백만에 매각해 53.6%→39.2%, 지배력 상실. (2) FRED DEXKOUS 2022-03-31 1,211.55원/USD. (3) DART 네이버웹툰 유한회사(01485846) 2020~2022 공시 목록: 로커스 관련은 20211222000025·20220127000368(1차 재수집에서 확인)뿐이고 추가 취득 공시 없음. 결과: 정확한 종결일 2022-03-31을 채움",
+   "after": "완료 (2022-03-31 거래종결: WEBTOON Entertainment 424B4 연결재무제표 주석 17 'On March 31, 2022, the Company acquired 53.6% of LOCUS', 'LOCUS is included in the Company’s consolidated results beginning March 31, 2022'; NAVER 2022 1분기보고서상 2022-03-31 기준 연결 종속회사(지분 52.19%), NAVER 3Q22 실적발표 자료상 손익 연결 편입은 2022-04부터. 취득예정일은 2022-01-31→2022-03-31로 정정)"
+  },
+  {
+   "field": "value_chk_local",
+   "class": "미완",
+   "retry": "일부 채움",
+   "reason": "이번에 연 출처: (1) WEBTOON Entertainment Inc. 424B4(2024-06-27, SEC 0001193125-24-169730) 로컬 사본(SP/work/NV-G/txt/wbtn_424b4.txt) 주석 17 'Business Combinations and Disposition'의 LOCUS 절: 'On March 31, 2022, the Company acquired 53.6% of LOCUS and its subsidiaries', 'The fair value of the purchase consideration was $23.2 million paid in cash at closing', 표 'Purchase consideration $23,226 / Non-controlling interests 12,158 / Goodwill 32,578'(천 USD), 'LOCUS is included in the Company’s consolidated results beginning March 31, 2022', 2022-03-31~12-31 매출 USD 18.2백만·순손실 3.6백만. 같은 주석의 2023 처분 절: 2023-06-27 14.4%를 USD 5.0백만에 매각해 53.6%→39.2%, 지배력 상실. (2) FRED DEXKOUS 2022-03-31 1,211.55원/USD. (3) DART 네이버웹툰 유한회사(01485846) 2020~2022 공시 목록: 로커스 관련은 20211222000025·20220127000368(1차 재수집에서 확인)뿐이고 추가 취득 공시 없음. 결과: 53.6% 전체가 2022-03-31 종결 때 함께 취득되었고 이전대가가 USD 23,226천임을 확인. 그러나 이를 원화로 환산한 값(약 281억원)과 공시액(234.8억원)의 차이 원인(추가 주식 대가, 전환사채 등 다른 대가 포함 여부)은 공시에 없어 추가 2,571주의 개별 대가는 확인하지 못함",
+   "after": "23,484,776,020원 (구주 92,318주, 52.19%, 주당 254,390원; 공정위 공시). 2022말 최종 보유 94,889주(53.6%). WEBTOON Entertainment 424B4는 2022-03-31 종결 때 53.6%를 한 번에 취득했고 이전대가 공정가치가 USD 23,226천(종결 시 현금 지급)이라고 적어, 추가 2,571주도 종결일에 함께 취득한 것으로 보인다. 다만 USD 23,226천을 2022-03-31 환율(FRB H.10 1,211.55원/USD)로 환산하면 약 281억원으로 공시액 234.8억원과 약 46억원 차이가 나며, 추가 2,571주의 개별 대가는 여전히 미확인"
+  }
+ ],
+ "corrections": {
+  "status_chk": "완료 (2022-03-31 거래종결: WEBTOON Entertainment 424B4 연결재무제표 주석 17 'On March 31, 2022, the Company acquired 53.6% of LOCUS', 'LOCUS is included in the Company’s consolidated results beginning March 31, 2022'; NAVER 2022 1분기보고서상 2022-03-31 기준 연결 종속회사(지분 52.19%), NAVER 3Q22 실적발표 자료상 손익 연결 편입은 2022-04부터. 취득예정일은 2022-01-31→2022-03-31로 정정)",
+  "value_chk_local": "23,484,776,020원 (구주 92,318주, 52.19%, 주당 254,390원; 공정위 공시). 2022말 최종 보유 94,889주(53.6%). WEBTOON Entertainment 424B4는 2022-03-31 종결 때 53.6%를 한 번에 취득했고 이전대가 공정가치가 USD 23,226천(종결 시 현금 지급)이라고 적어, 추가 2,571주도 종결일에 함께 취득한 것으로 보인다. 다만 USD 23,226천을 2022-03-31 환율(FRB H.10 1,211.55원/USD)로 환산하면 약 281억원으로 공시액 234.8억원과 약 46억원 차이가 나며, 추가 2,571주의 개별 대가는 여전히 미확인"
+ },
+ "impairment_class_after": null,
+ "evidence_add": [
+  {
+   "field": "status_chk,value_chk_local",
+   "phase": "발표",
+   "event_date": "2022-03-31",
+   "event_type": "완료",
+   "content": "WEBTOON 424B4 주석 17: 'On March 31, 2022, the Company acquired 53.6% of LOCUS and its subsidiaries… The fair value of the purchase consideration was $23.2 million paid in cash at closing'; Purchase consideration USD 23,226천, NCI 12,158천, goodwill 32,578천",
+   "url": "https://www.sec.gov/Archives/edgar/data/1997859/000119312524169730/",
+   "doc_type": "SEC",
+   "doc_date": "2024-06-27",
+   "doc_id": "0001193125-24-169730"
+  }
+ ],
+ "other_issues": "WEBTOON 424B4는 2023 처분을 '14.4%를 USD 5.0백만(4,951천)에 매각, 2023-06-27 완료, 53.6%→39.2%'로 적는데, 기존 기록(notes)은 처분 후 지분을 19.68%(관계기업)로 적는다. 39.2%는 의결권 기준, 19.68%는 2023-11 RCPS 희석 뒤 값일 수 있으나 확인하지 않았다. 처분 대가 USD 4,951천이 notes의 '처분 상대·대가 미확인'을 일부 채울 수 있다.",
+ "summary": "WEBTOON 424B4 주석에서 종결일 2022-03-31과 53.6% 일괄 취득·이전대가 USD 23,226천을 찾아 status_chk를 채우고 value_chk_local을 일부 채웠다. 원화 공시액과의 차이 원인과 추가 2,571주 개별 대가는 남았다."
+}

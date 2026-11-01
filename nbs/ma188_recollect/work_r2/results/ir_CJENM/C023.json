@@ -1,0 +1,54 @@
+{
+ "deal_id": "C023",
+ "ciq_id": "IQTR1806052511",
+ "checks": [
+  {
+   "field": "earnings_call_note",
+   "class": "미완",
+   "retry": "일부 채움",
+   "reason": "이번에 연 출처: (1) CJ ENM IR 사이트(cjenm.com 투자정보 → cjenmir.irplus.co.kr/kor/EarningsRelease?selectyyyy=2022·2023): 국문 PDF 3Q22(2022-11-08, c_idx=22, 13쪽), 4Q22(2023-02-09, c_idx=23, 16쪽)를 받아 '스튜디오스|STUDIOS|블라드|본팩토리|제이케이|만화가족|용필름|제작사|합병|멀티 스튜디오|잔여지분' 검색 — 언급 없음(3Q22 미디어 BU 쪽, 4Q22 중장기 전략 쪽도 읽음). (2) KIND IR자료실(종목 A035760): 'CJ_ENM_2023_1Q/2Q/3Q/4Q_Kor.pdf', 'CJENM_IR_Book_2023.02/2023.03_BofA/2023.05/2023.09/2023.11.pdf' — 같은 검색어로 찾고, IR Book 2023.02 18~19쪽은 이미지로 렌더링해 확인. 1Q23 4쪽 '멀티 스튜디오 공동 기획·제작 강화', 3Q23 7쪽 '<마스크걸> CJ ENM STUDIOS', IR Book 18~19쪽 멀티 스튜디오 구조를 찾음. 2Q23의 '스튜디오 손익' 부진 문구는 FIFTH SEASON 제작 지연 설명이라 넣지 않음. (3) 어닝콜: IR 사이트 IrPopup에 3Q22(20221108_cjenm_20223Q.mp3, 약 10MB)·4Q22(20230209_cjenm_20224Q.mp3)·1Q23~4Q23 음성이 있으나 녹취록이 없고, 이 환경에 한국어 음성 인식 도구가 없어 듣지 못함. gurufocus 3Q22 녹취(www 호스트)도 HTTP 403. (4) 웹 검색 3회('CJ ENM 3분기 실적 컨퍼런스콜 2022 스튜디오스 제작사 합병 질의', 'CJ ENM 컨퍼런스콜 \"스튜디오스\" 제작사 2022년 11월', 'CJ ENM 컨퍼런스콜 \"CJ ENM 스튜디오스\" 2023'): 콜 발언을 옮긴 기사 없음. 1차에서 연 cjnews 보도자료·뉴스토마토·아주경제 기사·DART 잠정실적 공시는 다시 열지 않음.",
+   "after": "2023-02-13 CJ ENM IR Book(2023.02, KIND IR자료실 게시, 4Q22 실적 반영) 18쪽 'Mid-term Strategies': 'Rolling out World-class IP via multi studio → Worldwide content business', CJ ENM·Studio Dragon·FIFTH SEASON·CJ ENM STUDIOS를 'Multi studio'로 묶어 'Co-planning, Co-production, IP Franchise'를 내세우고 CJ ENM STUDIOS의 주요 라인업 5편(OTT 가족극·범죄액션 시리즈 등)을 적음; 19쪽 'Multi-Studio Strategy': CJ ENM STUDIOS를 산하 'Production' 단위들을 둔 'Multi-Genre(Movie, Animation, Drama, etc.)' 스튜디오로 표시(개별 제작사 이름은 적지 않음); IR Book 2023.05·09·11의 사업 가치사슬 쪽(2023.05 기준 10쪽)에도 Drama Studio·Global Studio와 나란히 'Multi-genre Studio' 항목이 있음(해당 로고는 이미지라 이름은 확인하지 않음). 2023-05-04 1Q23 실적발표 PDF 4쪽: 영화드라마 부문 전략 '멀티 스튜디오 공동 기획·제작 강화 및 글로벌 유통 확장'. 2023-11-08 3Q23 실적발표 PDF 7쪽: 영화드라마 주요 콘텐츠 <마스크걸>(Netflix, 8/19 공개)의 제작 주체로 'CJ ENM STUDIOS'를 표기. 제작사 잔여지분 인수나 스튜디오스 흡수합병을 직접 다룬 문장은 3Q22(2022-11-08)·4Q22(2023-02-09)·1Q23~4Q23 실적발표 PDF와 2023 IR Book 6종에 없음. 어닝콜 질의응답은 회사 IR 사이트에 음성(mp3)만 있고 녹취록이 없어 확인하지 못함(gurufocus 녹취는 HTTP 403). 참고(언론 재인용): 2022-10-26 비즈워치 'CJ ENM측은 이번 합병이 각 제작사들의 보유 지식재산(IP)을 자유롭게 활용해 콘텐츠 제작 역량을 강화하기 위한 차원이라고 설명했다'"
+  }
+ ],
+ "corrections": {
+  "earnings_call_note": "2023-02-13 CJ ENM IR Book(2023.02, KIND IR자료실 게시, 4Q22 실적 반영) 18쪽 'Mid-term Strategies': 'Rolling out World-class IP via multi studio → Worldwide content business', CJ ENM·Studio Dragon·FIFTH SEASON·CJ ENM STUDIOS를 'Multi studio'로 묶어 'Co-planning, Co-production, IP Franchise'를 내세우고 CJ ENM STUDIOS의 주요 라인업 5편(OTT 가족극·범죄액션 시리즈 등)을 적음; 19쪽 'Multi-Studio Strategy': CJ ENM STUDIOS를 산하 'Production' 단위들을 둔 'Multi-Genre(Movie, Animation, Drama, etc.)' 스튜디오로 표시(개별 제작사 이름은 적지 않음); IR Book 2023.05·09·11의 사업 가치사슬 쪽(2023.05 기준 10쪽)에도 Drama Studio·Global Studio와 나란히 'Multi-genre Studio' 항목이 있음(해당 로고는 이미지라 이름은 확인하지 않음). 2023-05-04 1Q23 실적발표 PDF 4쪽: 영화드라마 부문 전략 '멀티 스튜디오 공동 기획·제작 강화 및 글로벌 유통 확장'. 2023-11-08 3Q23 실적발표 PDF 7쪽: 영화드라마 주요 콘텐츠 <마스크걸>(Netflix, 8/19 공개)의 제작 주체로 'CJ ENM STUDIOS'를 표기. 제작사 잔여지분 인수나 스튜디오스 흡수합병을 직접 다룬 문장은 3Q22(2022-11-08)·4Q22(2023-02-09)·1Q23~4Q23 실적발표 PDF와 2023 IR Book 6종에 없음. 어닝콜 질의응답은 회사 IR 사이트에 음성(mp3)만 있고 녹취록이 없어 확인하지 못함(gurufocus 녹취는 HTTP 403). 참고(언론 재인용): 2022-10-26 비즈워치 'CJ ENM측은 이번 합병이 각 제작사들의 보유 지식재산(IP)을 자유롭게 활용해 콘텐츠 제작 역량을 강화하기 위한 차원이라고 설명했다'"
+ },
+ "impairment_class_after": null,
+ "evidence_add": [
+  {
+   "field": "earnings_call_note",
+   "phase": "인수 후",
+   "event_date": "2023-02-13",
+   "event_type": "어닝콜",
+   "content": "CJ ENM IR Book 2023.02 18~19쪽: 'Rolling out World-class IP via multi studio', CJ ENM STUDIOS를 'Multi-Genre(Movie, Animation, Drama)' 스튜디오로 표시, 'Co-planning, Co-production, IP Franchise'",
+   "url": "https://kind.krx.co.kr/external/dst/irReference/13298/CJENM_IR_Book_2023.02.pdf",
+   "doc_type": "IR 자료",
+   "doc_date": "2023-02-13",
+   "doc_id": ""
+  },
+  {
+   "field": "earnings_call_note",
+   "phase": "인수 후",
+   "event_date": "2023-05-04",
+   "event_type": "어닝콜",
+   "content": "CJ ENM 1Q23 실적발표 4쪽 영화드라마 전략: '멀티 스튜디오 공동 기획·제작 강화 및 글로벌 유통 확장'",
+   "url": "https://kind.krx.co.kr/external/dst/irReference/13549/CJ_ENM_2023_1Q_Kor.pdf",
+   "doc_type": "IR 자료",
+   "doc_date": "2023-05-04",
+   "doc_id": ""
+  },
+  {
+   "field": "earnings_call_note",
+   "phase": "인수 후",
+   "event_date": "2023-11-08",
+   "event_type": "어닝콜",
+   "content": "CJ ENM 3Q23 실적발표 7쪽: 영화드라마 주요 콘텐츠 <마스크걸>(Netflix) 제작 주체 'CJ ENM STUDIOS' 표기",
+   "url": "https://kind.krx.co.kr/external/dst/irReference/14355/CJ_ENM_2023_3Q_Kor.pdf",
+   "doc_type": "IR 자료",
+   "doc_date": "2023-11-08",
+   "doc_id": ""
+  }
+ ],
+ "other_issues": "",
+ "summary": "CJ ENM 2022 3Q~2023 4Q 실적발표 PDF 6건과 2023 IR Book 5종을 열어 합병 뒤 CJ ENM STUDIOS(멀티 스튜디오) 언급 3곳을 채움. 본팩토리 이름이나 잔여지분 인수 자체의 언급은 없고, 어닝콜 질의응답은 음성만 있어 확인하지 못함."
+}

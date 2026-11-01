@@ -1,0 +1,20 @@
+{
+ "deal_id": "N034",
+ "ciq_id": "IQTR421564126",
+ "checks": [
+  {
+   "field": "earnings_call_note",
+   "class": "공개 자료 없음",
+   "retry": "못 찾음",
+   "reason": "LINE 2017~2018년 분기 決算説明会 자료 8건 전부(LY Corporation 'LINE IRアーカイブ' https://www.lycorp.co.jp/ja/ir/library/lineirairchive/linelibrary.html 에서 받음): 17Q1PresentationJP.pdf(2017-04-26), Q2_presentation_JP.pdf(2017-07-26), 17Q3EarningReleases_JP_1.pdf(2017-10-25), Q4_earningreleases_JP.pdf(2018-01-31; 영문판 17Q4_Earning_Releases_EN.pdf도 Wayback에서 확인), FY18Q1_Presentation.pdf(2018-04-25), FY18Q2_Presentation_0809JP.pdf(2018-07-25), FY18Q3_Presentation.pdf(2018-10-24), Q4_earning_releases_JP.pdf(2019-01-31). 참고로 거래 직전 Q4-0223-JP-1.pdf(2016년 4Q, 2017-01-25)도 열었다. 決算短信(minkabu 미러): 2017 1Q 140120170331432253, 2Q 140120170726439336, 3Q 140120171025498357, 2018 1Q 140120180425419725, 2Q 140120180725484738, 3Q 140120181024421969, 2018 통기 140120190131466699(2017 통기 140120180131460550은 1차에서 확인). 설명회 녹취: SBI証券 로그미 PDF market_report_kessanlogme_1710263938(2017-10-26, 3Q)만 존재. 같은 URL 패턴으로 2017-01~2019-02의 다른 설명회 날짜 33개를 조회했으나 모두 없음. LY 아카이브의 earning_releases_script는 FY19Q4부터만 있다. 모회사 NAVER의 2017~2018 분기 실적발표 PDF 8건(navercorp.com/investment/earnings, 1Q17~4Q18)도 열었다. EDGAR 전문검색(LINE CIK 0001611820, 2017~2019)으로 6-K 실적 보도자료도 확인했다. 검색어: 'ベトナム|Vietnam|アドウェイズ|Adways|開発拠点|M&A|買収|子会社化'. 결과: 어느 자료에도 이 거래나 베트남 개발 거점 언급이 없다. 2017-02-23 결의 이후 첫 설명회(2017-04-26)부터 2019-01-31 설명회까지 모두 없음. 녹취는 2017년 3분기분만 공개돼 있어 나머지 분기는 슬라이드·결산단신 기준이다.",
+   "after": "공개 자료 없음: LINE 2017~2018년 분기 決算説明会 자료 8건, 決算短信 8건, 2017년 3분기 설명회 녹취(SBI 로그미), NAVER 2017~2018 실적발표 자료에 LINE Vietnam의 Adways Technology Vietnam 인수(베트남 개발 거점) 언급 없음. LINE 20-F FY2017에도 이 거래 언급 없음"
+  }
+ ],
+ "corrections": {
+  "earnings_call_note": "공개 자료 없음: LINE 2017~2018년 분기 決算説明会 자료 8건, 決算短信 8건, 2017년 3분기 설명회 녹취(SBI 로그미), NAVER 2017~2018 실적발표 자료에 LINE Vietnam의 Adways Technology Vietnam 인수(베트남 개발 거점) 언급 없음. LINE 20-F FY2017에도 이 거래 언급 없음"
+ },
+ "impairment_class_after": null,
+ "evidence_add": [],
+ "other_issues": "",
+ "summary": "LINE 2017~2018년 분기 설명회 자료·결산단신·공개된 녹취(2017 3Q)와 NAVER 실적발표를 모두 열었으나 Adways Technology Vietnam 인수 언급이 없어 공개 자료 없음으로 판정했다."
+}

@@ -1,0 +1,20 @@
+{
+ "deal_id": "N045",
+ "ciq_id": "IQTR594672156",
+ "checks": [
+  {
+   "field": "earnings_call_note",
+   "class": "공개 자료 없음",
+   "retry": "못 찾음",
+   "reason": "NAVER IR 실적발표 목록(https://www.navercorp.com/investment/earnings?page=1~5; 목록의 각 분기 '실적발표' PDF를 /api/article/read/ 경로로 받음)에서 거래 연도와 다음 연도의 분기 실적발표 자료 8건을 모두 받아 텍스트로 검색했다: 1Q18(20180426, 1Q18_Naver_Earnings_Kor_FINAL.pdf), 2Q18(20180726, 2Q18_Naver_Earnings_Kor_FINAL.pdf), 3Q18(20181025, 3Q18_Naver_Earnings_Kor_FINAL.pdf), 4Q18(20190131, 4Q18_Naver_Earnings_Kor_FINAL.pdf), 1Q19(20190425, 1Q19_Naver_Earnings_Kor_final.pdf), 2Q19(20190725, 2Q19_Naver_Earnings_Kor_Final.pdf), 3Q19(20191031, 3Q19_Naver_Earnings_Kor.pdf), 4Q19(20200130, 4Q19_Naver_Earnings_Kor_final.pdf). NAVER는 어닝콜 녹취록을 공개하지 않는다. 어닝콜 음성(irsvc.teletogether.com)은 이메일 인증 등록을 거쳐야 들을 수 있어 열지 않았고, 영문 녹취록은 GuruFocus에만 있으나 봇 차단·회원 전용이라 열지 않았다(접근 제한 자료로 메모만 남김). 그래서 어닝콜 발언은 기사 검색으로 대신했다. 검색어: '미래에셋|아시아그로|Asia Growth|AGF|펀드|베트남|Vietnam|물류' (PDF 텍스트), 웹 검색 '네이버 컨퍼런스콜 박상진 아시아그로스펀드 미래에셋 동남아 투자 2019'. 결과: 2Q18 자료 p.3에 '해외펀드평가이익 232억원, 상장주식(미래에셋대우 및 YG 등) 배당금수익' 문구가 있으나 어느 펀드인지 밝히지 않아 이 거래의 근거로 쓰지 않았다. 베트남 물류센터 투자나 아시아그로쓰펀드 언급은 8건 모두 없다. 웹 검색에서도 펀드 결성·그랩 투자 보도만 나오고 어닝콜 발언은 없다.",
+   "after": "공개 자료 없음: NAVER 2018~2019년 분기 실적발표 자료 8건(1Q18~4Q19)에 미래에셋-네이버 아시아그로쓰펀드의 베트남 물류센터 투자 언급 없음(2Q18 자료의 '해외펀드평가이익 232억원'은 펀드명 없음). NAVER는 어닝콜 녹취록을 공개하지 않고, 어닝콜을 다룬 국문·영문 기사에서도 언급을 찾지 못함"
+  }
+ ],
+ "corrections": {
+  "earnings_call_note": "공개 자료 없음: NAVER 2018~2019년 분기 실적발표 자료 8건(1Q18~4Q19)에 미래에셋-네이버 아시아그로쓰펀드의 베트남 물류센터 투자 언급 없음(2Q18 자료의 '해외펀드평가이익 232억원'은 펀드명 없음). NAVER는 어닝콜 녹취록을 공개하지 않고, 어닝콜을 다룬 국문·영문 기사에서도 언급을 찾지 못함"
+ },
+ "impairment_class_after": null,
+ "evidence_add": [],
+ "other_issues": "",
+ "summary": "NAVER 2018~2019 분기 실적발표 자료를 모두 열었으나 이 물류센터 투자 언급이 없어 공개 자료 없음으로 판정했다."
+}

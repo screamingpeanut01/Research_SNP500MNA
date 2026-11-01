@@ -1,0 +1,20 @@
+{
+ "deal_id": "N039",
+ "ciq_id": "IQTR542828608",
+ "checks": [
+  {
+   "field": "earnings_call_note",
+   "class": "공개 자료 없음",
+   "retry": "못 찾음",
+   "reason": "LINE 2017~2018년 분기 決算説明会 자료 8건 전부(LY Corporation 'LINE IRアーカイブ' https://www.lycorp.co.jp/ja/ir/library/lineirairchive/linelibrary.html 에서 받음): 17Q1PresentationJP.pdf(2017-04-26), Q2_presentation_JP.pdf(2017-07-26), 17Q3EarningReleases_JP_1.pdf(2017-10-25), Q4_earningreleases_JP.pdf(2018-01-31; 영문판 17Q4_Earning_Releases_EN.pdf도 Wayback에서 확인), FY18Q1_Presentation.pdf(2018-04-25), FY18Q2_Presentation_0809JP.pdf(2018-07-25), FY18Q3_Presentation.pdf(2018-10-24), Q4_earning_releases_JP.pdf(2019-01-31). 참고로 거래 직전 Q4-0223-JP-1.pdf(2016년 4Q, 2017-01-25)도 열었다. 決算短信(minkabu 미러): 2017 1Q 140120170331432253, 2Q 140120170726439336, 3Q 140120171025498357, 2018 1Q 140120180425419725, 2Q 140120180725484738, 3Q 140120181024421969, 2018 통기 140120190131466699(2017 통기 140120180131460550은 1차에서 확인). 설명회 녹취: SBI証券 로그미 PDF market_report_kessanlogme_1710263938(2017-10-26, 3Q)만 존재. 같은 URL 패턴으로 2017-01~2019-02의 다른 설명회 날짜 33개를 조회했으나 모두 없음. LY 아카이브의 earning_releases_script는 FY19Q4부터만 있다. 모회사 NAVER의 2017~2018 분기 실적발표 PDF 8건(navercorp.com/investment/earnings, 1Q17~4Q18)도 열었다. EDGAR 전문검색(LINE CIK 0001611820, 2017~2019)으로 6-K 실적 보도자료도 확인했다. 검색어: 'Biz Plus|ビズプラス|라인비즈|LINE Pay|台湾|タイ|M&A|買収|子会社化'. 결과: 라인비즈플러스 언급 없음. 2017-10-26 녹취에 'LINE Payのグローバルでの決済取引高...台湾'이, 2018년 자료에 LINE Pay 진척 슬라이드가 있으나 라인비즈플러스나 지분 이전을 다룬 것이 아니어서 근거로 쓰지 않았다. EDGAR 전문검색 'LINE Biz Plus'는 20-F와 2017-01·02, 2018-09 6-K(실적 보도자료 아님)에만 걸렸다.",
+   "after": "공개 자료 없음: LINE 2017~2018년 분기 決算説明会 자료 8건, 決算短信 8건, 2017년 3분기 설명회 녹취(SBI 로그미), NAVER 2017~2018 실적발표 자료에 LINE Pay의 라인비즈플러스(LINE Biz Plus) 인수 언급 없음. 자료에는 LINE Pay 사업 전반(대만 결제액 등)만 있음"
+  }
+ ],
+ "corrections": {
+  "earnings_call_note": "공개 자료 없음: LINE 2017~2018년 분기 決算説明会 자료 8건, 決算短信 8건, 2017년 3분기 설명회 녹취(SBI 로그미), NAVER 2017~2018 실적발표 자료에 LINE Pay의 라인비즈플러스(LINE Biz Plus) 인수 언급 없음. 자료에는 LINE Pay 사업 전반(대만 결제액 등)만 있음"
+ },
+ "impairment_class_after": null,
+ "evidence_add": [],
+ "other_issues": "",
+ "summary": "LINE·NAVER의 2017~2018 분기 실적 자료를 모두 열었으나 라인비즈플러스 지분 이전 언급이 없어 공개 자료 없음으로 판정했다."
+}

@@ -1,0 +1,33 @@
+{
+  "deal_id": "N018",
+  "ciq_id": "IQTR216926801",
+  "checks": [
+    {
+      "field": "earnings_call_note",
+      "class": "미완",
+      "retry": "채움",
+      "reason": "LY Corporation IR 사이트의 옛 Yahoo Japan 決算説明会資料 목록(https://www.lycorp.co.jp/ja/ir/library/presentations.html)에서 거래 연도(2012년도=FY2013/3)와 다음 연도(FY2014/3)의 분기 설명회 자료 8건을 받아 'コミュニティファクトリー|Community Factory|DECOPIC|デコ|mixi'로 검색했다. ① jp121024presentation.pdf(2012-10-24, 2012년도 2Q): p.50 '스마트폰에서의 爆速提携' 사례에 DECOPIC·(株)コミュニティファクトリー, p.51 출자 설명 슬라이드, p.62 현금흐름표 주석 '(株)クロコスおよび(株)コミュニティファクトリーの株式を取得' → 언급 있음. ② jp130129presentation.pdf(2013-01-29, 3Q): p.57 'DECOPIC 累計1,200万DLを突破', p.66 현금흐름 주석, 연결 자회사 목록 → 언급 있음. ③ jp130425presentation.pdf(2013-04-25, 4Q): 연결 자회사 목록에만 이름. ④ jp130725presentation.pdf(2013-07-25, FY2014/3 1Q): p.29 'コミュニティファクトリー アプリ 合計2,500万DLを突破' → 언급 있음. ⑤ jp131025presentation.pdf(2013-10-25), ⑥ jp140129presentation.pdf(2014-01-29), ⑦ jp140425presentation.pdf(2014-04-25): 연결 자회사 목록에만 이름(⑦은 이름도 없음), 성과 언급 없음. 참고로 ⑧ jp141029presentation.pdf(2014-10-29)는 이용 서비스 목록에 DECOPIC이 있음. 설명회 녹취·질의응답은 이 목록에 없어 확인하지 못했다(슬라이드 기준). 1차 재수집에서 연 Internet Watch 2012-07-25 기사는 다시 열지 않았다.",
+      "after": "2012-10-24 Yahoo Japan 2012년도 2Q 決算説明会資料 p.51: \"（株）コミュニティファクトリーへの出資 ・スマートフォンアプリ「DECOPIC」 世界累計DL数 800万 週次アクティブユーザー数 100万人 ・女性向けサービス、インターフェイス開発ノウハウの取得\" (p.50 '스마트폰에서의 爆速提携' 사례로도 소개); 2013-01-29 2012년도 3Q 決算説明会資料 p.57: \"（株）コミュニティファクトリーが提供する女性向け写真アプリ「DECOPIC」累計1,200万DLを突破\"; 2013-07-25 2013년도 1Q 決算説明会資料 p.29: \"コミュニティファクトリー アプリ 合計2,500万DLを突破\" (이후 2013-10~2014-01 자료에는 연결 자회사 목록에만 이름이 있음; 설명회 녹취는 미확인); 참고(사후): 2014-11-20 합병 공시 'アプリ開発のノウハウや人材を当社で保有し、...アプリの開発をより推進していくため'"
+    }
+  ],
+  "corrections": {
+    "earnings_call_note": "2012-10-24 Yahoo Japan 2012년도 2Q 決算説明会資料 p.51: \"（株）コミュニティファクトリーへの出資 ・スマートフォンアプリ「DECOPIC」 世界累計DL数 800万 週次アクティブユーザー数 100万人 ・女性向けサービス、インターフェイス開発ノウハウの取得\" (p.50 '스마트폰에서의 爆速提携' 사례로도 소개); 2013-01-29 2012년도 3Q 決算説明会資料 p.57: \"（株）コミュニティファクトリーが提供する女性向け写真アプリ「DECOPIC」累計1,200万DLを突破\"; 2013-07-25 2013년도 1Q 決算説明会資料 p.29: \"コミュニティファクトリー アプリ 合計2,500万DLを突破\" (이후 2013-10~2014-01 자료에는 연결 자회사 목록에만 이름이 있음; 설명회 녹취는 미확인); 참고(사후): 2014-11-20 합병 공시 'アプリ開発のノウハウや人材を当社で保有し、...アプリの開発をより推進していくため'"
+  },
+  "impairment_class_after": null,
+  "evidence_add": [
+    {"field": "earnings_call_note", "phase": "발표", "event_date": "2012-10-24", "event_type": "어닝콜",
+     "content": "Yahoo Japan 2012년도 2Q 決算説明会資料 p.50-51: 커뮤니티팩토리 출자를 '爆速提携' 사례로 소개. \"・スマートフォンアプリ「DECOPIC」 世界累計DL数 800万 ... ・女性向けサービス、インターフェイス開発ノウハウの取得\"",
+     "url": "https://www.lycorp.co.jp/ja/ir/library/presentations/main/09/teaserItems2/0/linkList/01/link/jp121024presentation.pdf",
+     "doc_type": "IR 자료", "doc_date": "2012-10-24", "doc_id": "jp121024presentation.pdf"},
+    {"field": "earnings_call_note", "phase": "인수 후", "event_date": "2013-01-29", "event_type": "어닝콜",
+     "content": "Yahoo Japan 2012년도 3Q 決算説明会資料 p.57: \"（株）コミュニティファクトリーが提供する女性向け写真アプリ「DECOPIC」累計1,200万DLを突破\"",
+     "url": "https://www.lycorp.co.jp/ja/ir/library/presentations/main/09/teaserItems2/0/linkList/00/link/jp130129presentation.pdf",
+     "doc_type": "IR 자료", "doc_date": "2013-01-29", "doc_id": "jp130129presentation.pdf"},
+    {"field": "earnings_call_note", "phase": "인수 후", "event_date": "2013-07-25", "event_type": "어닝콜",
+     "content": "Yahoo Japan 2013년도 1Q 決算説明会資料 p.29: \"コミュニティファクトリー アプリ 合計2,500万DLを突破\"",
+     "url": "https://www.lycorp.co.jp/ja/ir/library/presentations/main/08/teaserItems2/0/linkList/02/link/jp130725presentation.pdf",
+     "doc_type": "IR 자료", "doc_date": "2013-07-25", "doc_id": "jp130725presentation.pdf"}
+  ],
+  "other_issues": "",
+  "summary": "LY Corporation IR 사이트에 남아 있는 옛 Yahoo Japan 決算説明会資料에서 2012-10·2013-01·2013-07 세 분기에 커뮤니티팩토리·DECOPIC 언급(출자 목적, 다운로드 수)을 찾아 채웠다. 설명회 녹취는 찾지 못해 슬라이드 기준이다."
+}

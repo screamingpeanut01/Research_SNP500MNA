@@ -1,0 +1,25 @@
+{
+ "deal_id": "N058",
+ "ciq_id": "IQTR701684579",
+ "checks": [
+  {
+   "field": "target_op_pre",
+   "class": "미완",
+   "retry": "못 찾음",
+   "reason": "이번에 연 출처: (1) SEDAR+ 다시 시도: sedarplus.ca 발행회사 검색·랜딩 페이지 모두 HTTP 403(curl). (2) SEDAR+ 우회 경로 — 회사 보도자료: 웹 검색 'Wattpad press release newswire.ca OR globenewswire OR businesswire revenue loss financial results Wattpad Corp'에서 Wattpad 명의 실적 보도자료는 없고 투자 유치(2012 Series B, 2014 Series C, 2018 USD 51백만) 발표뿐. (3) 캐나다 언론: 웹 검색 'Wattpad \"operating loss\" OR \"EBITDA\" 2020 OR 2021 OR 2022 revenue profitable Allen Lau'에서 BetaKit(인수 종결·Allen Lau 인터뷰: 인수 직전 분기 'cash flow positive', 재무는 비공개), The Logic(2022 CEO 사임), Globe and Mail 재인용(연매출 약 USD 40백만 추정)만 있고 영업손익 금액은 없음. (4) WEBTOON 어닝콜 녹취(Motley Fool·MarketBeat 2025~2026 분기)는 검색 결과 요약상 Wattpad 손상·MAU·광고매출만 다룸(Wattpad 단독 영업손익 없음). SEC EDGAR(F-1·6-K 등 Wattpad 명의 제출 0건)와 NAVER·WEBTOON 공시는 1차 재수집에서 확인했으므로 다시 열지 않음. 열지 못한 출처: SEDAR+(접속 차단). 따라서 미완",
+   "after": "미확인 (영업이익 미공시. 참고 당기순손익: 2019 -7,101백만원, 2020 -2,475백만원(가결산), 1,097.90원/USD 환산)"
+  },
+  {
+   "field": "target_op_post",
+   "class": "미완",
+   "retry": "못 찾음",
+   "reason": "이번에 연 출처: (1) SEDAR+ 다시 시도: sedarplus.ca 발행회사 검색·랜딩 페이지 모두 HTTP 403(curl). (2) SEDAR+ 우회 경로 — 회사 보도자료: 웹 검색 'Wattpad press release newswire.ca OR globenewswire OR businesswire revenue loss financial results Wattpad Corp'에서 Wattpad 명의 실적 보도자료는 없고 투자 유치(2012 Series B, 2014 Series C, 2018 USD 51백만) 발표뿐. (3) 캐나다 언론: 웹 검색 'Wattpad \"operating loss\" OR \"EBITDA\" 2020 OR 2021 OR 2022 revenue profitable Allen Lau'에서 BetaKit(인수 종결·Allen Lau 인터뷰: 인수 직전 분기 'cash flow positive', 재무는 비공개), The Logic(2022 CEO 사임), Globe and Mail 재인용(연매출 약 USD 40백만 추정)만 있고 영업손익 금액은 없음. (4) WEBTOON 어닝콜 녹취(Motley Fool·MarketBeat 2025~2026 분기)는 검색 결과 요약상 Wattpad 손상·MAU·광고매출만 다룸(Wattpad 단독 영업손익 없음). SEC EDGAR(F-1·6-K 등 Wattpad 명의 제출 0건)와 NAVER·WEBTOON 공시는 1차 재수집에서 확인했으므로 다시 열지 않음. 열지 못한 출처: SEDAR+(접속 차단). 따라서 미완",
+   "after": "미확인 (영업이익 미공시. 참고 당기순손익: 2021 -19,853,938,088원(연간), NAVER 연결 반영분 2021-05~12 -3,184백만원; 2022 -9,764,813,133원; 1,339.10원/USD 환산)"
+  }
+ ],
+ "corrections": {},
+ "impairment_class_after": null,
+ "evidence_add": [],
+ "other_issues": "",
+ "summary": "SEDAR+는 여전히 403으로 막혀 있고, 우회 경로(보도자료 검색, BetaKit·The Logic 등 캐나다 언론, WEBTOON 어닝콜)에도 Wattpad 단독 영업이익이 없어 2칸 모두 미완이다."
+}

@@ -1,0 +1,46 @@
+[
+ {
+  "ciq_id": "IQTR537795048",
+  "deal_id": "N037",
+  "field": "acq_mktcap",
+  "date": "2017-08-24",
+  "close_jpy": "3,855",
+  "mktcap": "8,498억 510만円",
+  "url": "https://irbank.net/3938/chart?y=2017-12-31",
+  "raw": "\"2017-08-24 | 3,840 | 3,875 | 3,840 | 3,855 | +0.52% | 235,900 | 8498億510万\"",
+  "via": "Claude in Chrome (2026-11-01)"
+ },
+ {
+  "ciq_id": "IQTR539813827",
+  "deal_id": "N038",
+  "field": "acq_mktcap",
+  "date": "2017-09-28",
+  "close_jpy": "4,050",
+  "mktcap": "8,942억 5,543만円",
+  "url": "https://irbank.net/3938/chart?y=2017-12-31",
+  "raw": "\"09/28 | 4,020 | 4,070 | 4,010 | 4,050 | +1.25% | 466,100 | 8942億5543万\"",
+  "via": "Claude in Chrome (2026-11-01)"
+ },
+ {
+  "ciq_id": "IQTR547419596",
+  "deal_id": "N041",
+  "field": "acq_mktcap",
+  "date": "2017-12-18",
+  "close_jpy": "4,725",
+  "mktcap": "1조 524억円",
+  "url": "https://irbank.net/3938/chart?y=2017-12-31",
+  "raw": "\"12/18 | 4,820 | 4,830 | 4,705 | 4,725 | -0.63% | 642,000 | 1兆524億\"",
+  "via": "Claude in Chrome (2026-11-01)"
+ },
+ {
+  "ciq_id": "IQTR404659267",
+  "deal_id": "N033",
+  "field": "acq_mktcap",
+  "date": "2016-10-12",
+  "close_jpy": "4,905",
+  "mktcap": "1조 642억円",
+  "url": "https://irbank.net/3938/chart?y=2016-12-31",
+  "raw": "\"10/12 | 4,910 | 4,935 | 4,890 | 4,905 | -1.8% | 516,800 | 1兆642億\"",
+  "via": "Claude in Chrome (2026-11-01)"
+ }
+]

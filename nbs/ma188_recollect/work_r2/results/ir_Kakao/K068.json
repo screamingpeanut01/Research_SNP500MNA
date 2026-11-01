@@ -1,0 +1,20 @@
+{
+ "deal_id": "K068",
+ "ciq_id": "IQTR1780389443",
+ "checks": [
+  {
+   "field": "earnings_call_note",
+   "class": "공개 자료 없음",
+   "retry": "못 찾음",
+   "reason": "① 카카오 IR 실적발표 자료: kakaocorp.com/ir/referenceRoom/earningsAnnouncement?selectedYear=<연도> 목록에서 분기마다 실적보고서 PT와 실적보고서(재무표·연결대상 각주) 두 PDF를 받음(2016~2018년 3분기 파일은 t1.kakaocdn.net/kakaocorp/operating/ir/results-announcement/<번호>.pdf, 그 뒤는 .../admin/ir/results-announcement/<번호>.pdf). 1Q22(5324·5331.pdf), 2Q22(5363·5338.pdf), 3Q22(5365·5366.pdf), 4Q22(5418·5413.pdf), 1Q23(5470·5462.pdf), 2Q23(5498·5491.pdf), 3Q23(5537·5539.pdf), 4Q23(5623·5615.pdf). 텍스트를 추출해(3Q18 PT 3730.pdf는 글꼴이 깨져 Windows 한국어 OCR로 읽음) 정규식 「컨텍스트|Contxts|그라운드 ?X|그라운드엑스|Ground ?X|클레이튼|Klaytn」로 검색. ② 어닝콜 전문 기사: 1Q22(테크월드뉴스 idxno=222837), 2Q23(디일렉 thelec.kr idxno=22364), 3Q23(디일렉 idxno=24014), 4Q23(디일렉 idxno=25967). ③ 전문이 없는 분기는 어닝콜 당일·다음날 네이버 뉴스 '카카오 컨퍼런스콜'·'카카오 실적 컨콜' 검색 결과 기사 본문을 받아 같은 정규식으로 검색: 2Q22(11건), 3Q22(11건), 4Q22(12건), 1Q23(12건). 결과: 2022~2023 자료에 컨텍스츠오나 그라운드X의 지분 투자 언급이 없음.",
+   "after": "공개 자료 없음 (소수지분 소액 투자; 카카오 2022~2023년 8개 분기 실적발표 PT·실적보고서, 어닝콜 전문(1Q22, 2Q23~4Q23), 2Q22~1Q23 어닝콜 기사 전수 검색: 컨텍스츠오·그라운드X 투자 언급 없음)"
+  }
+ ],
+ "corrections": {
+  "earnings_call_note": "공개 자료 없음 (소수지분 소액 투자; 카카오 2022~2023년 8개 분기 실적발표 PT·실적보고서, 어닝콜 전문(1Q22, 2Q23~4Q23), 2Q22~1Q23 어닝콜 기사 전수 검색: 컨텍스츠오·그라운드X 투자 언급 없음)"
+ },
+ "impairment_class_after": null,
+ "evidence_add": [],
+ "other_issues": "",
+ "summary": "카카오 2022~2023 IR 자료·어닝콜에서 언급이 없음."
+}
