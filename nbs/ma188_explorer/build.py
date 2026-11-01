@@ -36,6 +36,9 @@ ev = {}
 for r in e.to_dict(orient="records"):
     ev.setdefault(r["ciq_id"], []).append([r["phase"], r["event_date"], r["event_type"], r["content"], r["url"], r["doc_type"], r["doc_date"], r["doc_id"], r["field"]])
 payload = json.dumps({"deals": deals, "ev": ev}, ensure_ascii=False, separators=(",", ":")).replace("</", "<" + chr(92) + "/")
-html = (HERE / "template.html").read_text(encoding="utf-8").replace("__DATA__", payload)
+done = int((d.collect_status == "완료").sum())
+html = (HERE / "template.html").read_text(encoding="utf-8").replace("__DATA__", payload) \
+    .replace("__N_EV__", f"{len(e):,}").replace("__N_DONE__", str(done)).replace("__N_PART__", str(len(d) - done)) \
+    .replace("__ASOF__", pd.Timestamp.now().strftime("%Y-%m-%d"))
 OUT.write_text(html, encoding="utf-8")
 print(len(deals), "deals,", len(e), "evidence,", round(len(html.encode())/1e6, 2), "MB")
