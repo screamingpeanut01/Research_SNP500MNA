@@ -123,6 +123,34 @@ def base_sheet():
     return d[["deal_id"] + BASE]
 
 
+# 수집·검토 메모에 에이전트가 적은 수집 상태(collect_status) 문구를 시트에서 지운다(2026-11-02).
+# 기록 파일은 그대로 두고 시트에 실을 때만 바꾼다. 빠진 항목을 알려 주는 문구는 '채우지 못한 항목:'으로 남긴다.
+STATUS_TEXT = [
+    (r"\(7\) collect_status 부분→완료\(미확인 칸 해소\)\. ", ""),
+    (r"earnings_call_note·collect_status — ", "earnings_call_note — "),
+    (r"채우고 collect_status를 완료로 바꿈\.", "채움."),
+    (r"채워져 collect_status를 완료로 바꿈\.", "채워짐."),
+    (r", collect_status 부분→완료\.", "."),
+    (r"collect_status '부분'과 분류", "분류"),
+    (r"collect_status '부분'은 인수 후 법인 실적 부재로 타당\.", "인수 후 법인 실적은 공개 자료가 없다."),
+    (r"IR 원문을 보지 않아 collect_status는 부분으로 유지\.", "IR 원문은 보지 않았다."),
+    (r"collect_status는 두 열이 미확인이라 '부분' 유지\. ?", ""),
+    (r"collect_status '부분'\(earnings_call_note 미확인\) 유지\. ?", ""),
+    (r"\s*\(collect_status '?부분'? (?:유지|타당)\)", ""),
+    (r"\s*(?:→|,) collect_status '?부분'? 유지(?=\.)", ""),
+    (r"collect_status(?:는)? '?부분'? 유지\. ?", ""),
+    (r"collect_status '?부분'?(?: 사유)?:", "채우지 못한 항목:"),
+]
+
+
+def drop_status_text(v):
+    for pat, new in STATUS_TEXT:
+        v = re.sub(pat, new, v)
+    if "collect_status" in v:
+        raise ValueError(f"지우지 못한 수집 상태 문구: {v[v.index('collect_status') - 40:][:120]}")
+    return v
+
+
 def sources_checked(evid):
     """거래마다 근거로 쓴 문서를 종류별로 센다. 같은 문서(URL)가 여러 열의 근거여도 한 번만 센다.
     '기타'(시세·환율·웹 보관소 등)에는 많이 쓴 사이트 이름을 세 개까지 붙인다.
@@ -230,6 +258,8 @@ def main():
         evid[c] = evid[c].fillna("").astype(str).map(sub)
     base[["deal_id", "ciq_id"]].to_csv(CIQ_MAP, index=False, encoding="utf-8-sig")
 
+    for c in ("notes", "review_note"):
+        sheet[c] = sheet[c].map(drop_status_text)
     sheet["sources_checked"] = sheet.ciq_id.map(sources_checked(evid)).fillna("")
     sheet[OUT_COLS].to_csv(a.out / SHEET, index=False, encoding="utf-8-sig")
     evid[EVID_COLS].to_csv(a.out / EVID, index=False, encoding="utf-8-sig")
